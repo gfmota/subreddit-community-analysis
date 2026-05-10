@@ -1,0 +1,8 @@
+zstandard
+pyarrow
+pandas
+python-dotenv
+duckdb
+networkx
+matplotlib
+scipy
