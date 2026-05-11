@@ -21,8 +21,13 @@ def comments_input_file(date):
 SUBMISSIONS_INPUT_FILE = submissions_input_file(DATE)
 COMMENTS_INPUT_FILE = comments_input_file(DATE)
 
-def output_interactions_file(date, batch_number):
-    return f"storage/interactions/interactions_{date}_{batch_number}.parquet"
+INTERACTIONS_DIR = f"storage/interactions/{DATE}"
+os.makedirs(INTERACTIONS_DIR, exist_ok=True)
+SUBREDDITS_DIR = f"storage/subreddits/{DATE}"
+os.makedirs(SUBREDDITS_DIR, exist_ok=True)
+
+def output_interactions_file(batch_number):
+    return f"{INTERACTIONS_DIR}/interactions_{batch_number}.parquet"
 
 def anonymize_author(author: str) -> str:
     if not author:
@@ -86,6 +91,7 @@ def load_interactions(input_file, interaction_type):
         df = pd.DataFrame(rows)
         output_file = output_interactions_file(batch_number)
         df.to_parquet(output_file, index=False)
+        batch_number += 1
 
 load_interactions(SUBMISSIONS_INPUT_FILE, "S") 
 load_interactions(COMMENTS_INPUT_FILE, "C") 
@@ -93,8 +99,10 @@ load_interactions(COMMENTS_INPUT_FILE, "C")
 subreddit_df = pd.DataFrame([
     {
         "subreddit_id": sid,
-        "subreddit_name": name
+        "subreddit_name": data["subreddit_name"],
+        "interaction_count": data["interaction_count"]
     }
-    for sid, name in subreddit_map.items()
+    for sid, data in subreddit_map.items()
 ])
-subreddit_df.to_parquet(f"storage/subreddits/subreddits_{DATE}.parquet", index=False)
+
+subreddit_df.to_parquet(f"{SUBREDDITS_DIR}/subreddits.parquet", index=False)
