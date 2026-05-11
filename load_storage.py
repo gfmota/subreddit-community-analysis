@@ -9,12 +9,20 @@ import os
 load_dotenv()
 
 SALT = os.environ["SALT"]
-SUBMISSIONS_INPUT_FILE = "sources/RS_2019-04.zst"
-COMMENTS_INPUT_FILE = "sources/RC_2019-04.zst"
-BATCH_SIZE = 100000
+BATCH_SIZE = 1000000
+DATE = "2019-04"
 
-def output_interactions_file(batch_number):
-    return f"storage/interactions/interactions_{batch_number}.parquet"
+def submissions_input_file(date):
+    return f"sources/RS_{date}.zst"
+
+def comments_input_file(date):
+    return f"sources/RC_{date}.zst"
+
+SUBMISSIONS_INPUT_FILE = submissions_input_file(DATE)
+COMMENTS_INPUT_FILE = comments_input_file(DATE)
+
+def output_interactions_file(date, batch_number):
+    return f"storage/interactions/interactions_{date}_{batch_number}.parquet"
 
 def anonymize_author(author: str) -> str:
     if not author:
@@ -46,8 +54,16 @@ def load_interactions(input_file, interaction_type):
                 subreddit_id = obj.get("subreddit_id")
                 subreddit_name = obj.get("subreddit")
 
-                if subreddit_id and subreddit_name:
-                    subreddit_map[subreddit_id] = subreddit_name
+                if not subreddit_id or not subreddit_name:
+                    raise Exception(f"Subreddit id and/or name not found in: {obj}")
+                
+                if subreddit_id not in subreddit_map:
+                    subreddit_map[subreddit_id] = {
+                        "subreddit_name": subreddit_name,
+                        "interaction_count": 1
+                    }
+                else:
+                    subreddit_map[subreddit_id]["interaction_count"] += 1
 
                 row = {
                     "subreddit_id": subreddit_id,
@@ -81,4 +97,4 @@ subreddit_df = pd.DataFrame([
     }
     for sid, name in subreddit_map.items()
 ])
-subreddit_df.to_parquet("storage/subreddits/subreddits.parquet", index=False)
+subreddit_df.to_parquet(f"storage/subreddits/subreddits_{DATE}.parquet", index=False)
