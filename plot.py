@@ -1,98 +1,107 @@
-import duckdb
-import networkx as nx
 import matplotlib.pyplot as plt
+import networkx as nx
+import numpy as np
+import duckdb
+from networkx.algorithms.community import greedy_modularity_communities
 
-MIN_USER_INTERACTIONS = 5
-MIN_SHARED_USERS = 100
+def plot(date):
+    edges = duckdb.sql(f"""
+    WITH relations AS (SELECT * FROM read_parquet('storage/relations/{date}/*.parquet')),
+    subreddits AS (SELECT * FROM read_parquet('storage/subreddits/{date}/*.parquet'))
+    SELECT s1.subreddit_name as subreddit_name_a, s2.subreddit_name as subreddit_name_b, r.shared_users
+    FROM relations r
+    JOIN subreddits s1 ON s1.subreddit_id = r.subreddit_id_a
+    JOIN subreddits s2 ON s2.subreddit_id = r.subreddit_id_b
+    WHERE r.shared_users > 500
+    """).df() 
 
-con = duckdb.connect()
+    TOP_K = 3
 
-query = """
-WITH main_subreddit AS (
-
-    SELECT subreddit_id
-    FROM 'storage/subreddits/*.parquet'
-    WHERE subreddit_name = ?
-
-),
-
-main_users AS (
-
-    SELECT
-        author_hash
-    FROM 'storage/interactions/*.parquet'
-    WHERE subreddit_id = (
-        SELECT subreddit_id FROM main_subreddit
+    edges = (
+        edges
+        .sort_values(
+            ["subreddit_name_a", "shared_users"],
+            ascending=[True, False]
+        )
+        .groupby("subreddit_name_a")
+        .head(TOP_K)
     )
 
-    GROUP BY author_hash
-
-),
-
-user_subreddit_interactions AS (
-
-    SELECT
-        i.author_hash,
-        i.subreddit_id,
-        COUNT(*) AS interaction_count
-    FROM 'storage/interactions/*.parquet' i
-
-    INNER JOIN main_users mu
-    ON i.author_hash = mu.author_hash
-
-    GROUP BY i.author_hash, i.subreddit_id
-
-    HAVING COUNT(*) >= ?
-
-),
-
-subreddit_overlap AS (
-
-    SELECT
-        subreddit_id,
-        COUNT(DISTINCT author_hash) AS shared_users
-    FROM user_subreddit_interactions
-    WHERE subreddit_id != (
-        SELECT subreddit_id FROM main_subreddit
+    G = nx.from_pandas_edgelist( 
+        edges, 
+        source="subreddit_name_a", 
+        target="subreddit_name_b", 
+        edge_attr="shared_users"
     )
 
-    GROUP BY subreddit_id
+    plt.figure(figsize=(16, 16))
 
-    HAVING COUNT(DISTINCT author_hash) >= ?
+    # Layout
+    pos = nx.spring_layout(
+        G,
+        k=2,
+        iterations=1000,
+        seed=673,
+        weight=None
+    )
 
-)
+    # Edge weights
+    weights = [G[u][v]["shared_users"] for u, v in G.edges()]
 
-SELECT
-    s.subreddit_name,
-    so.shared_users
+    # Scale edge widths
+    edge_widths = [0.5 + np.log10(w) for w in weights]
 
-FROM subreddit_overlap so
+    # Node sizes based on degree
+    degrees = dict(G.degree())
+    node_sizes = [degrees[n] * 20 for n in G.nodes()]
 
-JOIN 'storage/subreddits/*.parquet' s
-ON so.subreddit_id = s.subreddit_id
+    communities = greedy_modularity_communities(G)
 
-ORDER BY so.shared_users DESC
-"""
+    node_colors = {}
 
-df = con.execute(
-    query,
-    [
-        "Libertarian",
-        MIN_USER_INTERACTIONS,
-        MIN_SHARED_USERS
-    ]
-).fetchdf()
+    for i, comm in enumerate(communities):
+        for node in comm:
+            node_colors[node] = i
 
-print(df.to_string(index=False))
-print("===")
+    colors = [node_colors[n] for n in G.nodes()]
 
-df = con.execute(
-    query,
-    [
-        "Conservative",
-        MIN_USER_INTERACTIONS,
-        MIN_SHARED_USERS
-    ]
-).fetchdf()
+    nx.draw_networkx_nodes(
+        G,
+        pos,
+        node_size=node_sizes,
+        node_color=colors,
+        alpha=0.8
+    )
 
-print(df.to_string(index=False))
+    nx.draw_networkx_edges(
+        G,
+        pos,
+        width=edge_widths,
+        alpha=0.1
+    )
+
+    # Optional labels
+    nx.draw_networkx_labels(
+        G,
+        pos,
+        font_size=6
+    )
+
+    plt.title("Subreddit Shared User Network")
+    plt.axis("off")
+    plt.savefig(
+        "reddit_network.png",
+        dpi=300,
+        bbox_inches="tight"
+    )
+
+def main():
+    if len(sys.argv) < 2:
+        print("Usage: python load_storage.py <date>")
+        return
+
+    date = sys.argv[1]
+    plot(date)
+
+if __name__ == "__main__":
+    main()
