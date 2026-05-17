@@ -8,50 +8,84 @@ pd.set_option("display.width", 400)
 pd.set_option("display.max_colwidth", None)
 
 
-def subreddits_by_name(name):
+def subreddits_by_name(date, name):
     return con.execute(f"""
     SELECT *
-    FROM 'storage/subreddits/*.parquet'
+    FROM 'storage/subreddits/{date}/*.parquet'
     WHERE subreddit_name == '{name}'
     """).fetchdf()
 
-def interactions_by_subreddit(subreddit_id):
+def interactions_by_subreddit(date, subreddit_id):
     return con.execute(f"""
-    SELECT author_hash
-    FROM 'storage/interactions/*.parquet'
+    SELECT *
+    FROM 'storage/interactions/{date}/*.parquet'
     WHERE subreddit_id == '{subreddit_id}'
     """).fetchdf()
 
-def subreddits_by_author(author_hash):
-    return con.execute("""
+def subreddits_by_author(date, author_hash):
+    return con.execute(f"""
         SELECT
             i.subreddit_id,
             s.subreddit_name,
             COUNT(*) AS interactions
-        FROM 'storage/interactions/*.parquet' i
-        JOIN 'storage/subreddits/*.parquet' s
+        FROM 'storage/interactions/{date}/*.parquet' i
+        JOIN 'storage/subreddits/{date}/*.parquet' s
         ON i.subreddit_id = s.subreddit_id
         WHERE i.author_hash = ?
         GROUP BY i.subreddit_id, s.subreddit_name
         ORDER BY interactions DESC
     """, [author_hash]).fetchdf()
 
+def get_users(date):
+    return con.execute(f"""
+        SELECT
+            *
+        FROM 'storage/users/{date}/*.parquet'
+        LIMIT 10
+    """).fetchdf()
+
+def get_relations(date):
+    return con.execute(f"""
+        SELECT
+            *
+        FROM 'storage/relations/{date}/*.parquet'
+        LIMIT 10
+    """).fetchdf()
+
 def main():
-    if len(sys.argv) != 3:
+    if len(sys.argv) < 3:
         print("Usage:")
-        print("  python3 query.py subreddit <name>")
-        print("  python3 query.py interactions <subreddit_id>")
+        print("  python3 query.py <command> <date> <params>")
         return
 
     command = sys.argv[1]
-    param = sys.argv[2]
+    date = sys.argv[2]
 
     if command == "subreddit":
-        df = subreddits_by_name(param)
+        if len(sys.argv) < 4:
+            print("Usage:")
+            print("  python3 query.py subreddit <date> <name>")
+            return
+        param = sys.argv[3]
+        df = subreddits_by_name(date, param)
     elif command == "interactions":
-        df = interactions_by_subreddit(param)
+        if len(sys.argv) < 4:
+            print("Usage:")
+            print("  python3 query.py interactions <date> <subreddit_id>")
+            return
+        param = sys.argv[3]
+        df = interactions_by_subreddit(date, param)
     elif command == "authors_subreddits":
-        df = subreddits_by_author(param)
+        if len(sys.argv) < 4:
+            print("Usage:")
+            print("  python3 query.py authors_subreddits <date> <author_hash>")
+            return
+        param = sys.argv[3]
+        df = subreddits_by_author(date, param)
+    elif command == "users":
+        df = get_users(date)
+    elif command == "relations":
+        df = get_relations(date)
     else:
         print("Unknown command:", command)
         return
