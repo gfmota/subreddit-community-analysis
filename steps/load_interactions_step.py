@@ -5,29 +5,19 @@ import pandas as pd
 import hashlib
 from dotenv import load_dotenv
 import os
+import sys
+import gc
 
 load_dotenv()
 
 SALT = os.environ["SALT"]
-BATCH_SIZE = 1000000
-DATE = "2019-04"
+BATCH_SIZE = 10000
 
 def submissions_input_file(date):
-    return f"sources/RS_{date}.zst"
+    return f"sources/submissions/RS_{date}.zst"
 
 def comments_input_file(date):
-    return f"sources/RC_{date}.zst"
-
-SUBMISSIONS_INPUT_FILE = submissions_input_file(DATE)
-COMMENTS_INPUT_FILE = comments_input_file(DATE)
-
-INTERACTIONS_DIR = f"storage/interactions/{DATE}"
-os.makedirs(INTERACTIONS_DIR, exist_ok=True)
-SUBREDDITS_DIR = f"storage/subreddits/{DATE}"
-os.makedirs(SUBREDDITS_DIR, exist_ok=True)
-
-def output_interactions_file(batch_number):
-    return f"{INTERACTIONS_DIR}/interactions_{batch_number}.parquet"
+    return f"sources/comments/RC_{date}.zst"
 
 def anonymize_author(author: str) -> str:
     if not author:
@@ -41,12 +31,14 @@ def anonymize_author(author: str) -> str:
 subreddit_map = {}
 batch_number = 0
 
-def load_interactions(input_file, interaction_type):
+def load_interactions(input_file, output_dir, interaction_type):
     global batch_number
     rows = []
+    def output_interactions_file(batch_number):
+        return f"{output_dir}/interactions_{batch_number}.parquet"
 
     with open(input_file, "rb") as fh:
-        dctx = zstd.ZstdDecompressor()
+        dctx = zstd.ZstdDecompressor(max_window_size=2147483648)
         with dctx.stream_reader(fh) as reader:
             text_stream = io.TextIOWrapper(reader, encoding='utf-8')
 
@@ -83,26 +75,47 @@ def load_interactions(input_file, interaction_type):
                     df = pd.DataFrame(rows)
                     output_file = output_interactions_file(batch_number)
                     df.to_parquet(output_file, index=False)
+                    del df
                     print(f"saved {output_file}")
                     rows = []
+                    gc.collect()
                     batch_number += 1
 
     if rows:
         df = pd.DataFrame(rows)
         output_file = output_interactions_file(batch_number)
         df.to_parquet(output_file, index=False)
+        del df
         batch_number += 1
 
-load_interactions(SUBMISSIONS_INPUT_FILE, "S") 
-load_interactions(COMMENTS_INPUT_FILE, "C") 
+def main():
+    if len(sys.argv) < 2:
+        print("Usage: python load_storage.py <date>")
+        return
 
-subreddit_df = pd.DataFrame([
-    {
-        "subreddit_id": sid,
-        "subreddit_name": data["subreddit_name"],
-        "interaction_count": data["interaction_count"]
-    }
-    for sid, data in subreddit_map.items()
-])
+    date = sys.argv[1]
+    
+    INTERACTIONS_DIR = f"storage/interactions/{date}"
+    os.makedirs(INTERACTIONS_DIR, exist_ok=True)
+    SUBREDDITS_DIR = f"storage/subreddits/{date}"
+    os.makedirs(SUBREDDITS_DIR, exist_ok=True)
+    
+    SUBMISSIONS_INPUT_FILE = submissions_input_file(date)
+    load_interactions(SUBMISSIONS_INPUT_FILE, INTERACTIONS_DIR, "S")
+    
+    COMMENTS_INPUT_FILE = comments_input_file(date)
+    load_interactions(COMMENTS_INPUT_FILE, INTERACTIONS_DIR, "C") 
 
-subreddit_df.to_parquet(f"{SUBREDDITS_DIR}/subreddits.parquet", index=False)
+    subreddit_df = pd.DataFrame([
+        {
+            "subreddit_id": sid,
+            "subreddit_name": data["subreddit_name"],
+            "interaction_count": data["interaction_count"]
+        }
+        for sid, data in subreddit_map.items()
+    ])
+
+    subreddit_df.to_parquet(f"{SUBREDDITS_DIR}/subreddits.parquet", index=False)
+
+if __name__ == "__main__":
+    main()
