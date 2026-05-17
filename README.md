@@ -195,7 +195,6 @@ Columns:
 |---------------|--------|-------------|
 | subreddit_id  | string | Reddit subreddit identifier |
 | author_hash   | string | SHA256 anonymized user id |
-| created_utc   | int64  | Unix timestamp |
 | type          | string | S=submission, C=comment |
 
 Notes:

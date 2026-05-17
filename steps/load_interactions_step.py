@@ -65,7 +65,6 @@ def load_interactions(input_file, output_dir, interaction_type):
                 row = {
                     "subreddit_id": subreddit_id,
                     "author_hash": anonymize_author(obj.get("author")),
-                    "created_utc": obj.get("created_utc"),
                     "type": interaction_type
                 }
 
