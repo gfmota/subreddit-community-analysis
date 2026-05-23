@@ -11,7 +11,7 @@ import gc
 load_dotenv()
 
 SALT = os.environ["SALT"]
-BATCH_SIZE = 10000
+BATCH_SIZE = 50000
 
 def submissions_input_file(date):
     return f"sources/submissions/RS_{date}.zst"
