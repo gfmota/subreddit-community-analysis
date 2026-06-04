@@ -8,7 +8,8 @@ def get_users_interactions(date, output_dir, batch_num):
             SELECT
                 i.subreddit_id,
                 i.author_hash,
-                COUNT(*) AS interactions
+                COUNT(*) FILTER (WHERE type = 'S') AS submission_count,
+                COUNT(*) FILTER (WHERE type = 'C') AS comment_count
             FROM 'storage/interactions/{date}/*.parquet' i
             WHERE abs(hash(i.author_hash)) % 16 = {batch_num}
             GROUP BY i.subreddit_id, i.author_hash

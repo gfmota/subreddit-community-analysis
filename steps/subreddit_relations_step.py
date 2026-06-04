@@ -10,7 +10,7 @@ def create_subreddit_relations(input_file, output_file):
         WITH filtered AS (
             SELECT DISTINCT author_hash, subreddit_id
             FROM read_parquet('{input_file}')
-            WHERE interactions >= {MIN_INTERACTIONS}
+            WHERE (comment_count + submission_count) >= {MIN_INTERACTIONS}
         ),
 
         relations AS (

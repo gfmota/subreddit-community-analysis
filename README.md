@@ -232,7 +232,8 @@ Columns
 |--------------|--------|-------------|
 | subreddit_id | string | Unique identifier of the subreddit |
 | author_hash  | string | Salted SHA-256 hash of the Reddit username |
-| interactions | int64  | Number of interactions (posts/comments) by the user 
+| comment_count | int64  | Number of comments by the user |
+| submission_count | int64  | Number of submissions by the user |
 
 Notes:
 - Processed in batches due to memory capacity limitations
