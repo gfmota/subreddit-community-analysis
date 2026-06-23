@@ -45,7 +45,12 @@ def load_interactions(input_file, output_dir, interaction_type):
             for _, line in enumerate(text_stream):
                 obj = json.loads(line)
 
-                if obj.get("subreddit_type") != "public" or obj.get("author") == "[deleted]":
+                if (
+                    obj.get("subreddit_type") != "public" 
+                    or not obj.get("subreddit_id") 
+                    or not obj.get("author") 
+                    or obj.get("author") == "[deleted]"
+                ):
                     continue
                 
                 subreddit_id = obj.get("subreddit_id")

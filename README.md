@@ -1,264 +1,163 @@
 # Subreddit communities analysis
 
 This repository contains code dedicated to process subreddit historical data (comments and submissions)
-and analyze subreddit and users relations, trying to find subreddits communities.
+and analyze subreddit and user relations, trying to find subreddit communities.
 
 It uses a bipartite network between users and subreddits to map subreddits that share users.
+Edge weights between subreddits are computed using the Jaccard similarity index, representing
+the fraction of users shared relative to the total user base of both subreddits.
 
 ## Processing pipeline
 
 ### Source data
 
-Historical data from Reddit comments and submissions. Sample data:
+Historical data from Reddit comments and submissions. Source files are organized by year and month,
+one file for comments and one for submissions, due to data size.
 
-Comments:
+Expected locations:
+- Comments: `sources/comments/RC_<YEAR>-<MONTH>.zst`
+- Submissions: `sources/submissions/RS_<YEAR>-<MONTH>.zst`
 
-```json
-{
-    "all_awardings":[],
-    "associated_award":null,
-    "author":"<AUTHOR-NAME>",
-    "author_created_utc":null,
-    "author_flair_background_color":null,
-    "author_flair_css_class":"new",
-    "author_flair_richtext":[],
-    "author_flair_template_id":"35da6d7a-6c3d-11e9-80ad-0afb553d4ea6",
-    "author_flair_text":"New User",
-    "author_flair_text_color":"dark",
-    "author_flair_type":"text",
-    "author_fullname":"<AUTHOR-FULLNAME>",
-    "author_patreon_flair":false,
-    "author_premium":false,
-    "awarders":[],
-    "body":"<COMMENT-BODY>",
-    "can_gild":true,
-    "can_mod_post":false,
-    "collapsed":false,
-    "collapsed_because_crowd_control":null,
-    "collapsed_reason":null,
-    "controversiality":0,
-    "created_utc":1577836827,
-    "distinguished":null,
-    "edited":false,
-    "gilded":0,
-    "gildings":[],
-    "id":"<COMMENT-ID>",
-    "is_submitter":false,
-    "link_id":"<SUBMISSION-ID>",
-    "locked":false,
-    "no_follow":true,
-    "parent_id":"<SUBMISSION-ID>",
-    "permalink":"/r/<SUBREDDIT-NAME>/.../",
-    "quarantined":false,
-    "removal_reason":null,
-    "retrieved_on":1586450302,
-    "score":1,
-    "send_replies":true,
-    "stickied":false,
-    "subreddit":"<SUBREDDIT-NAME>",
-    "subreddit_id":"<SUBREDDIT-ID>",
-    "subreddit_name_prefixed":"r/<SUBREDDIT-NAME>",
-    "subreddit_type":"public",
-    "total_awards_received":0,
-    "treatment_tags":[]
-}
-```
-
-Submissions:
+Sample comment record:
 
 ```json
 {
-
-    "all_awardings":[],
-    "allow_live_comments":false,
-    "archived":false,
-    "author":"<AUTHOR-NAME>",
-    "author_created_utc":1323037935,
-    "author_flair_background_color":"#ea0027",
-    "author_flair_css_class":null,
-    "author_flair_richtext":[],
-    "author_flair_template_id":"75e3132a-4c5e-11ea-b0a2-0ebabfbc47e3",
-    "author_flair_text":"Warlord",
-    "author_flair_text_color":"dark",
-    "author_flair_type":"text",
-    "author_fullname":"<AUTHOR-FULLNAME>",
-    "author_patreon_flair":false,
-    "author_premium":true,
-    "awarders":[],
-    "can_gild":true,
-    "can_mod_post":false,
-    "category":null,
-    "content_categories":null,
-    "contest_mode":false,
-    "created_utc":1577836811,
-    "discussion_type":null,
-    "distinguished":null,
-    "domain":"<DOMAIN>",
-    "edited":false,
-    "gilded":0,
-    "gildings":[],
-    "hidden":false,
-    "id":"<SUBMISSION-ID>",
-    "is_crosspostable":true,
-    "is_meta":false,
-    "is_original_content":false,
-    "is_reddit_media_domain":true,
-    "is_robot_indexable":true,
-    "is_self":false,
-    "is_video":false,
-    "link_flair_background_color":"#ea0027",
-    "link_flair_css_class":"",
-    "link_flair_richtext":[],
-    "link_flair_template_id":"5de50204-b14c-11e9-ad08-0e16aa31fd42",
-    "link_flair_text":"Radar Plane",
-    "link_flair_text_color":"dark",
-    "link_flair_type":"text",
-    "locked":false,
-    "media":null,
-    "media_embed":[],
-    "media_only":false,
-    "no_follow":false,
-    "num_comments":0,
-    "num_crossposts":0,
-    "over_18":false,
-    "parent_whitelist_status":"some_ads",
-    "permalink":"/r/<SUBREDDIT-NAME>/.../",
-    "pinned":false,
-    "post_hint":"image",
-    "preview":{
-        "enabled":true,
-        "images":[
-            {
-                "id":"<IMAGE-ID>>",
-                "resolutions":[
-                    {
-                        "height":62,
-                        "url":"...",
-                        "width":108
-                    },
-                    ...
-                ],
-                "source":{
-                    "height":689,
-                    "url":"...",
-                    "width":1200
-                },
-                "variants":{}
-            }
-        ]
-    },
-    "pwls":7,
-    "quarantine":false,
-    "removal_reason":null,
-    "removed_by":null,
-    "removed_by_category":null,
-    "retrieved_on":1586941619,
-    "score":35,
-    "secure_media":null,
-    "secure_media_embed":[],
-    "selftext":"",
-    "send_replies":true,
-    "spoiler":false,
-    "stickied":false,
-    "subreddit":"<SUBREDDIT-NAME>",
-    "subreddit_id":"<SUBREDDIT-ID>",
-    "subreddit_name_prefixed":"r/<SUBREDDIT-NAME>",
-    "subreddit_subscribers":19356,
-    "subreddit_type":"public",
-    "suggested_sort":null,
-    "thumbnail":"...",
-    "thumbnail_height":80,
-    "thumbnail_width":140,
-    "title":"<SUBMISSION-TITLE>>",
-    "total_awards_received":0,
-    "treatment_tags":[],
-    "url":"...",
-
+    "author": "<AUTHOR-NAME>",
+    "body": "<COMMENT-BODY>",
+    "subreddit": "<SUBREDDIT-NAME>",
+    "subreddit_id": "<SUBREDDIT-ID>",
+    "subreddit_type": "public",
+    "created_utc": 1577836827,
+    "id": "<COMMENT-ID>"
 }
 ```
 
-For the processing, this data was organized in separated files for year and month, 
-one for comments and other for submissions, due to data size.
+Sample submission record:
 
-### 1. Load interactions step
+```json
+{
+    "author": "<AUTHOR-NAME>",
+    "title": "<SUBMISSION-TITLE>",
+    "subreddit": "<SUBREDDIT-NAME>",
+    "subreddit_id": "<SUBREDDIT-ID>",
+    "subreddit_type": "public",
+    "created_utc": 1577836811,
+    "id": "<SUBMISSION-ID>"
+}
+```
 
-Load comments and submissions, and transform them into interactions and subreddits storage files:
+---
+
+### Step 1 — Load interactions (`load_interactions_step.py`)
+
+Reads raw `.zst` files and transforms them into flat interaction records and a subreddit index.
+
+**Filters applied:**
+- Only public subreddits are included (`subreddit_type == "public"`)
+- Deleted authors are removed (`author == "[deleted]"`)
+- Authors with a missing or empty `author` field are skipped
+
+**Privacy:** author names are anonymized using salted SHA-256 hashes. The original username cannot
+be recovered without the salt.
 
 #### Interactions
 
 Location: `storage/interactions/<date>/interactions_*.parquet`
 
-
-Columns:
-
-| column        | type   | description |
-|---------------|--------|-------------|
-| subreddit_id  | string | Reddit subreddit identifier |
-| author_hash   | string | SHA256 anonymized user id |
-| type          | string | S=submission, C=comment |
-
-Notes:
-- Only public subreddits are included
-- Deleted authors are removed
-- Author names are anonymized using salted SHA-256 hashes. Can't be reverted without the original salt. 
+| column       | type   | description                     |
+|--------------|--------|---------------------------------|
+| subreddit_id | string | Reddit subreddit identifier     |
+| author_hash  | string | Salted SHA-256 hash of username |
+| type         | string | `S` = submission, `C` = comment |
 
 #### Subreddits
 
 Location: `storage/subreddits/<date>/subreddits.parquet`
 
-Columns:
+| column            | type   | description                           |
+|-------------------|--------|---------------------------------------|
+| subreddit_id      | string | Reddit subreddit identifier           |
+| subreddit_name    | string | Human-readable subreddit name         |
+| interaction_count | int64  | Total interactions collected          |
 
-| column            | type   | description |
-|-------------------|--------|-------------|
-| subreddit_id      | string | Reddit subreddit id |
-| subreddit_name    | string | Human-readable subreddit name |
-| interaction_count | int64  | Number of collected interactions |
+---
 
-Expect comments to be on `sources/comments/RC_<YEAR>-<MONTH>.zst` and submissions on `sources/submissions/RS_<YEAR>-<MONTH>.zst`
+### Step 2 — User interactions (`user_interactions_step.py`)
 
-### 2. User interactions step
+Aggregates raw interactions into one record per (user, subreddit) pair, counting comments and
+submissions separately. Only pairs with at least `MIN_INTERACTIONS` total interactions are kept,
+ensuring that users who barely participated in a subreddit are not treated as members.
 
-Reduces users interactions into a link between user and subreddit, counting how many interactions it had.
+**Parameters:**
 
-For future work, submissions and comments can be split in different columns to be weighted differently.
+| parameter        | default | description                                              |
+|------------------|---------|----------------------------------------------------------|
+| `MIN_INTERACTIONS` | `10`  | Minimum total interactions for a user to be included in a subreddit |
+
+**Notes:**
+- Processed in 16 batches using DuckDB's `hash()` function for stable, reproducible partitioning.
+  Python's built-in `hash()` is deliberately avoided here because it is randomized across processes.
 
 #### User interactions
 
 Location: `storage/users/<date>/users_<batch_num>.parquet`
 
-Columns
+| column           | type   | description                                  |
+|------------------|--------|----------------------------------------------|
+| subreddit_id     | string | Reddit subreddit identifier                  |
+| author_hash      | string | Salted SHA-256 hash of username              |
+| submission_count | int64  | Number of submissions by this user           |
+| comment_count    | int64  | Number of comments by this user              |
 
-| column        | type   | description |
-|--------------|--------|-------------|
-| subreddit_id | string | Unique identifier of the subreddit |
-| author_hash  | string | Salted SHA-256 hash of the Reddit username |
-| comment_count | int64  | Number of comments by the user |
-| submission_count | int64  | Number of submissions by the user |
+---
 
-Notes:
-- Processed in batches due to memory capacity limitations
+### Step 3 — Subreddit relations (`subreddit_relations_step.py`)
 
-### 3. Subreddit relations step
+Creates edges between subreddits. Two subreddits are linked if they share at least one user.
+Each edge carries a Jaccard similarity weight:
 
-Creates links between subreddits. 2 subreddits are linked if they share at least `MIN_SHARED_USERS`.
-An user is considered in a subreddit as long as it has at least `MIN_INTERACTIONS` interactions.
+```
+weight = shared_users / (users_a + users_b - shared_users)
+```
 
-* `MIN_SHARED_USERS` = 100
-* `MIN_INTERACTIONS` = 10
-
-For future work, explore different values for `MIN_SHARED_USERS` and `MIN_INTERACTIONS`.
+This normalizes the raw shared-user count by the combined user base of both subreddits, which
+prevents large popular subreddits from dominating the graph simply due to their size.
 
 #### Relations
 
 Location: `storage/relations/<date>/relations.parquet`
 
-Columns:
+| column        | type   | description                                |
+|---------------|--------|--------------------------------------------|
+| subreddit_id_a | string | First subreddit                           |
+| subreddit_id_b | string | Second subreddit                          |
+| shared_users  | int64  | Number of users present in both           |
+| weight        | float  | Jaccard similarity between the two subreddits |
 
-| column          | type  | description |
-|-----------------|-------|-------------|
-| subreddit_id_a  | string | First subreddit |
-| subreddit_id_b  | string | Second subreddit |
-| shared_users    | int64  | Shared anonymized users |
+---
+
+### Step 4 — Filter relations (`filter_relations_step.py`)
+
+Filters the full relations file to retain only the strongest edges, based on a Jaccard weight
+percentile threshold. This removes weak connections (e.g. two large subreddits that share a small
+fraction of users) while preserving tight niche communities.
+
+**Parameters:**
+
+| parameter          | default | description                                     |
+|--------------------|---------|--------------------------------------------------|
+| `WEIGHT_PERCENTILE` | `0.9`  | Keep only edges above this percentile of weight |
+
+The threshold value is computed dynamically from the data and printed during execution.
+
+#### Filtered relations
+
+Location: `storage/relations/<date>/relations_filtered.parquet`
+
+Same schema as `relations.parquet`. The unfiltered file is preserved so the threshold can be
+adjusted and this step re-run without repeating the expensive self-join in step 3.
+
+---
 
 ## How to run
 
@@ -276,7 +175,7 @@ Activate it:
 source .venv/bin/activate
 ```
 
-Install the requirements:
+Install dependencies:
 
 ```sh
 pip install -r requirements.txt
@@ -290,17 +189,29 @@ Create a `.env` file with:
 SALT=<USER-HASH-SALT>
 ```
 
-Env variables descriptions:
-
-* `SALT`: Used on user name hash. Important to guarantee that users aren't identifiable
+| variable | description                                                               |
+|----------|---------------------------------------------------------------------------|
+| `SALT`   | Prepended to usernames before hashing. Ensures users are not identifiable |
 
 ### Data setup
 
-The historical reddit zst data files should be placed in `sources/comments` and `sources/submissions` dirs.
-The file name conventions is `RC_<YEAR>-<MONTH>.zst` for comments and `RS_<YEAR>-<MONTH>.zst` for submissions. For examples: `RC_2024-01.zst`.
+Place source files in the following directories:
 
-### Running pipeline
+```
+sources/
+  comments/
+    RC_<YEAR>-<MONTH>.zst
+  submissions/
+    RS_<YEAR>-<MONTH>.zst
+```
+
+Example: `RC_2020-01.zst`, `RS_2020-01.zst`.
+
+### Running the pipeline
 
 ```sh
 make run-pipeline DATE=<YEAR>-<MONTH>
 ```
+
+This runs all four steps in order. Intermediate outputs are written to `storage/` and can be
+inspected independently between steps.
