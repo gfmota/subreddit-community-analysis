@@ -2,8 +2,6 @@ import duckdb, sys, os
 
 con = duckdb.connect()
 
-MIN_INTERACTIONS = 10
-
 def get_users_interactions(date, output_dir, batch_num):
     return con.execute(f"""
         COPY (
@@ -11,11 +9,11 @@ def get_users_interactions(date, output_dir, batch_num):
                 i.subreddit_id,
                 i.author_hash,
                 COUNT(*) FILTER (WHERE type = 'S') AS submission_count,
-                COUNT(*) FILTER (WHERE type = 'C') AS comment_count
+                COUNT(*) FILTER (WHERE type = 'C') AS comment_count,
+                COUNT(*) AS interactions_count
             FROM 'storage/interactions/{date}/*.parquet' i
             WHERE abs(hash(i.author_hash)) % 16 = {batch_num}
             GROUP BY i.subreddit_id, i.author_hash
-            HAVING COUNT(*) >= {MIN_INTERACTIONS}
         )
         TO '{output_dir}/users_{batch_num}.parquet' (FORMAT PARQUET);
     """)

@@ -85,18 +85,10 @@ Location: `storage/subreddits/<date>/subreddits.parquet`
 ### Step 2 — User interactions (`user_interactions_step.py`)
 
 Aggregates raw interactions into one record per (user, subreddit) pair, counting comments and
-submissions separately. Only pairs with at least `MIN_INTERACTIONS` total interactions are kept,
-ensuring that users who barely participated in a subreddit are not treated as members.
-
-**Parameters:**
-
-| parameter        | default | description                                              |
-|------------------|---------|----------------------------------------------------------|
-| `MIN_INTERACTIONS` | `10`  | Minimum total interactions for a user to be included in a subreddit |
+submissions separately, but also a general interactions count with both.
 
 **Notes:**
 - Processed in 16 batches using DuckDB's `hash()` function for stable, reproducible partitioning.
-  Python's built-in `hash()` is deliberately avoided here because it is randomized across processes.
 
 #### User interactions
 
@@ -108,20 +100,27 @@ Location: `storage/users/<date>/users_<batch_num>.parquet`
 | author_hash      | string | Salted SHA-256 hash of username              |
 | submission_count | int64  | Number of submissions by this user           |
 | comment_count    | int64  | Number of comments by this user              |
+| interactions_count | int64  | Number of comments+submissions by this user |
 
 ---
 
 ### Step 3 — Subreddit relations (`subreddit_relations_step.py`)
 
+
 Creates edges between subreddits. Two subreddits are linked if they share at least one user.
-Each edge carries a Jaccard similarity weight:
+To define what is an user participating in a subreddit, it gets the top-k subreddits from each
+user, where k is the median value of subreddits an user interacts with.
+
+For each relation we calculate both, Jaccard and Cossine, similarities, so we can process
+once and choose later which is going to be our method of weight;
 
 ```
-weight = shared_users / (users_a + users_b - shared_users)
+jaccard = shared_users / (users_a + users_b - shared_users)
 ```
 
-This normalizes the raw shared-user count by the combined user base of both subreddits, which
-prevents large popular subreddits from dominating the graph simply due to their size.
+```
+cossine = shared_users / SQRT(users_a * users_b)
+```
 
 #### Relations
 
@@ -132,7 +131,8 @@ Location: `storage/relations/<date>/relations.parquet`
 | subreddit_id_a | string | First subreddit                           |
 | subreddit_id_b | string | Second subreddit                          |
 | shared_users  | int64  | Number of users present in both           |
-| weight        | float  | Jaccard similarity between the two subreddits |
+| jaccard        | float  | Jaccard similarity between the two subreddits |
+| cossine        | float  | Cossine similarity between the two subreddits |
 
 ---
 
@@ -166,7 +166,7 @@ adjusted and this step re-run without repeating the expensive self-join in step 
 Create the venv:
 
 ```sh
-python3 -m venv venv
+python3 -m venv .venv
 ```
 
 Activate it:

@@ -25,6 +25,7 @@ def filter_relations(date):
     """)
 
 def main():
+    return
     if len(sys.argv) < 2:
         print("Missing date")
         return
