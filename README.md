@@ -15,6 +15,7 @@ Historical data from Reddit comments and submissions. Source files are organized
 one file for comments and one for submissions, due to data size.
 
 Expected locations:
+
 - Comments: `sources/comments/RC_<YEAR>-<MONTH>.zst`
 - Submissions: `sources/submissions/RS_<YEAR>-<MONTH>.zst`
 
@@ -22,13 +23,13 @@ Sample comment record:
 
 ```json
 {
-    "author": "<AUTHOR-NAME>",
-    "body": "<COMMENT-BODY>",
-    "subreddit": "<SUBREDDIT-NAME>",
-    "subreddit_id": "<SUBREDDIT-ID>",
-    "subreddit_type": "public",
-    "created_utc": 1577836827,
-    "id": "<COMMENT-ID>"
+  "author": "<AUTHOR-NAME>",
+  "body": "<COMMENT-BODY>",
+  "subreddit": "<SUBREDDIT-NAME>",
+  "subreddit_id": "<SUBREDDIT-ID>",
+  "subreddit_type": "public",
+  "created_utc": 1577836827,
+  "id": "<COMMENT-ID>"
 }
 ```
 
@@ -36,13 +37,13 @@ Sample submission record:
 
 ```json
 {
-    "author": "<AUTHOR-NAME>",
-    "title": "<SUBMISSION-TITLE>",
-    "subreddit": "<SUBREDDIT-NAME>",
-    "subreddit_id": "<SUBREDDIT-ID>",
-    "subreddit_type": "public",
-    "created_utc": 1577836811,
-    "id": "<SUBMISSION-ID>"
+  "author": "<AUTHOR-NAME>",
+  "title": "<SUBMISSION-TITLE>",
+  "subreddit": "<SUBREDDIT-NAME>",
+  "subreddit_id": "<SUBREDDIT-ID>",
+  "subreddit_type": "public",
+  "created_utc": 1577836811,
+  "id": "<SUBMISSION-ID>"
 }
 ```
 
@@ -53,6 +54,7 @@ Sample submission record:
 Reads raw `.zst` files and transforms them into flat interaction records and a subreddit index.
 
 **Filters applied:**
+
 - Only public subreddits are included (`subreddit_type == "public"`)
 - Deleted authors are removed (`author == "[deleted]"`)
 - Authors with a missing or empty `author` field are skipped
@@ -65,7 +67,7 @@ be recovered without the salt.
 Location: `storage/interactions/<date>/interactions_*.parquet`
 
 | column       | type   | description                     |
-|--------------|--------|---------------------------------|
+| ------------ | ------ | ------------------------------- |
 | subreddit_id | string | Reddit subreddit identifier     |
 | author_hash  | string | Salted SHA-256 hash of username |
 | type         | string | `S` = submission, `C` = comment |
@@ -74,42 +76,39 @@ Location: `storage/interactions/<date>/interactions_*.parquet`
 
 Location: `storage/subreddits/<date>/subreddits.parquet`
 
-| column            | type   | description                           |
-|-------------------|--------|---------------------------------------|
-| subreddit_id      | string | Reddit subreddit identifier           |
-| subreddit_name    | string | Human-readable subreddit name         |
-| interaction_count | int64  | Total interactions collected          |
+| column            | type   | description                   |
+| ----------------- | ------ | ----------------------------- |
+| subreddit_id      | string | Reddit subreddit identifier   |
+| subreddit_name    | string | Human-readable subreddit name |
+| interaction_count | int64  | Total interactions collected  |
 
 ---
 
 ### Step 2 — User interactions (`user_interactions_step.py`)
 
-Aggregates raw interactions into one record per (user, subreddit) pair, counting comments and
-submissions separately, but also a general interactions count with both.
+Aggregates raw interactions into one record per (user, subreddit) pair, counting interactions, for the top 5% subreddits, ranked by interactions count, according to decision made in [Subreddits relevance investigation notebook](./notebooks/subreddits_relevance_investigation.ipynb).
 
 **Notes:**
-- Processed in 16 batches using DuckDB's `hash()` function for stable, reproducible partitioning.
+
+- Processed in batches using DuckDB's `hash()` function for stable, reproducible partitioning.
 
 #### User interactions
 
 Location: `storage/users/<date>/users_<batch_num>.parquet`
 
-| column           | type   | description                                  |
-|------------------|--------|----------------------------------------------|
-| subreddit_id     | string | Reddit subreddit identifier                  |
-| author_hash      | string | Salted SHA-256 hash of username              |
-| submission_count | int64  | Number of submissions by this user           |
-| comment_count    | int64  | Number of comments by this user              |
+| column             | type   | description                                 |
+| ------------------ | ------ | ------------------------------------------- |
+| subreddit_id       | string | Reddit subreddit identifier                 |
+| author_hash        | string | Salted SHA-256 hash of username             |
 | interactions_count | int64  | Number of comments+submissions by this user |
 
 ---
 
 ### Step 3 — Subreddit relations (`subreddit_relations_step.py`)
 
-
 Creates edges between subreddits. Two subreddits are linked if they share at least one user.
-To define what is an user participating in a subreddit, it gets the top-k subreddits from each
-user, where k is the median value of subreddits an user interacts with.
+To define what is an user participating in a subreddit, it gets the top 3 subreddits from each
+user, ranked by interactions count, with at least 2 interactions. The explanation on this decision is in [User behavior investigation notebook](./notebooks/user_behavior_investigation.ipynb).
 
 For each relation we calculate both, Jaccard and Cossine, similarities, so we can process
 once and choose later which is going to be our method of weight;
@@ -126,11 +125,11 @@ cossine = shared_users / SQRT(users_a * users_b)
 
 Location: `storage/relations/<date>/relations.parquet`
 
-| column        | type   | description                                |
-|---------------|--------|--------------------------------------------|
-| subreddit_id_a | string | First subreddit                           |
-| subreddit_id_b | string | Second subreddit                          |
-| shared_users  | int64  | Number of users present in both           |
+| column         | type   | description                                   |
+| -------------- | ------ | --------------------------------------------- |
+| subreddit_id_a | string | First subreddit                               |
+| subreddit_id_b | string | Second subreddit                              |
+| shared_users   | int64  | Number of users present in both               |
 | jaccard        | float  | Jaccard similarity between the two subreddits |
 | cossine        | float  | Cossine similarity between the two subreddits |
 
@@ -144,9 +143,9 @@ fraction of users) while preserving tight niche communities.
 
 **Parameters:**
 
-| parameter          | default | description                                     |
-|--------------------|---------|--------------------------------------------------|
-| `WEIGHT_PERCENTILE` | `0.9`  | Keep only edges above this percentile of weight |
+| parameter           | default | description                                     |
+| ------------------- | ------- | ----------------------------------------------- |
+| `WEIGHT_PERCENTILE` | `0.9`   | Keep only edges above this percentile of weight |
 
 The threshold value is computed dynamically from the data and printed during execution.
 
@@ -190,7 +189,7 @@ SALT=<USER-HASH-SALT>
 ```
 
 | variable | description                                                               |
-|----------|---------------------------------------------------------------------------|
+| -------- | ------------------------------------------------------------------------- |
 | `SALT`   | Prepended to usernames before hashing. Ensures users are not identifiable |
 
 ### Data setup

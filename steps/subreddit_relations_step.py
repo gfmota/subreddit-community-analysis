@@ -1,26 +1,17 @@
 import duckdb, os, sys
 
-def get_median_k(input_file):
-    con = duckdb.connect()
-    query = f"""
-        SELECT CAST(MEDIAN(subreddit_count) AS BIGINT) AS k
-        FROM (
-            SELECT author_hash, COUNT(*) AS subreddit_count
-            FROM read_parquet('{input_file}')
-            GROUP BY author_hash
-        )
-    """
-    return con.execute(query).fetchone()[0]
+k = 3
+n = 2
 
 def create_subreddit_relations(input_file, output_file):
-    k = get_median_k(input_file)
-    print(f"Getting top k = {k} interactions for each user to create subreddit relations")
+    print(f"Getting top k = {k} subreddits for each user ranked by interactions count with at least {n} interactions to create subreddit relations")
 
     query = f"""
     COPY(
         WITH user_subreddit_interactions AS (
             SELECT author_hash, subreddit_id, interactions_count
             FROM read_parquet('{input_file}')
+            WHERE interactions_count >= {n}
         ),
 
         ranked AS (
