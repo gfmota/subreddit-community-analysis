@@ -5,3 +5,6 @@ run-pipeline:
 	$(PYTHON) steps/user_interactions_step.py "$(DATE)"
 	$(PYTHON) steps/subreddit_relations_step.py "$(DATE)"
 	$(PYTHON) steps/filter_relations_step.py "$(DATE)"
+
+run-notebooks:
+	jupyter lab

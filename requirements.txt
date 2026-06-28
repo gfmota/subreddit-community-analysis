@@ -6,3 +6,5 @@ duckdb
 networkx
 matplotlib
 scipy
+jupyterlab
+ipykernel
