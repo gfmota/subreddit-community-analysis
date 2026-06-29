@@ -77,7 +77,7 @@ def main():
     
     OUTPUT_DIR = f'storage/relations/{date}'
     os.makedirs(OUTPUT_DIR, exist_ok=True)
-    OUTPUT_FILE = f'{OUTPUT_DIR}/relations.parquet' 
+    OUTPUT_FILE = f'{OUTPUT_DIR}/raw_relations.parquet' 
     INPUT_FILE = f'storage/users/{date}/*.parquet'
 
     create_subreddit_relations(INPUT_FILE, OUTPUT_FILE)

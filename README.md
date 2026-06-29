@@ -123,7 +123,7 @@ cossine = shared_users / SQRT(users_a * users_b)
 
 #### Relations
 
-Location: `storage/relations/<date>/relations.parquet`
+Location: `storage/relations/<date>/raw_relations.parquet`
 
 | column         | type   | description                                   |
 | -------------- | ------ | --------------------------------------------- |
@@ -131,29 +131,26 @@ Location: `storage/relations/<date>/relations.parquet`
 | subreddit_id_b | string | Second subreddit                              |
 | shared_users   | int64  | Number of users present in both               |
 | jaccard        | float  | Jaccard similarity between the two subreddits |
-| cossine        | float  | Cossine similarity between the two subreddits |
+| cosine         | float  | Cosine similarity between the two subreddits  |
 
 ---
 
 ### Step 4 — Filter relations (`filter_relations_step.py`)
 
-Filters the full relations file to retain only the strongest edges, based on a Jaccard weight
-percentile threshold. This removes weak connections (e.g. two large subreddits that share a small
-fraction of users) while preserving tight niche communities.
+Filters the full relations file to retain only the strongest edges, based on a minimum shared user threshold and on backbone extraction via disparity filter. Decision made based on [Subreddit relations investigation](./notebooks/subreddit_relations_investigation.ipynb) discoveries.
 
 **Parameters:**
 
-| parameter           | default | description                                     |
-| ------------------- | ------- | ----------------------------------------------- |
-| `WEIGHT_PERCENTILE` | `0.9`   | Keep only edges above this percentile of weight |
-
-The threshold value is computed dynamically from the data and printed during execution.
+| parameter          | default | description                                                   |
+| ------------------ | ------- | ------------------------------------------------------------- |
+| `MIN_SHARED_USERS` | `10`    | Keep only edges with at least `MIN_SHARED_USERS` shared users |
+| `ALPHA`            | `0.2`   | Disparity filter's alpha                                      |
 
 #### Filtered relations
 
-Location: `storage/relations/<date>/relations_filtered.parquet`
+Location: `storage/relations/<date>/clean_relations.parquet`
 
-Same schema as `relations.parquet`. The unfiltered file is preserved so the threshold can be
+Same schema as `raw_relations.parquet`. The unfiltered file is preserved so the threshold can be
 adjusted and this step re-run without repeating the expensive self-join in step 3.
 
 ---
