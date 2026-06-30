@@ -129,6 +129,8 @@ Location: `storage/relations/<date>/raw_relations.parquet`
 | -------------- | ------ | --------------------------------------------- |
 | subreddit_id_a | string | First subreddit                               |
 | subreddit_id_b | string | Second subreddit                              |
+| users_a        | int64  | Amount of users in first subreddit            |
+| users_b        | int64  | Amount of users in second subreddit           |
 | shared_users   | int64  | Number of users present in both               |
 | jaccard        | float  | Jaccard similarity between the two subreddits |
 | cosine         | float  | Cosine similarity between the two subreddits  |
@@ -152,6 +154,119 @@ Location: `storage/relations/<date>/clean_relations.parquet`
 
 Same schema as `raw_relations.parquet`. The unfiltered file is preserved so the threshold can be
 adjusted and this step re-run without repeating the expensive self-join in step 3.
+
+### Step 5 — Identify communities (`identify_communities.py`)
+
+Builds a weighted undirected graph from the filtered relations, restricts it to the largest
+connected component, and detects communities using the Leiden algorithm.
+
+**Parameters:**
+
+| parameter    | default | description                                                            |
+| ------------ | ------- | ---------------------------------------------------------------------- |
+| `resolution` | `1.0`   | Controls community granularity. Lower merges more, higher splits more. |
+| `seed`       | `42`    | Random seed for reproducibility                                        |
+
+**Node attributes preserved in output:**
+
+| attribute      | description                             |
+| -------------- | --------------------------------------- |
+| `name`         | Human-readable subreddit name           |
+| `users`        | Number of users in the subreddit        |
+| `interactions` | Total interactions collected            |
+| `community`    | Community identifier assigned by Leiden |
+
+**Edge attributes preserved in output:**
+
+| attribute      | description                                   |
+| -------------- | --------------------------------------------- |
+| `shared_users` | Number of users present in both subreddits    |
+| `jaccard`      | Jaccard similarity between the two subreddits |
+| `cosine`       | Cosine similarity between the two subreddits  |
+
+#### Network
+
+Location: `storage/network/<date>/subreddits_network.graphml`
+
+GraphML format. Preserves all node and edge attributes and can be loaded directly into Gephi
+for exploration or into networkx for further analysis.
+
+---
+
+### Step 6 — Export network for web interface (`export_network_step.py`)
+
+Reads the GraphML network file and exports it as a set of static JSON files structured for
+consumption by the web interface. No graph computation is performed in this step — it is a
+pure format transformation.
+
+The output is split into three file types to minimize initial load time: the community overview
+is loaded upfront, individual community detail files are fetched on demand when a user drills
+into a community, and the search index enables subreddit lookup across all communities without
+loading the full graph.
+
+#### Output files
+
+Location: `storage/network/<date>/web/`
+
+**`communities.json`** — community-level graph for the overview screen.
+
+Nodes represent communities. Edges represent inter-community connections (subreddits in
+different communities that are directly linked).
+
+Node schema:
+
+| field                | description                                                |
+| -------------------- | ---------------------------------------------------------- |
+| `id`                 | Community identifier                                       |
+| `size`               | Number of subreddits in the community                      |
+| `label`              | Name of the highest-interaction subreddit in the community |
+| `top_subreddits`     | List of up to 5 top subreddits by interaction count        |
+| `total_interactions` | Sum of interaction counts across all community members     |
+| `total_users`        | Sum of user counts across all community members            |
+
+Edge schema:
+
+| field          | description                                       |
+| -------------- | ------------------------------------------------- |
+| `source`       | Source community id                               |
+| `target`       | Target community id                               |
+| `shared_users` | Shared users between the two connected subreddits |
+| `cosine`       | Cosine similarity of the connecting edge          |
+
+**`community_{id}.json`** — subreddit-level graph for the community detail screen.
+
+One file per community. Nodes are subreddits, edges are relations within the community.
+
+Node schema:
+
+| field          | description                             |
+| -------------- | --------------------------------------- |
+| `id`           | Subreddit identifier                    |
+| `name`         | Human-readable subreddit name           |
+| `interactions` | Total interactions collected            |
+| `users`        | Number of users in the subreddit        |
+| `degree`       | Number of connections in the full graph |
+| `strength`     | Sum of shared_users across all edges    |
+
+Edge schema:
+
+| field          | description                                   |
+| -------------- | --------------------------------------------- |
+| `source`       | Source subreddit id                           |
+| `target`       | Target subreddit id                           |
+| `shared_users` | Number of users present in both subreddits    |
+| `cosine`       | Cosine similarity between the two subreddits  |
+| `jaccard`      | Jaccard similarity between the two subreddits |
+
+**`search_index.json`** — flat list of all subreddits with their community assignment, used
+by the search bar to locate a subreddit and navigate to its community without loading all
+community files upfront.
+
+| field          | description                        |
+| -------------- | ---------------------------------- |
+| `id`           | Subreddit identifier               |
+| `name`         | Human-readable subreddit name      |
+| `community_id` | Community the subreddit belongs to |
 
 ---
 
