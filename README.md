@@ -268,6 +268,54 @@ community files upfront.
 | `name`         | Human-readable subreddit name      |
 | `community_id` | Community the subreddit belongs to |
 
+### Step 7 — Build timeseries (`build_timeseries_step.py`)
+
+Aggregates per-subreddit metrics across all processed months into a single cross-month dataset,
+enabling time-based exploration in the web interface.
+
+This step scans `storage/network/` for all dates that have a completed network export, loads
+each month's GraphML network, and extracts per-subreddit metrics.
+
+**Important notes:**
+
+- A subreddit only has an entry for a given month if it existed in that month's filtered and
+  backboned network. Months where a subreddit didn't meet the activity threshold or was removed
+  by backbone extraction are simply absent from its history — there is no null-filling.
+- Community assignment from `identify_communities.py` is preserved per month, since a subreddit's
+  community membership can shift between months as the network evolves.
+
+#### Output files
+
+Location: `storage/network/timeseries/`
+
+**`manifest.json`** — list of all available dates, used to populate the date selector in the
+web interface.
+
+| field   | description                                         |
+| ------- | --------------------------------------------------- |
+| `dates` | List of date strings, e.g. `["2020-01", "2020-02"]` |
+
+**`subreddit_timeseries.json`** — per-subreddit metrics across all months.
+
+| field     | description                     |
+| --------- | ------------------------------- |
+| `id`      | Subreddit identifier            |
+| `name`    | Human-readable subreddit name   |
+| `history` | Object keyed by date, see below |
+
+Each entry under `history` has the following shape:
+
+| field          | description                                                                      |
+| -------------- | -------------------------------------------------------------------------------- |
+| `interactions` | Total interactions that month                                                    |
+| `users`        | Number of users that month                                                       |
+| `degree`       | Number of connections in that month's network                                    |
+| `strength`     | Sum of shared_users across all edges that month                                  |
+| `centrality`   | Betweenness centrality that month (approximated if `centrality_sample` was used) |
+| `clustering`   | Clustering coefficient                                                           |
+| `k_core`       | k-code                                                                           |
+| `community`    | Community id assigned that month                                                 |
+
 ---
 
 ## How to run
