@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qkku", "name": "smoking", "interactions": 46888, "users": 1432, "degree": 2, "strength": 109}, {"id": "t5_2qxww", "name": "BBQ", "interactions": 11394, "users": 343, "degree": 1, "strength": 56}], "edges": [{"source": "t5_2qkku", "target": "t5_2qxww", "shared_users": 56, "cosine": 0.0799041724551242, "jaccard": 0.03257707969749855}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qhpm", "name": "vegan", "interactions": 67581, "users": 1831, "degree": 2, "strength": 179}, {"id": "t5_2sa7z", "name": "DebateAVegan", "interactions": 31027, "users": 396, "degree": 1, "strength": 111}], "edges": [{"source": "t5_2qhpm", "target": "t5_2sa7z", "shared_users": 111, "cosine": 0.1303560564559394, "jaccard": 0.05245746691871456}]}

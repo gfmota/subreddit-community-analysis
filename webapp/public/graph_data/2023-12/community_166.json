@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sd3j", "name": "thesopranos", "interactions": 90447, "users": 2342, "degree": 2, "strength": 223}, {"id": "t5_3muu3", "name": "CirclejerkSopranos", "interactions": 21366, "users": 481, "degree": 1, "strength": 129}], "edges": [{"source": "t5_2sd3j", "target": "t5_3muu3", "shared_users": 129, "cosine": 0.12154125788533335, "jaccard": 0.04788418708240535}]}

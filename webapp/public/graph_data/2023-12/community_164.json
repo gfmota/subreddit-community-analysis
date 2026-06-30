@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qvqm", "name": "OCD", "interactions": 31733, "users": 1436, "degree": 2, "strength": 75}, {"id": "t5_12xb4w", "name": "OCDmemes", "interactions": 3578, "users": 106, "degree": 1, "strength": 34}], "edges": [{"source": "t5_2qvqm", "target": "t5_12xb4w", "shared_users": 34, "cosine": 0.08714626219680108, "jaccard": 0.022546419098143235}]}

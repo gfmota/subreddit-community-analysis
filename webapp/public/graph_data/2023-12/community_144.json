@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qkpi", "name": "jewelry", "interactions": 27378, "users": 1027, "degree": 2, "strength": 66}, {"id": "t5_2sjz7", "name": "Gemstones", "interactions": 5328, "users": 199, "degree": 1, "strength": 33}], "edges": [{"source": "t5_2qkpi", "target": "t5_2sjz7", "shared_users": 33, "cosine": 0.07299652396684174, "jaccard": 0.027661357921207042}]}

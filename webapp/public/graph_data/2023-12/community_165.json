@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2riv8", "name": "Rabbits", "interactions": 37723, "users": 1446, "degree": 2, "strength": 121}, {"id": "t5_2qojq", "name": "Bunnies", "interactions": 4654, "users": 173, "degree": 1, "strength": 75}], "edges": [{"source": "t5_2riv8", "target": "t5_2qojq", "shared_users": 75, "cosine": 0.1499526224557736, "jaccard": 0.048575129533678756}]}

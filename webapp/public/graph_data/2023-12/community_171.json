@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qh55", "name": "food", "interactions": 34716, "users": 919, "degree": 2, "strength": 112}, {"id": "t5_2rd9v", "name": "FoodPorn", "interactions": 20625, "users": 571, "degree": 1, "strength": 52}], "edges": [{"source": "t5_2qh55", "target": "t5_2rd9v", "shared_users": 52, "cosine": 0.07178398001260647, "jaccard": 0.03616133518776078}]}
