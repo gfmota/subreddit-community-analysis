@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qi2n", "name": "christmas", "interactions": 18342, "users": 1233, "degree": 2, "strength": 95}, {"id": "t5_32d50", "name": "ChristmasDecorating", "interactions": 11165, "users": 693, "degree": 1, "strength": 53}], "edges": [{"source": "t5_2qi2n", "target": "t5_32d50", "shared_users": 53, "cosine": 0.05733604258148589, "jaccard": 0.02829684997330486}]}

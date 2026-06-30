@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qhlc", "name": "privacy", "interactions": 21806, "users": 1370, "degree": 2, "strength": 86}, {"id": "t5_4bph8", "name": "degoogle", "interactions": 4419, "users": 319, "degree": 1, "strength": 31}], "edges": [{"source": "t5_2qhlc", "target": "t5_4bph8", "shared_users": 31, "cosine": 0.04689278954854904, "jaccard": 0.018697225572979495}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qpj2", "name": "Dachshund", "interactions": 28977, "users": 2339, "degree": 2, "strength": 118}, {"id": "t5_2rh33", "name": "dachshunds", "interactions": 5026, "users": 264, "degree": 1, "strength": 72}], "edges": [{"source": "t5_2qpj2", "target": "t5_2rh33", "shared_users": 72, "cosine": 0.09162530263110637, "jaccard": 0.028447254049782694}]}

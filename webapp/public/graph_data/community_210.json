@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rcqy", "name": "HIMYM", "interactions": 23494, "users": 1414, "degree": 2, "strength": 67}, {"id": "t5_2qzj4", "name": "howimetyourmother", "interactions": 3898, "users": 232, "degree": 1, "strength": 35}], "edges": [{"source": "t5_2rcqy", "target": "t5_2qzj4", "shared_users": 35, "cosine": 0.06110817971318846, "jaccard": 0.021725636250775917}]}

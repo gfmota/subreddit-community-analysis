@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2s8x6", "name": "castiron", "interactions": 39861, "users": 2116, "degree": 2, "strength": 70}, {"id": "t5_3iar1", "name": "carbonsteel", "interactions": 6926, "users": 507, "degree": 1, "strength": 33}], "edges": [{"source": "t5_2s8x6", "target": "t5_3iar1", "shared_users": 33, "cosine": 0.03186046635996262, "jaccard": 0.012741312741312742}]}

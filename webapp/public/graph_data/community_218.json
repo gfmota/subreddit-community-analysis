@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qhix", "name": "poker", "interactions": 40043, "users": 3052, "degree": 3, "strength": 137}, {"id": "t5_349sh8", "name": "GGPoker", "interactions": 6612, "users": 567, "degree": 1, "strength": 53}], "edges": [{"source": "t5_2qhix", "target": "t5_349sh8", "shared_users": 53, "cosine": 0.040289518346603985, "jaccard": 0.014862591138530567}]}

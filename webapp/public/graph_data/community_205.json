@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_30dfd", "name": "rainworld", "interactions": 27631, "users": 1306, "degree": 2, "strength": 101}, {"id": "t5_7rzf0l", "name": "OkbuddyRainworld", "interactions": 3168, "users": 160, "degree": 1, "strength": 66}], "edges": [{"source": "t5_30dfd", "target": "t5_7rzf0l", "shared_users": 66, "cosine": 0.14438176805400751, "jaccard": 0.047142857142857146}]}

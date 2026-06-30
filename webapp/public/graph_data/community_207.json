@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2t4ts", "name": "f150", "interactions": 27407, "users": 2600, "degree": 2, "strength": 54}, {"id": "t5_2yqr6", "name": "FordRaptor", "interactions": 4847, "users": 502, "degree": 1, "strength": 25}], "edges": [{"source": "t5_2t4ts", "target": "t5_2yqr6", "shared_users": 25, "cosine": 0.021882728703413613, "jaccard": 0.008124796880077998}]}

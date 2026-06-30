@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2s453", "name": "CrohnsDisease", "interactions": 18005, "users": 1733, "degree": 2, "strength": 76}, {"id": "t5_2tb9x", "name": "UlcerativeColitis", "interactions": 15395, "users": 1340, "degree": 1, "strength": 44}], "edges": [{"source": "t5_2s453", "target": "t5_2tb9x", "shared_users": 44, "cosine": 0.028873604006272105, "jaccard": 0.014526246285902938}]}

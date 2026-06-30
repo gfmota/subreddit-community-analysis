@@ -326,3 +326,37 @@ make run-pipeline DATE=<YEAR>-<MONTH>
 
 This runs all four steps in order. Intermediate outputs are written to `storage/` and can be
 inspected independently between steps.
+
+## Web interface
+
+A standalone React application (Vite + Sigma.js + graphology) provides interactive exploration
+of the subreddit network. It reads the static JSON files produced by `export_network_step.py`
+from `public/graph_data/` — no backend or live computation is involved.
+
+The interface has two views:
+
+**Community overview** — the default view, showing one node per community, sized by member
+count and connected by edges representing inter-community links. Clicking a community zooms
+into its detail view.
+
+**Community detail** — shows the subreddits within a selected community as nodes, colored
+consistently with their community's color from the overview, connected by their relations.
+Clicking a subreddit highlights its direct connections and opens a side panel with its metrics
+(interactions, users, degree, strength) and a ranked list of its connections.
+
+A search bar, available from both views, allows looking up a subreddit by name and jumping
+directly to its community with the subreddit pre-selected.
+
+### Running the interface
+
+```sh
+cd web
+npm install
+npm run dev
+```
+
+Copy the exported JSON files into the app's public directory before running:
+
+```sh
+cp storage/network/<date>/web/*.json web/public/graph_data/
+```

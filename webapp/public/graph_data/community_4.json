@@ -1,0 +1,4138 @@
+{
+  "nodes": [
+    {
+      "id": "t5_2y1rb",
+      "name": "Asmongold",
+      "interactions": 127731,
+      "users": 8056,
+      "degree": 20,
+      "strength": 2429
+    },
+    {
+      "id": "t5_3910n",
+      "name": "PathOfExile2",
+      "interactions": 763415,
+      "users": 62588,
+      "degree": 131,
+      "strength": 33526
+    },
+    {
+      "id": "t5_59294v",
+      "name": "throneandliberty",
+      "interactions": 69285,
+      "users": 5410,
+      "degree": 5,
+      "strength": 498
+    },
+    {
+      "id": "t5_2ts2c",
+      "name": "gamingmemes",
+      "interactions": 147991,
+      "users": 4593,
+      "degree": 17,
+      "strength": 1726
+    },
+    {
+      "id": "t5_2sf6m",
+      "name": "pathofexile",
+      "interactions": 418443,
+      "users": 35119,
+      "degree": 66,
+      "strength": 24500
+    },
+    {
+      "id": "t5_2qio8",
+      "name": "wow",
+      "interactions": 150191,
+      "users": 12362,
+      "degree": 28,
+      "strength": 4274
+    },
+    {
+      "id": "t5_2urg0",
+      "name": "Warframe",
+      "interactions": 226889,
+      "users": 16635,
+      "degree": 45,
+      "strength": 5410
+    },
+    {
+      "id": "t5_6a6mlb",
+      "name": "MarvelSnap",
+      "interactions": 89097,
+      "users": 6818,
+      "degree": 6,
+      "strength": 1477
+    },
+    {
+      "id": "t5_3eb8a",
+      "name": "classicwow",
+      "interactions": 167447,
+      "users": 12673,
+      "degree": 28,
+      "strength": 3941
+    },
+    {
+      "id": "t5_2qhzy",
+      "name": "videogames",
+      "interactions": 234408,
+      "users": 10851,
+      "degree": 53,
+      "strength": 4555
+    },
+    {
+      "id": "t5_2w6ir",
+      "name": "blackdesertonline",
+      "interactions": 16762,
+      "users": 1594,
+      "degree": 3,
+      "strength": 144
+    },
+    {
+      "id": "t5_2rfxx",
+      "name": "leagueoflegends",
+      "interactions": 162099,
+      "users": 12919,
+      "degree": 41,
+      "strength": 5338
+    },
+    {
+      "id": "t5_3a3ge",
+      "name": "LegendsOfRuneterra",
+      "interactions": 17269,
+      "users": 1347,
+      "degree": 1,
+      "strength": 52
+    },
+    {
+      "id": "t5_2we4j",
+      "name": "destiny2",
+      "interactions": 44975,
+      "users": 3731,
+      "degree": 4,
+      "strength": 1158
+    },
+    {
+      "id": "t5_3os9l4",
+      "name": "CrucibleGuidebook",
+      "interactions": 11131,
+      "users": 887,
+      "degree": 2,
+      "strength": 354
+    },
+    {
+      "id": "t5_38jf0",
+      "name": "LivestreamFail",
+      "interactions": 89357,
+      "users": 6845,
+      "degree": 20,
+      "strength": 2595
+    },
+    {
+      "id": "t5_324pd",
+      "name": "summonerswar",
+      "interactions": 32491,
+      "users": 2930,
+      "degree": 1,
+      "strength": 38
+    },
+    {
+      "id": "t5_2rrdo",
+      "name": "Maplestory",
+      "interactions": 25598,
+      "users": 2414,
+      "degree": 2,
+      "strength": 71
+    },
+    {
+      "id": "t5_2qil9",
+      "name": "Eve",
+      "interactions": 36114,
+      "users": 2713,
+      "degree": 2,
+      "strength": 83
+    },
+    {
+      "id": "t5_2s7yn",
+      "name": "Tekken",
+      "interactions": 95290,
+      "users": 6265,
+      "degree": 15,
+      "strength": 1634
+    },
+    {
+      "id": "t5_2u5kl",
+      "name": "Overwatch",
+      "interactions": 137597,
+      "users": 9654,
+      "degree": 21,
+      "strength": 3291
+    },
+    {
+      "id": "t5_3cb2g",
+      "name": "deadbydaylight",
+      "interactions": 127813,
+      "users": 8116,
+      "degree": 14,
+      "strength": 1964
+    },
+    {
+      "id": "t5_2sf2b",
+      "name": "Gamingcirclejerk",
+      "interactions": 143903,
+      "users": 5728,
+      "degree": 22,
+      "strength": 1631
+    },
+    {
+      "id": "t5_2wbww",
+      "name": "2007scape",
+      "interactions": 174222,
+      "users": 15501,
+      "degree": 28,
+      "strength": 4229
+    },
+    {
+      "id": "t5_34728",
+      "name": "ironscape",
+      "interactions": 30082,
+      "users": 3120,
+      "degree": 2,
+      "strength": 1334
+    },
+    {
+      "id": "t5_2tezb",
+      "name": "FinalFantasyVII",
+      "interactions": 8036,
+      "users": 536,
+      "degree": 2,
+      "strength": 105
+    },
+    {
+      "id": "t5_38p8s",
+      "name": "FFVIIRemake",
+      "interactions": 21496,
+      "users": 1342,
+      "degree": 4,
+      "strength": 311
+    },
+    {
+      "id": "t5_3dyt3",
+      "name": "WidowmakerMains",
+      "interactions": 2743,
+      "users": 214,
+      "degree": 1,
+      "strength": 49
+    },
+    {
+      "id": "t5_2xuqg",
+      "name": "loreofleague",
+      "interactions": 21936,
+      "users": 1208,
+      "degree": 4,
+      "strength": 453
+    },
+    {
+      "id": "t5_2s0lb",
+      "name": "residentevil",
+      "interactions": 45678,
+      "users": 2789,
+      "degree": 9,
+      "strength": 419
+    },
+    {
+      "id": "t5_2vmcy",
+      "name": "dauntless",
+      "interactions": 13738,
+      "users": 1035,
+      "degree": 1,
+      "strength": 46
+    },
+    {
+      "id": "t5_38c6g",
+      "name": "DestinyFashion",
+      "interactions": 12812,
+      "users": 1016,
+      "degree": 2,
+      "strength": 264
+    },
+    {
+      "id": "t5_39cvu",
+      "name": "ADCMains",
+      "interactions": 25624,
+      "users": 1808,
+      "degree": 4,
+      "strength": 615
+    },
+    {
+      "id": "t5_3ii1w",
+      "name": "Jungle_Mains",
+      "interactions": 15026,
+      "users": 1280,
+      "degree": 3,
+      "strength": 380
+    },
+    {
+      "id": "t5_2qhdi",
+      "name": "FinalFantasy",
+      "interactions": 53459,
+      "users": 3071,
+      "degree": 11,
+      "strength": 727
+    },
+    {
+      "id": "t5_2rgs7",
+      "name": "ffxiv",
+      "interactions": 81080,
+      "users": 6337,
+      "degree": 14,
+      "strength": 1727
+    },
+    {
+      "id": "t5_2tiga",
+      "name": "Guiltygear",
+      "interactions": 27931,
+      "users": 1835,
+      "degree": 4,
+      "strength": 278
+    },
+    {
+      "id": "t5_80wv28",
+      "name": "TheyBlamedTheBeasts",
+      "interactions": 4064,
+      "users": 296,
+      "degree": 1,
+      "strength": 143
+    },
+    {
+      "id": "t5_3pobe",
+      "name": "MoiraMains",
+      "interactions": 2414,
+      "users": 195,
+      "degree": 1,
+      "strength": 42
+    },
+    {
+      "id": "t5_3ejub",
+      "name": "luciomains",
+      "interactions": 2545,
+      "users": 188,
+      "degree": 1,
+      "strength": 33
+    },
+    {
+      "id": "t5_rgzzt",
+      "name": "apexlegends",
+      "interactions": 48927,
+      "users": 3991,
+      "degree": 5,
+      "strength": 469
+    },
+    {
+      "id": "t5_xsxno",
+      "name": "ApexConsole",
+      "interactions": 2676,
+      "users": 223,
+      "degree": 1,
+      "strength": 87
+    },
+    {
+      "id": "t5_3m08g",
+      "name": "LastEpoch",
+      "interactions": 7490,
+      "users": 498,
+      "degree": 1,
+      "strength": 155
+    },
+    {
+      "id": "t5_2re2c",
+      "name": "arcane",
+      "interactions": 198617,
+      "users": 11564,
+      "degree": 28,
+      "strength": 3404
+    },
+    {
+      "id": "t5_2yr5r",
+      "name": "leagueofjinx",
+      "interactions": 12090,
+      "users": 860,
+      "degree": 2,
+      "strength": 249
+    },
+    {
+      "id": "t5_4mdmi7",
+      "name": "CriticalDrinker",
+      "interactions": 29906,
+      "users": 1345,
+      "degree": 3,
+      "strength": 237
+    },
+    {
+      "id": "t5_azqpb9",
+      "name": "brightershores",
+      "interactions": 15760,
+      "users": 1149,
+      "degree": 3,
+      "strength": 173
+    },
+    {
+      "id": "t5_2qwxl",
+      "name": "runescape",
+      "interactions": 46989,
+      "users": 3818,
+      "degree": 3,
+      "strength": 342
+    },
+    {
+      "id": "t5_2qnu5",
+      "name": "StreetFighter",
+      "interactions": 42765,
+      "users": 3086,
+      "degree": 8,
+      "strength": 660
+    },
+    {
+      "id": "t5_2robf",
+      "name": "MortalKombat",
+      "interactions": 59575,
+      "users": 3751,
+      "degree": 8,
+      "strength": 472
+    },
+    {
+      "id": "t5_2vnbs",
+      "name": "Persona5",
+      "interactions": 34175,
+      "users": 2017,
+      "degree": 5,
+      "strength": 424
+    },
+    {
+      "id": "t5_8ktz02",
+      "name": "MetaphorReFantazio",
+      "interactions": 31616,
+      "users": 2278,
+      "degree": 6,
+      "strength": 324
+    },
+    {
+      "id": "t5_3kapl",
+      "name": "PiltoversFinest",
+      "interactions": 22630,
+      "users": 1112,
+      "degree": 1,
+      "strength": 476
+    },
+    {
+      "id": "t5_2t7gp",
+      "name": "thelastofus",
+      "interactions": 33522,
+      "users": 2004,
+      "degree": 4,
+      "strength": 225
+    },
+    {
+      "id": "t5_2t9x3",
+      "name": "summonerschool",
+      "interactions": 18136,
+      "users": 1423,
+      "degree": 3,
+      "strength": 522
+    },
+    {
+      "id": "t5_aqq00d",
+      "name": "marvelrivals",
+      "interactions": 646967,
+      "users": 45416,
+      "degree": 172,
+      "strength": 19646
+    },
+    {
+      "id": "t5_4bjjb",
+      "name": "MarvelStrikeForce",
+      "interactions": 17355,
+      "users": 1474,
+      "degree": 1,
+      "strength": 29
+    },
+    {
+      "id": "t5_3el0q",
+      "name": "Overwatch_Memes",
+      "interactions": 13277,
+      "users": 651,
+      "degree": 2,
+      "strength": 239
+    },
+    {
+      "id": "t5_2qlxw",
+      "name": "MMORPG",
+      "interactions": 21974,
+      "users": 1535,
+      "degree": 6,
+      "strength": 316
+    },
+    {
+      "id": "t5_2c16sg",
+      "name": "Kappachino",
+      "interactions": 15950,
+      "users": 1013,
+      "degree": 3,
+      "strength": 198
+    },
+    {
+      "id": "t5_2s5rz",
+      "name": "Fighters",
+      "interactions": 17341,
+      "users": 968,
+      "degree": 3,
+      "strength": 269
+    },
+    {
+      "id": "t5_4jn9v4",
+      "name": "Palworld",
+      "interactions": 56501,
+      "users": 4019,
+      "degree": 5,
+      "strength": 261
+    },
+    {
+      "id": "t5_39ba7",
+      "name": "warwickmains",
+      "interactions": 6324,
+      "users": 503,
+      "degree": 1,
+      "strength": 58
+    },
+    {
+      "id": "t5_2quw1",
+      "name": "JRPG",
+      "interactions": 44614,
+      "users": 2607,
+      "degree": 10,
+      "strength": 598
+    },
+    {
+      "id": "t5_3f0tc",
+      "name": "SombraMains",
+      "interactions": 3574,
+      "users": 223,
+      "degree": 1,
+      "strength": 53
+    },
+    {
+      "id": "t5_8s17z7",
+      "name": "pathofexile2builds",
+      "interactions": 23873,
+      "users": 2168,
+      "degree": 2,
+      "strength": 2006
+    },
+    {
+      "id": "t5_1476rf",
+      "name": "OkBuddyPersona",
+      "interactions": 29355,
+      "users": 921,
+      "degree": 3,
+      "strength": 228
+    },
+    {
+      "id": "t5_2rg0t",
+      "name": "PERSoNA",
+      "interactions": 30451,
+      "users": 1669,
+      "degree": 5,
+      "strength": 522
+    },
+    {
+      "id": "t5_xdnze",
+      "name": "Mortalkombatleaks",
+      "interactions": 2474,
+      "users": 144,
+      "degree": 1,
+      "strength": 66
+    },
+    {
+      "id": "t5_2z6la",
+      "name": "wartrade",
+      "interactions": 6271,
+      "users": 812,
+      "degree": 1,
+      "strength": 290
+    },
+    {
+      "id": "t5_2uvie",
+      "name": "fightsticks",
+      "interactions": 7911,
+      "users": 849,
+      "degree": 2,
+      "strength": 153
+    },
+    {
+      "id": "t5_6kv7zd",
+      "name": "memesopdidnotlike",
+      "interactions": 36497,
+      "users": 997,
+      "degree": 1,
+      "strength": 102
+    },
+    {
+      "id": "t5_2wbh2",
+      "name": "FFXVI",
+      "interactions": 11906,
+      "users": 775,
+      "degree": 2,
+      "strength": 97
+    },
+    {
+      "id": "t5_2w31t",
+      "name": "hearthstone",
+      "interactions": 38218,
+      "users": 3066,
+      "degree": 5,
+      "strength": 456
+    },
+    {
+      "id": "t5_3c9yt",
+      "name": "wildhearthstone",
+      "interactions": 3697,
+      "users": 333,
+      "degree": 1,
+      "strength": 119
+    },
+    {
+      "id": "t5_31kon",
+      "name": "TimeBomb",
+      "interactions": 19645,
+      "users": 818,
+      "degree": 1,
+      "strength": 376
+    },
+    {
+      "id": "t5_2v7zr",
+      "name": "Paladins",
+      "interactions": 8296,
+      "users": 659,
+      "degree": 1,
+      "strength": 61
+    },
+    {
+      "id": "t5_3abd1",
+      "name": "supportlol",
+      "interactions": 6975,
+      "users": 533,
+      "degree": 1,
+      "strength": 105
+    },
+    {
+      "id": "t5_3e9nc",
+      "name": "wowclassic",
+      "interactions": 2718,
+      "users": 219,
+      "degree": 1,
+      "strength": 72
+    },
+    {
+      "id": "t5_3e8bz",
+      "name": "MercyMains",
+      "interactions": 9015,
+      "users": 798,
+      "degree": 1,
+      "strength": 144
+    },
+    {
+      "id": "t5_22ly7r",
+      "name": "ffxivdiscussion",
+      "interactions": 20542,
+      "users": 1373,
+      "degree": 2,
+      "strength": 567
+    },
+    {
+      "id": "t5_3lacy",
+      "name": "ShitpostXIV",
+      "interactions": 16602,
+      "users": 1184,
+      "degree": 2,
+      "strength": 492
+    },
+    {
+      "id": "t5_2vq0w",
+      "name": "DestinyTheGame",
+      "interactions": 77090,
+      "users": 5334,
+      "degree": 8,
+      "strength": 1641
+    },
+    {
+      "id": "t5_67nnu3",
+      "name": "TheFirstDescendant",
+      "interactions": 80920,
+      "users": 5033,
+      "degree": 8,
+      "strength": 581
+    },
+    {
+      "id": "t5_2s580",
+      "name": "DotA2",
+      "interactions": 88303,
+      "users": 8225,
+      "degree": 15,
+      "strength": 1374
+    },
+    {
+      "id": "t5_3a2md",
+      "name": "GeForceNOW",
+      "interactions": 23219,
+      "users": 2218,
+      "degree": 3,
+      "strength": 244
+    },
+    {
+      "id": "t5_xsntt",
+      "name": "PredecessorGame",
+      "interactions": 15764,
+      "users": 1123,
+      "degree": 1,
+      "strength": 65
+    },
+    {
+      "id": "t5_37rrb",
+      "name": "WarframeRunway",
+      "interactions": 8800,
+      "users": 714,
+      "degree": 1,
+      "strength": 338
+    },
+    {
+      "id": "t5_cq6f0w",
+      "name": "MarvelRivalsLeaks",
+      "interactions": 7420,
+      "users": 493,
+      "degree": 1,
+      "strength": 323
+    },
+    {
+      "id": "t5_32int",
+      "name": "SKTT1",
+      "interactions": 10943,
+      "users": 688,
+      "degree": 2,
+      "strength": 321
+    },
+    {
+      "id": "t5_7k3tvo",
+      "name": "PedroPeepos",
+      "interactions": 20221,
+      "users": 1880,
+      "degree": 2,
+      "strength": 595
+    },
+    {
+      "id": "t5_87dvw3",
+      "name": "supervive",
+      "interactions": 18356,
+      "users": 1494,
+      "degree": 2,
+      "strength": 195
+    },
+    {
+      "id": "t5_bjbudo",
+      "name": "DeadlockTheGame",
+      "interactions": 62313,
+      "users": 4893,
+      "degree": 5,
+      "strength": 610
+    },
+    {
+      "id": "t5_3f3wt",
+      "name": "OWConsole",
+      "interactions": 4100,
+      "users": 314,
+      "degree": 1,
+      "strength": 69
+    },
+    {
+      "id": "t5_7b1b2l",
+      "name": "MarvelSnapDecks",
+      "interactions": 11891,
+      "users": 1119,
+      "degree": 1,
+      "strength": 573
+    },
+    {
+      "id": "t5_3ic8l",
+      "name": "stoneshard",
+      "interactions": 10337,
+      "users": 737,
+      "degree": 1,
+      "strength": 28
+    },
+    {
+      "id": "t5_lghxu",
+      "name": "TheDragonPrince",
+      "interactions": 17334,
+      "users": 946,
+      "degree": 1,
+      "strength": 26
+    },
+    {
+      "id": "t5_2tx5b",
+      "name": "DevilMayCry",
+      "interactions": 30590,
+      "users": 1809,
+      "degree": 4,
+      "strength": 121
+    },
+    {
+      "id": "t5_6bcbgw",
+      "name": "warcraftrumble",
+      "interactions": 13194,
+      "users": 1188,
+      "degree": 1,
+      "strength": 46
+    },
+    {
+      "id": "t5_3hu3k",
+      "name": "AshesofCreation",
+      "interactions": 8467,
+      "users": 802,
+      "degree": 1,
+      "strength": 48
+    },
+    {
+      "id": "t5_vz6gk",
+      "name": "CompetitiveApex",
+      "interactions": 5636,
+      "users": 526,
+      "degree": 1,
+      "strength": 72
+    },
+    {
+      "id": "t5_2whx3",
+      "name": "osrs",
+      "interactions": 23084,
+      "users": 2346,
+      "degree": 2,
+      "strength": 842
+    },
+    {
+      "id": "t5_7r9k9p",
+      "name": "wowhardcore",
+      "interactions": 34117,
+      "users": 2841,
+      "degree": 3,
+      "strength": 999
+    },
+    {
+      "id": "t5_2ay9xe",
+      "name": "DeadByDaylightRAGE",
+      "interactions": 19991,
+      "users": 999,
+      "degree": 1,
+      "strength": 428
+    },
+    {
+      "id": "t5_27vr4u",
+      "name": "BobsTavern",
+      "interactions": 22441,
+      "users": 1915,
+      "degree": 2,
+      "strength": 165
+    },
+    {
+      "id": "t5_2rrim",
+      "name": "silenthill",
+      "interactions": 47459,
+      "users": 3428,
+      "degree": 6,
+      "strength": 302
+    },
+    {
+      "id": "t5_2ru1l",
+      "name": "Intergalactic",
+      "interactions": 8379,
+      "users": 484,
+      "degree": 2,
+      "strength": 99
+    },
+    {
+      "id": "t5_2ukaa",
+      "name": "naughtydog",
+      "interactions": 21545,
+      "users": 1053,
+      "degree": 2,
+      "strength": 117
+    },
+    {
+      "id": "t5_cw2fj5",
+      "name": "Arcanecirclejerk",
+      "interactions": 5376,
+      "users": 191,
+      "degree": 1,
+      "strength": 89
+    },
+    {
+      "id": "t5_2zpfvp",
+      "name": "LeaksDBD",
+      "interactions": 3714,
+      "users": 243,
+      "degree": 1,
+      "strength": 121
+    },
+    {
+      "id": "t5_pitbo",
+      "name": "MauLer",
+      "interactions": 27673,
+      "users": 1129,
+      "degree": 2,
+      "strength": 136
+    },
+    {
+      "id": "t5_2rqql",
+      "name": "virtuafighter",
+      "interactions": 6290,
+      "users": 399,
+      "degree": 1,
+      "strength": 65
+    },
+    {
+      "id": "t5_gmuky",
+      "name": "Nmpx",
+      "interactions": 7322,
+      "users": 654,
+      "degree": 1,
+      "strength": 146
+    },
+    {
+      "id": "t5_2wbvb",
+      "name": "worldofpvp",
+      "interactions": 22558,
+      "users": 1786,
+      "degree": 2,
+      "strength": 361
+    },
+    {
+      "id": "t5_35idp",
+      "name": "wownoob",
+      "interactions": 19468,
+      "users": 1593,
+      "degree": 2,
+      "strength": 612
+    },
+    {
+      "id": "t5_2stl8",
+      "name": "Smite",
+      "interactions": 15971,
+      "users": 1213,
+      "degree": 1,
+      "strength": 81
+    },
+    {
+      "id": "t5_2yqtkx",
+      "name": "SuicideSquadGaming",
+      "interactions": 11540,
+      "users": 689,
+      "degree": 1,
+      "strength": 53
+    },
+    {
+      "id": "t5_34fcy",
+      "name": "Competitiveoverwatch",
+      "interactions": 22222,
+      "users": 1331,
+      "degree": 2,
+      "strength": 445
+    },
+    {
+      "id": "t5_3gmxe",
+      "name": "newworldgame",
+      "interactions": 29984,
+      "users": 2418,
+      "degree": 3,
+      "strength": 181
+    },
+    {
+      "id": "t5_6italp",
+      "name": "DarkAndDarker",
+      "interactions": 40747,
+      "users": 2744,
+      "degree": 3,
+      "strength": 221
+    },
+    {
+      "id": "t5_9udgaz",
+      "name": "VentureMains",
+      "interactions": 15052,
+      "users": 978,
+      "degree": 2,
+      "strength": 240
+    },
+    {
+      "id": "t5_24knsa",
+      "name": "wildrift",
+      "interactions": 42448,
+      "users": 3739,
+      "degree": 5,
+      "strength": 195
+    },
+    {
+      "id": "t5_58epme",
+      "name": "MultiVersusTheGame",
+      "interactions": 9549,
+      "users": 487,
+      "degree": 2,
+      "strength": 304
+    },
+    {
+      "id": "t5_34fcr",
+      "name": "overwatch2",
+      "interactions": 27977,
+      "users": 1987,
+      "degree": 2,
+      "strength": 739
+    },
+    {
+      "id": "t5_4vqnu4",
+      "name": "MultiVersus",
+      "interactions": 23757,
+      "users": 1264,
+      "degree": 2,
+      "strength": 375
+    },
+    {
+      "id": "t5_8pimef",
+      "name": "balatro",
+      "interactions": 75800,
+      "users": 6599,
+      "degree": 12,
+      "strength": 613
+    },
+    {
+      "id": "t5_2s3jo",
+      "name": "KingdomHearts",
+      "interactions": 31871,
+      "users": 2193,
+      "degree": 4,
+      "strength": 151
+    },
+    {
+      "id": "t5_2xx8w",
+      "name": "yakuzagames",
+      "interactions": 49837,
+      "users": 3075,
+      "degree": 8,
+      "strength": 261
+    },
+    {
+      "id": "t5_35rwtp",
+      "name": "PhasmophobiaGame",
+      "interactions": 32621,
+      "users": 3013,
+      "degree": 3,
+      "strength": 130
+    },
+    {
+      "id": "t5_1136aw",
+      "name": "TeamfightTactics",
+      "interactions": 41508,
+      "users": 4212,
+      "degree": 6,
+      "strength": 892
+    },
+    {
+      "id": "t5_12v94g",
+      "name": "CompetitiveTFT",
+      "interactions": 21698,
+      "users": 1865,
+      "degree": 2,
+      "strength": 523
+    },
+    {
+      "id": "t5_2tta4",
+      "name": "learndota2",
+      "interactions": 7462,
+      "users": 683,
+      "degree": 1,
+      "strength": 301
+    },
+    {
+      "id": "t5_d745ve",
+      "name": "FreeGamingMemes",
+      "interactions": 6858,
+      "users": 201,
+      "degree": 1,
+      "strength": 52
+    },
+    {
+      "id": "t5_3ei1z",
+      "name": "ReinhardtMains",
+      "interactions": 2724,
+      "users": 199,
+      "degree": 1,
+      "strength": 53
+    },
+    {
+      "id": "t5_2tavq",
+      "name": "riotgames",
+      "interactions": 9091,
+      "users": 669,
+      "degree": 1,
+      "strength": 69
+    },
+    {
+      "id": "t5_2waqy",
+      "name": "persona4golden",
+      "interactions": 8122,
+      "users": 522,
+      "degree": 2,
+      "strength": 134
+    },
+    {
+      "id": "t5_odx9b",
+      "name": "turtlewow",
+      "interactions": 6288,
+      "users": 729,
+      "degree": 1,
+      "strength": 55
+    },
+    {
+      "id": "t5_56gocw",
+      "name": "TheTowerGame",
+      "interactions": 58723,
+      "users": 3440,
+      "degree": 1,
+      "strength": 44
+    },
+    {
+      "id": "t5_2xgtw",
+      "name": "TheLastOfUs2",
+      "interactions": 51418,
+      "users": 2224,
+      "degree": 5,
+      "strength": 352
+    },
+    {
+      "id": "t5_2tf0e",
+      "name": "LeagueOfMemes",
+      "interactions": 23635,
+      "users": 1413,
+      "degree": 3,
+      "strength": 311
+    },
+    {
+      "id": "t5_34fdh",
+      "name": "OverwatchCirclejerk",
+      "interactions": 5648,
+      "users": 306,
+      "degree": 1,
+      "strength": 42
+    },
+    {
+      "id": "t5_6jkta2",
+      "name": "FF7Rebirth",
+      "interactions": 5126,
+      "users": 338,
+      "degree": 1,
+      "strength": 69
+    },
+    {
+      "id": "t5_2sbty",
+      "name": "dragonquest",
+      "interactions": 19417,
+      "users": 1448,
+      "degree": 2,
+      "strength": 83
+    },
+    {
+      "id": "t5_33td5",
+      "name": "forsen",
+      "interactions": 37906,
+      "users": 1592,
+      "degree": 2,
+      "strength": 136
+    },
+    {
+      "id": "t5_3onkg",
+      "name": "RPClipsGTA",
+      "interactions": 7033,
+      "users": 674,
+      "degree": 1,
+      "strength": 62
+    },
+    {
+      "id": "t5_2c22wm",
+      "name": "Tekken8",
+      "interactions": 10683,
+      "users": 828,
+      "degree": 1,
+      "strength": 382
+    },
+    {
+      "id": "t5_2s4hr",
+      "name": "metalgearsolid",
+      "interactions": 29444,
+      "users": 1908,
+      "degree": 3,
+      "strength": 121
+    },
+    {
+      "id": "t5_3f19t",
+      "name": "DeathStranding",
+      "interactions": 19059,
+      "users": 1401,
+      "degree": 1,
+      "strength": 30
+    },
+    {
+      "id": "t5_35sfm6",
+      "name": "BoosteroidCommunity",
+      "interactions": 4077,
+      "users": 408,
+      "degree": 1,
+      "strength": 73
+    },
+    {
+      "id": "t5_3hbbd",
+      "name": "slaythespire",
+      "interactions": 36848,
+      "users": 2725,
+      "degree": 2,
+      "strength": 104
+    },
+    {
+      "id": "t5_33726",
+      "name": "KotakuInAction",
+      "interactions": 42320,
+      "users": 1952,
+      "degree": 3,
+      "strength": 238
+    },
+    {
+      "id": "t5_c4p8t5",
+      "name": "MarvelRivalsR34nsfw",
+      "interactions": 5684,
+      "users": 588,
+      "degree": 1,
+      "strength": 35
+    },
+    {
+      "id": "t5_8k2dlt",
+      "name": "persona3reload",
+      "interactions": 9507,
+      "users": 682,
+      "degree": 2,
+      "strength": 159
+    },
+    {
+      "id": "t5_2wj4r",
+      "name": "residentevil4",
+      "interactions": 7388,
+      "users": 457,
+      "degree": 1,
+      "strength": 64
+    },
+    {
+      "id": "t5_32vt5",
+      "name": "Falcom",
+      "interactions": 16967,
+      "users": 1059,
+      "degree": 1,
+      "strength": 95
+    },
+    {
+      "id": "t5_2r9po",
+      "name": "Guildwars2",
+      "interactions": 33146,
+      "users": 3151,
+      "degree": 3,
+      "strength": 186
+    },
+    {
+      "id": "t5_bd30s7",
+      "name": "LowSodiumTEKKEN",
+      "interactions": 4845,
+      "users": 375,
+      "degree": 1,
+      "strength": 220
+    },
+    {
+      "id": "t5_34jq7",
+      "name": "lostarkgame",
+      "interactions": 24775,
+      "users": 1893,
+      "degree": 2,
+      "strength": 246
+    },
+    {
+      "id": "t5_2x46h",
+      "name": "ARAM",
+      "interactions": 9732,
+      "users": 846,
+      "degree": 1,
+      "strength": 91
+    },
+    {
+      "id": "t5_2kkfny",
+      "name": "ProjectDiablo2",
+      "interactions": 8052,
+      "users": 867,
+      "degree": 1,
+      "strength": 85
+    },
+    {
+      "id": "t5_2s6i9",
+      "name": "Grimdawn",
+      "interactions": 8293,
+      "users": 659,
+      "degree": 1,
+      "strength": 83
+    },
+    {
+      "id": "t5_2wiw0",
+      "name": "albiononline",
+      "interactions": 14830,
+      "users": 1348,
+      "degree": 1,
+      "strength": 30
+    },
+    {
+      "id": "t5_2rzx9",
+      "name": "diablo4",
+      "interactions": 61847,
+      "users": 4356,
+      "degree": 2,
+      "strength": 1016
+    },
+    {
+      "id": "t5_378p4",
+      "name": "viktormains",
+      "interactions": 25537,
+      "users": 1800,
+      "degree": 3,
+      "strength": 407
+    },
+    {
+      "id": "t5_2w3q8",
+      "name": "PathOfExileBuilds",
+      "interactions": 26360,
+      "users": 2551,
+      "degree": 2,
+      "strength": 2431
+    },
+    {
+      "id": "t5_7038i7",
+      "name": "kirikomains",
+      "interactions": 3584,
+      "users": 237,
+      "degree": 1,
+      "strength": 52
+    },
+    {
+      "id": "t5_4y8c2q",
+      "name": "lightcannon",
+      "interactions": 3697,
+      "users": 169,
+      "degree": 1,
+      "strength": 50
+    },
+    {
+      "id": "t5_8chex6",
+      "name": "Enshrouded",
+      "interactions": 11584,
+      "users": 1057,
+      "degree": 1,
+      "strength": 29
+    },
+    {
+      "id": "t5_2t0xw",
+      "name": "thevenomsite",
+      "interactions": 7927,
+      "users": 355,
+      "degree": 1,
+      "strength": 51
+    },
+    {
+      "id": "t5_hl127",
+      "name": "PlayTheBazaar",
+      "interactions": 43855,
+      "users": 4305,
+      "degree": 4,
+      "strength": 402
+    },
+    {
+      "id": "t5_6gtv97",
+      "name": "WatcherofRealmsGame",
+      "interactions": 17916,
+      "users": 1268,
+      "degree": 1,
+      "strength": 31
+    },
+    {
+      "id": "t5_npfgx",
+      "name": "RaidShadowLegends",
+      "interactions": 46787,
+      "users": 3410,
+      "degree": 2,
+      "strength": 73
+    },
+    {
+      "id": "t5_7hkaom",
+      "name": "ItsAllAboutGames",
+      "interactions": 20581,
+      "users": 625,
+      "degree": 1,
+      "strength": 47
+    },
+    {
+      "id": "t5_30mve",
+      "name": "customhearthstone",
+      "interactions": 7026,
+      "users": 494,
+      "degree": 1,
+      "strength": 116
+    },
+    {
+      "id": "t5_w42u9",
+      "name": "apexuniversity",
+      "interactions": 4446,
+      "users": 387,
+      "degree": 1,
+      "strength": 154
+    },
+    {
+      "id": "t5_2sra6",
+      "name": "Transmogrification",
+      "interactions": 7218,
+      "users": 664,
+      "degree": 1,
+      "strength": 176
+    },
+    {
+      "id": "t5_2thzw",
+      "name": "animecirclejerk",
+      "interactions": 16450,
+      "users": 577,
+      "degree": 1,
+      "strength": 29
+    },
+    {
+      "id": "t5_2zmi9",
+      "name": "PantheonMMO",
+      "interactions": 8559,
+      "users": 732,
+      "degree": 1,
+      "strength": 54
+    },
+    {
+      "id": "t5_syz7q",
+      "name": "saltierthankrayt",
+      "interactions": 29936,
+      "users": 1067,
+      "degree": 1,
+      "strength": 100
+    },
+    {
+      "id": "t5_3gag7",
+      "name": "DeadByDaylightKillers",
+      "interactions": 16018,
+      "users": 965,
+      "degree": 1,
+      "strength": 497
+    },
+    {
+      "id": "t5_21q0in",
+      "name": "TalesFromDF",
+      "interactions": 5403,
+      "users": 458,
+      "degree": 1,
+      "strength": 154
+    },
+    {
+      "id": "t5_26o362",
+      "name": "ArcaneAnimatedSeries",
+      "interactions": 27932,
+      "users": 1549,
+      "degree": 1,
+      "strength": 583
+    },
+    {
+      "id": "t5_i5v51",
+      "name": "WarframeLore",
+      "interactions": 3143,
+      "users": 180,
+      "degree": 1,
+      "strength": 131
+    },
+    {
+      "id": "t5_35p2p",
+      "name": "CompetitiveWoW",
+      "interactions": 13193,
+      "users": 1030,
+      "degree": 1,
+      "strength": 412
+    },
+    {
+      "id": "t5_2s5rg",
+      "name": "warcraftlore",
+      "interactions": 9005,
+      "users": 492,
+      "degree": 1,
+      "strength": 149
+    },
+    {
+      "id": "t5_39wu3",
+      "name": "SocialistGaming",
+      "interactions": 22596,
+      "users": 875,
+      "degree": 1,
+      "strength": 55
+    },
+    {
+      "id": "t5_7hpaxs",
+      "name": "marvelsnapcomp",
+      "interactions": 2527,
+      "users": 231,
+      "degree": 1,
+      "strength": 113
+    },
+    {
+      "id": "t5_2vcc3",
+      "name": "Xenoblade_Chronicles",
+      "interactions": 14255,
+      "users": 904,
+      "degree": 1,
+      "strength": 28
+    },
+    {
+      "id": "t5_304h3",
+      "name": "finalfantasyx",
+      "interactions": 9191,
+      "users": 617,
+      "degree": 1,
+      "strength": 43
+    },
+    {
+      "id": "t5_6d1a9s",
+      "name": "MetalGearInMyAss",
+      "interactions": 10751,
+      "users": 651,
+      "degree": 1,
+      "strength": 53
+    },
+    {
+      "id": "t5_2v9u2",
+      "name": "woweconomy",
+      "interactions": 2914,
+      "users": 272,
+      "degree": 1,
+      "strength": 77
+    },
+    {
+      "id": "t5_316z1",
+      "name": "FFXIVGlamours",
+      "interactions": 3540,
+      "users": 292,
+      "degree": 1,
+      "strength": 77
+    },
+    {
+      "id": "t5_2sj8i",
+      "name": "Megaten",
+      "interactions": 9430,
+      "users": 591,
+      "degree": 1,
+      "strength": 37
+    },
+    {
+      "id": "t5_7x3trg",
+      "name": "OnceHumanOfficial",
+      "interactions": 14380,
+      "users": 1434,
+      "degree": 1,
+      "strength": 34
+    },
+    {
+      "id": "t5_2t6sj",
+      "name": "northernlion",
+      "interactions": 7299,
+      "users": 736,
+      "degree": 1,
+      "strength": 57
+    },
+    {
+      "id": "t5_35mye",
+      "name": "marvelmemes",
+      "interactions": 25583,
+      "users": 758,
+      "degree": 1,
+      "strength": 37
+    },
+    {
+      "id": "t5_3ejpe",
+      "name": "OverwatchUniversity",
+      "interactions": 11916,
+      "users": 881,
+      "degree": 1,
+      "strength": 195
+    },
+    {
+      "id": "t5_2wekr",
+      "name": "memeframe",
+      "interactions": 24994,
+      "users": 1671,
+      "degree": 1,
+      "strength": 1008
+    }
+  ],
+  "edges": [
+    {
+      "source": "t5_2y1rb",
+      "target": "t5_2ts2c",
+      "shared_users": 268,
+      "cosine": 0.04405820938320693,
+      "jaccard": 0.021646070592036184
+    },
+    {
+      "source": "t5_2y1rb",
+      "target": "t5_2qio8",
+      "shared_users": 84,
+      "cosine": 0.008417346158660277,
+      "jaccard": 0.004131012097964001
+    },
+    {
+      "source": "t5_2y1rb",
+      "target": "t5_2sf6m",
+      "shared_users": 252,
+      "cosine": 0.014981998232107429,
+      "jaccard": 0.005870978263401906
+    },
+    {
+      "source": "t5_2y1rb",
+      "target": "t5_4mdmi7",
+      "shared_users": 108,
+      "cosine": 0.03280974722998347,
+      "jaccard": 0.011621650704831593
+    },
+    {
+      "source": "t5_2y1rb",
+      "target": "t5_3eb8a",
+      "shared_users": 106,
+      "cosine": 0.010490747134326588,
+      "jaccard": 0.005139892353197886
+    },
+    {
+      "source": "t5_2y1rb",
+      "target": "t5_38jf0",
+      "shared_users": 103,
+      "cosine": 0.013870456979984609,
+      "jaccard": 0.00696040005406136
+    },
+    {
+      "source": "t5_2y1rb",
+      "target": "t5_67nnu3",
+      "shared_users": 39,
+      "cosine": 0.006124792966822462,
+      "jaccard": 0.002988505747126437
+    },
+    {
+      "source": "t5_2y1rb",
+      "target": "t5_3910n",
+      "shared_users": 516,
+      "cosine": 0.022979704298316965,
+      "jaccard": 0.007357973990417523
+    },
+    {
+      "source": "t5_2y1rb",
+      "target": "t5_aqq00d",
+      "shared_users": 143,
+      "cosine": 0.007476044332992725,
+      "jaccard": 0.002681467869264378
+    },
+    {
+      "source": "t5_2y1rb",
+      "target": "t5_2sf2b",
+      "shared_users": 88,
+      "cosine": 0.01295452336746029,
+      "jaccard": 0.006425233644859813
+    },
+    {
+      "source": "t5_2y1rb",
+      "target": "t5_2qhzy",
+      "shared_users": 48,
+      "cosine": 0.0051338908006310835,
+      "jaccard": 0.0025452038814359193
+    },
+    {
+      "source": "t5_2y1rb",
+      "target": "t5_33726",
+      "shared_users": 133,
+      "cosine": 0.033539146421990886,
+      "jaccard": 0.013468354430379748
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_59294v",
+      "shared_users": 215,
+      "cosine": 0.011684073772460541,
+      "jaccard": 0.0031718867562663205
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_6a6mlb",
+      "shared_users": 77,
+      "cosine": 0.0037274917403133435,
+      "jaccard": 0.0011106463384730775
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_324pd",
+      "shared_users": 38,
+      "cosine": 0.002806107144418247,
+      "jaccard": 0.0005803298717165547
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_2ts2c",
+      "shared_users": 56,
+      "cosine": 0.003302891195802122,
+      "jaccard": 0.0008342644320297951
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_2sf2b",
+      "shared_users": 67,
+      "cosine": 0.003538569754459292,
+      "jaccard": 0.0009816993655584697
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_3m08g",
+      "shared_users": 155,
+      "cosine": 0.027763325820547028,
+      "jaccard": 0.0024630150482274236
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_azqpb9",
+      "shared_users": 56,
+      "cosine": 0.006603626105471521,
+      "jaccard": 0.0008793831755154599
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_4jn9v4",
+      "shared_users": 70,
+      "cosine": 0.004413605376296989,
+      "jaccard": 0.0010520462299171889
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_8s17z7",
+      "shared_users": 1242,
+      "cosine": 0.10662190063467793,
+      "jaccard": 0.01955474383600466
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_3a2md",
+      "shared_users": 113,
+      "cosine": 0.009590740397035223,
+      "jaccard": 0.0017467113907223347
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_87dvw3",
+      "shared_users": 80,
+      "cosine": 0.00827311671540238,
+      "jaccard": 0.001249960938720665
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_bjbudo",
+      "shared_users": 174,
+      "cosine": 0.00994296941381992,
+      "jaccard": 0.0025851694474571738
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_3ic8l",
+      "shared_users": 28,
+      "cosine": 0.004122671684675458,
+      "jaccard": 0.0004423590375531226
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_3hu3k",
+      "shared_users": 48,
+      "cosine": 0.006774987781163236,
+      "jaccard": 0.0007577910391209624
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_67nnu3",
+      "shared_users": 102,
+      "cosine": 0.005746999635879573,
+      "jaccard": 0.001510685881011271
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_27vr4u",
+      "shared_users": 54,
+      "cosine": 0.004932462972420979,
+      "jaccard": 0.0008378718056137411
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_2qlxw",
+      "shared_users": 66,
+      "cosine": 0.0067335518507015,
+      "jaccard": 0.0010303323602416598
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_2w6ir",
+      "shared_users": 57,
+      "cosine": 0.005706701548117842,
+      "jaccard": 0.0008888888888888889
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_2s580",
+      "shared_users": 190,
+      "cosine": 0.008374137946188182,
+      "jaccard": 0.0026903416733925207
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_aqq00d",
+      "shared_users": 521,
+      "cosine": 0.009772096471651287,
+      "jaccard": 0.0048472781742229
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_56gocw",
+      "shared_users": 44,
+      "cosine": 0.002998664776238055,
+      "jaccard": 0.0006668283220174588
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_8pimef",
+      "shared_users": 41,
+      "cosine": 0.0020174336276050126,
+      "jaccard": 0.0005929482544181876
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_3eb8a",
+      "shared_users": 271,
+      "cosine": 0.009622413960166483,
+      "jaccard": 0.003613815175356714
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_34jq7",
+      "shared_users": 154,
+      "cosine": 0.01414815720972705,
+      "jaccard": 0.0023940180639544827
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_2rgs7",
+      "shared_users": 85,
+      "cosine": 0.004268070015664084,
+      "jaccard": 0.0012347472399767577
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_2kkfny",
+      "shared_users": 85,
+      "cosine": 0.01153888486626338,
+      "jaccard": 0.001341328704434275
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_2wbww",
+      "shared_users": 252,
+      "cosine": 0.008090495966459686,
+      "jaccard": 0.003237534848465383
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_2qil9",
+      "shared_users": 51,
+      "cosine": 0.003913810033501204,
+      "jaccard": 0.0007816091954022989
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_2r9po",
+      "shared_users": 89,
+      "cosine": 0.006337533501427717,
+      "jaccard": 0.0013556740289413557
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_2s6i9",
+      "shared_users": 83,
+      "cosine": 0.01292378867952007,
+      "jaccard": 0.001314039642834526
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_1136aw",
+      "shared_users": 91,
+      "cosine": 0.0056046910028327845,
+      "jaccard": 0.0013641337750528414
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_2wiw0",
+      "shared_users": 30,
+      "cosine": 0.0032661097317647236,
+      "jaccard": 0.0004694394892498357
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_2rzx9",
+      "shared_users": 713,
+      "cosine": 0.04318173196606901,
+      "jaccard": 0.01076535157252646
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_2rrdo",
+      "shared_users": 40,
+      "cosine": 0.0032542118447670145,
+      "jaccard": 0.0006157445891444229
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_2qio8",
+      "shared_users": 255,
+      "cosine": 0.009167486389542063,
+      "jaccard": 0.0034138831247071426
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_2sf6m",
+      "shared_users": 16012,
+      "cosine": 0.34153009109657717,
+      "jaccard": 0.19599730705673543
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_2qhzy",
+      "shared_users": 94,
+      "cosine": 0.003607010735564924,
+      "jaccard": 0.0012816142886358987
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_2w3q8",
+      "shared_users": 1301,
+      "cosine": 0.10296189576071955,
+      "jaccard": 0.020379711143832826
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_8chex6",
+      "shared_users": 29,
+      "cosine": 0.0035654550637029877,
+      "jaccard": 0.0004558601609657948
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_hl127",
+      "shared_users": 181,
+      "cosine": 0.011026722876552049,
+      "jaccard": 0.0027131550545628972
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_3gmxe",
+      "shared_users": 105,
+      "cosine": 0.008535237571573926,
+      "jaccard": 0.0016178487234403168
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_6italp",
+      "shared_users": 108,
+      "cosine": 0.008241118615142701,
+      "jaccard": 0.001655832209002821
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_npfgx",
+      "shared_users": 42,
+      "cosine": 0.002874925294574113,
+      "jaccard": 0.0006367881618048396
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_2urg0",
+      "shared_users": 268,
+      "cosine": 0.008305730867925909,
+      "jaccard": 0.0033943385472737634
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_2qnu5",
+      "shared_users": 50,
+      "cosine": 0.0035977129259874858,
+      "jaccard": 0.0007619163720590028
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_2vq0w",
+      "shared_users": 92,
+      "cosine": 0.005035189091861374,
+      "jaccard": 0.0013563320064868053
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_2w31t",
+      "shared_users": 61,
+      "cosine": 0.004403502252237661,
+      "jaccard": 0.0009299772841614197
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_38jf0",
+      "shared_users": 264,
+      "cosine": 0.012754741573083801,
+      "jaccard": 0.0038167387124289783
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_2s7yn",
+      "shared_users": 77,
+      "cosine": 0.003888522807312773,
+      "jaccard": 0.0011195765964871467
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_2rfxx",
+      "shared_users": 251,
+      "cosine": 0.008827012374444925,
+      "jaccard": 0.003335282236632295
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_33td5",
+      "shared_users": 56,
+      "cosine": 0.005610104595327186,
+      "jaccard": 0.0008733079658162311
+    },
+    {
+      "source": "t5_3910n",
+      "target": "t5_7x3trg",
+      "shared_users": 34,
+      "cosine": 0.003588878902514933,
+      "jaccard": 0.0005313496280552603
+    },
+    {
+      "source": "t5_59294v",
+      "target": "t5_2sf6m",
+      "shared_users": 108,
+      "cosine": 0.007835271547066792,
+      "jaccard": 0.002671878479008436
+    },
+    {
+      "source": "t5_59294v",
+      "target": "t5_2qlxw",
+      "shared_users": 58,
+      "cosine": 0.02012682039447333,
+      "jaccard": 0.008421664004646435
+    },
+    {
+      "source": "t5_59294v",
+      "target": "t5_2w6ir",
+      "shared_users": 40,
+      "cosine": 0.013621257412574174,
+      "jaccard": 0.005743825387708214
+    },
+    {
+      "source": "t5_59294v",
+      "target": "t5_aqq00d",
+      "shared_users": 77,
+      "cosine": 0.0049123313336567505,
+      "jaccard": 0.001517271276281306
+    },
+    {
+      "source": "t5_2ts2c",
+      "target": "t5_2sf2b",
+      "shared_users": 278,
+      "cosine": 0.05419947359828303,
+      "jaccard": 0.027680971821168972
+    },
+    {
+      "source": "t5_2ts2c",
+      "target": "t5_6kv7zd",
+      "shared_users": 102,
+      "cosine": 0.047665523802002195,
+      "jaccard": 0.01858600583090379
+    },
+    {
+      "source": "t5_2ts2c",
+      "target": "t5_4mdmi7",
+      "shared_users": 45,
+      "cosine": 0.018105192590318238,
+      "jaccard": 0.007636178516884439
+    },
+    {
+      "source": "t5_2ts2c",
+      "target": "t5_pitbo",
+      "shared_users": 52,
+      "cosine": 0.022835375106521318,
+      "jaccard": 0.009171075837742505
+    },
+    {
+      "source": "t5_2ts2c",
+      "target": "t5_aqq00d",
+      "shared_users": 122,
+      "cosine": 0.008447090893434563,
+      "jaccard": 0.0024455268907731475
+    },
+    {
+      "source": "t5_2ts2c",
+      "target": "t5_d745ve",
+      "shared_users": 52,
+      "cosine": 0.05411991330353896,
+      "jaccard": 0.010965837199493884
+    },
+    {
+      "source": "t5_2ts2c",
+      "target": "t5_2qhzy",
+      "shared_users": 155,
+      "cosine": 0.021955766010462542,
+      "jaccard": 0.010138007717967166
+    },
+    {
+      "source": "t5_2ts2c",
+      "target": "t5_2xgtw",
+      "shared_users": 108,
+      "cosine": 0.03379155219727736,
+      "jaccard": 0.016097779102697867
+    },
+    {
+      "source": "t5_2ts2c",
+      "target": "t5_33726",
+      "shared_users": 67,
+      "cosine": 0.02237621742471081,
+      "jaccard": 0.010342698363692497
+    },
+    {
+      "source": "t5_2sf6m",
+      "target": "t5_2urg0",
+      "shared_users": 197,
+      "cosine": 0.008150490640458953,
+      "jaccard": 0.003821013635393836
+    },
+    {
+      "source": "t5_2sf6m",
+      "target": "t5_2w6ir",
+      "shared_users": 47,
+      "cosine": 0.006281778645888109,
+      "jaccard": 0.0012818414880270551
+    },
+    {
+      "source": "t5_2sf6m",
+      "target": "t5_2rrdo",
+      "shared_users": 31,
+      "cosine": 0.0033668362185911875,
+      "jaccard": 0.0008266225801290598
+    },
+    {
+      "source": "t5_2sf6m",
+      "target": "t5_2qio8",
+      "shared_users": 188,
+      "cosine": 0.00902282240131999,
+      "jaccard": 0.003975218319835916
+    },
+    {
+      "source": "t5_2sf6m",
+      "target": "t5_2qil9",
+      "shared_users": 32,
+      "cosine": 0.003278340137553034,
+      "jaccard": 0.0008465608465608466
+    },
+    {
+      "source": "t5_2sf6m",
+      "target": "t5_2s7yn",
+      "shared_users": 68,
+      "cosine": 0.004584345116272096,
+      "jaccard": 0.0016458514861070772
+    },
+    {
+      "source": "t5_2sf6m",
+      "target": "t5_2rfxx",
+      "shared_users": 201,
+      "cosine": 0.009436491168338695,
+      "jaccard": 0.004201768505550097
+    },
+    {
+      "source": "t5_2sf6m",
+      "target": "t5_67nnu3",
+      "shared_users": 57,
+      "cosine": 0.004287363634658197,
+      "jaccard": 0.001421623643845866
+    },
+    {
+      "source": "t5_2sf6m",
+      "target": "t5_2qlxw",
+      "shared_users": 46,
+      "cosine": 0.0062651658388923415,
+      "jaccard": 0.001256555944055944
+    },
+    {
+      "source": "t5_2sf6m",
+      "target": "t5_3a2md",
+      "shared_users": 58,
+      "cosine": 0.006571676130807553,
+      "jaccard": 0.0015558357252072213
+    },
+    {
+      "source": "t5_2sf6m",
+      "target": "t5_3gmxe",
+      "shared_users": 38,
+      "cosine": 0.004123674506336759,
+      "jaccard": 0.0010133603562761675
+    },
+    {
+      "source": "t5_2sf6m",
+      "target": "t5_6italp",
+      "shared_users": 50,
+      "cosine": 0.00509338940180576,
+      "jaccard": 0.0013222965646735249
+    },
+    {
+      "source": "t5_2sf6m",
+      "target": "t5_8s17z7",
+      "shared_users": 764,
+      "cosine": 0.08755735813089166,
+      "jaccard": 0.020918325438764613
+    },
+    {
+      "source": "t5_2sf6m",
+      "target": "t5_34jq7",
+      "shared_users": 92,
+      "cosine": 0.011283438076625497,
+      "jaccard": 0.0024918743228602384
+    },
+    {
+      "source": "t5_2sf6m",
+      "target": "t5_bjbudo",
+      "shared_users": 107,
+      "cosine": 0.00816253580429013,
+      "jaccard": 0.002681368249592783
+    },
+    {
+      "source": "t5_2sf6m",
+      "target": "t5_3eb8a",
+      "shared_users": 196,
+      "cosine": 0.009290632541180273,
+      "jaccard": 0.004117993108664593
+    },
+    {
+      "source": "t5_2sf6m",
+      "target": "t5_aqq00d",
+      "shared_users": 222,
+      "cosine": 0.0055587541068981994,
+      "jaccard": 0.0027641851256957157
+    },
+    {
+      "source": "t5_2sf6m",
+      "target": "t5_2rgs7",
+      "shared_users": 49,
+      "cosine": 0.0032846050475797495,
+      "jaccard": 0.0011833747917018862
+    },
+    {
+      "source": "t5_2sf6m",
+      "target": "t5_2r9po",
+      "shared_users": 55,
+      "cosine": 0.005228383282933639,
+      "jaccard": 0.0014392254350385975
+    },
+    {
+      "source": "t5_2sf6m",
+      "target": "t5_2s580",
+      "shared_users": 152,
+      "cosine": 0.008943439307742888,
+      "jaccard": 0.0035191702167067978
+    },
+    {
+      "source": "t5_2sf6m",
+      "target": "t5_2w3q8",
+      "shared_users": 1130,
+      "cosine": 0.11938565422227,
+      "jaccard": 0.030925013683634373
+    },
+    {
+      "source": "t5_2sf6m",
+      "target": "t5_4jn9v4",
+      "shared_users": 33,
+      "cosine": 0.002777690581708186,
+      "jaccard": 0.0008438818565400844
+    },
+    {
+      "source": "t5_2sf6m",
+      "target": "t5_2wbww",
+      "shared_users": 228,
+      "cosine": 0.009772010351423064,
+      "jaccard": 0.0045245277028099695
+    },
+    {
+      "source": "t5_2sf6m",
+      "target": "t5_1136aw",
+      "shared_users": 53,
+      "cosine": 0.004357733004915798,
+      "jaccard": 0.0013493558735169816
+    },
+    {
+      "source": "t5_2sf6m",
+      "target": "t5_hl127",
+      "shared_users": 112,
+      "cosine": 0.009108783384305597,
+      "jaccard": 0.002849002849002849
+    },
+    {
+      "source": "t5_2sf6m",
+      "target": "t5_38jf0",
+      "shared_users": 250,
+      "cosine": 0.016124349829428272,
+      "jaccard": 0.00599319173418996
+    },
+    {
+      "source": "t5_2sf6m",
+      "target": "t5_2rzx9",
+      "shared_users": 303,
+      "cosine": 0.02449783033061949,
+      "jaccard": 0.0077351169202491575
+    },
+    {
+      "source": "t5_2qio8",
+      "target": "t5_6bcbgw",
+      "shared_users": 46,
+      "cosine": 0.012003426616492337,
+      "jaccard": 0.003406398104265403
+    },
+    {
+      "source": "t5_2qio8",
+      "target": "t5_2w31t",
+      "shared_users": 49,
+      "cosine": 0.007959130675465054,
+      "jaccard": 0.0031861629494765588
+    },
+    {
+      "source": "t5_2qio8",
+      "target": "t5_3eb8a",
+      "shared_users": 552,
+      "cosine": 0.04410166547481863,
+      "jaccard": 0.02254625658620267
+    },
+    {
+      "source": "t5_2qio8",
+      "target": "t5_2wbvb",
+      "shared_users": 289,
+      "cosine": 0.06150532898780295,
+      "jaccard": 0.02085287538783462
+    },
+    {
+      "source": "t5_2qio8",
+      "target": "t5_35idp",
+      "shared_users": 549,
+      "cosine": 0.1237143526338244,
+      "jaccard": 0.04095181262121438
+    },
+    {
+      "source": "t5_2qio8",
+      "target": "t5_2sra6",
+      "shared_users": 176,
+      "cosine": 0.061430529467244505,
+      "jaccard": 0.013696498054474707
+    },
+    {
+      "source": "t5_2qio8",
+      "target": "t5_2rgs7",
+      "shared_users": 64,
+      "cosine": 0.007230923231611127,
+      "jaccard": 0.003434397638851623
+    },
+    {
+      "source": "t5_2qio8",
+      "target": "t5_2rfxx",
+      "shared_users": 100,
+      "cosine": 0.007913000282916756,
+      "jaccard": 0.0039712481632977244
+    },
+    {
+      "source": "t5_2qio8",
+      "target": "t5_aqq00d",
+      "shared_users": 167,
+      "cosine": 0.007048028651800147,
+      "jaccard": 0.002898751974449324
+    },
+    {
+      "source": "t5_2qio8",
+      "target": "t5_35p2p",
+      "shared_users": 412,
+      "cosine": 0.11546071273417344,
+      "jaccard": 0.03174114021571649
+    },
+    {
+      "source": "t5_2qio8",
+      "target": "t5_2s5rg",
+      "shared_users": 149,
+      "cosine": 0.0604170265399251,
+      "jaccard": 0.011727666273120819
+    },
+    {
+      "source": "t5_2qio8",
+      "target": "t5_38jf0",
+      "shared_users": 104,
+      "cosine": 0.011305824598940648,
+      "jaccard": 0.005444171072606397
+    },
+    {
+      "source": "t5_2qio8",
+      "target": "t5_7r9k9p",
+      "shared_users": 101,
+      "cosine": 0.01704281725815519,
+      "jaccard": 0.00668785591312409
+    },
+    {
+      "source": "t5_2qio8",
+      "target": "t5_2v9u2",
+      "shared_users": 77,
+      "cosine": 0.04199154979056941,
+      "jaccard": 0.006132037907143426
+    },
+    {
+      "source": "t5_2qio8",
+      "target": "t5_2wbww",
+      "shared_users": 58,
+      "cosine": 0.0041899010417789945,
+      "jaccard": 0.002085955763351915
+    },
+    {
+      "source": "t5_2urg0",
+      "target": "t5_2vmcy",
+      "shared_users": 46,
+      "cosine": 0.011086035224685709,
+      "jaccard": 0.002610077167498865
+    },
+    {
+      "source": "t5_2urg0",
+      "target": "t5_2z6la",
+      "shared_users": 290,
+      "cosine": 0.07890573701207797,
+      "jaccard": 0.016902721921081776
+    },
+    {
+      "source": "t5_2urg0",
+      "target": "t5_2we4j",
+      "shared_users": 64,
+      "cosine": 0.008123738718381708,
+      "jaccard": 0.0031523987784454733
+    },
+    {
+      "source": "t5_2urg0",
+      "target": "t5_37rrb",
+      "shared_users": 338,
+      "cosine": 0.09807452011759601,
+      "jaccard": 0.019869496208335783
+    },
+    {
+      "source": "t5_2urg0",
+      "target": "t5_67nnu3",
+      "shared_users": 132,
+      "cosine": 0.014426104154257519,
+      "jaccard": 0.00612927191679049
+    },
+    {
+      "source": "t5_2urg0",
+      "target": "t5_aqq00d",
+      "shared_users": 294,
+      "cosine": 0.010696248576533748,
+      "jaccard": 0.004760593940767848
+    },
+    {
+      "source": "t5_2urg0",
+      "target": "t5_3cb2g",
+      "shared_users": 69,
+      "cosine": 0.005938362006589032,
+      "jaccard": 0.0027955595170569645
+    },
+    {
+      "source": "t5_2urg0",
+      "target": "t5_2u5kl",
+      "shared_users": 55,
+      "cosine": 0.004340079048463398,
+      "jaccard": 0.002096515971639857
+    },
+    {
+      "source": "t5_2urg0",
+      "target": "t5_2rgs7",
+      "shared_users": 70,
+      "cosine": 0.006817808269816205,
+      "jaccard": 0.003056501615579425
+    },
+    {
+      "source": "t5_2urg0",
+      "target": "t5_2qhzy",
+      "shared_users": 61,
+      "cosine": 0.004540289554842037,
+      "jaccard": 0.0022242479489516863
+    },
+    {
+      "source": "t5_2urg0",
+      "target": "t5_2vq0w",
+      "shared_users": 136,
+      "cosine": 0.014437799290151347,
+      "jaccard": 0.006229102734392891
+    },
+    {
+      "source": "t5_2urg0",
+      "target": "t5_2rfxx",
+      "shared_users": 67,
+      "cosine": 0.004570344644740687,
+      "jaccard": 0.0022721877437514837
+    },
+    {
+      "source": "t5_2urg0",
+      "target": "t5_i5v51",
+      "shared_users": 131,
+      "cosine": 0.07570483905524439,
+      "jaccard": 0.007851834092543754
+    },
+    {
+      "source": "t5_2urg0",
+      "target": "t5_4jn9v4",
+      "shared_users": 46,
+      "cosine": 0.005625840639914797,
+      "jaccard": 0.002232142857142857
+    },
+    {
+      "source": "t5_2urg0",
+      "target": "t5_2wekr",
+      "shared_users": 1008,
+      "cosine": 0.1911881208209175,
+      "jaccard": 0.05827263267429761
+    },
+    {
+      "source": "t5_6a6mlb",
+      "target": "t5_7b1b2l",
+      "shared_users": 573,
+      "cosine": 0.20744887322036037,
+      "jaccard": 0.07781097229766432
+    },
+    {
+      "source": "t5_6a6mlb",
+      "target": "t5_aqq00d",
+      "shared_users": 434,
+      "cosine": 0.024663618296094442,
+      "jaccard": 0.008378378378378378
+    },
+    {
+      "source": "t5_6a6mlb",
+      "target": "t5_7hpaxs",
+      "shared_users": 113,
+      "cosine": 0.09004175580127215,
+      "jaccard": 0.01629181084198385
+    },
+    {
+      "source": "t5_3eb8a",
+      "target": "t5_2qlxw",
+      "shared_users": 50,
+      "cosine": 0.011336424421779462,
+      "jaccard": 0.003531572255968357
+    },
+    {
+      "source": "t5_3eb8a",
+      "target": "t5_3e9nc",
+      "shared_users": 72,
+      "cosine": 0.04321860269708864,
+      "jaccard": 0.005616224648985959
+    },
+    {
+      "source": "t5_3eb8a",
+      "target": "t5_2wbvb",
+      "shared_users": 72,
+      "cosine": 0.0151339415293986,
+      "jaccard": 0.005004517967609648
+    },
+    {
+      "source": "t5_3eb8a",
+      "target": "t5_35idp",
+      "shared_users": 63,
+      "cosine": 0.014021450531953816,
+      "jaccard": 0.004435682602267127
+    },
+    {
+      "source": "t5_3eb8a",
+      "target": "t5_aqq00d",
+      "shared_users": 132,
+      "cosine": 0.005502116391088236,
+      "jaccard": 0.002277550597857032
+    },
+    {
+      "source": "t5_3eb8a",
+      "target": "t5_odx9b",
+      "shared_users": 55,
+      "cosine": 0.01809502585150429,
+      "jaccard": 0.0041207762043905
+    },
+    {
+      "source": "t5_3eb8a",
+      "target": "t5_2s580",
+      "shared_users": 53,
+      "cosine": 0.005191205231961961,
+      "jaccard": 0.0025425761573518828
+    },
+    {
+      "source": "t5_3eb8a",
+      "target": "t5_2wbww",
+      "shared_users": 103,
+      "cosine": 0.007348820661942329,
+      "jaccard": 0.0036692672152755512
+    },
+    {
+      "source": "t5_3eb8a",
+      "target": "t5_38jf0",
+      "shared_users": 337,
+      "cosine": 0.036182907106163724,
+      "jaccard": 0.017569469787810855
+    },
+    {
+      "source": "t5_3eb8a",
+      "target": "t5_2rfxx",
+      "shared_users": 74,
+      "cosine": 0.005783324394853688,
+      "jaccard": 0.0028999137863468926
+    },
+    {
+      "source": "t5_3eb8a",
+      "target": "t5_7r9k9p",
+      "shared_users": 799,
+      "cosine": 0.13315928207957745,
+      "jaccard": 0.05429833503227999
+    },
+    {
+      "source": "t5_2qhzy",
+      "target": "t5_2sf2b",
+      "shared_users": 50,
+      "cosine": 0.006342107774731453,
+      "jaccard": 0.003024986387561256
+    },
+    {
+      "source": "t5_2qhzy",
+      "target": "t5_2quw1",
+      "shared_users": 41,
+      "cosine": 0.007708652339128023,
+      "jaccard": 0.0030558247000074534
+    },
+    {
+      "source": "t5_2qhzy",
+      "target": "t5_2qhdi",
+      "shared_users": 61,
+      "cosine": 0.010567081209461595,
+      "jaccard": 0.0044008368804559555
+    },
+    {
+      "source": "t5_2qhzy",
+      "target": "t5_aqq00d",
+      "shared_users": 197,
+      "cosine": 0.00887415282959269,
+      "jaccard": 0.00351346531121812
+    },
+    {
+      "source": "t5_2qhzy",
+      "target": "t5_2xgtw",
+      "shared_users": 46,
+      "cosine": 0.009363873941249951,
+      "jaccard": 0.003530585616701205
+    },
+    {
+      "source": "t5_2qhzy",
+      "target": "t5_2s3jo",
+      "shared_users": 33,
+      "cosine": 0.006764874471900258,
+      "jaccard": 0.002536315425409269
+    },
+    {
+      "source": "t5_2qhzy",
+      "target": "t5_2xx8w",
+      "shared_users": 29,
+      "cosine": 0.005020425838730087,
+      "jaccard": 0.0020867813197092897
+    },
+    {
+      "source": "t5_2qhzy",
+      "target": "t5_2tx5b",
+      "shared_users": 27,
+      "cosine": 0.006094100316689889,
+      "jaccard": 0.0021372595582996915
+    },
+    {
+      "source": "t5_2qhzy",
+      "target": "t5_2s4hr",
+      "shared_users": 38,
+      "cosine": 0.008351404701129907,
+      "jaccard": 0.002987186541938527
+    },
+    {
+      "source": "t5_2qhzy",
+      "target": "t5_2rrim",
+      "shared_users": 40,
+      "cosine": 0.006558502719509289,
+      "jaccard": 0.0028091860383453893
+    },
+    {
+      "source": "t5_2qhzy",
+      "target": "t5_2robf",
+      "shared_users": 38,
+      "cosine": 0.005956281061550095,
+      "jaccard": 0.0026091733040373524
+    },
+    {
+      "source": "t5_2qhzy",
+      "target": "t5_7hkaom",
+      "shared_users": 47,
+      "cosine": 0.0180477458895268,
+      "jaccard": 0.004112345787032986
+    },
+    {
+      "source": "t5_2qhzy",
+      "target": "t5_8pimef",
+      "shared_users": 39,
+      "cosine": 0.004608829702308931,
+      "jaccard": 0.002239963241628855
+    },
+    {
+      "source": "t5_2qhzy",
+      "target": "t5_2s0lb",
+      "shared_users": 43,
+      "cosine": 0.0078164457264505,
+      "jaccard": 0.0031624623078620284
+    },
+    {
+      "source": "t5_2rfxx",
+      "target": "t5_3a3ge",
+      "shared_users": 52,
+      "cosine": 0.012465367784037977,
+      "jaccard": 0.003658364992261151
+    },
+    {
+      "source": "t5_2rfxx",
+      "target": "t5_2xuqg",
+      "shared_users": 113,
+      "cosine": 0.02860424750521273,
+      "jaccard": 0.00806336520622235
+    },
+    {
+      "source": "t5_2rfxx",
+      "target": "t5_2yr5r",
+      "shared_users": 70,
+      "cosine": 0.02100072873793103,
+      "jaccard": 0.005106134656065358
+    },
+    {
+      "source": "t5_2rfxx",
+      "target": "t5_2t9x3",
+      "shared_users": 359,
+      "cosine": 0.08372931716194341,
+      "jaccard": 0.0256740327540585
+    },
+    {
+      "source": "t5_2rfxx",
+      "target": "t5_39ba7",
+      "shared_users": 58,
+      "cosine": 0.02275252246876836,
+      "jaccard": 0.004340017958695002
+    },
+    {
+      "source": "t5_2rfxx",
+      "target": "t5_3abd1",
+      "shared_users": 105,
+      "cosine": 0.040013933444703664,
+      "jaccard": 0.007866936390200046
+    },
+    {
+      "source": "t5_2rfxx",
+      "target": "t5_7k3tvo",
+      "shared_users": 380,
+      "cosine": 0.07710636376825719,
+      "jaccard": 0.0263541160968167
+    },
+    {
+      "source": "t5_2rfxx",
+      "target": "t5_38jf0",
+      "shared_users": 171,
+      "cosine": 0.018184230803578214,
+      "jaccard": 0.008727606798346348
+    },
+    {
+      "source": "t5_2rfxx",
+      "target": "t5_aqq00d",
+      "shared_users": 257,
+      "cosine": 0.01060997189781863,
+      "jaccard": 0.004425083508385275
+    },
+    {
+      "source": "t5_2rfxx",
+      "target": "t5_2tavq",
+      "shared_users": 69,
+      "cosine": 0.023470458987849527,
+      "jaccard": 0.005103927805311044
+    },
+    {
+      "source": "t5_2rfxx",
+      "target": "t5_32int",
+      "shared_users": 106,
+      "cosine": 0.03555471461224998,
+      "jaccard": 0.00785127027627583
+    },
+    {
+      "source": "t5_2rfxx",
+      "target": "t5_2x46h",
+      "shared_users": 91,
+      "cosine": 0.02752591482528446,
+      "jaccard": 0.0066549656281995025
+    },
+    {
+      "source": "t5_2rfxx",
+      "target": "t5_2re2c",
+      "shared_users": 183,
+      "cosine": 0.01497209586202696,
+      "jaccard": 0.007530864197530864
+    },
+    {
+      "source": "t5_2rfxx",
+      "target": "t5_378p4",
+      "shared_users": 181,
+      "cosine": 0.03753426131098876,
+      "jaccard": 0.012450130691979639
+    },
+    {
+      "source": "t5_2rfxx",
+      "target": "t5_12v94g",
+      "shared_users": 100,
+      "cosine": 0.020372584734270338,
+      "jaccard": 0.006810133478616181
+    },
+    {
+      "source": "t5_2rfxx",
+      "target": "t5_1136aw",
+      "shared_users": 194,
+      "cosine": 0.0262992340172024,
+      "jaccard": 0.011454212670484737
+    },
+    {
+      "source": "t5_2rfxx",
+      "target": "t5_3ii1w",
+      "shared_users": 231,
+      "cosine": 0.05680578241161659,
+      "jaccard": 0.016537800687285224
+    },
+    {
+      "source": "t5_2rfxx",
+      "target": "t5_2tf0e",
+      "shared_users": 200,
+      "cosine": 0.04681062779164624,
+      "jaccard": 0.014152278516841211
+    },
+    {
+      "source": "t5_2rfxx",
+      "target": "t5_39cvu",
+      "shared_users": 402,
+      "cosine": 0.08317875025735297,
+      "jaccard": 0.02806282722513089
+    },
+    {
+      "source": "t5_2rfxx",
+      "target": "t5_24knsa",
+      "shared_users": 36,
+      "cosine": 0.005179768128696165,
+      "jaccard": 0.0021658043556732043
+    },
+    {
+      "source": "t5_2rfxx",
+      "target": "t5_2wbww",
+      "shared_users": 110,
+      "cosine": 0.007773173795097192,
+      "jaccard": 0.003885552808194984
+    },
+    {
+      "source": "t5_2we4j",
+      "target": "t5_3os9l4",
+      "shared_users": 125,
+      "cosine": 0.06871247288140038,
+      "jaccard": 0.027821054974404628
+    },
+    {
+      "source": "t5_2we4j",
+      "target": "t5_38c6g",
+      "shared_users": 156,
+      "cosine": 0.08012446078548706,
+      "jaccard": 0.03397952515791766
+    },
+    {
+      "source": "t5_2we4j",
+      "target": "t5_2vq0w",
+      "shared_users": 813,
+      "cosine": 0.18224323476128415,
+      "jaccard": 0.09852157052835676
+    },
+    {
+      "source": "t5_3os9l4",
+      "target": "t5_2vq0w",
+      "shared_users": 229,
+      "cosine": 0.1052803128329942,
+      "jaccard": 0.03821762349799733
+    },
+    {
+      "source": "t5_38jf0",
+      "target": "t5_2wbww",
+      "shared_users": 76,
+      "cosine": 0.007378141974412836,
+      "jaccard": 0.0034126627750336778
+    },
+    {
+      "source": "t5_38jf0",
+      "target": "t5_7r9k9p",
+      "shared_users": 99,
+      "cosine": 0.022449819393621614,
+      "jaccard": 0.010326483780118911
+    },
+    {
+      "source": "t5_38jf0",
+      "target": "t5_gmuky",
+      "shared_users": 146,
+      "cosine": 0.06900447489883085,
+      "jaccard": 0.019855841153270774
+    },
+    {
+      "source": "t5_38jf0",
+      "target": "t5_aqq00d",
+      "shared_users": 94,
+      "cosine": 0.005331343765291407,
+      "jaccard": 0.0018019054191347021
+    },
+    {
+      "source": "t5_38jf0",
+      "target": "t5_33td5",
+      "shared_users": 80,
+      "cosine": 0.024234369711471367,
+      "jaccard": 0.00957281321048223
+    },
+    {
+      "source": "t5_38jf0",
+      "target": "t5_3onkg",
+      "shared_users": 62,
+      "cosine": 0.02886522951221107,
+      "jaccard": 0.008314335523669036
+    },
+    {
+      "source": "t5_2s7yn",
+      "target": "t5_2wbh2",
+      "shared_users": 40,
+      "cosine": 0.01815300814064245,
+      "jaccard": 0.005714285714285714
+    },
+    {
+      "source": "t5_2s7yn",
+      "target": "t5_2uvie",
+      "shared_users": 82,
+      "cosine": 0.03555490066267408,
+      "jaccard": 0.011660978384527872
+    },
+    {
+      "source": "t5_2s7yn",
+      "target": "t5_2c16sg",
+      "shared_users": 80,
+      "cosine": 0.031755922007478087,
+      "jaccard": 0.011114198388441235
+    },
+    {
+      "source": "t5_2s7yn",
+      "target": "t5_2qnu5",
+      "shared_users": 135,
+      "cosine": 0.03070260815869737,
+      "jaccard": 0.0146484375
+    },
+    {
+      "source": "t5_2s7yn",
+      "target": "t5_2robf",
+      "shared_users": 80,
+      "cosine": 0.01650273467331132,
+      "jaccard": 0.008051529790660225
+    },
+    {
+      "source": "t5_2s7yn",
+      "target": "t5_2rqql",
+      "shared_users": 65,
+      "cosine": 0.04111178856472743,
+      "jaccard": 0.009849977269283225
+    },
+    {
+      "source": "t5_2s7yn",
+      "target": "t5_aqq00d",
+      "shared_users": 192,
+      "cosine": 0.011382463083115128,
+      "jaccard": 0.003728951814950766
+    },
+    {
+      "source": "t5_2s7yn",
+      "target": "t5_2s5rz",
+      "shared_users": 102,
+      "cosine": 0.04141922375487146,
+      "jaccard": 0.01430374421539756
+    },
+    {
+      "source": "t5_2s7yn",
+      "target": "t5_2tiga",
+      "shared_users": 39,
+      "cosine": 0.011502335609226201,
+      "jaccard": 0.004838109415705247
+    },
+    {
+      "source": "t5_2s7yn",
+      "target": "t5_2c22wm",
+      "shared_users": 382,
+      "cosine": 0.16772108254023088,
+      "jaccard": 0.0569214722098048
+    },
+    {
+      "source": "t5_2s7yn",
+      "target": "t5_2tx5b",
+      "shared_users": 34,
+      "cosine": 0.010099481917510414,
+      "jaccard": 0.004228855721393035
+    },
+    {
+      "source": "t5_2s7yn",
+      "target": "t5_bd30s7",
+      "shared_users": 220,
+      "cosine": 0.14353126394523025,
+      "jaccard": 0.03426791277258567
+    },
+    {
+      "source": "t5_2s7yn",
+      "target": "t5_2xx8w",
+      "shared_users": 38,
+      "cosine": 0.008657659452088738,
+      "jaccard": 0.0040851429800043
+    },
+    {
+      "source": "t5_2u5kl",
+      "target": "t5_3cb2g",
+      "shared_users": 77,
+      "cosine": 0.008698934459609078,
+      "jaccard": 0.00435200361724976
+    },
+    {
+      "source": "t5_2u5kl",
+      "target": "t5_3dyt3",
+      "shared_users": 49,
+      "cosine": 0.034090670738318875,
+      "jaccard": 0.004990324880334046
+    },
+    {
+      "source": "t5_2u5kl",
+      "target": "t5_3pobe",
+      "shared_users": 42,
+      "cosine": 0.03061105780547871,
+      "jaccard": 0.004282655246252677
+    },
+    {
+      "source": "t5_2u5kl",
+      "target": "t5_3ejub",
+      "shared_users": 33,
+      "cosine": 0.024495221333726495,
+      "jaccard": 0.0033642573147109798
+    },
+    {
+      "source": "t5_2u5kl",
+      "target": "t5_aqq00d",
+      "shared_users": 960,
+      "cosine": 0.04584723460424652,
+      "jaccard": 0.01774163740528553
+    },
+    {
+      "source": "t5_2u5kl",
+      "target": "t5_3f0tc",
+      "shared_users": 53,
+      "cosine": 0.03612183386419685,
+      "jaccard": 0.005394951140065146
+    },
+    {
+      "source": "t5_2u5kl",
+      "target": "t5_3el0q",
+      "shared_users": 163,
+      "cosine": 0.06501947566123956,
+      "jaccard": 0.016071780713863143
+    },
+    {
+      "source": "t5_2u5kl",
+      "target": "t5_3e8bz",
+      "shared_users": 144,
+      "cosine": 0.05188088779241118,
+      "jaccard": 0.013969732246798603
+    },
+    {
+      "source": "t5_2u5kl",
+      "target": "t5_3f3wt",
+      "shared_users": 69,
+      "cosine": 0.039630597439145855,
+      "jaccard": 0.006970401050611173
+    },
+    {
+      "source": "t5_2u5kl",
+      "target": "t5_9udgaz",
+      "shared_users": 171,
+      "cosine": 0.055651008088602544,
+      "jaccard": 0.016346429595640952
+    },
+    {
+      "source": "t5_2u5kl",
+      "target": "t5_3ei1z",
+      "shared_users": 53,
+      "cosine": 0.03823804536947439,
+      "jaccard": 0.005408163265306122
+    },
+    {
+      "source": "t5_2u5kl",
+      "target": "t5_34fdh",
+      "shared_users": 42,
+      "cosine": 0.02443627083525742,
+      "jaccard": 0.004234724742891712
+    },
+    {
+      "source": "t5_2u5kl",
+      "target": "t5_7038i7",
+      "shared_users": 52,
+      "cosine": 0.03437759757279348,
+      "jaccard": 0.005285089948165464
+    },
+    {
+      "source": "t5_2u5kl",
+      "target": "t5_34fcy",
+      "shared_users": 288,
+      "cosine": 0.08034332717960624,
+      "jaccard": 0.026923436477517063
+    },
+    {
+      "source": "t5_2u5kl",
+      "target": "t5_34fcr",
+      "shared_users": 523,
+      "cosine": 0.11941231229143615,
+      "jaccard": 0.047040834682496854
+    },
+    {
+      "source": "t5_2u5kl",
+      "target": "t5_3ejpe",
+      "shared_users": 195,
+      "cosine": 0.0668641010156677,
+      "jaccard": 0.018858800773694392
+    },
+    {
+      "source": "t5_3cb2g",
+      "target": "t5_2ay9xe",
+      "shared_users": 428,
+      "cosine": 0.1503107375161125,
+      "jaccard": 0.049269022677564174
+    },
+    {
+      "source": "t5_3cb2g",
+      "target": "t5_2rrim",
+      "shared_users": 47,
+      "cosine": 0.008910589405995165,
+      "jaccard": 0.00408802296251196
+    },
+    {
+      "source": "t5_3cb2g",
+      "target": "t5_2s0lb",
+      "shared_users": 39,
+      "cosine": 0.008197271711726949,
+      "jaccard": 0.003589177250138045
+    },
+    {
+      "source": "t5_3cb2g",
+      "target": "t5_2zpfvp",
+      "shared_users": 121,
+      "cosine": 0.08616109592663904,
+      "jaccard": 0.014688031075503764
+    },
+    {
+      "source": "t5_3cb2g",
+      "target": "t5_2robf",
+      "shared_users": 34,
+      "cosine": 0.006162179796904616,
+      "jaccard": 0.002873320375221837
+    },
+    {
+      "source": "t5_3cb2g",
+      "target": "t5_aqq00d",
+      "shared_users": 313,
+      "cosine": 0.016303050648064893,
+      "jaccard": 0.0058813581615588416
+    },
+    {
+      "source": "t5_3cb2g",
+      "target": "t5_3gag7",
+      "shared_users": 497,
+      "cosine": 0.17759131084456228,
+      "jaccard": 0.057898415657036344
+    },
+    {
+      "source": "t5_3cb2g",
+      "target": "t5_35rwtp",
+      "shared_users": 40,
+      "cosine": 0.008088898880223067,
+      "jaccard": 0.0036071782847867254
+    },
+    {
+      "source": "t5_2sf2b",
+      "target": "t5_aqq00d",
+      "shared_users": 136,
+      "cosine": 0.008432045922261357,
+      "jaccard": 0.00266624843161857
+    },
+    {
+      "source": "t5_2sf2b",
+      "target": "t5_2thzw",
+      "shared_users": 29,
+      "cosine": 0.015951759257021646,
+      "jaccard": 0.004620777565328234
+    },
+    {
+      "source": "t5_2sf2b",
+      "target": "t5_syz7q",
+      "shared_users": 100,
+      "cosine": 0.04044979133899518,
+      "jaccard": 0.014936519790888723
+    },
+    {
+      "source": "t5_2sf2b",
+      "target": "t5_39wu3",
+      "shared_users": 55,
+      "cosine": 0.024567284678134547,
+      "jaccard": 0.008399511301160659
+    },
+    {
+      "source": "t5_2wbww",
+      "target": "t5_34728",
+      "shared_users": 1143,
+      "cosine": 0.1643573291523602,
+      "jaccard": 0.06539649845520082
+    },
+    {
+      "source": "t5_2wbww",
+      "target": "t5_azqpb9",
+      "shared_users": 69,
+      "cosine": 0.016349678543097802,
+      "jaccard": 0.0041613895422471505
+    },
+    {
+      "source": "t5_2wbww",
+      "target": "t5_2qwxl",
+      "shared_users": 246,
+      "cosine": 0.03197696834019224,
+      "jaccard": 0.01289781366329366
+    },
+    {
+      "source": "t5_2wbww",
+      "target": "t5_2whx3",
+      "shared_users": 651,
+      "cosine": 0.10795359923666122,
+      "jaccard": 0.037857641311933005
+    },
+    {
+      "source": "t5_2wbww",
+      "target": "t5_aqq00d",
+      "shared_users": 77,
+      "cosine": 0.0029020602620222244,
+      "jaccard": 0.0012656147271531888
+    },
+    {
+      "source": "t5_34728",
+      "target": "t5_2whx3",
+      "shared_users": 191,
+      "cosine": 0.07059794610086603,
+      "jaccard": 0.03620853080568721
+    },
+    {
+      "source": "t5_2tezb",
+      "target": "t5_38p8s",
+      "shared_users": 59,
+      "cosine": 0.06956541156812623,
+      "jaccard": 0.032435404068169325
+    },
+    {
+      "source": "t5_2tezb",
+      "target": "t5_2qhdi",
+      "shared_users": 46,
+      "cosine": 0.035853827825302345,
+      "jaccard": 0.012917719741645605
+    },
+    {
+      "source": "t5_38p8s",
+      "target": "t5_2qhdi",
+      "shared_users": 145,
+      "cosine": 0.0714252610088294,
+      "jaccard": 0.03397375820056232
+    },
+    {
+      "source": "t5_38p8s",
+      "target": "t5_6jkta2",
+      "shared_users": 69,
+      "cosine": 0.10245059445628966,
+      "jaccard": 0.04283054003724395
+    },
+    {
+      "source": "t5_38p8s",
+      "target": "t5_2quw1",
+      "shared_users": 38,
+      "cosine": 0.020315935395973594,
+      "jaccard": 0.009716185118895423
+    },
+    {
+      "source": "t5_2xuqg",
+      "target": "t5_2tf0e",
+      "shared_users": 54,
+      "cosine": 0.0413322656252773,
+      "jaccard": 0.02103622906116089
+    },
+    {
+      "source": "t5_2xuqg",
+      "target": "t5_378p4",
+      "shared_users": 97,
+      "cosine": 0.06578123375066872,
+      "jaccard": 0.03332188251459979
+    },
+    {
+      "source": "t5_2xuqg",
+      "target": "t5_2re2c",
+      "shared_users": 189,
+      "cosine": 0.050567827465124476,
+      "jaccard": 0.015020265437495033
+    },
+    {
+      "source": "t5_2s0lb",
+      "target": "t5_2wj4r",
+      "shared_users": 64,
+      "cosine": 0.056688846072324155,
+      "jaccard": 0.02011313639220616
+    },
+    {
+      "source": "t5_2s0lb",
+      "target": "t5_2rrim",
+      "shared_users": 92,
+      "cosine": 0.02975384961246304,
+      "jaccard": 0.015020408163265307
+    },
+    {
+      "source": "t5_2s0lb",
+      "target": "t5_2robf",
+      "shared_users": 34,
+      "cosine": 0.010511897750287541,
+      "jaccard": 0.00522594528127882
+    },
+    {
+      "source": "t5_2s0lb",
+      "target": "t5_aqq00d",
+      "shared_users": 34,
+      "cosine": 0.0030209964804003135,
+      "jaccard": 0.0007058188536671441
+    },
+    {
+      "source": "t5_38c6g",
+      "target": "t5_2vq0w",
+      "shared_users": 108,
+      "cosine": 0.04639277981395114,
+      "jaccard": 0.01730214674783723
+    },
+    {
+      "source": "t5_39cvu",
+      "target": "t5_3ii1w",
+      "shared_users": 71,
+      "cosine": 0.04667175702457603,
+      "jaccard": 0.023533311236327476
+    },
+    {
+      "source": "t5_39cvu",
+      "target": "t5_2tf0e",
+      "shared_users": 57,
+      "cosine": 0.03566190688259221,
+      "jaccard": 0.01801517067003793
+    },
+    {
+      "source": "t5_39cvu",
+      "target": "t5_2t9x3",
+      "shared_users": 85,
+      "cosine": 0.05299284825973121,
+      "jaccard": 0.0270184361093452
+    },
+    {
+      "source": "t5_3ii1w",
+      "target": "t5_2t9x3",
+      "shared_users": 78,
+      "cosine": 0.05779458742745768,
+      "jaccard": 0.029714285714285714
+    },
+    {
+      "source": "t5_2qhdi",
+      "target": "t5_2rgs7",
+      "shared_users": 83,
+      "cosine": 0.018814658094126257,
+      "jaccard": 0.008900804289544236
+    },
+    {
+      "source": "t5_2qhdi",
+      "target": "t5_2wbh2",
+      "shared_users": 57,
+      "cosine": 0.03694741819141683,
+      "jaccard": 0.015043547110055424
+    },
+    {
+      "source": "t5_2qhdi",
+      "target": "t5_2quw1",
+      "shared_users": 118,
+      "cosine": 0.04170341151045196,
+      "jaccard": 0.021223021582733814
+    },
+    {
+      "source": "t5_2qhdi",
+      "target": "t5_2s3jo",
+      "shared_users": 45,
+      "cosine": 0.017340167556721582,
+      "jaccard": 0.008622341444721212
+    },
+    {
+      "source": "t5_2qhdi",
+      "target": "t5_2sbty",
+      "shared_users": 35,
+      "cosine": 0.016597545015255007,
+      "jaccard": 0.007805530776092774
+    },
+    {
+      "source": "t5_2qhdi",
+      "target": "t5_304h3",
+      "shared_users": 43,
+      "cosine": 0.03123819742687881,
+      "jaccard": 0.011796982167352537
+    },
+    {
+      "source": "t5_2rgs7",
+      "target": "t5_3lacy",
+      "shared_users": 354,
+      "cosine": 0.12923660992105787,
+      "jaccard": 0.0493930514859774
+    },
+    {
+      "source": "t5_2rgs7",
+      "target": "t5_aqq00d",
+      "shared_users": 106,
+      "cosine": 0.006248266879458817,
+      "jaccard": 0.002052394137123163
+    },
+    {
+      "source": "t5_2rgs7",
+      "target": "t5_22ly7r",
+      "shared_users": 429,
+      "cosine": 0.14543876230144795,
+      "jaccard": 0.05892047795632468
+    },
+    {
+      "source": "t5_2rgs7",
+      "target": "t5_21q0in",
+      "shared_users": 154,
+      "cosine": 0.09039535783319708,
+      "jaccard": 0.02318927872308387
+    },
+    {
+      "source": "t5_2rgs7",
+      "target": "t5_316z1",
+      "shared_users": 77,
+      "cosine": 0.05660534554683469,
+      "jaccard": 0.011752136752136752
+    },
+    {
+      "source": "t5_2tiga",
+      "target": "t5_80wv28",
+      "shared_users": 143,
+      "cosine": 0.1940314582481309,
+      "jaccard": 0.07193158953722334
+    },
+    {
+      "source": "t5_2tiga",
+      "target": "t5_2qnu5",
+      "shared_users": 44,
+      "cosine": 0.018489990215010948,
+      "jaccard": 0.009021939717039164
+    },
+    {
+      "source": "t5_2tiga",
+      "target": "t5_aqq00d",
+      "shared_users": 52,
+      "cosine": 0.005696142804977331,
+      "jaccard": 0.0011017182567427276
+    },
+    {
+      "source": "t5_rgzzt",
+      "target": "t5_xsxno",
+      "shared_users": 87,
+      "cosine": 0.09222017822488866,
+      "jaccard": 0.021080688151199418
+    },
+    {
+      "source": "t5_rgzzt",
+      "target": "t5_vz6gk",
+      "shared_users": 72,
+      "cosine": 0.049693405545850576,
+      "jaccard": 0.016197975253093362
+    },
+    {
+      "source": "t5_rgzzt",
+      "target": "t5_aqq00d",
+      "shared_users": 109,
+      "cosine": 0.008096199356063405,
+      "jaccard": 0.0022110430443425698
+    },
+    {
+      "source": "t5_rgzzt",
+      "target": "t5_w42u9",
+      "shared_users": 154,
+      "cosine": 0.12391514072711494,
+      "jaccard": 0.036458333333333336
+    },
+    {
+      "source": "t5_2re2c",
+      "target": "t5_2yr5r",
+      "shared_users": 179,
+      "cosine": 0.05676096415279914,
+      "jaccard": 0.014618211514904042
+    },
+    {
+      "source": "t5_2re2c",
+      "target": "t5_3kapl",
+      "shared_users": 476,
+      "cosine": 0.1327396039737736,
+      "jaccard": 0.03901639344262295
+    },
+    {
+      "source": "t5_2re2c",
+      "target": "t5_31kon",
+      "shared_users": 376,
+      "cosine": 0.12225233183677783,
+      "jaccard": 0.03131767449608529
+    },
+    {
+      "source": "t5_2re2c",
+      "target": "t5_lghxu",
+      "shared_users": 26,
+      "cosine": 0.007860926547929088,
+      "jaccard": 0.0020826658122396666
+    },
+    {
+      "source": "t5_2re2c",
+      "target": "t5_cw2fj5",
+      "shared_users": 89,
+      "cosine": 0.05988516927856847,
+      "jaccard": 0.00762900737184982
+    },
+    {
+      "source": "t5_2re2c",
+      "target": "t5_aqq00d",
+      "shared_users": 167,
+      "cosine": 0.007287154695305297,
+      "jaccard": 0.0029394680794888493
+    },
+    {
+      "source": "t5_2re2c",
+      "target": "t5_24knsa",
+      "shared_users": 54,
+      "cosine": 0.00821224667028364,
+      "jaccard": 0.0035412158174306513
+    },
+    {
+      "source": "t5_2re2c",
+      "target": "t5_1136aw",
+      "shared_users": 53,
+      "cosine": 0.007594123346771488,
+      "jaccard": 0.0033708579787572347
+    },
+    {
+      "source": "t5_2re2c",
+      "target": "t5_4y8c2q",
+      "shared_users": 50,
+      "cosine": 0.03576618433539117,
+      "jaccard": 0.004279722673970727
+    },
+    {
+      "source": "t5_2re2c",
+      "target": "t5_378p4",
+      "shared_users": 129,
+      "cosine": 0.028274791835448503,
+      "jaccard": 0.009746883264072534
+    },
+    {
+      "source": "t5_2re2c",
+      "target": "t5_26o362",
+      "shared_users": 583,
+      "cosine": 0.13774911089866987,
+      "jaccard": 0.04652833200319234
+    },
+    {
+      "source": "t5_4mdmi7",
+      "target": "t5_pitbo",
+      "shared_users": 84,
+      "cosine": 0.06816652780571184,
+      "jaccard": 0.035146443514644354
+    },
+    {
+      "source": "t5_azqpb9",
+      "target": "t5_2qwxl",
+      "shared_users": 48,
+      "cosine": 0.022917290030116666,
+      "jaccard": 0.00975808091075422
+    },
+    {
+      "source": "t5_2qnu5",
+      "target": "t5_2robf",
+      "shared_users": 46,
+      "cosine": 0.013520300327880595,
+      "jaccard": 0.006773671035193639
+    },
+    {
+      "source": "t5_2qnu5",
+      "target": "t5_2c16sg",
+      "shared_users": 72,
+      "cosine": 0.04072206688441779,
+      "jaccard": 0.01787931462627266
+    },
+    {
+      "source": "t5_2qnu5",
+      "target": "t5_2uvie",
+      "shared_users": 71,
+      "cosine": 0.0438638292949998,
+      "jaccard": 0.018374741200828156
+    },
+    {
+      "source": "t5_2qnu5",
+      "target": "t5_2s5rz",
+      "shared_users": 121,
+      "cosine": 0.07000833206591896,
+      "jaccard": 0.030765319094838546
+    },
+    {
+      "source": "t5_2qnu5",
+      "target": "t5_aqq00d",
+      "shared_users": 121,
+      "cosine": 0.010220754784236894,
+      "jaccard": 0.0025009817903722535
+    },
+    {
+      "source": "t5_2robf",
+      "target": "t5_xdnze",
+      "shared_users": 66,
+      "cosine": 0.08980265101338744,
+      "jaccard": 0.017236876469051973
+    },
+    {
+      "source": "t5_2robf",
+      "target": "t5_aqq00d",
+      "shared_users": 139,
+      "cosine": 0.010649686601642248,
+      "jaccard": 0.002835114628375622
+    },
+    {
+      "source": "t5_2vnbs",
+      "target": "t5_8ktz02",
+      "shared_users": 62,
+      "cosine": 0.02892423494290817,
+      "jaccard": 0.014646822584455469
+    },
+    {
+      "source": "t5_2vnbs",
+      "target": "t5_2rg0t",
+      "shared_users": 168,
+      "cosine": 0.09156471843663504,
+      "jaccard": 0.047754405912450254
+    },
+    {
+      "source": "t5_2vnbs",
+      "target": "t5_1476rf",
+      "shared_users": 86,
+      "cosine": 0.06309801355390084,
+      "jaccard": 0.030154277699859747
+    },
+    {
+      "source": "t5_2vnbs",
+      "target": "t5_8k2dlt",
+      "shared_users": 57,
+      "cosine": 0.048599267020881555,
+      "jaccard": 0.02157456472369417
+    },
+    {
+      "source": "t5_2vnbs",
+      "target": "t5_2waqy",
+      "shared_users": 51,
+      "cosine": 0.04970292819582457,
+      "jaccard": 0.0204983922829582
+    },
+    {
+      "source": "t5_8ktz02",
+      "target": "t5_2rg0t",
+      "shared_users": 67,
+      "cosine": 0.034361314893798046,
+      "jaccard": 0.017268041237113403
+    },
+    {
+      "source": "t5_8ktz02",
+      "target": "t5_2quw1",
+      "shared_users": 63,
+      "cosine": 0.025851942065802873,
+      "jaccard": 0.01306511820821236
+    },
+    {
+      "source": "t5_8ktz02",
+      "target": "t5_1476rf",
+      "shared_users": 40,
+      "cosine": 0.02761552578388259,
+      "jaccard": 0.012662234884457106
+    },
+    {
+      "source": "t5_8ktz02",
+      "target": "t5_aqq00d",
+      "shared_users": 55,
+      "cosine": 0.005407311502922197,
+      "jaccard": 0.0011545162576880286
+    },
+    {
+      "source": "t5_8ktz02",
+      "target": "t5_2sj8i",
+      "shared_users": 37,
+      "cosine": 0.03188828212871165,
+      "jaccard": 0.013064971751412429
+    },
+    {
+      "source": "t5_2t7gp",
+      "target": "t5_2xgtw",
+      "shared_users": 92,
+      "cosine": 0.043578429741836705,
+      "jaccard": 0.022243713733075435
+    },
+    {
+      "source": "t5_2t7gp",
+      "target": "t5_2ru1l",
+      "shared_users": 49,
+      "cosine": 0.04975360347461306,
+      "jaccard": 0.02009020090200902
+    },
+    {
+      "source": "t5_aqq00d",
+      "target": "t5_4bjjb",
+      "shared_users": 29,
+      "cosine": 0.003544417037892635,
+      "jaccard": 0.0006188514969804315
+    },
+    {
+      "source": "t5_aqq00d",
+      "target": "t5_3el0q",
+      "shared_users": 76,
+      "cosine": 0.013977151011624212,
+      "jaccard": 0.0016524972277184666
+    },
+    {
+      "source": "t5_aqq00d",
+      "target": "t5_2v7zr",
+      "shared_users": 61,
+      "cosine": 0.011150200763943992,
+      "jaccard": 0.0013256834876341982
+    },
+    {
+      "source": "t5_aqq00d",
+      "target": "t5_xsntt",
+      "shared_users": 65,
+      "cosine": 0.009101627094046378,
+      "jaccard": 0.0013986314928777382
+    },
+    {
+      "source": "t5_aqq00d",
+      "target": "t5_cq6f0w",
+      "shared_users": 323,
+      "cosine": 0.06826131055540675,
+      "jaccard": 0.00708550870881411
+    },
+    {
+      "source": "t5_aqq00d",
+      "target": "t5_67nnu3",
+      "shared_users": 110,
+      "cosine": 0.007275699931616461,
+      "jaccard": 0.0021851844494328453
+    },
+    {
+      "source": "t5_aqq00d",
+      "target": "t5_2stl8",
+      "shared_users": 81,
+      "cosine": 0.010913151338455346,
+      "jaccard": 0.0017401392111368909
+    },
+    {
+      "source": "t5_aqq00d",
+      "target": "t5_2yqtkx",
+      "shared_users": 53,
+      "cosine": 0.009474620378783986,
+      "jaccard": 0.0011508729262572745
+    },
+    {
+      "source": "t5_aqq00d",
+      "target": "t5_34fcy",
+      "shared_users": 157,
+      "cosine": 0.020193248234295327,
+      "jaccard": 0.0033698218501824425
+    },
+    {
+      "source": "t5_aqq00d",
+      "target": "t5_3gmxe",
+      "shared_users": 38,
+      "cosine": 0.003626193772682413,
+      "jaccard": 0.0007950456105113398
+    },
+    {
+      "source": "t5_aqq00d",
+      "target": "t5_6italp",
+      "shared_users": 63,
+      "cosine": 0.005643441861594297,
+      "jaccard": 0.0013098530053849513
+    },
+    {
+      "source": "t5_aqq00d",
+      "target": "t5_9udgaz",
+      "shared_users": 69,
+      "cosine": 0.010353214758158215,
+      "jaccard": 0.0014894765245547761
+    },
+    {
+      "source": "t5_aqq00d",
+      "target": "t5_24knsa",
+      "shared_users": 35,
+      "cosine": 0.002685875459665944,
+      "jaccard": 0.0007125407166123778
+    },
+    {
+      "source": "t5_aqq00d",
+      "target": "t5_58epme",
+      "shared_users": 66,
+      "cosine": 0.014033791318945185,
+      "jaccard": 0.0014398848092152627
+    },
+    {
+      "source": "t5_aqq00d",
+      "target": "t5_4jn9v4",
+      "shared_users": 69,
+      "cosine": 0.005107232712212161,
+      "jaccard": 0.001397723129279261
+    },
+    {
+      "source": "t5_aqq00d",
+      "target": "t5_2s580",
+      "shared_users": 62,
+      "cosine": 0.0032078887285389096,
+      "jaccard": 0.0011571697866701507
+    },
+    {
+      "source": "t5_aqq00d",
+      "target": "t5_34fcr",
+      "shared_users": 216,
+      "cosine": 0.022737901300427115,
+      "jaccard": 0.004577531947358383
+    },
+    {
+      "source": "t5_aqq00d",
+      "target": "t5_87dvw3",
+      "shared_users": 115,
+      "cosine": 0.013961050595694054,
+      "jaccard": 0.0024575275136232504
+    },
+    {
+      "source": "t5_aqq00d",
+      "target": "t5_4vqnu4",
+      "shared_users": 137,
+      "cosine": 0.01808183864990592,
+      "jaccard": 0.0029435145994027028
+    },
+    {
+      "source": "t5_aqq00d",
+      "target": "t5_8pimef",
+      "shared_users": 79,
+      "cosine": 0.004563347971160774,
+      "jaccard": 0.0015211028958718423
+    },
+    {
+      "source": "t5_aqq00d",
+      "target": "t5_2s3jo",
+      "shared_users": 30,
+      "cosine": 0.003006058986352662,
+      "jaccard": 0.0006305302759620842
+    },
+    {
+      "source": "t5_aqq00d",
+      "target": "t5_2xx8w",
+      "shared_users": 30,
+      "cosine": 0.0025385998733918023,
+      "jaccard": 0.0006190544974309239
+    },
+    {
+      "source": "t5_aqq00d",
+      "target": "t5_35rwtp",
+      "shared_users": 43,
+      "cosine": 0.003675906440343793,
+      "jaccard": 0.0008886868102343654
+    },
+    {
+      "source": "t5_aqq00d",
+      "target": "t5_c4p8t5",
+      "shared_users": 35,
+      "cosine": 0.0067729043243579205,
+      "jaccard": 0.0007613826709304097
+    },
+    {
+      "source": "t5_aqq00d",
+      "target": "t5_bjbudo",
+      "shared_users": 208,
+      "cosine": 0.013953118624773784,
+      "jaccard": 0.004151613740244706
+    },
+    {
+      "source": "t5_aqq00d",
+      "target": "t5_2vq0w",
+      "shared_users": 93,
+      "cosine": 0.005975193889037093,
+      "jaccard": 0.0018358765817162485
+    },
+    {
+      "source": "t5_aqq00d",
+      "target": "t5_2t0xw",
+      "shared_users": 51,
+      "cosine": 0.01270139899575142,
+      "jaccard": 0.001115485564304462
+    },
+    {
+      "source": "t5_aqq00d",
+      "target": "t5_1136aw",
+      "shared_users": 78,
+      "cosine": 0.0056395698598612105,
+      "jaccard": 0.001574167507568113
+    },
+    {
+      "source": "t5_aqq00d",
+      "target": "t5_hl127",
+      "shared_users": 52,
+      "cosine": 0.003718881372353949,
+      "jaccard": 0.0010469306811089411
+    },
+    {
+      "source": "t5_aqq00d",
+      "target": "t5_35mye",
+      "shared_users": 37,
+      "cosine": 0.006306126532780255,
+      "jaccard": 0.0008019593818410387
+    },
+    {
+      "source": "t5_2qlxw",
+      "target": "t5_2r9po",
+      "shared_users": 42,
+      "cosine": 0.0190972528788573,
+      "jaccard": 0.00904392764857881
+    },
+    {
+      "source": "t5_2qlxw",
+      "target": "t5_2zmi9",
+      "shared_users": 54,
+      "cosine": 0.05094294283805496,
+      "jaccard": 0.024401265250790782
+    },
+    {
+      "source": "t5_2c16sg",
+      "target": "t5_2s5rz",
+      "shared_users": 46,
+      "cosine": 0.046453177959852585,
+      "jaccard": 0.023772609819121448
+    },
+    {
+      "source": "t5_2quw1",
+      "target": "t5_2sbty",
+      "shared_users": 48,
+      "cosine": 0.024705090028957308,
+      "jaccard": 0.01197903668579985
+    },
+    {
+      "source": "t5_2quw1",
+      "target": "t5_32vt5",
+      "shared_users": 95,
+      "cosine": 0.05717485997324369,
+      "jaccard": 0.02660319238308597
+    },
+    {
+      "source": "t5_2quw1",
+      "target": "t5_2vcc3",
+      "shared_users": 28,
+      "cosine": 0.018239095634853892,
+      "jaccard": 0.008039046798736722
+    },
+    {
+      "source": "t5_1476rf",
+      "target": "t5_2rg0t",
+      "shared_users": 102,
+      "cosine": 0.08227013090212229,
+      "jaccard": 0.0409967845659164
+    },
+    {
+      "source": "t5_2rg0t",
+      "target": "t5_2waqy",
+      "shared_users": 83,
+      "cosine": 0.08892311598127652,
+      "jaccard": 0.03937381404174573
+    },
+    {
+      "source": "t5_2rg0t",
+      "target": "t5_8k2dlt",
+      "shared_users": 102,
+      "cosine": 0.09560482614904671,
+      "jaccard": 0.04535349044019564
+    },
+    {
+      "source": "t5_2w31t",
+      "target": "t5_3c9yt",
+      "shared_users": 119,
+      "cosine": 0.11777111028592549,
+      "jaccard": 0.036280487804878046
+    },
+    {
+      "source": "t5_2w31t",
+      "target": "t5_30mve",
+      "shared_users": 116,
+      "cosine": 0.09425587718444879,
+      "jaccard": 0.03368176538908246
+    },
+    {
+      "source": "t5_2w31t",
+      "target": "t5_27vr4u",
+      "shared_users": 111,
+      "cosine": 0.04580917963602793,
+      "jaccard": 0.022792607802874742
+    },
+    {
+      "source": "t5_22ly7r",
+      "target": "t5_3lacy",
+      "shared_users": 138,
+      "cosine": 0.10823506108585561,
+      "jaccard": 0.05704836709384043
+    },
+    {
+      "source": "t5_2s580",
+      "target": "t5_2tta4",
+      "shared_users": 301,
+      "cosine": 0.1269954585193234,
+      "jaccard": 0.03497153479725804
+    },
+    {
+      "source": "t5_2s580",
+      "target": "t5_bjbudo",
+      "shared_users": 75,
+      "cosine": 0.011822401442390267,
+      "jaccard": 0.005750210841064173
+    },
+    {
+      "source": "t5_3a2md",
+      "target": "t5_35sfm6",
+      "shared_users": 73,
+      "cosine": 0.07673827061870177,
+      "jaccard": 0.028593811202506855
+    },
+    {
+      "source": "t5_32int",
+      "target": "t5_7k3tvo",
+      "shared_users": 215,
+      "cosine": 0.18904505260623358,
+      "jaccard": 0.09137271568210795
+    },
+    {
+      "source": "t5_2tx5b",
+      "target": "t5_2xx8w",
+      "shared_users": 31,
+      "cosine": 0.013143766957820279,
+      "jaccard": 0.0063878013599835155
+    },
+    {
+      "source": "t5_2ru1l",
+      "target": "t5_2ukaa",
+      "shared_users": 50,
+      "cosine": 0.07003790356379155,
+      "jaccard": 0.03362474781439139
+    },
+    {
+      "source": "t5_2ukaa",
+      "target": "t5_2xgtw",
+      "shared_users": 67,
+      "cosine": 0.04378176097761062,
+      "jaccard": 0.020872274143302182
+    },
+    {
+      "source": "t5_58epme",
+      "target": "t5_4vqnu4",
+      "shared_users": 238,
+      "cosine": 0.30334646580216196,
+      "jaccard": 0.15730337078651685
+    },
+    {
+      "source": "t5_8pimef",
+      "target": "t5_3hbbd",
+      "shared_users": 77,
+      "cosine": 0.018158016553673294,
+      "jaccard": 0.008327024981074944
+    },
+    {
+      "source": "t5_1136aw",
+      "target": "t5_12v94g",
+      "shared_users": 423,
+      "cosine": 0.15092346520318808,
+      "jaccard": 0.07481429076759816
+    },
+    {
+      "source": "t5_2s4hr",
+      "target": "t5_3f19t",
+      "shared_users": 30,
+      "cosine": 0.01834902540180173,
+      "jaccard": 0.009149130832570906
+    },
+    {
+      "source": "t5_2s4hr",
+      "target": "t5_6d1a9s",
+      "shared_users": 53,
+      "cosine": 0.04755500045136874,
+      "jaccard": 0.02114924181963288
+    },
+    {
+      "source": "t5_hl127",
+      "target": "t5_2t6sj",
+      "shared_users": 57,
+      "cosine": 0.03202206764467222,
+      "jaccard": 0.011436597110754414
+    },
+    {
+      "source": "t5_6gtv97",
+      "target": "t5_npfgx",
+      "shared_users": 31,
+      "cosine": 0.014908188575658645,
+      "jaccard": 0.0066709705186141595
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sblq", "name": "americandad", "interactions": 29348, "users": 1707, "degree": 2, "strength": 106}, {"id": "t5_2quz8", "name": "familyguy", "interactions": 21504, "users": 1026, "degree": 1, "strength": 59}], "edges": [{"source": "t5_2sblq", "target": "t5_2quz8", "shared_users": 59, "cosine": 0.04458220768602223, "jaccard": 0.022064323111443532}]}
