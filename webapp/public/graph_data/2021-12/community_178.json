@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qofj", "name": "spotify", "interactions": 18634, "users": 1686, "degree": 2, "strength": 161}, {"id": "t5_2szwj", "name": "SpotifyPlaylists", "interactions": 11391, "users": 724, "degree": 1, "strength": 103}], "edges": [{"source": "t5_2qofj", "target": "t5_2szwj", "shared_users": 103, "cosine": 0.09322645205343584, "jaccard": 0.044646727351538795}]}

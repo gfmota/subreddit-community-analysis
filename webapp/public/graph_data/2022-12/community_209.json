@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rce8", "name": "stephenking", "interactions": 24233, "users": 1728, "degree": 3, "strength": 240}, {"id": "t5_2run7", "name": "TheDarkTower", "interactions": 4413, "users": 331, "degree": 1, "strength": 59}], "edges": [{"source": "t5_2rce8", "target": "t5_2run7", "shared_users": 59, "cosine": 0.07801285029697341, "jaccard": 0.0295}]}

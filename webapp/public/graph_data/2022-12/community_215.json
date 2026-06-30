@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qxoe", "name": "Albuquerque", "interactions": 13324, "users": 1204, "degree": 2, "strength": 133}, {"id": "t5_2raxc", "name": "NewMexico", "interactions": 3354, "users": 263, "degree": 1, "strength": 53}], "edges": [{"source": "t5_2qxoe", "target": "t5_2raxc", "shared_users": 53, "cosine": 0.09418565273038323, "jaccard": 0.03748231966053748}]}

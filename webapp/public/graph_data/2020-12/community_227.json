@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qzpd", "name": "mountandblade", "interactions": 11137, "users": 914, "degree": 2, "strength": 97}, {"id": "t5_2vqx9", "name": "Bannerlord", "interactions": 5943, "users": 542, "degree": 1, "strength": 55}], "edges": [{"source": "t5_2qzpd", "target": "t5_2vqx9", "shared_users": 55, "cosine": 0.0781429762640008, "jaccard": 0.039257673090649536}]}

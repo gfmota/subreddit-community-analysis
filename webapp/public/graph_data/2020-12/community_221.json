@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2s7g9", "name": "roosterteeth", "interactions": 9913, "users": 723, "degree": 2, "strength": 71}, {"id": "t5_2v6vs", "name": "Achievement_Hunter", "interactions": 4924, "users": 509, "degree": 1, "strength": 37}], "edges": [{"source": "t5_2s7g9", "target": "t5_2v6vs", "shared_users": 37, "cosine": 0.0609921137038309, "jaccard": 0.03096234309623431}]}

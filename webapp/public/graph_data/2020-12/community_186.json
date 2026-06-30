@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2tqri", "name": "NewSkaters", "interactions": 13721, "users": 1270, "degree": 2, "strength": 128}, {"id": "t5_2qig3", "name": "skateboarding", "interactions": 11204, "users": 1024, "degree": 2, "strength": 128}], "edges": [{"source": "t5_2tqri", "target": "t5_2qig3", "shared_users": 84, "cosine": 0.07365927624120368, "jaccard": 0.03800904977375565}]}

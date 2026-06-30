@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2smr1", "name": "KerbalSpaceProgram", "interactions": 24851, "users": 1726, "degree": 3, "strength": 167}, {"id": "t5_2wrxb", "name": "KerbalAcademy", "interactions": 2386, "users": 172, "degree": 1, "strength": 68}], "edges": [{"source": "t5_2smr1", "target": "t5_2wrxb", "shared_users": 68, "cosine": 0.12480278980969559, "jaccard": 0.03715846994535519}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2stj0", "name": "rccars", "interactions": 17876, "users": 1287, "degree": 2, "strength": 126}, {"id": "t5_2ti1e", "name": "Traxxas", "interactions": 2264, "users": 221, "degree": 1, "strength": 65}], "edges": [{"source": "t5_2stj0", "target": "t5_2ti1e", "shared_users": 65, "cosine": 0.12187873735452177, "jaccard": 0.04504504504504504}]}

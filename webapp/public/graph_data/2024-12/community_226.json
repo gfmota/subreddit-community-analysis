@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2eji6w", "name": "Chadtopia", "interactions": 10920, "users": 521, "degree": 2, "strength": 115}, {"id": "t5_yo4xr", "name": "SpyxFamily", "interactions": 14597, "users": 798, "degree": 1, "strength": 42}], "edges": [{"source": "t5_2eji6w", "target": "t5_yo4xr", "shared_users": 42, "cosine": 0.06513718456776817, "jaccard": 0.03288958496476116}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qmpu", "name": "phoenix", "interactions": 23172, "users": 1978, "degree": 2, "strength": 171}, {"id": "t5_2qn1z", "name": "arizona", "interactions": 6710, "users": 461, "degree": 1, "strength": 66}], "edges": [{"source": "t5_2qmpu", "target": "t5_2qn1z", "shared_users": 66, "cosine": 0.0691162758402971, "jaccard": 0.02781289506953224}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2yswq", "name": "panelshow", "interactions": 7485, "users": 599, "degree": 1, "strength": 75}, {"id": "t5_39mk7", "name": "taskmaster", "interactions": 11004, "users": 940, "degree": 2, "strength": 125}], "edges": [{"source": "t5_2yswq", "target": "t5_39mk7", "shared_users": 75, "cosine": 0.09995025935882129, "jaccard": 0.05122950819672131}]}

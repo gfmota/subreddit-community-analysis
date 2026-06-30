@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_32nyt", "name": "RVLiving", "interactions": 12126, "users": 862, "degree": 2, "strength": 95}, {"id": "t5_2qu0e", "name": "GoRVing", "interactions": 3952, "users": 288, "degree": 1, "strength": 46}], "edges": [{"source": "t5_32nyt", "target": "t5_2qu0e", "shared_users": 46, "cosine": 0.09232258474799188, "jaccard": 0.041666666666666664}]}

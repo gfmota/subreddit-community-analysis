@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qi3u", "name": "Hawaii", "interactions": 16796, "users": 1371, "degree": 2, "strength": 111}, {"id": "t5_2rwf5", "name": "BigIsland", "interactions": 2987, "users": 302, "degree": 1, "strength": 59}], "edges": [{"source": "t5_2qi3u", "target": "t5_2rwf5", "shared_users": 59, "cosine": 0.09169165523559546, "jaccard": 0.036555142503097895}]}

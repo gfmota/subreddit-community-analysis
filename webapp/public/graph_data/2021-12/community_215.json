@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_q3ho0", "name": "BitLifeApp", "interactions": 11526, "users": 1030, "degree": 2, "strength": 155}, {"id": "t5_37ljv", "name": "bitlife", "interactions": 3239, "users": 296, "degree": 1, "strength": 78}], "edges": [{"source": "t5_q3ho0", "target": "t5_37ljv", "shared_users": 78, "cosine": 0.1412635561122874, "jaccard": 0.0625}]}

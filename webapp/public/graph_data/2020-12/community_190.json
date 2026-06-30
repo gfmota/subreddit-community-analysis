@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2semr", "name": "walmart", "interactions": 50363, "users": 3708, "degree": 5, "strength": 400}, {"id": "t5_2a41t4", "name": "OGPBackroom", "interactions": 1984, "users": 234, "degree": 1, "strength": 101}], "edges": [{"source": "t5_2semr", "target": "t5_2a41t4", "shared_users": 101, "cosine": 0.10842853309488812, "jaccard": 0.026295235615725072}]}

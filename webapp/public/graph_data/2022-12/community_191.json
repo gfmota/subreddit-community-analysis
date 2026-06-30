@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2yjxy", "name": "ArtistLounge", "interactions": 13350, "users": 1081, "degree": 2, "strength": 70}, {"id": "t5_2xl6w", "name": "artbusiness", "interactions": 2701, "users": 233, "degree": 1, "strength": 36}], "edges": [{"source": "t5_2yjxy", "target": "t5_2xl6w", "shared_users": 36, "cosine": 0.07173179411149486, "jaccard": 0.028169014084507043}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3fz4c", "name": "mathmemes", "interactions": 12732, "users": 828, "degree": 2, "strength": 65}, {"id": "t5_38d4q", "name": "physicsmemes", "interactions": 5166, "users": 344, "degree": 1, "strength": 31}], "edges": [{"source": "t5_3fz4c", "target": "t5_38d4q", "shared_users": 31, "cosine": 0.05808544276171636, "jaccard": 0.02716914986853637}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2uyxv", "name": "Iota", "interactions": 9209, "users": 881, "degree": 2, "strength": 337}, {"id": "t5_3fndh", "name": "IOTAmarkets", "interactions": 3732, "users": 361, "degree": 1, "strength": 192}], "edges": [{"source": "t5_2uyxv", "target": "t5_3fndh", "shared_users": 192, "cosine": 0.34045496616212667, "jaccard": 0.18285714285714286}]}

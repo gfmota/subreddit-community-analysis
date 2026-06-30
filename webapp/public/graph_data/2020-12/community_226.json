@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3f1cy", "name": "Memeulous", "interactions": 6081, "users": 760, "degree": 2, "strength": 121}, {"id": "t5_3fs40", "name": "WillNE", "interactions": 4227, "users": 546, "degree": 1, "strength": 77}], "edges": [{"source": "t5_3f1cy", "target": "t5_3fs40", "shared_users": 77, "cosine": 0.11953294172128957, "jaccard": 0.06265256305939788}]}

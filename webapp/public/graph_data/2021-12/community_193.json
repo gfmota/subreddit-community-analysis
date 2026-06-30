@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rc6h", "name": "secretsanta", "interactions": 20537, "users": 1869, "degree": 3, "strength": 248}, {"id": "t5_4kobmz", "name": "givingifts", "interactions": 1905, "users": 170, "degree": 1, "strength": 55}], "edges": [{"source": "t5_2rc6h", "target": "t5_4kobmz", "shared_users": 55, "cosine": 0.09757388071335102, "jaccard": 0.027721774193548387}]}

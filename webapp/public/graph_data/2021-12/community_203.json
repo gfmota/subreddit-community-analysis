@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2su2m", "name": "Wizard101", "interactions": 16427, "users": 1467, "degree": 2, "strength": 104}, {"id": "t5_2tzbq", "name": "Pirate101", "interactions": 2597, "users": 192, "degree": 1, "strength": 62}], "edges": [{"source": "t5_2su2m", "target": "t5_2tzbq", "shared_users": 62, "cosine": 0.11682237150858477, "jaccard": 0.038822792736380715}]}

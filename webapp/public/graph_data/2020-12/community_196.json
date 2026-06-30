@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2zejk", "name": "MandelaEffect", "interactions": 10786, "users": 768, "degree": 2, "strength": 122}, {"id": "t5_3fft0", "name": "Retconned", "interactions": 6360, "users": 369, "degree": 1, "strength": 52}], "edges": [{"source": "t5_2zejk", "target": "t5_3fft0", "shared_users": 52, "cosine": 0.09768087708897184, "jaccard": 0.047926267281105994}]}

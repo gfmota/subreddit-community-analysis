@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2s48x", "name": "Planetside", "interactions": 25172, "users": 1517, "degree": 2, "strength": 94}, {"id": "t5_2zq88", "name": "PS4Planetside2", "interactions": 2429, "users": 188, "degree": 1, "strength": 43}], "edges": [{"source": "t5_2s48x", "target": "t5_2zq88", "shared_users": 43, "cosine": 0.0805186974235892, "jaccard": 0.025872442839951864}]}

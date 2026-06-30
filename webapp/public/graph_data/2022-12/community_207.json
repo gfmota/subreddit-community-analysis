@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_32t50", "name": "SMG4", "interactions": 15730, "users": 607, "degree": 1, "strength": 46}, {"id": "t5_4o056g", "name": "MurderDrones", "interactions": 25189, "users": 984, "degree": 2, "strength": 85}], "edges": [{"source": "t5_32t50", "target": "t5_4o056g", "shared_users": 46, "cosine": 0.059520413123237456, "jaccard": 0.02977346278317152}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3eeyc", "name": "MxRMods", "interactions": 14557, "users": 1140, "degree": 3, "strength": 126}, {"id": "t5_1s1wak", "name": "MXRplays", "interactions": 2521, "users": 215, "degree": 1, "strength": 47}], "edges": [{"source": "t5_3eeyc", "target": "t5_1s1wak", "shared_users": 47, "cosine": 0.09493496668149629, "jaccard": 0.035932721712538224}]}

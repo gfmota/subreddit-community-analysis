@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qk80", "name": "camping", "interactions": 23049, "users": 1309, "degree": 2, "strength": 94}, {"id": "t5_2qqom", "name": "CampingandHiking", "interactions": 7200, "users": 393, "degree": 1, "strength": 27}], "edges": [{"source": "t5_2qk80", "target": "t5_2qqom", "shared_users": 27, "cosine": 0.03764416477192597, "jaccard": 0.016119402985074627}]}

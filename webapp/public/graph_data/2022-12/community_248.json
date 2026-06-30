@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rmqc", "name": "marchingband", "interactions": 8728, "users": 777, "degree": 2, "strength": 119}, {"id": "t5_2rwjm", "name": "drumcorps", "interactions": 7435, "users": 803, "degree": 1, "strength": 56}], "edges": [{"source": "t5_2rmqc", "target": "t5_2rwjm", "shared_users": 56, "cosine": 0.07089567551704917, "jaccard": 0.03674540682414698}]}

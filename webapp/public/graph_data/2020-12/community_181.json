@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_33po3", "name": "bulletjournal", "interactions": 11647, "users": 1243, "degree": 2, "strength": 120}, {"id": "t5_3g17x", "name": "bujo", "interactions": 2793, "users": 273, "degree": 1, "strength": 62}], "edges": [{"source": "t5_33po3", "target": "t5_3g17x", "shared_users": 62, "cosine": 0.10643263190025354, "jaccard": 0.04264099037138927}]}

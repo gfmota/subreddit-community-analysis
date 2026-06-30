@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rnwo", "name": "vandwellers", "interactions": 20572, "users": 1332, "degree": 2, "strength": 153}, {"id": "t5_2wii5", "name": "VanLife", "interactions": 4515, "users": 397, "degree": 1, "strength": 100}], "edges": [{"source": "t5_2rnwo", "target": "t5_2wii5", "shared_users": 100, "cosine": 0.1375158109298215, "jaccard": 0.061387354205033766}]}

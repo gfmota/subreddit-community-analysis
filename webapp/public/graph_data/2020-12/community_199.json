@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2u2ui", "name": "PhotoshopRequest", "interactions": 24926, "users": 1661, "degree": 2, "strength": 141}, {"id": "t5_2scp1", "name": "picrequests", "interactions": 4761, "users": 461, "degree": 1, "strength": 75}], "edges": [{"source": "t5_2u2ui", "target": "t5_2scp1", "shared_users": 75, "cosine": 0.08570891245865284, "jaccard": 0.03663898387884709}]}

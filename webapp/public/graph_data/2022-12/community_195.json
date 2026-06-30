@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2tvlr", "name": "overlord", "interactions": 28381, "users": 1564, "degree": 2, "strength": 78}, {"id": "t5_l1j28", "name": "TenseiSlime", "interactions": 16767, "users": 832, "degree": 1, "strength": 39}], "edges": [{"source": "t5_2tvlr", "target": "t5_l1j28", "shared_users": 39, "cosine": 0.03418885603874239, "jaccard": 0.016546457361052185}]}

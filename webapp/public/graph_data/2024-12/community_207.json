@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2h84o", "name": "bugs", "interactions": 8130, "users": 612, "degree": 1, "strength": 59}, {"id": "t5_2qh4a", "name": "help", "interactions": 27851, "users": 1677, "degree": 2, "strength": 104}], "edges": [{"source": "t5_2h84o", "target": "t5_2qh4a", "shared_users": 59, "cosine": 0.05823844482823989, "jaccard": 0.026457399103139014}]}

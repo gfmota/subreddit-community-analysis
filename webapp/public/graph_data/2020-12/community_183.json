@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_10l33f", "name": "MordhauFashion", "interactions": 1638, "users": 130, "degree": 1, "strength": 46}, {"id": "t5_387za", "name": "Mordhau", "interactions": 16758, "users": 1422, "degree": 4, "strength": 203}], "edges": [{"source": "t5_10l33f", "target": "t5_387za", "shared_users": 46, "cosine": 0.10698831737201493, "jaccard": 0.03054448871181939}]}

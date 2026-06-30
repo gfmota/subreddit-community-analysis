@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qx1l", "name": "glutenfree", "interactions": 27406, "users": 2276, "degree": 3, "strength": 254}, {"id": "t5_2tnai", "name": "Celiac", "interactions": 20665, "users": 1885, "degree": 1, "strength": 158}], "edges": [{"source": "t5_2qx1l", "target": "t5_2tnai", "shared_users": 158, "cosine": 0.07628080732987849, "jaccard": 0.039470397202098426}]}

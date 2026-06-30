@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2s8bl", "name": "mylittlepony", "interactions": 24530, "users": 1216, "degree": 2, "strength": 92}, {"id": "t5_2t403", "name": "MLPLounge", "interactions": 1994, "users": 78, "degree": 1, "strength": 33}], "edges": [{"source": "t5_2s8bl", "target": "t5_2t403", "shared_users": 33, "cosine": 0.10715189377738955, "jaccard": 0.026169706582077717}]}

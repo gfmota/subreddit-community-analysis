@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qp5l", "name": "exjw", "interactions": 64601, "users": 3003, "degree": 2, "strength": 167}, {"id": "t5_2sb3s", "name": "JehovahsWitnesses", "interactions": 2303, "users": 114, "degree": 1, "strength": 42}], "edges": [{"source": "t5_2qp5l", "target": "t5_2sb3s", "shared_users": 42, "cosine": 0.0717826023131459, "jaccard": 0.013658536585365854}]}

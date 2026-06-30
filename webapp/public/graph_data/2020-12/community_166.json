@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sgxv", "name": "femalehairadvice", "interactions": 8496, "users": 836, "degree": 2, "strength": 108}, {"id": "t5_2qmsf", "name": "Hair", "interactions": 10438, "users": 1072, "degree": 2, "strength": 111}], "edges": [{"source": "t5_2sgxv", "target": "t5_2qmsf", "shared_users": 58, "cosine": 0.061267119485209985, "jaccard": 0.03135135135135135}]}

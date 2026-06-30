@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_oqcwn", "name": "loveafterporn", "interactions": 8081, "users": 555, "degree": 2, "strength": 56}, {"id": "t5_38sep", "name": "antipornography", "interactions": 4021, "users": 224, "degree": 1, "strength": 24}], "edges": [{"source": "t5_oqcwn", "target": "t5_38sep", "shared_users": 24, "cosine": 0.06806764747811278, "jaccard": 0.031788079470198675}]}

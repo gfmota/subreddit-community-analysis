@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qjii", "name": "socialism", "interactions": 11017, "users": 564, "degree": 2, "strength": 72}, {"id": "t5_2ys9x", "name": "Socialism_101", "interactions": 6981, "users": 380, "degree": 1, "strength": 27}], "edges": [{"source": "t5_2qjii", "target": "t5_2ys9x", "shared_users": 27, "cosine": 0.05832200071222924, "jaccard": 0.029443838604143947}]}

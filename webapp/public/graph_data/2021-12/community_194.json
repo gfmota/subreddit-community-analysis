@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2tn9g", "name": "WarriorCats", "interactions": 8468, "users": 668, "degree": 1, "strength": 33}, {"id": "t5_2w9h0", "name": "WingsOfFire", "interactions": 14791, "users": 650, "degree": 2, "strength": 67}], "edges": [{"source": "t5_2tn9g", "target": "t5_2w9h0", "shared_users": 33, "cosine": 0.05008054314276129, "jaccard": 0.025680933852140077}]}

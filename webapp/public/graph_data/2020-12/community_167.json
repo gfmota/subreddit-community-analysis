@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2r25j", "name": "USPS", "interactions": 30962, "users": 2424, "degree": 2, "strength": 194}, {"id": "t5_3clrz", "name": "usps_complaints", "interactions": 15253, "users": 1506, "degree": 1, "strength": 85}], "edges": [{"source": "t5_2r25j", "target": "t5_3clrz", "shared_users": 85, "cosine": 0.044487718294541914, "jaccard": 0.022106631989596878}]}

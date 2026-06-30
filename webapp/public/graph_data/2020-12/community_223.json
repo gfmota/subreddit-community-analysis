@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sh6t", "name": "AbandonedPorn", "interactions": 18315, "users": 835, "degree": 2, "strength": 104}, {"id": "t5_2qkvl", "name": "urbanexploration", "interactions": 4957, "users": 305, "degree": 1, "strength": 46}], "edges": [{"source": "t5_2sh6t", "target": "t5_2qkvl", "shared_users": 46, "cosine": 0.09115167932819802, "jaccard": 0.04204753199268738}]}

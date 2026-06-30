@@ -1,15 +1,28 @@
 import { useState, useCallback } from "react";
 import CommunityGraph from "./CommunityGraph";
 import CommunityDetail from "./CommunityDetail";
-import SearchBar from "./SearchBat";
+import SearchBar from "./SearchBar";
+import DateSelector from "./DateSelector";
 
 export default function App() {
+  const [selectedDate, setSelectedDate] = useState("2024-12");
   const [selectedCommunity, setSelectedCommunity] = useState(null);
   const [selectedSubreddit, setSelectedSubreddit] = useState(null);
 
-  const handleSelectCommunity = useCallback((id) => {
-    setSelectedCommunity(id);
+  const handleSelectDate = useCallback((date) => {
+    setSelectedDate(date);
+    setSelectedCommunity(null);
     setSelectedSubreddit(null);
+  }, []);
+
+  const handleSelectCommunity = useCallback((id) => {
+    setSelectedSubreddit(null);
+    setSelectedCommunity(id);
+  }, []);
+
+  const handleSearchSelect = useCallback((result) => {
+    setSelectedSubreddit(result.id);
+    setSelectedCommunity(String(result.community_id));
   }, []);
 
   const handleBack = useCallback(() => {
@@ -17,23 +30,31 @@ export default function App() {
     setSelectedSubreddit(null);
   }, []);
 
-  const handleSearchSelect = useCallback((result) => {
-    console.log(result);
-    setSelectedSubreddit(result.id);
-    setSelectedCommunity(String(result.community_id));
-  }, []);
-
   return (
-    <div style={{ width: "100vw", height: "100vh" }}>
-      <SearchBar onSelectSubreddit={handleSearchSelect} />
+    <div style={{ width: "100vw", height: "100vh", position: "relative" }}>
+      <DateSelector
+        selectedDate={selectedDate}
+        onSelectDate={handleSelectDate}
+      />
+      <SearchBar
+        date={selectedDate}
+        onSelectSubreddit={handleSearchSelect}
+        date={selectedDate}
+      />
       {selectedCommunity === null ? (
-        <CommunityGraph onSelectCommunity={handleSelectCommunity} />
+        <CommunityGraph
+          date={selectedDate}
+          onSelectCommunity={handleSelectCommunity}
+          date={selectedDate}
+        />
       ) : (
         <CommunityDetail
+          date={selectedDate}
           communityId={selectedCommunity}
-          onBack={handleBack}
           selectedSubreddit={selectedSubreddit}
           setSelectedSubreddit={setSelectedSubreddit}
+          onBack={handleBack}
+          date={selectedDate}
         />
       )}
     </div>

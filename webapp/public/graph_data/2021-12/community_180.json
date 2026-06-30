@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2ql2m", "name": "Egypt", "interactions": 25057, "users": 1860, "degree": 3, "strength": 180}, {"id": "t5_3ip0zv", "name": "ExEgypt", "interactions": 2338, "users": 191, "degree": 1, "strength": 55}], "edges": [{"source": "t5_2ql2m", "target": "t5_3ip0zv", "shared_users": 55, "cosine": 0.09227616432606198, "jaccard": 0.02755511022044088}]}

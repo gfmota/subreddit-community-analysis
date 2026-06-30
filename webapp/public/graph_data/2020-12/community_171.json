@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rfut", "name": "Metalcore", "interactions": 15337, "users": 1493, "degree": 2, "strength": 107}, {"id": "t5_2ruho", "name": "Deathcore", "interactions": 4197, "users": 418, "degree": 1, "strength": 48}], "edges": [{"source": "t5_2rfut", "target": "t5_2ruho", "shared_users": 48, "cosine": 0.060760759330392836, "jaccard": 0.02576489533011272}]}

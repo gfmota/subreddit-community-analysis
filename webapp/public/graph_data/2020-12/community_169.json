@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_sd0ju", "name": "MetaRunner", "interactions": 14764, "users": 892, "degree": 2, "strength": 331}, {"id": "t5_32t50", "name": "SMG4", "interactions": 35282, "users": 1366, "degree": 2, "strength": 427}], "edges": [{"source": "t5_sd0ju", "target": "t5_32t50", "shared_users": 239, "cosine": 0.21651606427150968, "jaccard": 0.1183754333828628}]}

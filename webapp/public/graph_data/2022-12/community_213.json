@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qmtk", "name": "graphic_design", "interactions": 18079, "users": 1425, "degree": 2, "strength": 108}, {"id": "t5_2s4v6", "name": "logodesign", "interactions": 8204, "users": 702, "degree": 1, "strength": 59}], "edges": [{"source": "t5_2qmtk", "target": "t5_2s4v6", "shared_users": 59, "cosine": 0.05898967770952223, "jaccard": 0.02852998065764023}]}

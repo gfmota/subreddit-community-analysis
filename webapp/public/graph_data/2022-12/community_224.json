@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rkar", "name": "samsung", "interactions": 16684, "users": 1167, "degree": 2, "strength": 64}, {"id": "t5_3xbta7", "name": "S22Ultra", "interactions": 10027, "users": 1011, "degree": 1, "strength": 31}], "edges": [{"source": "t5_2rkar", "target": "t5_3xbta7", "shared_users": 31, "cosine": 0.028539784402949697, "jaccard": 0.014438751746623195}]}

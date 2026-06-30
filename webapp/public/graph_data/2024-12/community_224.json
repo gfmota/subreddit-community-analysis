@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2s3pg", "name": "JonBenetRamsey", "interactions": 64414, "users": 2847, "degree": 3, "strength": 262}, {"id": "t5_35vmd", "name": "JonBenet", "interactions": 10236, "users": 356, "degree": 1, "strength": 137}], "edges": [{"source": "t5_2s3pg", "target": "t5_35vmd", "shared_users": 137, "cosine": 0.13608236068972532, "jaccard": 0.044683626875407695}]}

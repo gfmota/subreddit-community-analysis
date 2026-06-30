@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rg06", "name": "navy", "interactions": 23454, "users": 1982, "degree": 2, "strength": 279}, {"id": "t5_2v1a6", "name": "newtothenavy", "interactions": 9305, "users": 852, "degree": 1, "strength": 146}], "edges": [{"source": "t5_2rg06", "target": "t5_2v1a6", "shared_users": 146, "cosine": 0.11235211008757998, "jaccard": 0.05431547619047619}]}

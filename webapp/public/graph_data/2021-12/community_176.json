@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2t79l", "name": "curlyhair", "interactions": 26155, "users": 2174, "degree": 3, "strength": 216}, {"id": "t5_33ywz", "name": "Wavyhair", "interactions": 4605, "users": 400, "degree": 1, "strength": 41}], "edges": [{"source": "t5_2t79l", "target": "t5_33ywz", "shared_users": 41, "cosine": 0.04396672238287631, "jaccard": 0.016186340307935254}]}

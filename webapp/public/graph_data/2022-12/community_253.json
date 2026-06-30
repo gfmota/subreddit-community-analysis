@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qh0s", "name": "comics", "interactions": 81619, "users": 3266, "degree": 6, "strength": 592}, {"id": "t5_2qh2w", "name": "webcomics", "interactions": 6085, "users": 393, "degree": 1, "strength": 193}], "edges": [{"source": "t5_2qh0s", "target": "t5_2qh2w", "shared_users": 193, "cosine": 0.17035423854474355, "jaccard": 0.055683785343335256}]}

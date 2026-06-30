@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qixx", "name": "cancer", "interactions": 11390, "users": 1021, "degree": 2, "strength": 72}, {"id": "t5_3g1p0", "name": "coloncancer", "interactions": 3477, "users": 367, "degree": 1, "strength": 34}], "edges": [{"source": "t5_2qixx", "target": "t5_3g1p0", "shared_users": 34, "cosine": 0.05554347072584019, "jaccard": 0.025110782865583457}]}

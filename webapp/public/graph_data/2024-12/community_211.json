@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qiq9", "name": "Atlanta", "interactions": 6670, "users": 553, "degree": 1, "strength": 31}, {"id": "t5_2ql6n", "name": "Georgia", "interactions": 22302, "users": 1477, "degree": 2, "strength": 74}], "edges": [{"source": "t5_2qiq9", "target": "t5_2ql6n", "shared_users": 31, "cosine": 0.034301165783121416, "jaccard": 0.015507753876938469}]}

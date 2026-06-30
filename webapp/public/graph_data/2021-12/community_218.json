@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qhnf", "name": "Buddhism", "interactions": 22998, "users": 1194, "degree": 2, "strength": 101}, {"id": "t5_2qnc9", "name": "Meditation", "interactions": 16054, "users": 1179, "degree": 2, "strength": 109}], "edges": [{"source": "t5_2qhnf", "target": "t5_2qnc9", "shared_users": 57, "cosine": 0.048041414912207925, "jaccard": 0.02461139896373057}]}

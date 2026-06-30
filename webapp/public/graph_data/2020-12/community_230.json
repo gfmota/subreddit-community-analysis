@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rylp", "name": "AstralProjection", "interactions": 11097, "users": 852, "degree": 2, "strength": 71}, {"id": "t5_2r0f4", "name": "LucidDreaming", "interactions": 11725, "users": 1008, "degree": 2, "strength": 92}], "edges": [{"source": "t5_2rylp", "target": "t5_2r0f4", "shared_users": 34, "cosine": 0.03668840686309333, "jaccard": 0.018619934282584884}]}

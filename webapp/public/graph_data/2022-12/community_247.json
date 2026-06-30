@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qixm", "name": "startrek", "interactions": 34527, "users": 1760, "degree": 3, "strength": 248}, {"id": "t5_2whek", "name": "DaystromInstitute", "interactions": 6459, "users": 272, "degree": 1, "strength": 52}], "edges": [{"source": "t5_2qixm", "target": "t5_2whek", "shared_users": 52, "cosine": 0.07515580963521805, "jaccard": 0.026262626262626262}]}

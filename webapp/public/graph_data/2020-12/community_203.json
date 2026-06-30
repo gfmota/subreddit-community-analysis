@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qz7g", "name": "Nerf", "interactions": 20667, "users": 1250, "degree": 2, "strength": 126}, {"id": "t5_2t0u4", "name": "nerfmods", "interactions": 1722, "users": 138, "degree": 1, "strength": 79}], "edges": [{"source": "t5_2qz7g", "target": "t5_2t0u4", "shared_users": 79, "cosine": 0.19020964787551534, "jaccard": 0.060351413292589765}]}

@@ -10,11 +10,11 @@ import forceAtlas2 from "graphology-layout-forceatlas2";
 import { getColor } from "./colors";
 import "@react-sigma/core/lib/style.css";
 
-function GraphLoader({ communityId, onDataLoaded, onGraphReady }) {
+function GraphLoader({ date, communityId, onDataLoaded, onGraphReady }) {
   const loadGraph = useLoadGraph();
 
   useEffect(() => {
-    fetch(`/graph_data/community_${communityId}.json`)
+    fetch(`/graph_data/${date}/community_${communityId}.json`)
       .then((r) => {
         if (!r.ok)
           throw new Error(
@@ -47,7 +47,7 @@ function GraphLoader({ communityId, onDataLoaded, onGraphReady }) {
           ) {
             graph.addEdge(source, target, {
               size: 0.5,
-              color: "rgba(226, 232, 240, 0.6)",
+              color: "#e2e8f0",
               rawData: edge,
             });
           }
@@ -63,7 +63,7 @@ function GraphLoader({ communityId, onDataLoaded, onGraphReady }) {
         onGraphReady(graph);
       })
       .catch((err) => console.error(err));
-  }, [communityId, loadGraph, onDataLoaded, onGraphReady]);
+  }, [communityId, loadGraph, onDataLoaded, onGraphReady, date]);
 
   return null;
 }
@@ -134,46 +134,49 @@ function SubredditPanel({ graph, selectedNode, onClose }) {
         width: 320,
         height: "100%",
         background: "white",
-        padding: 16,
+        margin: 0,
         boxShadow: "-2px 0 8px rgba(0,0,0,0.1)",
         overflowY: "auto",
         zIndex: 20,
       }}
     >
-      <button onClick={onClose} style={{ float: "right" }}>
-        ✕
-      </button>
-      <h2 style={{ marginTop: 0 }}>r/{attrs.name}</h2>
-      <p>Interactions: {attrs.interactions?.toLocaleString()}</p>
-      <p>Users: {attrs.users?.toLocaleString()}</p>
-      <p>Degree: {attrs.degree}</p>
-      <p>Strength: {attrs.strength?.toLocaleString()}</p>
+      <div style={{ padding: 16 }}>
+        <button onClick={onClose} style={{ float: "right" }}>
+          ✕
+        </button>
+        <h2 style={{ marginTop: 0 }}>r/{attrs.name}</h2>
+        <p>Interactions: {attrs.interactions?.toLocaleString()}</p>
+        <p>Users: {attrs.users?.toLocaleString()}</p>
+        <p>Degree: {attrs.degree}</p>
+        <p>Strength: {attrs.strength?.toLocaleString()}</p>
 
-      <h3>Connections ({neighbors.length})</h3>
-      {neighbors
-        .sort(
-          (a, b) => (b.edge?.shared_users || 0) - (a.edge?.shared_users || 0),
-        )
-        .map((n) => (
-          <div
-            key={n.id}
-            style={{
-              borderBottom: "1px solid #eee",
-              padding: "8px 0",
-              fontSize: 14,
-            }}
-          >
-            <strong>r/{n.name}</strong>
-            <div style={{ color: "#666" }}>
-              {n.edge?.shared_users?.toLocaleString()} shared users
+        <h3>Connections ({neighbors.length})</h3>
+        {neighbors
+          .sort(
+            (a, b) => (b.edge?.shared_users || 0) - (a.edge?.shared_users || 0),
+          )
+          .map((n) => (
+            <div
+              key={n.id}
+              style={{
+                borderBottom: "1px solid #eee",
+                padding: "8px 0",
+                fontSize: 14,
+              }}
+            >
+              <strong>r/{n.name}</strong>
+              <div style={{ color: "#666" }}>
+                {n.edge?.shared_users?.toLocaleString()} shared users
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+      </div>
     </div>
   );
 }
 
 export default function CommunityDetail({
+  date,
   communityId,
   selectedSubreddit,
   setSelectedSubreddit,
@@ -190,9 +193,12 @@ export default function CommunityDetail({
     setGraph(g);
   }, []);
 
-  const handleSelectNode = useCallback((nodeId) => {
-    setSelectedSubreddit(nodeId);
-  }, []);
+  const handleSelectNode = useCallback(
+    (nodeId) => {
+      setSelectedSubreddit(nodeId);
+    },
+    [setSelectedSubreddit],
+  );
 
   return (
     <div style={{ width: "100%", height: "100%", position: "relative" }}>
@@ -219,11 +225,13 @@ export default function CommunityDetail({
             color: "#666",
           }}
         >
-          {stats.nodes} subreddits, {stats.edges} connections
+          Community {communityId}: {stats.nodes} subreddits, {stats.edges}{" "}
+          connections
         </div>
       )}
       <SigmaContainer style={{ width: "100%", height: "100%" }}>
         <GraphLoader
+          date={date}
           communityId={communityId}
           onDataLoaded={handleDataLoaded}
           onGraphReady={handleGraphReady}

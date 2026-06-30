@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qjni", "name": "ENGLISH", "interactions": 5412, "users": 373, "degree": 1, "strength": 55}, {"id": "t5_2u8ap", "name": "EnglishLearning", "interactions": 23424, "users": 1341, "degree": 2, "strength": 110}], "edges": [{"source": "t5_2qjni", "target": "t5_2u8ap", "shared_users": 55, "cosine": 0.07776673839809654, "jaccard": 0.033152501506931886}]}

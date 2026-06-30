@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qlps", "name": "trains", "interactions": 5116, "users": 427, "degree": 1, "strength": 33}, {"id": "t5_2r2f7", "name": "modeltrains", "interactions": 8537, "users": 728, "degree": 2, "strength": 72}], "edges": [{"source": "t5_2qlps", "target": "t5_2r2f7", "shared_users": 33, "cosine": 0.05918808825503657, "jaccard": 0.029411764705882353}]}

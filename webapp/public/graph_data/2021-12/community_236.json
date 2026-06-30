@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2v7zr", "name": "Paladins", "interactions": 29325, "users": 1758, "degree": 2, "strength": 142}, {"id": "t5_3mlrr", "name": "PaladinsAcademy", "interactions": 1957, "users": 142, "degree": 1, "strength": 85}], "edges": [{"source": "t5_2v7zr", "target": "t5_3mlrr", "shared_users": 85, "cosine": 0.17012389531010622, "jaccard": 0.046831955922865015}]}

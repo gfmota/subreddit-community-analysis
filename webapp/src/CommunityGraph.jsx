@@ -9,12 +9,12 @@ import forceAtlas2 from "graphology-layout-forceatlas2";
 import "@react-sigma/core/lib/style.css";
 import { getColor } from "./colors";
 
-function GraphLoader({ onDataLoaded, onSelectCommunity }) {
+function GraphLoader({ date, onDataLoaded, onSelectCommunity }) {
   const loadGraph = useLoadGraph();
   const registerEvents = useRegisterEvents();
 
   useEffect(() => {
-    fetch("/graph_data/communities.json")
+    fetch(`/graph_data/${date}/communities.json`)
       .then((r) => {
         if (!r.ok)
           throw new Error(`Failed to load communities.json: ${r.status}`);
@@ -59,7 +59,7 @@ function GraphLoader({ onDataLoaded, onSelectCommunity }) {
         onDataLoaded(data.nodes.length, data.edges.length);
       })
       .catch((err) => console.error(err));
-  }, [loadGraph, onDataLoaded]);
+  }, [loadGraph, onDataLoaded, date]);
 
   useEffect(() => {
     registerEvents({
@@ -70,7 +70,7 @@ function GraphLoader({ onDataLoaded, onSelectCommunity }) {
   return null;
 }
 
-export default function CommunityGraph({ onSelectCommunity }) {
+export default function CommunityGraph({ date, onSelectCommunity }) {
   const [stats, setStats] = useState(null);
 
   const handleDataLoaded = useCallback((nodes, edges) => {
@@ -95,6 +95,7 @@ export default function CommunityGraph({ onSelectCommunity }) {
       )}
       <SigmaContainer style={{ width: "100%", height: "100%" }}>
         <GraphLoader
+          date={date}
           onDataLoaded={handleDataLoaded}
           onSelectCommunity={onSelectCommunity}
         />

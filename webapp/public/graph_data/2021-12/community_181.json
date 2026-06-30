@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2r76d", "name": "therapy", "interactions": 8764, "users": 792, "degree": 2, "strength": 98}, {"id": "t5_39dpu", "name": "TalkTherapy", "interactions": 12313, "users": 850, "degree": 1, "strength": 52}], "edges": [{"source": "t5_2r76d", "target": "t5_39dpu", "shared_users": 52, "cosine": 0.06337694342435132, "jaccard": 0.03270440251572327}]}

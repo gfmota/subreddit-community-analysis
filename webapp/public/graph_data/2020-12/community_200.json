@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3obo9", "name": "DarlingInTheFranxx", "interactions": 12908, "users": 952, "degree": 2, "strength": 176}, {"id": "t5_f4chf", "name": "ZeroTwo", "interactions": 5139, "users": 469, "degree": 1, "strength": 99}], "edges": [{"source": "t5_3obo9", "target": "t5_f4chf", "shared_users": 99, "cosine": 0.14815977133003772, "jaccard": 0.07488653555219364}]}

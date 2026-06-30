@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qur2", "name": "excel", "interactions": 20624, "users": 1710, "degree": 2, "strength": 110}, {"id": "t5_2rnlw", "name": "vba", "interactions": 1868, "users": 201, "degree": 1, "strength": 51}], "edges": [{"source": "t5_2qur2", "target": "t5_2rnlw", "shared_users": 51, "cosine": 0.08699095371218755, "jaccard": 0.027419354838709678}]}

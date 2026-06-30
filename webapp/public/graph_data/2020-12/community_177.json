@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2ud8e", "name": "Dogfree", "interactions": 6763, "users": 439, "degree": 1, "strength": 50}, {"id": "t5_3d2z7", "name": "BanPitBulls", "interactions": 21393, "users": 842, "degree": 2, "strength": 98}], "edges": [{"source": "t5_2ud8e", "target": "t5_3d2z7", "shared_users": 50, "cosine": 0.08223973428666366, "jaccard": 0.04061738424045491}]}

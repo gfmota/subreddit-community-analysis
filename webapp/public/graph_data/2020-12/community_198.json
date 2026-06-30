@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2ruhk", "name": "GODZILLA", "interactions": 13188, "users": 806, "degree": 2, "strength": 77}, {"id": "t5_3hv5o", "name": "Monsterverse", "interactions": 2329, "users": 156, "degree": 1, "strength": 43}], "edges": [{"source": "t5_2ruhk", "target": "t5_3hv5o", "shared_users": 43, "cosine": 0.12126588357534983, "jaccard": 0.046789989118607184}]}

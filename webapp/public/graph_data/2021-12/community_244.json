@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_57ovb5", "name": "DWAC", "interactions": 4526, "users": 257, "degree": 1, "strength": 130}, {"id": "t5_57oznn", "name": "DWAC_Stock", "interactions": 26773, "users": 1112, "degree": 2, "strength": 215}], "edges": [{"source": "t5_57ovb5", "target": "t5_57oznn", "shared_users": 130, "cosine": 0.24317806422598098, "jaccard": 0.10492332526230831}]}

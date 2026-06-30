@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rhs5", "name": "TheSimpsons", "interactions": 30532, "users": 1752, "degree": 2, "strength": 232}, {"id": "t5_3civg", "name": "simpsonsshitposting", "interactions": 12521, "users": 626, "degree": 1, "strength": 44}], "edges": [{"source": "t5_2rhs5", "target": "t5_3civg", "shared_users": 44, "cosine": 0.04201442835712612, "jaccard": 0.018851756640959727}]}

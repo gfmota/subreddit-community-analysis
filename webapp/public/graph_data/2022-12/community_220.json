@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sgqr", "name": "numetal", "interactions": 9194, "users": 685, "degree": 2, "strength": 70}, {"id": "t5_2t53k", "name": "Korn", "interactions": 5333, "users": 474, "degree": 1, "strength": 35}], "edges": [{"source": "t5_2sgqr", "target": "t5_2t53k", "shared_users": 35, "cosine": 0.06142336255943696, "jaccard": 0.03113879003558719}]}

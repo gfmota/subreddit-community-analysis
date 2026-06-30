@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rmg0", "name": "ems", "interactions": 13644, "users": 1230, "degree": 2, "strength": 172}, {"id": "t5_3ofm1", "name": "NewToEMS", "interactions": 3732, "users": 387, "degree": 1, "strength": 88}], "edges": [{"source": "t5_2rmg0", "target": "t5_3ofm1", "shared_users": 88, "cosine": 0.12754828805763352, "jaccard": 0.05755395683453238}]}

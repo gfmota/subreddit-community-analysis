@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2hndg1", "name": "CoronavirusOC", "interactions": 2004, "users": 152, "degree": 1, "strength": 36}, {"id": "t5_2rd9x", "name": "orangecounty", "interactions": 14722, "users": 1244, "degree": 3, "strength": 141}], "edges": [{"source": "t5_2hndg1", "target": "t5_2rd9x", "shared_users": 36, "cosine": 0.0827885958285039, "jaccard": 0.026470588235294117}]}

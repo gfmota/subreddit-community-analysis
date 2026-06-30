@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qhf9", "name": "chemistry", "interactions": 14647, "users": 1199, "degree": 2, "strength": 86}, {"id": "t5_2r0xb", "name": "OrganicChemistry", "interactions": 3119, "users": 329, "degree": 1, "strength": 38}], "edges": [{"source": "t5_2qhf9", "target": "t5_2r0xb", "shared_users": 38, "cosine": 0.06050288112550485, "jaccard": 0.025503355704697986}]}

@@ -1,1 +1,0 @@
-{"nodes": [{"id": "t5_2xks2", "name": "playrust", "interactions": 20716, "users": 1977, "degree": 2, "strength": 60}, {"id": "t5_28h1wz", "name": "RustConsole", "interactions": 4852, "users": 510, "degree": 1, "strength": 28}], "edges": [{"source": "t5_2xks2", "target": "t5_28h1wz", "shared_users": 28, "cosine": 0.027884933211917012, "jaccard": 0.011386742578283855}]}

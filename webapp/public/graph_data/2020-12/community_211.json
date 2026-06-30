@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rygv", "name": "thewalkingdead", "interactions": 14463, "users": 974, "degree": 2, "strength": 97}, {"id": "t5_35zlz", "name": "FearTheWalkingDead", "interactions": 3706, "users": 213, "degree": 1, "strength": 46}], "edges": [{"source": "t5_2rygv", "target": "t5_35zlz", "shared_users": 46, "cosine": 0.10099236710778879, "jaccard": 0.040315512708150744}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2s8o5", "name": "femalefashionadvice", "interactions": 17535, "users": 1427, "degree": 3, "strength": 163}, {"id": "t5_357fa", "name": "ffacj", "interactions": 4071, "users": 235, "degree": 1, "strength": 46}], "edges": [{"source": "t5_2s8o5", "target": "t5_357fa", "shared_users": 46, "cosine": 0.07943500258074371, "jaccard": 0.028465346534653466}]}

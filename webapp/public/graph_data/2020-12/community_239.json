@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sove", "name": "BeardedDragons", "interactions": 14708, "users": 1335, "degree": 2, "strength": 98}, {"id": "t5_2slot", "name": "leopardgeckos", "interactions": 11351, "users": 1010, "degree": 2, "strength": 78}], "edges": [{"source": "t5_2sove", "target": "t5_2slot", "shared_users": 40, "cosine": 0.034447576365897396, "jaccard": 0.01735357917570499}]}

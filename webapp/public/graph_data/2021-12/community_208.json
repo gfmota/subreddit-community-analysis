@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_4xzwx4", "name": "MythicHeroes", "interactions": 4997, "users": 479, "degree": 1, "strength": 39}, {"id": "t5_l00gg", "name": "afkarena", "interactions": 20221, "users": 1802, "degree": 2, "strength": 81}], "edges": [{"source": "t5_4xzwx4", "target": "t5_l00gg", "shared_users": 39, "cosine": 0.041977779019941985, "jaccard": 0.017395182872435324}]}

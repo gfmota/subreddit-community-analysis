@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sjcj", "name": "hamsters", "interactions": 16186, "users": 1182, "degree": 2, "strength": 102}, {"id": "t5_35rep", "name": "hamstercare", "interactions": 1579, "users": 147, "degree": 1, "strength": 46}], "edges": [{"source": "t5_2sjcj", "target": "t5_35rep", "shared_users": 46, "cosine": 0.11035459621692574, "jaccard": 0.03585346843335931}]}

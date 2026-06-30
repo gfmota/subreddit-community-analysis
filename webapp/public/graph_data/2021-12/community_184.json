@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qsfi", "name": "Reno", "interactions": 12223, "users": 1182, "degree": 2, "strength": 98}, {"id": "t5_2s4yk", "name": "tahoe", "interactions": 4935, "users": 463, "degree": 1, "strength": 40}], "edges": [{"source": "t5_2qsfi", "target": "t5_2s4yk", "shared_users": 40, "cosine": 0.054070546308522316, "jaccard": 0.024922118380062305}]}

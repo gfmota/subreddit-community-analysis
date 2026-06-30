@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sekf", "name": "ifyoulikeblank", "interactions": 14585, "users": 1083, "degree": 2, "strength": 125}, {"id": "t5_2tb5e", "name": "musicsuggestions", "interactions": 4985, "users": 375, "degree": 1, "strength": 47}], "edges": [{"source": "t5_2sekf", "target": "t5_2tb5e", "shared_users": 47, "cosine": 0.0737510139947299, "jaccard": 0.03330970942593905}]}

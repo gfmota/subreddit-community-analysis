@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2v5ap", "name": "GothGirls", "interactions": 3035, "users": 234, "degree": 1, "strength": 35}, {"id": "t5_2z786", "name": "GothStyle", "interactions": 15254, "users": 1033, "degree": 2, "strength": 80}], "edges": [{"source": "t5_2v5ap", "target": "t5_2z786", "shared_users": 35, "cosine": 0.0711885184886621, "jaccard": 0.028409090909090908}]}

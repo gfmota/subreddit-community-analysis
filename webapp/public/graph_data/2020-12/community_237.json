@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qmpu", "name": "phoenix", "interactions": 13504, "users": 1084, "degree": 3, "strength": 161}, {"id": "t5_2gnuly", "name": "CoronavirusAZ", "interactions": 6366, "users": 372, "degree": 1, "strength": 35}], "edges": [{"source": "t5_2qmpu", "target": "t5_2gnuly", "shared_users": 35, "cosine": 0.05511653833181848, "jaccard": 0.024630541871921183}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qxih", "name": "swtor", "interactions": 30170, "users": 2155, "degree": 3, "strength": 164}, {"id": "t5_y7sej", "name": "SWTOR_memes", "interactions": 2458, "users": 156, "degree": 1, "strength": 54}], "edges": [{"source": "t5_2qxih", "target": "t5_y7sej", "shared_users": 54, "cosine": 0.09313390726907911, "jaccard": 0.023925564909171467}]}

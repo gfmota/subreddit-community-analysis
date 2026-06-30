@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rff0", "name": "dune", "interactions": 25674, "users": 1486, "degree": 2, "strength": 112}, {"id": "t5_3kh7c", "name": "dunememes", "interactions": 4800, "users": 270, "degree": 1, "strength": 42}], "edges": [{"source": "t5_2rff0", "target": "t5_3kh7c", "shared_users": 42, "cosine": 0.06630678999380221, "jaccard": 0.024504084014002333}]}

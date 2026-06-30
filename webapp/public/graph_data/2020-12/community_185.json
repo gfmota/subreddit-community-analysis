@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qney", "name": "southafrica", "interactions": 17998, "users": 1465, "degree": 2, "strength": 173}, {"id": "t5_2ssy2", "name": "RSA", "interactions": 2045, "users": 170, "degree": 1, "strength": 47}], "edges": [{"source": "t5_2qney", "target": "t5_2ssy2", "shared_users": 47, "cosine": 0.09417911062724284, "jaccard": 0.02959697732997481}]}

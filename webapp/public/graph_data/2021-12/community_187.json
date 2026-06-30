@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2te6p", "name": "WaltDisneyWorld", "interactions": 20027, "users": 1645, "degree": 3, "strength": 143}, {"id": "t5_2sd7k", "name": "disneyparks", "interactions": 2303, "users": 156, "degree": 1, "strength": 36}], "edges": [{"source": "t5_2te6p", "target": "t5_2sd7k", "shared_users": 36, "cosine": 0.07106524382605124, "jaccard": 0.020396600566572238}]}

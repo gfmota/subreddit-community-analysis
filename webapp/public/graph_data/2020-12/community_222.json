@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_g49g0", "name": "illnessfakers", "interactions": 34570, "users": 1730, "degree": 2, "strength": 592}, {"id": "t5_2vw8yw", "name": "MunchSnark", "interactions": 15603, "users": 767, "degree": 1, "strength": 489}], "edges": [{"source": "t5_g49g0", "target": "t5_2vw8yw", "shared_users": 489, "cosine": 0.4245101958806336, "jaccard": 0.24352589641434264}]}

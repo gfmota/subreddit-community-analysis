@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2robf", "name": "MortalKombat", "interactions": 54122, "users": 3083, "degree": 6, "strength": 548}, {"id": "t5_xdnze", "name": "Mortalkombatleaks", "interactions": 7181, "users": 470, "degree": 1, "strength": 192}], "edges": [{"source": "t5_2robf", "target": "t5_xdnze", "shared_users": 192, "cosine": 0.15950178122458367, "jaccard": 0.05712585540017852}]}

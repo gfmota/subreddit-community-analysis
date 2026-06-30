@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qhp5", "name": "NewOrleans", "interactions": 24831, "users": 1798, "degree": 2, "strength": 216}, {"id": "t5_36cez", "name": "AskNOLA", "interactions": 2664, "users": 277, "degree": 1, "strength": 113}], "edges": [{"source": "t5_2qhp5", "target": "t5_36cez", "shared_users": 113, "cosine": 0.160119311959538, "jaccard": 0.05759429153924567}]}

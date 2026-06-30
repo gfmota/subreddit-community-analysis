@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2ug10", "name": "ProtectAndServe", "interactions": 14215, "users": 975, "degree": 2, "strength": 95}, {"id": "t5_2qhxd", "name": "police", "interactions": 4822, "users": 337, "degree": 1, "strength": 39}], "edges": [{"source": "t5_2ug10", "target": "t5_2qhxd", "shared_users": 39, "cosine": 0.06803734355994774, "jaccard": 0.030636292223095052}]}

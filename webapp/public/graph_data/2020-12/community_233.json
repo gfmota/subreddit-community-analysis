@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2ukxe", "name": "AskALiberal", "interactions": 32641, "users": 724, "degree": 3, "strength": 227}, {"id": "t5_2yb8u", "name": "AskConservatives", "interactions": 23401, "users": 499, "degree": 1, "strength": 72}], "edges": [{"source": "t5_2ukxe", "target": "t5_2yb8u", "shared_users": 72, "cosine": 0.11978789700754101, "jaccard": 0.06255430060816682}]}

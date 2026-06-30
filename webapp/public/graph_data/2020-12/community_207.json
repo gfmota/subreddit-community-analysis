@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2t063", "name": "AnimeSketch", "interactions": 5282, "users": 544, "degree": 1, "strength": 112}, {"id": "t5_2tgsc", "name": "AnimeART", "interactions": 12713, "users": 1116, "degree": 2, "strength": 159}], "edges": [{"source": "t5_2t063", "target": "t5_2tgsc", "shared_users": 112, "cosine": 0.14374292418119605, "jaccard": 0.07235142118863049}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qmm6", "name": "Jazz", "interactions": 10001, "users": 761, "degree": 2, "strength": 66}, {"id": "t5_2sfad", "name": "jazzguitar", "interactions": 2120, "users": 225, "degree": 1, "strength": 31}], "edges": [{"source": "t5_2qmm6", "target": "t5_2sfad", "shared_users": 31, "cosine": 0.07491660813808942, "jaccard": 0.032460732984293195}]}

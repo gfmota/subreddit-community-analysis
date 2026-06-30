@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2tluu", "name": "intermittentfasting", "interactions": 18339, "users": 1290, "degree": 2, "strength": 118}, {"id": "t5_2s9dh", "name": "fasting", "interactions": 15315, "users": 1025, "degree": 1, "strength": 60}], "edges": [{"source": "t5_2tluu", "target": "t5_2s9dh", "shared_users": 60, "cosine": 0.05217884511448644, "jaccard": 0.026607538802660754}]}

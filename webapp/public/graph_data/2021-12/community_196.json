@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2t8de", "name": "HomeDecorating", "interactions": 11240, "users": 918, "degree": 2, "strength": 86}, {"id": "t5_2t8dh", "name": "interiordecorating", "interactions": 5391, "users": 484, "degree": 1, "strength": 38}], "edges": [{"source": "t5_2t8de", "target": "t5_2t8dh", "shared_users": 38, "cosine": 0.05700849489865701, "jaccard": 0.02785923753665689}]}
