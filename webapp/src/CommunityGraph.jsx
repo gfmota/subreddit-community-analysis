@@ -8,6 +8,7 @@ import Graph from "graphology";
 import forceAtlas2 from "graphology-layout-forceatlas2";
 import "@react-sigma/core/lib/style.css";
 import { getColor } from "./colors";
+import DragHandler from "./DragHandler";
 
 function GraphLoader({ date, onDataLoaded, onSelectCommunity }) {
   const loadGraph = useLoadGraph();
@@ -94,6 +95,7 @@ export default function CommunityGraph({ date, onSelectCommunity }) {
         </div>
       )}
       <SigmaContainer style={{ width: "100%", height: "100%" }}>
+        <DragHandler />
         <GraphLoader
           date={date}
           onDataLoaded={handleDataLoaded}

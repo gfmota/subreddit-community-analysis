@@ -7,9 +7,11 @@ import {
 } from "@react-sigma/core";
 import Graph from "graphology";
 import forceAtlas2 from "graphology-layout-forceatlas2";
+import noverlap from "graphology-layout-noverlap";
 import { getColor } from "./colors";
 import "@react-sigma/core/lib/style.css";
 import SubredditHistory from "./SubredditHistory";
+import DragHandler from "./DragHandler";
 
 function GraphLoader({ date, communityId, onDataLoaded, onGraphReady }) {
   const loadGraph = useLoadGraph();
@@ -56,7 +58,11 @@ function GraphLoader({ date, communityId, onDataLoaded, onGraphReady }) {
 
         forceAtlas2.assign(graph, {
           iterations: 150,
-          settings: { gravity: 0.5, scalingRatio: 20 },
+          settings: { gravity: 0.5, scalingRatio: 20, adjustSizes: true },
+        });
+
+        noverlap.assign(graph, {
+          maxIterations: 500,
         });
 
         loadGraph(graph);
@@ -275,6 +281,7 @@ export default function CommunityDetail({
           onDataLoaded={handleDataLoaded}
           onGraphReady={handleGraphReady}
         />
+        <DragHandler />
         <SelectionHandler
           selectedNode={selectedSubreddit}
           onSelectNode={handleSelectNode}
