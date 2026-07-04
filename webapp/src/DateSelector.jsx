@@ -13,7 +13,8 @@ export default function DateSelector({ selectedDate, onSelectDate }) {
       .then((data) => {
         setDates(data.dates);
         setLoading(false);
-        // default to the most recent date if none selected yet
+
+        // Default to the most recent date
         if (!selectedDate && data.dates.length > 0) {
           onSelectDate(data.dates[data.dates.length - 1]);
         }
@@ -41,28 +42,62 @@ export default function DateSelector({ selectedDate, onSelectDate }) {
     );
   }
 
+  if (dates.length === 0) return null;
+
+  const selectedIndex = Math.max(
+    0,
+    dates.findIndex((d) => d === selectedDate),
+  );
+
   return (
-    <select
-      value={selectedDate || ""}
-      onChange={(e) => onSelectDate(e.target.value)}
+    <div
       style={{
         position: "absolute",
         bottom: 8,
         left: 8,
         zIndex: 30,
-        padding: "6px 10px",
-        fontSize: 14,
-        borderRadius: 6,
-        border: "1px solid #ddd",
         background: "white",
+        padding: "10px",
+        borderRadius: 6,
         boxShadow: "0 1px 3px rgba(0,0,0,0.1)",
+        minWidth: "300px",
       }}
     >
-      {dates.map((date) => (
-        <option key={date} value={date}>
-          {date}
-        </option>
-      ))}
-    </select>
+      <div
+        style={{
+          fontSize: 14,
+          marginBottom: 6,
+          textAlign: "center",
+          fontWeight: "bold",
+        }}
+      >
+        {dates[selectedIndex]}
+      </div>
+
+      <div style={{ width: "100%" }}>
+        <input
+          type="range"
+          min={0}
+          max={dates.length - 1}
+          step={1}
+          value={selectedIndex}
+          onChange={(e) => onSelectDate(dates[Number(e.target.value)])}
+          style={{ width: "100%" }}
+        />
+
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            marginTop: 4,
+            fontSize: 12,
+          }}
+        >
+          {dates.map((date) => (
+            <span key={date}>{date}</span>
+          ))}
+        </div>
+      </div>
+    </div>
   );
 }
