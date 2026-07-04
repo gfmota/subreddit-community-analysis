@@ -1,4 +1,4 @@
-import { useEffect, useState, useCallback } from "react";
+import { useEffect, useState, useCallback, useRef } from "react";
 import {
   SigmaContainer,
   useLoadGraph,
@@ -12,8 +12,17 @@ import { getColor } from "./colors";
 import "@react-sigma/core/lib/style.css";
 import SubredditHistory from "./SubredditHistory";
 import DragHandler from "./DragHandler";
+import BubbleLegend from "./BubbleLegend";
+import { createSizeScale } from "./scale";
 
-function GraphLoader({ date, communityId, onDataLoaded, onGraphReady }) {
+function GraphLoader({
+  date,
+  communityId,
+  onDataLoaded,
+  onGraphReady,
+  scaleRef,
+  setColor,
+}) {
   const loadGraph = useLoadGraph();
 
   useEffect(() => {
@@ -28,11 +37,16 @@ function GraphLoader({ date, communityId, onDataLoaded, onGraphReady }) {
       .then((data) => {
         const graph = new Graph();
         const color = getColor(communityId);
+        setColor(color);
+
+        const scaleFn = createSizeScale(data.nodes.map((n) => n.interactions));
+
+        scaleRef.current = scaleFn;
 
         data.nodes.forEach((node) => {
           graph.addNode(String(node.id), {
             label: node.name,
-            size: Math.max(2, Math.log(node.interactions + 1)),
+            size: scaleFn(node.interactions),
             x: Math.random() * 10,
             y: Math.random() * 10,
             color,
@@ -229,6 +243,8 @@ export default function CommunityDetail({
 }) {
   const [stats, setStats] = useState(null);
   const [graph, setGraph] = useState(null);
+  const [color, setColor] = useState("#3b82f6");
+  const scaleRef = useRef(null);
 
   const handleDataLoaded = useCallback((nodes, edges) => {
     setStats({ nodes, edges });
@@ -280,6 +296,8 @@ export default function CommunityDetail({
           communityId={communityId}
           onDataLoaded={handleDataLoaded}
           onGraphReady={handleGraphReady}
+          scaleRef={scaleRef}
+          setColor={setColor}
         />
         <DragHandler />
         <SelectionHandler
@@ -292,6 +310,14 @@ export default function CommunityDetail({
         selectedNode={selectedSubreddit}
         onClose={() => setSelectedSubreddit(null)}
       />
+      {scaleRef.current && (
+        <BubbleLegend
+          label="Interactions count"
+          scale={scaleRef.current}
+          values={[10000, 100000, 1000000]}
+          color={color}
+        />
+      )}
     </div>
   );
 }

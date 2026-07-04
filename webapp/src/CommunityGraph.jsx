@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import {
   SigmaContainer,
   useLoadGraph,
@@ -9,8 +9,10 @@ import forceAtlas2 from "graphology-layout-forceatlas2";
 import "@react-sigma/core/lib/style.css";
 import { getColor } from "./colors";
 import DragHandler from "./DragHandler";
+import BubbleLegend from "./BubbleLegend";
+import { createSizeScale } from "./scale";
 
-function GraphLoader({ date, onDataLoaded, onSelectCommunity }) {
+function GraphLoader({ date, onDataLoaded, onSelectCommunity, scaleRef }) {
   const loadGraph = useLoadGraph();
   const registerEvents = useRegisterEvents();
 
@@ -24,10 +26,14 @@ function GraphLoader({ date, onDataLoaded, onSelectCommunity }) {
       .then((data) => {
         const graph = new Graph();
 
+        const scaleFn = createSizeScale(data.nodes.map((n) => n.size));
+
+        scaleRef.current = scaleFn;
+
         data.nodes.forEach((node) => {
           graph.addNode(String(node.id), {
             label: node.label.toString(),
-            size: Math.max(3, Math.sqrt(node.size)),
+            size: scaleFn(node.size),
             x: Math.random() * 10,
             y: Math.random() * 10,
             color: getColor(node.id),
@@ -60,7 +66,7 @@ function GraphLoader({ date, onDataLoaded, onSelectCommunity }) {
         onDataLoaded(data.nodes.length, data.edges.length);
       })
       .catch((err) => console.error(err));
-  }, [loadGraph, onDataLoaded, date]);
+  }, [loadGraph, onDataLoaded, date, scaleRef]);
 
   useEffect(() => {
     registerEvents({
@@ -73,6 +79,7 @@ function GraphLoader({ date, onDataLoaded, onSelectCommunity }) {
 
 export default function CommunityGraph({ date, onSelectCommunity }) {
   const [stats, setStats] = useState(null);
+  const scaleRef = useRef(null);
 
   const handleDataLoaded = useCallback((nodes, edges) => {
     setStats({ nodes, edges });
@@ -100,8 +107,16 @@ export default function CommunityGraph({ date, onSelectCommunity }) {
           date={date}
           onDataLoaded={handleDataLoaded}
           onSelectCommunity={onSelectCommunity}
+          scaleRef={scaleRef}
         />
       </SigmaContainer>
+      {scaleRef.current && (
+        <BubbleLegend
+          label="Community size (subreddits count)"
+          scale={scaleRef.current}
+          values={[10, 100, 1000]}
+        />
+      )}
     </div>
   );
 }
