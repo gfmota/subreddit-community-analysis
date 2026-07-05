@@ -1,4 +1,5 @@
-import os, sys, json, glob
+import os, json, glob
+from collections import defaultdict
 import networkx as nx
 
 
@@ -10,6 +11,51 @@ def discover_dates(network_dir="storage/network"):
         dates.append(date)
     return dates
 
+def compute_community_metrics(G, centrality_sample=None):
+    communities = defaultdict(list)
+
+    for node, attrs in G.nodes(data=True):
+        community = attrs.get("community")
+
+        if community is not None:
+            communities[community].append(node)
+
+    metrics = {}
+
+    for community, nodes in communities.items():
+        SG = G.subgraph(nodes).copy()
+
+        degree = dict(SG.degree())
+        strength = dict(SG.degree(weight="shared_users"))
+
+        clustering = nx.clustering(
+            SG,
+            weight="cosine"
+        )
+
+        SG_core = SG.copy()
+        SG_core.remove_edges_from(nx.selfloop_edges(SG_core))
+
+        if SG_core.number_of_edges() > 0:
+            core_numbers = nx.core_number(SG_core)
+        else:
+            core_numbers = {n: 0 for n in SG.nodes()}
+
+        centrality = compute_centrality(
+            SG,
+            top_n=centrality_sample
+        )
+
+        for node in SG.nodes():
+            metrics[node] = {
+                "community_degree": int(degree.get(node, 0)),
+                "community_strength": int(strength.get(node, 0)),
+                "community_centrality": round(float(centrality.get(node, 0)), 8),
+                "community_clustering": round(float(clustering.get(node, 0)), 6),
+                "community_k_core": int(core_numbers.get(node, 0)),
+            }
+
+    return metrics
 
 def compute_centrality(G, top_n=None):
     """
@@ -53,6 +99,11 @@ def build_subreddit_timeseries(dates, network_dir="storage/network", centrality_
 
         print(f"  Computing centrality (this may take a while)...")
         centrality = compute_centrality(G, top_n=centrality_sample)
+        
+        community_metrics = compute_community_metrics(
+            G,
+            centrality_sample=centrality_sample
+        )
 
         for node, attrs in G.nodes(data=True):
             if node not in timeseries:
@@ -60,6 +111,8 @@ def build_subreddit_timeseries(dates, network_dir="storage/network", centrality_
                     "name": attrs.get("name", node),
                     "history": {}
                 }
+
+            community = community_metrics.get(node, {})
 
             timeseries[node]["history"][date] = {
                 "interactions": int(attrs.get("interactions", 0)),
@@ -69,6 +122,11 @@ def build_subreddit_timeseries(dates, network_dir="storage/network", centrality_
                 "centrality": round(float(centrality.get(node, 0.0)), 8),
                 "clustering": round(float(clustering.get(node, 0.0)), 6),
                 "k_core": int(core_numbers.get(node, 0)),
+                "community_degree": community.get("community_degree", 0),
+                "community_strength": community.get("community_strength", 0),
+                "community_centrality": community.get("community_centrality", 0.0),
+                "community_clustering": community.get("community_clustering", 0.0),
+                "community_k_core": community.get("community_k_core", 0),
                 "community": attrs.get("community")
             }
 

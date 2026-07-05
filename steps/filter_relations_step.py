@@ -3,7 +3,7 @@ import duckdb, sys
 con = duckdb.connect()
 
 MIN_SHARED_USERS = 10
-ALPHA = 0.2
+ALPHA = 0.05
 
 def filter_relations(input_file, output_file):
     con.execute(f"""
