@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qrt0", "name": "Scams", "interactions": 93296, "users": 5577, "degree": 2, "strength": 207}, {"id": "t5_2r0z5", "name": "scambait", "interactions": 43395, "users": 2423, "degree": 1, "strength": 79}], "edges": [{"source": "t5_2qrt0", "target": "t5_2r0z5", "shared_users": 79, "cosine": 0.02149067527350886, "jaccard": 0.009973488195934856}]}

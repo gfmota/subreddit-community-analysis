@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qh8i", "name": "greece", "interactions": 52863, "users": 3216, "degree": 3, "strength": 280}, {"id": "t5_36cgj", "name": "greececirclejerk", "interactions": 2458, "users": 196, "degree": 1, "strength": 98}], "edges": [{"source": "t5_2qh8i", "target": "t5_36cgj", "shared_users": 98, "cosine": 0.12343548277525469, "jaccard": 0.029571514785757393}]}
