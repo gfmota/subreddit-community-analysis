@@ -191,6 +191,8 @@ export default function SubredditHistory({ subredditId }) {
     );
   }
 
+  console.log(subreddit.history);
+
   return (
     <div style={{ marginTop: 16 }}>
       <h3 style={{ marginBottom: 12 }}>History ({allDates.length} months)</h3>
@@ -223,6 +225,13 @@ export default function SubredditHistory({ subredditId }) {
         color="#ef4444"
       />
       <MetricBarChart
+        label="Community Strength"
+        history={subreddit.history}
+        allDates={allDates}
+        metricKey="community_strength"
+        color="#ef4444"
+      />
+      <MetricBarChart
         label="Betweenness centrality"
         history={subreddit.history}
         allDates={allDates}
@@ -230,10 +239,24 @@ export default function SubredditHistory({ subredditId }) {
         color="#06b6d4"
       />
       <MetricBarChart
+        label="Community centrality (Betweenness)"
+        history={subreddit.history}
+        allDates={allDates}
+        metricKey="community_centrality"
+        color="#06b6d4"
+      />
+      <MetricBarChart
         label="Clustering coefficient"
         history={subreddit.history}
         allDates={allDates}
         metricKey="clustering"
+        color="#ec4899"
+      />
+      <MetricBarChart
+        label="Community Clustering coefficient"
+        history={subreddit.history}
+        allDates={allDates}
+        metricKey="community_clustering"
         color="#ec4899"
       />
       <MetricBarChart
