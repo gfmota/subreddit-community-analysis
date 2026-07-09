@@ -3,7 +3,7 @@ import { SigmaContainer, useLoadGraph } from "@react-sigma/core";
 import "@react-sigma/core/lib/style.css";
 import { getColor } from "../utils/colors";
 import { buildGraph, applyLayout } from "../utils/graph";
-import { resolveColorKey } from "../utils/trajectories";
+import { resolveColorKey, resolveLabel } from "../utils/trajectories";
 import { useFetchJson } from "../hooks/useFetchJson";
 import { useAppState } from "../state/AppStateContext";
 import DragHandler from "../components/DragHandler";
@@ -16,7 +16,14 @@ import SizeFilter from "../components/SizeFilter";
 
 const communitySizeKey = (raw) => raw.size;
 
-function GraphLoader({ date, trajectories, onDataLoaded, onGraphReady, scaleRef }) {
+function GraphLoader({
+  date,
+  trajectories,
+  labels,
+  onDataLoaded,
+  onGraphReady,
+  scaleRef,
+}) {
   const loadGraph = useLoadGraph();
   const { data } = useFetchJson(`/graph_data/${date}/communities.json`);
 
@@ -26,7 +33,9 @@ function GraphLoader({ date, trajectories, onDataLoaded, onGraphReady, scaleRef 
     const { graph, scaleFn } = buildGraph(data, {
       sizeValue: (n) => n.size,
       nodeAttrs: (node) => ({
-        label: node.label.toString(),
+        label:
+          resolveLabel(trajectories, labels, date, node.id) ??
+          node.label.toString(),
         color: getColor(resolveColorKey(trajectories, date, node.id)),
       }),
       edgeAttrs: (edge) => ({
@@ -43,13 +52,22 @@ function GraphLoader({ date, trajectories, onDataLoaded, onGraphReady, scaleRef 
     loadGraph(graph);
     onDataLoaded(data.nodes.length, data.edges.length);
     onGraphReady(graph);
-  }, [data, date, trajectories, loadGraph, onDataLoaded, onGraphReady, scaleRef]);
+  }, [
+    data,
+    date,
+    trajectories,
+    labels,
+    loadGraph,
+    onDataLoaded,
+    onGraphReady,
+    scaleRef,
+  ]);
 
   return null;
 }
 
 export default function CommunityGraph() {
-  const { selectedDate, selectCommunity, trajectories } = useAppState();
+  const { selectedDate, selectCommunity, trajectories, labels } = useAppState();
   const [stats, setStats] = useState(null);
   const [graph, setGraph] = useState(null);
   const [highlightedCommunity, setHighlightedCommunity] = useState(null);
@@ -76,6 +94,11 @@ export default function CommunityGraph() {
   // current graph without needing to reset state when the date changes.
   const effectiveMinSize = Math.min(minSize, maxSize);
 
+  const highlightedLabel =
+    highlightedCommunity !== null
+      ? resolveLabel(trajectories, labels, selectedDate, highlightedCommunity)
+      : undefined;
+
   return (
     <>
       <Sidebar
@@ -95,6 +118,7 @@ export default function CommunityGraph() {
           <CommunityOverviewCard
             graph={graph}
             communityId={highlightedCommunity}
+            label={highlightedLabel}
             onZoomIn={() => selectCommunity(highlightedCommunity)}
             onClose={() => setHighlightedCommunity(null)}
           />
@@ -106,6 +130,7 @@ export default function CommunityGraph() {
           <GraphLoader
             date={selectedDate}
             trajectories={trajectories}
+            labels={labels}
             onDataLoaded={handleDataLoaded}
             onGraphReady={handleGraphReady}
             scaleRef={scaleRef}

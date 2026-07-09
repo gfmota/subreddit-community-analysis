@@ -406,14 +406,14 @@ months (see its `communities` field for which per-month community ids it corresp
 lists the community's most representative subreddits under `subreddits` (ranked by total
 interaction volume, most representative first).
 
-For EACH element, invent a short, human-readable label (3-6 words) that captures the shared
+For EACH element, invent a short, human-readable label (2-3 words) that captures the shared
 theme of its subreddits, plus a one-sentence description explaining that theme.
 
 Rules:
 - Output a JSON array with EXACTLY one object per input `trajectory_id` — same count, no more,
   no fewer.
 - Every output object must have exactly these three fields: `trajectory_id` (copied verbatim
-  from the input), `community_label` (string, 3-6 words, no surrounding quotes), `description`
+  from the input), `community_label` (string, 2-3 words, no surrounding quotes), `description`
   (string, one sentence).
 - Do not invent, skip, merge, or reorder trajectory ids.
 - Output only the JSON array. No markdown code fences, no commentary before or after it.
@@ -427,7 +427,7 @@ Save the LLM's response to a file, e.g. `community_labels_raw.json`. Its expecte
 | field             | description                                       |
 | ----------------- | ------------------------------------------------- |
 | `trajectory_id`   | Must match a `trajectory_id` from the input file  |
-| `community_label` | Short human-readable label, 3-6 words             |
+| `community_label` | Short human-readable label, 2-3 words             |
 | `description`     | One-sentence description of the community's theme |
 
 ### 3. Apply the labels (`apply_community_labels_step.py`)

@@ -1,0 +1,2066 @@
+{
+  "traj_0": {
+    "label": "General Reddit subreddits",
+    "description": "A broad mix of Reddit's most popular general-interest, discussion, and meme subreddits."
+  },
+  "traj_1": {
+    "label": "Cannabis culture",
+    "description": "Subreddits about cultivating, using, and discussing cannabis and related products."
+  },
+  "traj_10": {
+    "label": "Illicit drug use",
+    "description": "Communities focused on recreational and illicit drug use, including psychedelics, stimulants, and opioids."
+  },
+  "traj_100": {
+    "label": "Zelda fandom",
+    "description": "Fan communities dedicated to The Legend of Zelda video game franchise, especially Breath of the Wild."
+  },
+  "traj_101": {
+    "label": "Furry fandom",
+    "description": "Communities for furry fandom culture, art, and related media like Beastars."
+  },
+  "traj_102": {
+    "label": "Persona fandom",
+    "description": "Fan communities for the Persona and Shin Megami Tensei video game series."
+  },
+  "traj_103": {
+    "label": "SpaceX enthusiasts",
+    "description": "Communities following SpaceX missions and broader spaceflight and space exploration news."
+  },
+  "traj_104": {
+    "label": "Crypto trading",
+    "description": "Subreddits centered on trading, investing in, and discussing cryptocurrencies like Bitcoin and Ethereum."
+  },
+  "traj_105": {
+    "label": "Mortal Kombat fandom",
+    "description": "Communities for fans of the Mortal Kombat fighting game franchise."
+  },
+  "traj_106": {
+    "label": "Kerbal Space Program",
+    "description": "Communities for players of the Kerbal Space Program rocket-building simulation game."
+  },
+  "traj_107": {
+    "label": "RWBY fandom",
+    "description": "Fan communities for the RWBY animated web series and related content."
+  },
+  "traj_108": {
+    "label": "Gundam model building",
+    "description": "Communities for building and collecting Gunpla model kits from the Gundam franchise."
+  },
+  "traj_109": {
+    "label": "Naruto Boruto fandom",
+    "description": "Fan communities discussing the Naruto and Boruto anime and manga franchise."
+  },
+  "traj_11": {
+    "label": "Esports streamer culture",
+    "description": "A cluster spanning competitive online games, esports clips, and online streamer and political commentary communities."
+  },
+  "traj_110": {
+    "label": "Magic: The Gathering",
+    "description": "Communities for playing, discussing, and trading Magic: The Gathering cards and formats."
+  },
+  "traj_111": {
+    "label": "Board gaming hobby",
+    "description": "Communities for board game enthusiasts to discuss, trade, and find deals on tabletop games."
+  },
+  "traj_112": {
+    "label": "Skincare community",
+    "description": "Communities focused on skincare routines, dermatology questions, and cosmetic or plastic surgery advice."
+  },
+  "traj_113": {
+    "label": "Aquarium keeping hobby",
+    "description": "Communities for fishkeeping and aquarium hobbyists, including planted and reef tanks."
+  },
+  "traj_114": {
+    "label": "Appearance rating feedback",
+    "description": "Communities where users post photos seeking honest feedback on their looks."
+  },
+  "traj_115": {
+    "label": "Strategy war games",
+    "description": "Communities for tactical strategy and cooperative games like Total War, Vermintide, and Deep Rock Galactic."
+  },
+  "traj_116": {
+    "label": "Seattle local community",
+    "description": "Local subreddits for residents and news about Seattle, Washington."
+  },
+  "traj_117": {
+    "label": "Mexico national community",
+    "description": "Subreddits for discussion and culture related to Mexico."
+  },
+  "traj_118": {
+    "label": "Houseplants and gardening",
+    "description": "Communities for plant care, identification, and gardening enthusiasts."
+  },
+  "traj_119": {
+    "label": "Fantasy writing",
+    "description": "Communities for writers, worldbuilders, and fans of fantasy books and literature."
+  },
+  "traj_12": {
+    "label": "Reddit livestream shows",
+    "description": "A cluster of Reddit's live video broadcast community spaces for socializing, talent shows, and interactive streams."
+  },
+  "traj_120": {
+    "label": "Giant monster fandom",
+    "description": "Fan communities for Transformers, Godzilla, Monsterverse, and other giant-monster and dinosaur media."
+  },
+  "traj_121": {
+    "label": "Beauty influencer discussion",
+    "description": "Communities discussing beauty gurus, makeup artists, and the beauty influencer community."
+  },
+  "traj_122": {
+    "label": "Career advice",
+    "description": "Communities offering job search help and career guidance."
+  },
+  "traj_123": {
+    "label": "Howard Stern fandom",
+    "description": "Communities for fans discussing the Howard Stern radio show and related content."
+  },
+  "traj_124": {
+    "label": "COD Mobile gaming",
+    "description": "Communities for players of the Call of Duty: Mobile game, including loadouts and memes."
+  },
+  "traj_125": {
+    "label": "Starbucks community",
+    "description": "Communities for Starbucks customers and employees to discuss the coffee chain."
+  },
+  "traj_126": {
+    "label": "College admissions preparation",
+    "description": "Communities helping students navigate standardized tests and the college application process."
+  },
+  "traj_127": {
+    "label": "Civilization strategy game",
+    "description": "Communities for players of the Civilization turn-based strategy game series."
+  },
+  "traj_128": {
+    "label": "Disc golf hobby",
+    "description": "Communities for disc golf players, including equipment trading and customization."
+  },
+  "traj_129": {
+    "label": "Veganism debate",
+    "description": "Communities discussing veganism, its ethics, and related debates and satire."
+  },
+  "traj_13": {
+    "label": "PC gaming hardware",
+    "description": "A broad gaming cluster covering PC building, consoles, and popular titles across platforms."
+  },
+  "traj_130": {
+    "label": "Skiing and snowboarding",
+    "description": "Communities for skiing and snowboarding enthusiasts, gear, and conditions."
+  },
+  "traj_131": {
+    "label": "Doki Doki fandom",
+    "description": "Fan communities for the visual novel Doki Doki Literature Club."
+  },
+  "traj_132": {
+    "label": "Avatar fandom",
+    "description": "Fan communities for the Avatar: The Last Airbender and Legend of Korra animated series."
+  },
+  "traj_133": {
+    "label": "Pathfinder tabletop RPG",
+    "description": "Communities for players of the Pathfinder tabletop role-playing game."
+  },
+  "traj_134": {
+    "label": "Retro game collecting",
+    "description": "Communities for collecting retro games, consoles, and CRT displays."
+  },
+  "traj_135": {
+    "label": "Video game giveaways",
+    "description": "Communities centered on gifting and giving away video games to other Redditors."
+  },
+  "traj_136": {
+    "label": "Nursing profession",
+    "description": "Communities for nurses and nursing students to share advice and experiences."
+  },
+  "traj_137": {
+    "label": "Sims fandom",
+    "description": "Communities for players of The Sims life-simulation game franchise."
+  },
+  "traj_138": {
+    "label": "Mormonism and Utah",
+    "description": "Communities discussing the Mormon faith, ex-Mormon experiences, and life in Utah."
+  },
+  "traj_139": {
+    "label": "Engineering community",
+    "description": "Communities for engineering students and professionals to ask questions and share advice."
+  },
+  "traj_14": {
+    "label": "Star Wars fandom",
+    "description": "Fan communities for Star Wars, Marvel, and DC franchises, including memes and merchandise."
+  },
+  "traj_140": {
+    "label": "Nova Scotia community",
+    "description": "Local subreddits for residents of Halifax and Nova Scotia, Canada."
+  },
+  "traj_141": {
+    "label": "Air Force community",
+    "description": "Communities for Air Force members and recruits to discuss service life."
+  },
+  "traj_142": {
+    "label": "Accounting and CPA",
+    "description": "Communities for accountants and CPA candidates discussing the profession and Big 4 firms."
+  },
+  "traj_143": {
+    "label": "Virtual reality gaming",
+    "description": "Communities for VR headset owners and virtual reality gaming enthusiasts."
+  },
+  "traj_144": {
+    "label": "DIY crafts",
+    "description": "Communities for sharing handmade crafts and DIY creations."
+  },
+  "traj_145": {
+    "label": "Aviation community",
+    "description": "Communities for pilots, aviation enthusiasts, and air traffic control discussion."
+  },
+  "traj_146": {
+    "label": "San Diego community",
+    "description": "Local subreddits for residents and news about San Diego, California."
+  },
+  "traj_147": {
+    "label": "Making friends online",
+    "description": "Communities for meeting new people and forming friendships online."
+  },
+  "traj_148": {
+    "label": "Character power debates",
+    "description": "Communities debating hypothetical battles and power levels between fictional characters."
+  },
+  "traj_149": {
+    "label": "Elder Scrolls Online",
+    "description": "Communities for players of The Elder Scrolls Online MMORPG."
+  },
+  "traj_15": {
+    "label": "Hazbin Hotel fandom",
+    "description": "Fan communities for the animated series Hazbin Hotel and Helluva Boss."
+  },
+  "traj_150": {
+    "label": "Boston Massachusetts news",
+    "description": "Local subreddits for Boston, Massachusetts residents covering news, transit, and community topics."
+  },
+  "traj_151": {
+    "label": "Monster Hunter fandom",
+    "description": "Communities for players of the Monster Hunter video game series."
+  },
+  "traj_152": {
+    "label": "Portland community",
+    "description": "Local subreddits for residents and news about Portland, Oregon."
+  },
+  "traj_153": {
+    "label": "Paladins video game",
+    "description": "Communities for players of the Paladins team-based shooter game."
+  },
+  "traj_154": {
+    "label": "Columbus community",
+    "description": "Local subreddits for residents and news about Columbus, Ohio."
+  },
+  "traj_155": {
+    "label": "Emergency medical services",
+    "description": "Communities for EMTs and paramedics discussing emergency medical services work."
+  },
+  "traj_156": {
+    "label": "Bass guitar playing",
+    "description": "Communities for bass guitar players sharing gear and technique."
+  },
+  "traj_157": {
+    "label": "Wisconsin local community",
+    "description": "Local subreddits for residents of Wisconsin, including Madison and Milwaukee."
+  },
+  "traj_158": {
+    "label": "Perfume enthusiasts",
+    "description": "Communities for fragrance enthusiasts discussing, trading, and reviewing perfumes and colognes."
+  },
+  "traj_159": {
+    "label": "Walmart employees community",
+    "description": "Communities for current and former Walmart employees to discuss work life."
+  },
+  "traj_16": {
+    "label": "IT and networking",
+    "description": "Communities for IT professionals and hobbyists covering system administration, home labs, networking, and cybersecurity."
+  },
+  "traj_160": {
+    "label": "BPD community",
+    "description": "Communities for people affected by borderline personality disorder to share support and related humor."
+  },
+  "traj_161": {
+    "label": "Blu-ray collecting",
+    "description": "Communities for collectors of Criterion Collection and boutique Blu-ray physical media."
+  },
+  "traj_162": {
+    "label": "Adult anime art",
+    "description": "Communities sharing adult-oriented anime and cartoon artwork."
+  },
+  "traj_163": {
+    "label": "Shonen anime fandom",
+    "description": "Fan communities for popular shonen anime and manga series like One Piece, Naruto, and Bleach."
+  },
+  "traj_164": {
+    "label": "Multiplayer PC gaming",
+    "description": "A broad cluster of multiplayer video game communities spanning shooters, MMORPGs, and open-world titles."
+  },
+  "traj_165": {
+    "label": "Indian pop culture",
+    "description": "Communities covering Indian social life, entertainment, exams, cities, and pop culture."
+  },
+  "traj_166": {
+    "label": "German-language community discussion",
+    "description": "German-language subreddits covering everyday life, finance, relationships, and local topics in Germany and Austria."
+  },
+  "traj_167": {
+    "label": "Medical careers",
+    "description": "Communities for medical students, nurses, and healthcare professionals across various specialties."
+  },
+  "traj_168": {
+    "label": "Conspiracy and politics",
+    "description": "Communities discussing conspiracy theories, UFOs, libertarian and conservative politics, and combat sports."
+  },
+  "traj_169": {
+    "label": "Movies and wrestling",
+    "description": "Communities covering superhero movies, professional wrestling, and general film and TV discussion."
+  },
+  "traj_17": {
+    "label": "Apex and Overwatch",
+    "description": "Communities for players of the hero shooter games Apex Legends and Overwatch."
+  },
+  "traj_170": {
+    "label": "Shock content",
+    "description": "Communities that share graphic, gory, or shocking images not suitable for general audiences."
+  },
+  "traj_171": {
+    "label": "Radiohead fandom",
+    "description": "Fan communities for the band Radiohead and related projects like The Smile."
+  },
+  "traj_172": {
+    "label": "PC building",
+    "description": "Communities for PC hardware building, peripherals, and the game Rocket League."
+  },
+  "traj_173": {
+    "label": "Diablo game fandom",
+    "description": "Communities for players of the Diablo action role-playing game series."
+  },
+  "traj_174": {
+    "label": "Myers-Briggs personality typing",
+    "description": "Communities discussing MBTI personality types and the Enneagram system."
+  },
+  "traj_175": {
+    "label": "New Orleans community",
+    "description": "Local subreddits for residents and news about New Orleans and Louisiana."
+  },
+  "traj_176": {
+    "label": "Adult sexting roleplay",
+    "description": "Communities for arranging adult sexual roleplay, chat, and content exchange."
+  },
+  "traj_177": {
+    "label": "Tankie leftist politics",
+    "description": "Communities associated with Marxist-Leninist politics and pro-China commentary."
+  },
+  "traj_178": {
+    "label": "Meme stocks crypto",
+    "description": "Communities focused on meme stocks like GameStop and AMC alongside cryptocurrency trading."
+  },
+  "traj_179": {
+    "label": "Restaurant service industry",
+    "description": "Communities for servers, bartenders, and hospitality workers to share industry stories."
+  },
+  "traj_18": {
+    "label": "UK politics",
+    "description": "Communities covering British politics, personal finance, and everyday life in the UK."
+  },
+  "traj_180": {
+    "label": "Car enthusiasts",
+    "description": "Communities for car enthusiasts covering brands, repairs, buying advice, and electric vehicles."
+  },
+  "traj_181": {
+    "label": "Crochet and knitting",
+    "description": "Communities for crochet and knitting hobbyists sharing projects and advice."
+  },
+  "traj_182": {
+    "label": "U.S. Navy community",
+    "description": "Communities for Navy members and new recruits to discuss service life."
+  },
+  "traj_183": {
+    "label": "Helium Network mining",
+    "description": "Communities for operators of Helium Network hotspots and related crypto mining hardware."
+  },
+  "traj_184": {
+    "label": "Spain local community",
+    "description": "Subreddits for discussion and local life in Spain, including Madrid."
+  },
+  "traj_185": {
+    "label": "Owl House fandom",
+    "description": "Fan communities for the animated series The Owl House and Amphibia."
+  },
+  "traj_186": {
+    "label": "GPU cryptocurrency mining",
+    "description": "Communities for mining cryptocurrency using GPUs and mining software."
+  },
+  "traj_187": {
+    "label": "Wheel of Time",
+    "description": "Fan communities for the Wheel of Time book series and its TV adaptation, plus general fantasy reading."
+  },
+  "traj_188": {
+    "label": "The Witcher fandom",
+    "description": "Fan communities for The Witcher games, books, and Netflix series."
+  },
+  "traj_189": {
+    "label": "Harry Potter fanfiction",
+    "description": "Communities for fan fiction writers and readers, especially within the Harry Potter fandom."
+  },
+  "traj_19": {
+    "label": "Asexuality community",
+    "description": "Communities for people who identify as asexual to discuss and connect."
+  },
+  "traj_190": {
+    "label": "Gig delivery drivers",
+    "description": "Communities for delivery and shopping gig workers across DoorDash, Instacart, Uber Eats, and similar platforms."
+  },
+  "traj_191": {
+    "label": "Linux culture",
+    "description": "Communities for Linux users and programmers sharing memes, customization, and help."
+  },
+  "traj_192": {
+    "label": "Cigar smoking hobby",
+    "description": "Communities for cigar enthusiasts, including Cuban cigars."
+  },
+  "traj_193": {
+    "label": "Small-chested NSFW",
+    "description": "Adult communities focused on a specific body type, sharing NSFW photos."
+  },
+  "traj_194": {
+    "label": "Osu! rhythm game",
+    "description": "Communities for players of the rhythm game osu!."
+  },
+  "traj_195": {
+    "label": "Argentina Chile community",
+    "description": "Subreddits for discussion, culture, and finance in Argentina and Chile."
+  },
+  "traj_196": {
+    "label": "Long-distance relationships",
+    "description": "Communities for people navigating long-distance romantic relationships."
+  },
+  "traj_197": {
+    "label": "Alcohol recovery",
+    "description": "Communities supporting people quitting or recovering from alcohol addiction."
+  },
+  "traj_198": {
+    "label": "Cycling and biking",
+    "description": "Communities for road cycling, mountain biking, bike maintenance, and indoor training."
+  },
+  "traj_199": {
+    "label": "Pit bull owners",
+    "description": "Communities for owners and fans of pit bull-type dogs."
+  },
+  "traj_2": {
+    "label": "European sports culture",
+    "description": "A cluster covering soccer, Formula 1, cricket, and other sports alongside UK-focused discussion."
+  },
+  "traj_20": {
+    "label": "NSFW selfie sharing",
+    "description": "Communities where adults share explicit nude or NSFW self-photos."
+  },
+  "traj_200": {
+    "label": "Mexico community finance",
+    "description": "Subreddits for Mexican culture, cities, YouTubers, and personal finance discussion."
+  },
+  "traj_201": {
+    "label": "Malaysia local community",
+    "description": "Subreddits for Malaysian culture, discussion, and personal finance."
+  },
+  "traj_202": {
+    "label": "China-focused online community",
+    "description": "Subreddits and video content focused on China and Chinese internet culture."
+  },
+  "traj_203": {
+    "label": "LEGO building hobby",
+    "description": "Communities for LEGO builders, including Star Wars sets and deal-hunting."
+  },
+  "traj_204": {
+    "label": "RuneScape gaming",
+    "description": "Communities for players of Old School RuneScape and RuneScape 3, including Ironman mode."
+  },
+  "traj_205": {
+    "label": "UAE local community",
+    "description": "Subreddits for residents and discussion about Dubai and Abu Dhabi, UAE."
+  },
+  "traj_206": {
+    "label": "Sacramento state workers",
+    "description": "Local subreddit for Sacramento plus a community for California state government employees."
+  },
+  "traj_207": {
+    "label": "Drumming hobby",
+    "description": "Communities for drummers to discuss technique, gear, and drumming."
+  },
+  "traj_208": {
+    "label": "Hungary local community",
+    "description": "Subreddits for Hungarian culture, Budapest life, and local discussion."
+  },
+  "traj_209": {
+    "label": "Pixel and Android",
+    "description": "Communities for Android users and Google Pixel phone and watch owners."
+  },
+  "traj_21": {
+    "label": "Dungeons & Dragons",
+    "description": "Communities for Dungeons & Dragons players, dungeon masters, and fans of Critical Role."
+  },
+  "traj_210": {
+    "label": "Wedding planning",
+    "description": "Communities for planning weddings, choosing rings, dresses, and budgeting."
+  },
+  "traj_211": {
+    "label": "MLS fandom",
+    "description": "Communities for fans of Major League Soccer and U.S. soccer clubs."
+  },
+  "traj_212": {
+    "label": "Texas cities community",
+    "description": "Local subreddits for Texas cities including Austin, Houston, and Dallas."
+  },
+  "traj_213": {
+    "label": "Dog training",
+    "description": "Communities for dog owners seeking training advice and puppy care tips."
+  },
+  "traj_214": {
+    "label": "Gay men's community",
+    "description": "Communities for gay men to discuss dating, lifestyle, and connect with each other."
+  },
+  "traj_215": {
+    "label": "Amazon warehouse employees",
+    "description": "Communities for Amazon fulfillment center employees to discuss work."
+  },
+  "traj_216": {
+    "label": "Subaru WRX enthusiasts",
+    "description": "Communities for owners and fans of the Subaru WRX and STI performance cars."
+  },
+  "traj_217": {
+    "label": "H3H3 fandom",
+    "description": "Fan communities for the H3H3 Productions YouTube channel and related brands."
+  },
+  "traj_218": {
+    "label": "Breakup recovery support",
+    "description": "Communities supporting people coping with breakups and no-contact recovery."
+  },
+  "traj_219": {
+    "label": "Assassin's Creed fandom",
+    "description": "Communities for fans and players of the Assassin's Creed video game franchise."
+  },
+  "traj_22": {
+    "label": "Adult sexting exchange",
+    "description": "Communities for arranging adult sexting, roleplay, and NSFW content exchange, largely LGBTQ-focused."
+  },
+  "traj_220": {
+    "label": "Depression support",
+    "description": "Communities offering support for depression, loneliness, self-harm, and suicidal ideation."
+  },
+  "traj_221": {
+    "label": "Anxiety support community",
+    "description": "Communities for people dealing with anxiety disorders, medication, and health anxiety."
+  },
+  "traj_222": {
+    "label": "Pet rabbit owners",
+    "description": "Communities for rabbit and bunny owners sharing care tips and photos."
+  },
+  "traj_223": {
+    "label": "Bodybuilding and PEDs",
+    "description": "Communities discussing bodybuilding, testosterone therapy, and performance-enhancing drugs."
+  },
+  "traj_224": {
+    "label": "Indiana local community",
+    "description": "Local subreddits for Indianapolis and the state of Indiana."
+  },
+  "traj_225": {
+    "label": "Solo travel tips",
+    "description": "Communities for general travel advice, solo travel, and travel hacking."
+  },
+  "traj_226": {
+    "label": "Hearthstone card game",
+    "description": "Communities for players of the Hearthstone digital card game."
+  },
+  "traj_227": {
+    "label": "Rust programming",
+    "description": "Communities for general programming discussion and the Rust programming language."
+  },
+  "traj_228": {
+    "label": "Eminem fandom",
+    "description": "Communities for hip-hop and rap fans, including Eminem fandom."
+  },
+  "traj_229": {
+    "label": "Sci-fi humans-are-space-orcs fiction",
+    "description": "Communities for science fiction writing centered on the 'humans are the scary aliens' trope."
+  },
+  "traj_23": {
+    "label": "Reality TV snark",
+    "description": "Communities snarking on reality TV shows, celebrities, and pop culture figures."
+  },
+  "traj_230": {
+    "label": "Metalcore music",
+    "description": "Communities for fans of metalcore, deathcore, hardcore, and punk music genres."
+  },
+  "traj_231": {
+    "label": "Life in Japan",
+    "description": "Communities for expats and residents discussing life and personal finance in Japan."
+  },
+  "traj_232": {
+    "label": "Indonesia local community",
+    "description": "Subreddits for Indonesian culture, discussion, and personal finance."
+  },
+  "traj_233": {
+    "label": "Demon Slayer fandom",
+    "description": "Fan communities for the Demon Slayer (Kimetsu no Yaiba) anime and manga."
+  },
+  "traj_234": {
+    "label": "Sewing and quilting",
+    "description": "Communities for sewing and quilting hobbyists sharing projects and tips."
+  },
+  "traj_235": {
+    "label": "Jam band fandom",
+    "description": "Fan communities for jam bands like Phish, Grateful Dead, and Goose."
+  },
+  "traj_236": {
+    "label": "Satisfactory factory-building game",
+    "description": "Communities for players of the Satisfactory factory-building simulation game."
+  },
+  "traj_237": {
+    "label": "South Africa community",
+    "description": "Subreddits for South African culture, discussion, and Cape Town local life."
+  },
+  "traj_238": {
+    "label": "Body modification",
+    "description": "Communities for body piercing advice, ear stretching, and other body modifications."
+  },
+  "traj_239": {
+    "label": "North Carolina community",
+    "description": "Local subreddits for North Carolina, including Raleigh and Charlotte."
+  },
+  "traj_24": {
+    "label": "Stocks and finance",
+    "description": "Communities for stock trading, personal finance planning, and investing including Tesla and EV stocks."
+  },
+  "traj_240": {
+    "label": "The Beatles fandom",
+    "description": "Fan communities dedicated to The Beatles and Paul McCartney."
+  },
+  "traj_241": {
+    "label": "Michigan local community",
+    "description": "Local subreddits for the state of Michigan and the city of Detroit."
+  },
+  "traj_242": {
+    "label": "Speculative altcoin trading",
+    "description": "Communities for speculative trading in small-cap altcoins, ICOs, and moonshot crypto tokens."
+  },
+  "traj_243": {
+    "label": "Real estate investing",
+    "description": "Communities for real estate investors and first-time homebuyers discussing the housing market."
+  },
+  "traj_244": {
+    "label": "Red Scare podcast",
+    "description": "Communities around the Red Scare podcast and related left-wing commentary shows."
+  },
+  "traj_245": {
+    "label": "SATC fandom",
+    "description": "Fan communities for Sex and the City and its sequel series And Just Like That."
+  },
+  "traj_246": {
+    "label": "Gacha Life Club",
+    "description": "Communities around the Gacha Life and Gacha Club game, including cringe-content commentary."
+  },
+  "traj_247": {
+    "label": "Maine local community",
+    "description": "Local subreddits for the state of Maine, including Portland."
+  },
+  "traj_248": {
+    "label": "Tattoo designs",
+    "description": "Communities for sharing tattoo designs, ideas, and finished tattoo art."
+  },
+  "traj_249": {
+    "label": "Muslim marriage",
+    "description": "Communities discussing Islamic faith and practices, including marriage matchmaking."
+  },
+  "traj_25": {
+    "label": "3D printing hobby",
+    "description": "Communities for 3D printing hobbyists covering printers, troubleshooting, and designs."
+  },
+  "traj_250": {
+    "label": "Belgium local community",
+    "description": "Subreddits for Belgian culture, discussion, and personal finance."
+  },
+  "traj_251": {
+    "label": "Muscle gain",
+    "description": "Communities for fitness enthusiasts focused on building muscle and strength."
+  },
+  "traj_252": {
+    "label": "EDM festivals",
+    "description": "Communities for electronic dance music fans and festival-goers like Electric Forest."
+  },
+  "traj_253": {
+    "label": "Walking Dead fandom",
+    "description": "Fan communities for The Walking Dead TV series, games, and spinoffs."
+  },
+  "traj_254": {
+    "label": "Age of Empires",
+    "description": "Communities for players of the Age of Empires real-time strategy game series."
+  },
+  "traj_255": {
+    "label": "Cloud gaming services",
+    "description": "Communities for users of cloud gaming platforms like Stadia and GeForce NOW."
+  },
+  "traj_256": {
+    "label": "Norway local community",
+    "description": "Subreddits for Norwegian culture and local discussion."
+  },
+  "traj_257": {
+    "label": "Buffy fandom",
+    "description": "Fan communities for Buffy the Vampire Slayer and its spinoff Angel."
+  },
+  "traj_258": {
+    "label": "DayZ survival game",
+    "description": "Communities for players of the DayZ survival game across platforms."
+  },
+  "traj_259": {
+    "label": "International soccer fandom",
+    "description": "Communities covering international soccer, the World Cup, Formula 1, and various national football fandoms."
+  },
+  "traj_26": {
+    "label": "Destiny and Warframe",
+    "description": "Communities for players of the looter-shooter games Destiny 2 and Warframe."
+  },
+  "traj_260": {
+    "label": "Netherlands local community",
+    "description": "Subreddits for Dutch culture, Amsterdam, and local discussion in the Netherlands."
+  },
+  "traj_261": {
+    "label": "Hollow Knight fandom",
+    "description": "Fan communities for the Hollow Knight metroidvania video game."
+  },
+  "traj_262": {
+    "label": "Character power scaling",
+    "description": "Communities debating hypothetical matchups and power levels between fictional characters."
+  },
+  "traj_263": {
+    "label": "Credit card points",
+    "description": "Communities focused on personal finance, credit card rewards, and travel points optimization."
+  },
+  "traj_264": {
+    "label": "Apple products community",
+    "description": "Communities for Apple device owners discussing iPhones, Macs, iPads, and Apple Watches."
+  },
+  "traj_265": {
+    "label": "Firearms and gear",
+    "description": "Communities for firearm owners and enthusiasts covering guns, accessories, airsoft, and tactical gear."
+  },
+  "traj_266": {
+    "label": "Teen meme culture",
+    "description": "A broad cluster of meme, casual gaming, and general teen-oriented Reddit communities."
+  },
+  "traj_267": {
+    "label": "Animal Crossing fandom",
+    "description": "Communities for players of the Animal Crossing life-simulation game series."
+  },
+  "traj_268": {
+    "label": "Game of Thrones",
+    "description": "Fan communities for Game of Thrones, House of the Dragon, and the A Song of Ice and Fire book series."
+  },
+  "traj_269": {
+    "label": "UK cities",
+    "description": "Communities covering UK cities, personal finance, and everyday British life."
+  },
+  "traj_27": {
+    "label": "European culture",
+    "description": "Communities covering various European countries, maps, flags, and cross-national discussion."
+  },
+  "traj_270": {
+    "label": "Fetish roleplay content",
+    "description": "Communities for adult sexual roleplay and fetish content exchange."
+  },
+  "traj_271": {
+    "label": "Destiny and Halo",
+    "description": "Communities for players of looter-shooter and sci-fi shooter games like Destiny 2 and Halo."
+  },
+  "traj_272": {
+    "label": "MMO streamer culture",
+    "description": "Communities spanning MMORPGs, MOBAs, and livestreamer and political commentary content."
+  },
+  "traj_273": {
+    "label": "PC console gaming",
+    "description": "A broad gaming cluster covering popular PC and console titles, hardware, and peripherals."
+  },
+  "traj_274": {
+    "label": "Sweden local community",
+    "description": "Subreddits for Swedish culture, politics, personal finance, and local discussion."
+  },
+  "traj_275": {
+    "label": "Comic book fandom",
+    "description": "Communities for comic books, superhero movies, and related fighting game franchises."
+  },
+  "traj_276": {
+    "label": "Sports card collecting",
+    "description": "Communities for collectors of baseball, football, basketball, and hockey trading cards."
+  },
+  "traj_277": {
+    "label": "Dating over 40",
+    "description": "Communities for people over 40 navigating dating and relationships."
+  },
+  "traj_278": {
+    "label": "Ukraine war coverage",
+    "description": "Communities covering military vehicles, war games, and coverage of the Russia-Ukraine conflict."
+  },
+  "traj_279": {
+    "label": "Piracy content",
+    "description": "Communities discussing media and video game piracy."
+  },
+  "traj_28": {
+    "label": "Warhammer 40K",
+    "description": "Communities for Warhammer 40K, tabletop wargaming, and related grimdark strategy and survival games."
+  },
+  "traj_280": {
+    "label": "Sidemen YouTube fandom",
+    "description": "Fan communities for the Sidemen YouTube group and its members like KSI."
+  },
+  "traj_281": {
+    "label": "RHCP fandom",
+    "description": "Fan communities for the band Red Hot Chili Peppers and guitarist John Frusciante."
+  },
+  "traj_282": {
+    "label": "Karma farming sexting",
+    "description": "Communities for boosting Reddit karma, often intertwined with adult sexting and NSFW content links."
+  },
+  "traj_283": {
+    "label": "Sea of Thieves",
+    "description": "Communities for players of the pirate-themed game Sea of Thieves."
+  },
+  "traj_284": {
+    "label": "Parenting support",
+    "description": "Communities for parents and expecting parents covering pregnancy, baby care, and parenting advice."
+  },
+  "traj_285": {
+    "label": "Knives and EDC",
+    "description": "Communities for knife collectors and everyday carry (EDC) enthusiasts."
+  },
+  "traj_286": {
+    "label": "Stocks and crypto",
+    "description": "Communities discussing stock trading, meme stocks, cryptocurrency, and personal finance."
+  },
+  "traj_287": {
+    "label": "Sims mods",
+    "description": "Communities for players and modders of The Sims 4 life-simulation game."
+  },
+  "traj_288": {
+    "label": "Spanish Reddit Mexico",
+    "description": "Spanish-language subreddits covering Mexico, Latin America, and general Q&A discussion."
+  },
+  "traj_289": {
+    "label": "YouTuber drama",
+    "description": "Communities snarking on YouTube creators and internet personalities and their controversies."
+  },
+  "traj_29": {
+    "label": "Brazilian Portuguese community",
+    "description": "Portuguese-language subreddits covering Brazilian culture, soccer, relationships, and daily life."
+  },
+  "traj_290": {
+    "label": "Eastern Europe Balkans",
+    "description": "Communities covering Eastern European and Balkan countries, maps, history, and regional culture."
+  },
+  "traj_291": {
+    "label": "Sonic and Mario",
+    "description": "Fan communities for Sonic the Hedgehog and Mario Kart video games."
+  },
+  "traj_292": {
+    "label": "Howard Stern fandom",
+    "description": "Communities for fans discussing the Howard Stern radio show."
+  },
+  "traj_293": {
+    "label": "Dreamlight Valley gaming",
+    "description": "Communities for players of the Disney Dreamlight Valley life-simulation game."
+  },
+  "traj_294": {
+    "label": "Strength training",
+    "description": "Communities for gym-goers focused on weightlifting and strength training."
+  },
+  "traj_295": {
+    "label": "Anime and manga",
+    "description": "Communities for anime and manga fans, covering popular series, power scaling debates, and VTubers."
+  },
+  "traj_296": {
+    "label": "Hungarian influencer culture",
+    "description": "Hungarian-language subreddits covering influencers, local culture, and lifestyle topics."
+  },
+  "traj_297": {
+    "label": "French-language community discussion",
+    "description": "French-language subreddits covering everyday life, finance, and local topics in France."
+  },
+  "traj_298": {
+    "label": "Reality competition shows",
+    "description": "Fan communities for reality and competition TV shows like Survivor, RuPaul's Drag Race, and The Challenge."
+  },
+  "traj_299": {
+    "label": "Denmark local community",
+    "description": "Danish-language subreddits covering local news, finance, gossip, and culture in Denmark."
+  },
+  "traj_3": {
+    "label": "Meme and shitposting",
+    "description": "A broad cluster of meme, shitposting, and casual gaming communities popular with younger Redditors."
+  },
+  "traj_30": {
+    "label": "FFXIV fandom",
+    "description": "Communities for players of the MMORPG Final Fantasy XIV."
+  },
+  "traj_300": {
+    "label": "Narcissistic abuse recovery",
+    "description": "Communities supporting survivors of childhood trauma, narcissistic parenting, and complex PTSD."
+  },
+  "traj_301": {
+    "label": "Fighting game fandom",
+    "description": "Communities for players of fighting games like Tekken, Street Fighter, and Mortal Kombat."
+  },
+  "traj_302": {
+    "label": "Car identification community",
+    "description": "Communities for identifying unknown car makes and models from photos."
+  },
+  "traj_303": {
+    "label": "Drag Race fandom",
+    "description": "Fan communities for RuPaul's Drag Race and its international spinoffs."
+  },
+  "traj_304": {
+    "label": "German NSFW content",
+    "description": "German-language adult communities sharing NSFW content and celebrity leaks."
+  },
+  "traj_305": {
+    "label": "Video game recommendations",
+    "description": "Communities for getting game recommendations and purchase advice."
+  },
+  "traj_306": {
+    "label": "College and academia",
+    "description": "Communities for college students and professors discussing academic life."
+  },
+  "traj_307": {
+    "label": "Italian-language community discussion",
+    "description": "Italian-language subreddits covering daily life, careers, finance, and university topics in Italy."
+  },
+  "traj_308": {
+    "label": "Thrash metal fandom",
+    "description": "Fan communities for thrash metal bands Metallica and Megadeth."
+  },
+  "traj_309": {
+    "label": "Indie RPG fandom",
+    "description": "Fan communities for the indie RPGs Undertale, Deltarune, and OMORI."
+  },
+  "traj_31": {
+    "label": "Pornography abstinence community",
+    "description": "Communities supporting people abstaining from pornography and masturbation."
+  },
+  "traj_310": {
+    "label": "Final Fantasy fandom",
+    "description": "Fan communities for Final Fantasy, Kingdom Hearts, and Japanese role-playing games generally."
+  },
+  "traj_311": {
+    "label": "Sim racing hobby",
+    "description": "Communities for sim racing enthusiasts using titles like iRacing and Assetto Corsa."
+  },
+  "traj_312": {
+    "label": "Grand strategy games",
+    "description": "Communities for players of Paradox Interactive's grand strategy games like Hearts of Iron and Crusader Kings."
+  },
+  "traj_313": {
+    "label": "Los Angeles community",
+    "description": "Local subreddits for residents and food recommendations in Los Angeles."
+  },
+  "traj_314": {
+    "label": "Insect identification",
+    "description": "Communities for identifying bugs, insects, and dealing with pests like bed bugs."
+  },
+  "traj_315": {
+    "label": "Rocket League gaming",
+    "description": "Communities for players of the vehicular soccer game Rocket League."
+  },
+  "traj_316": {
+    "label": "True crime discussion",
+    "description": "Communities discussing specific true crime cases like the Idaho student murders and Delphi murders."
+  },
+  "traj_317": {
+    "label": "Men's rights activism",
+    "description": "Communities focused on men's rights issues and criticism of feminism."
+  },
+  "traj_318": {
+    "label": "Switzerland local community",
+    "description": "Subreddits for Swiss culture, discussion, and life in Zurich."
+  },
+  "traj_319": {
+    "label": "TLOU fandom",
+    "description": "Fan communities for The Last of Us video games and HBO series."
+  },
+  "traj_32": {
+    "label": "Rocket League trading",
+    "description": "Communities for Rocket League players focused on item trading and cosmetics."
+  },
+  "traj_320": {
+    "label": "AI image generation",
+    "description": "Communities for creating and discussing AI-generated art using tools like Stable Diffusion and Midjourney."
+  },
+  "traj_321": {
+    "label": "Skyrim fandom",
+    "description": "Fan communities for the Skyrim video game and modding, plus the broader Elder Scrolls series."
+  },
+  "traj_322": {
+    "label": "Nail art hobby",
+    "description": "Communities for sharing nail art designs and manicure inspiration."
+  },
+  "traj_323": {
+    "label": "Cities: Skylines city-builder",
+    "description": "Communities for players of the Cities: Skylines city-building simulation game."
+  },
+  "traj_324": {
+    "label": "Ireland local community",
+    "description": "Subreddits for Irish culture, cities, rugby, and personal finance discussion."
+  },
+  "traj_325": {
+    "label": "Online medical advice",
+    "description": "Communities where users seek medical advice and diagnosis help from others online."
+  },
+  "traj_326": {
+    "label": "Virginia DC community",
+    "description": "Local subreddits for Virginia, Northern Virginia, and Washington DC."
+  },
+  "traj_327": {
+    "label": "China local community",
+    "description": "Subreddits for discussion about China, including Shanghai."
+  },
+  "traj_328": {
+    "label": "Hair care styling",
+    "description": "Communities for hair care advice, styling tips, and hair dye discussion."
+  },
+  "traj_329": {
+    "label": "Ford Mustang enthusiasts",
+    "description": "Communities for owners and fans of the Ford Mustang, including EcoBoost models."
+  },
+  "traj_33": {
+    "label": "Law enforcement community",
+    "description": "Communities for police officers and those asking law enforcement-related questions."
+  },
+  "traj_330": {
+    "label": "Chicago local community",
+    "description": "Local subreddits for Chicago residents covering news, food, and general questions."
+  },
+  "traj_331": {
+    "label": "Finland local community",
+    "description": "Finnish-language subreddits covering local culture, gossip, and discussion."
+  },
+  "traj_332": {
+    "label": "Pink Floyd fandom",
+    "description": "Fan communities for the rock band Pink Floyd."
+  },
+  "traj_333": {
+    "label": "Denver Colorado community",
+    "description": "Local subreddits for Denver and Colorado covering food and general discussion."
+  },
+  "traj_334": {
+    "label": "Factorio automation game",
+    "description": "Communities for players of the factory-automation game Factorio."
+  },
+  "traj_335": {
+    "label": "Hunting and bowhunting",
+    "description": "Communities for hunters, including bowhunting enthusiasts."
+  },
+  "traj_336": {
+    "label": "Polyamory and non-monogamy",
+    "description": "Communities discussing polyamorous and consensually non-monogamous relationships."
+  },
+  "traj_337": {
+    "label": "Fake disorder cringe",
+    "description": "Communities critiquing perceived fake or exaggerated mental-health and disorder claims online."
+  },
+  "traj_338": {
+    "label": "BPD community",
+    "description": "Communities for people with BPD and their loved ones to share support and humor."
+  },
+  "traj_339": {
+    "label": "Comics and webcomics",
+    "description": "Communities for sharing and discussing comics and webcomics."
+  },
+  "traj_34": {
+    "label": "Gacha FNAF cringe",
+    "description": "Communities mocking cringe content from Gacha games and Five Nights at Freddy's fandoms."
+  },
+  "traj_340": {
+    "label": "Spirituality and awakening",
+    "description": "Communities discussing spirituality and personal spiritual awakening."
+  },
+  "traj_341": {
+    "label": "St. Louis community",
+    "description": "Local subreddits for St. Louis and the state of Missouri."
+  },
+  "traj_342": {
+    "label": "Romance novel fandom",
+    "description": "Communities for readers of romance novels, including fantasy and historical romance."
+  },
+  "traj_343": {
+    "label": "Asexuality community",
+    "description": "Communities for people who identify as asexual to discuss and connect."
+  },
+  "traj_344": {
+    "label": "Mass Effect fandom",
+    "description": "Fan communities for BioWare's Mass Effect and Dragon Age video game series."
+  },
+  "traj_345": {
+    "label": "Low-intimacy relationship support",
+    "description": "Communities for people in relationships with mismatched or low sexual intimacy."
+  },
+  "traj_346": {
+    "label": "Toyota Tacoma enthusiasts",
+    "description": "Communities for owners and fans of the Toyota Tacoma pickup truck."
+  },
+  "traj_347": {
+    "label": "Coffee brewing",
+    "description": "Communities for coffee enthusiasts covering espresso, pour-over, and home brewing equipment."
+  },
+  "traj_348": {
+    "label": "Hell Let Loose",
+    "description": "Communities for players of the WWII shooter game Hell Let Loose."
+  },
+  "traj_349": {
+    "label": "Whiskey enthusiasts",
+    "description": "Communities for whiskey, bourbon, and Scotch enthusiasts."
+  },
+  "traj_35": {
+    "label": "Pok\u00e9mon games trading",
+    "description": "Communities for Pok\u00e9mon games, trading cards, and mobile app trading and raids."
+  },
+  "traj_350": {
+    "label": "Weight loss support",
+    "description": "Communities supporting people trying to lose weight through diet and calorie tracking."
+  },
+  "traj_351": {
+    "label": "GLP-1 weight loss",
+    "description": "Communities discussing GLP-1 medications like Mounjaro and Ozempic for weight loss."
+  },
+  "traj_352": {
+    "label": "Nepal local community",
+    "description": "Subreddits for Nepali culture, discussion, and technology."
+  },
+  "traj_353": {
+    "label": "The Sopranos fandom",
+    "description": "Fan communities for the TV series The Sopranos."
+  },
+  "traj_354": {
+    "label": "Astrology and zodiac",
+    "description": "Communities discussing astrology, horoscopes, and specific zodiac signs."
+  },
+  "traj_355": {
+    "label": "Wednesday (Netflix) fandom",
+    "description": "Fan communities for the Netflix series Wednesday."
+  },
+  "traj_356": {
+    "label": "Trans man content",
+    "description": "Adult NSFW communities for trans men sharing explicit content."
+  },
+  "traj_357": {
+    "label": "Chef community",
+    "description": "Communities for chefs and restaurant kitchen workers to share experiences."
+  },
+  "traj_358": {
+    "label": "ARK: Survival Evolved",
+    "description": "Communities for players of the survival game ARK: Survival Evolved."
+  },
+  "traj_359": {
+    "label": "NSFW confessions chat",
+    "description": "Communities for adult NSFW confessions, roleplay chat, and explicit content sharing."
+  },
+  "traj_36": {
+    "label": "Brandon Sanderson fandom",
+    "description": "Fan communities for Brandon Sanderson's Cosmere novels, including The Stormlight Archive."
+  },
+  "traj_360": {
+    "label": "Movie music recs",
+    "description": "Communities for discussing and getting recommendations on movies, music, and television."
+  },
+  "traj_361": {
+    "label": "Indian NSFW content",
+    "description": "Adult NSFW communities focused on Indian and South Asian content and confessions."
+  },
+  "traj_362": {
+    "label": "Male NSFW rating",
+    "description": "Adult communities where men share and rate explicit photos of themselves."
+  },
+  "traj_363": {
+    "label": "LEGO building hobby",
+    "description": "Communities for LEGO builders, including Star Wars sets and custom castles."
+  },
+  "traj_364": {
+    "label": "Gacha game fandom",
+    "description": "Fan communities for gacha mobile games like Genshin Impact, Honkai Star Rail, and Blue Archive."
+  },
+  "traj_365": {
+    "label": "Multiplayer shooter games",
+    "description": "Communities for multiplayer shooter and survival games like War Thunder, Overwatch, and Escape from Tarkov."
+  },
+  "traj_366": {
+    "label": "Celebrity NSFW rating",
+    "description": "Adult communities focused on rating and sharing NSFW content related to celebrities and lookalikes."
+  },
+  "traj_367": {
+    "label": "Popular video games",
+    "description": "Communities discussing popular current video games like Baldur's Gate 3, GTA, and Starfield."
+  },
+  "traj_368": {
+    "label": "Teen gaming culture",
+    "description": "A broad cluster of teen-oriented meme and casual gaming communities."
+  },
+  "traj_369": {
+    "label": "UK soccer fandom",
+    "description": "Communities covering English soccer clubs, cricket, Formula 1, and UK sports culture."
+  },
+  "traj_37": {
+    "label": "Fortnite and mobile",
+    "description": "Communities for Fortnite players and fans of mobile games like Clash Royale and Brawl Stars."
+  },
+  "traj_370": {
+    "label": "Hentai roleplay content",
+    "description": "Communities for adult hentai-themed sexual roleplay and content exchange."
+  },
+  "traj_371": {
+    "label": "German NSFW content",
+    "description": "German-language adult communities sharing nude and swinger content."
+  },
+  "traj_372": {
+    "label": "Combat sports wrestling",
+    "description": "Communities covering MMA, boxing, jiu-jitsu, and professional wrestling."
+  },
+  "traj_373": {
+    "label": "Gay men's grooming",
+    "description": "Communities for gay men discussing grooming, fitness, hair loss, and lifestyle."
+  },
+  "traj_374": {
+    "label": "Cats and weddings",
+    "description": "A mixed cluster covering cat and pet care alongside wedding planning and jewelry."
+  },
+  "traj_375": {
+    "label": "AI and ML",
+    "description": "Communities discussing AI chatbots, machine learning, and the future of AI technology."
+  },
+  "traj_376": {
+    "label": "Norway local community",
+    "description": "Subreddits for Norwegian culture, Oslo, and local discussion."
+  },
+  "traj_377": {
+    "label": "AI chatbot roleplay",
+    "description": "Communities for AI character roleplay platforms and original-character fan content."
+  },
+  "traj_378": {
+    "label": "Outfit inspiration",
+    "description": "Communities for sharing outfit ideas and fashion inspiration."
+  },
+  "traj_379": {
+    "label": "Reality TV snark",
+    "description": "Communities snarking on reality TV shows about families and relationships like Sister Wives and 90 Day Fianc\u00e9."
+  },
+  "traj_38": {
+    "label": "Military service community",
+    "description": "Communities for members and recruits of the U.S. Marine Corps, Army, and National Guard."
+  },
+  "traj_380": {
+    "label": "Doctor Who fandom",
+    "description": "Fan communities for the British sci-fi series Doctor Who."
+  },
+  "traj_381": {
+    "label": "FromSoftware games",
+    "description": "Communities for FromSoftware's Souls-like games such as Elden Ring, Dark Souls, and Bloodborne."
+  },
+  "traj_382": {
+    "label": "PC tech support",
+    "description": "Communities for PC building, hardware troubleshooting, and tech enthusiast discussion."
+  },
+  "traj_383": {
+    "label": "Airline loyalty programs",
+    "description": "Communities for frequent flyers discussing airline and hotel loyalty programs."
+  },
+  "traj_384": {
+    "label": "Myers-Briggs personality typing",
+    "description": "Communities discussing MBTI personality types and the Enneagram system."
+  },
+  "traj_385": {
+    "label": "Celebrity gossip",
+    "description": "Communities covering celebrity gossip, reality TV, and pop music fandoms like Taylor Swift."
+  },
+  "traj_386": {
+    "label": "Counter-Strike gaming",
+    "description": "Communities for players of the Counter-Strike first-person shooter series."
+  },
+  "traj_387": {
+    "label": "NBA 2K gaming",
+    "description": "Communities for players of the NBA 2K basketball video game series."
+  },
+  "traj_388": {
+    "label": "Ohio MLS soccer",
+    "description": "Communities for Ohio cities and Major League Soccer clubs like Columbus Crew."
+  },
+  "traj_389": {
+    "label": "JoJo fandom",
+    "description": "Fan communities for the anime and manga JoJo's Bizarre Adventure."
+  },
+  "traj_39": {
+    "label": "Gun politics",
+    "description": "Communities for firearm owners covering guns, deals, hunting, and gun politics."
+  },
+  "traj_390": {
+    "label": "Influencer snark",
+    "description": "Communities snarking on internet influencers and related podcast content."
+  },
+  "traj_391": {
+    "label": "Poker strategy community",
+    "description": "Communities for poker players discussing strategy and theory."
+  },
+  "traj_392": {
+    "label": "Israel-Palestine politics",
+    "description": "Communities discussing the Israeli-Palestinian conflict, Middle East politics, and Jewish culture and religion."
+  },
+  "traj_393": {
+    "label": "Pok\u00e9mon GO",
+    "description": "Communities for players of the mobile game Pok\u00e9mon GO, covering raids, trading, and friend codes."
+  },
+  "traj_394": {
+    "label": "Conspiracy and UFOs",
+    "description": "Communities discussing conspiracy theories, UFO sightings, and alien encounters."
+  },
+  "traj_395": {
+    "label": "Jehovah's Witnesses community",
+    "description": "Communities for current and former Jehovah's Witnesses discussing the faith."
+  },
+  "traj_396": {
+    "label": "Halo game fandom",
+    "description": "Communities for players of the Halo video game franchise."
+  },
+  "traj_397": {
+    "label": "Romania local community",
+    "description": "Romanian-language subreddits covering culture, programming, and local city discussion."
+  },
+  "traj_398": {
+    "label": "Interior design",
+    "description": "Communities for interior design ideas and home decorating advice."
+  },
+  "traj_399": {
+    "label": "YouTube creator community",
+    "description": "Communities for YouTube content creators, especially those just starting out."
+  },
+  "traj_4": {
+    "label": "LGBTQ NSFW content",
+    "description": "Adult NSFW communities centered on gay, trans, and femboy content and photo sharing."
+  },
+  "traj_40": {
+    "label": "Airsoft hobby",
+    "description": "Communities for airsoft players discussing gear, matches, and marketplace trading."
+  },
+  "traj_400": {
+    "label": "Narcissistic abuse recovery",
+    "description": "Communities supporting survivors of narcissistic abuse from partners and spouses."
+  },
+  "traj_401": {
+    "label": "Amazon and UPS",
+    "description": "Communities for Amazon warehouse and delivery workers and UPS employees."
+  },
+  "traj_402": {
+    "label": "Competitive Pok\u00e9mon",
+    "description": "Communities for Pok\u00e9mon Scarlet/Violet players, trading, and competitive VGC play."
+  },
+  "traj_403": {
+    "label": "Turkey local community",
+    "description": "Turkish-language subreddits covering culture, finance, and local discussion."
+  },
+  "traj_404": {
+    "label": "Loneliness support",
+    "description": "Communities for lonely or depressed people seeking friendship and connection, some with crisis support."
+  },
+  "traj_405": {
+    "label": "Serbia local community",
+    "description": "Serbian-language subreddits covering culture, programming, and local discussion."
+  },
+  "traj_406": {
+    "label": "Snapchat sexting content",
+    "description": "Communities for arranging adult sexting and NSFW content trading via Snapchat."
+  },
+  "traj_407": {
+    "label": "Netherlands local community",
+    "description": "Dutch-language subreddits covering local life, work, legal advice, and expat topics in the Netherlands."
+  },
+  "traj_408": {
+    "label": "Diablo IV gaming",
+    "description": "Communities for players of Diablo IV, organized around character classes."
+  },
+  "traj_409": {
+    "label": "Veterans benefits",
+    "description": "Communities for military veterans discussing benefits, claims, and service support."
+  },
+  "traj_41": {
+    "label": "Home improvement trades",
+    "description": "Communities for tradespeople and DIYers covering woodworking, electrical, plumbing, and construction."
+  },
+  "traj_410": {
+    "label": "OCD and anxiety",
+    "description": "Communities for people managing OCD, anxiety, and panic attacks."
+  },
+  "traj_411": {
+    "label": "Photoshop editing requests",
+    "description": "Communities where users request free Photoshop edits from volunteers."
+  },
+  "traj_412": {
+    "label": "Buffy fandom",
+    "description": "Fan communities for Buffy the Vampire Slayer and its spinoff Angel."
+  },
+  "traj_413": {
+    "label": "USPS postal workers",
+    "description": "Communities for USPS postal employees discussing work and grievances."
+  },
+  "traj_414": {
+    "label": "Swinger lifestyle community",
+    "description": "Adult communities for swingers, particularly in the Southern California area."
+  },
+  "traj_415": {
+    "label": "Harry Potter fandom",
+    "description": "Fan communities for the Harry Potter book series, films, and HBO adaptation."
+  },
+  "traj_416": {
+    "label": "Greece local community",
+    "description": "Subreddits for Greek culture and local discussion."
+  },
+  "traj_417": {
+    "label": "Vinyl record collecting",
+    "description": "Communities for vinyl record collectors and turntable enthusiasts."
+  },
+  "traj_418": {
+    "label": "Call of Duty",
+    "description": "Communities for players of the Call of Duty franchise, including Warzone and Zombies modes."
+  },
+  "traj_419": {
+    "label": "Accounting and tax",
+    "description": "Communities for accountants and tax professionals discussing the CPA path and Big 4 firms."
+  },
+  "traj_42": {
+    "label": "Online medical advice",
+    "description": "Communities where users seek medical advice from others online."
+  },
+  "traj_420": {
+    "label": "Winnipeg Manitoba community",
+    "description": "Local subreddits for Winnipeg and the province of Manitoba, Canada."
+  },
+  "traj_421": {
+    "label": "Friends fandom",
+    "description": "Fan communities for the sitcom Friends."
+  },
+  "traj_422": {
+    "label": "Fire Emblem fandom",
+    "description": "Fan communities for the Fire Emblem video game series."
+  },
+  "traj_423": {
+    "label": "Car roasting humor",
+    "description": "Communities for humorous car reviews and roasting people's vehicles."
+  },
+  "traj_424": {
+    "label": "English language learning",
+    "description": "Communities for people learning and practicing the English language."
+  },
+  "traj_425": {
+    "label": "Food photography",
+    "description": "Communities for sharing appetizing food photos."
+  },
+  "traj_426": {
+    "label": "Scam baiting",
+    "description": "Communities discussing scam awareness and scambaiting scammers."
+  },
+  "traj_427": {
+    "label": "Cozy life-sim gaming",
+    "description": "Communities for cozy, relaxing life-simulation games like Disney Dreamlight Valley and Palia."
+  },
+  "traj_428": {
+    "label": "Car repair advice",
+    "description": "Communities for getting car repair advice from mechanics and enthusiasts."
+  },
+  "traj_429": {
+    "label": "Kenya local community",
+    "description": "Subreddits for Kenyan culture and Nairobi local discussion."
+  },
+  "traj_43": {
+    "label": "For Honor gaming",
+    "description": "Communities for players of the melee combat game For Honor."
+  },
+  "traj_430": {
+    "label": "Rainbow Six Siege",
+    "description": "Communities for players of the tactical shooter Rainbow Six Siege."
+  },
+  "traj_431": {
+    "label": "Poland local community",
+    "description": "Polish-language subreddits covering culture, books, and local discussion."
+  },
+  "traj_432": {
+    "label": "Phoenix Arizona community",
+    "description": "Local subreddits for Phoenix and the state of Arizona."
+  },
+  "traj_433": {
+    "label": "Makeup and beauty",
+    "description": "Communities for makeup enthusiasts and shoppers at Sephora and Ulta."
+  },
+  "traj_434": {
+    "label": "Satisfying video content",
+    "description": "Communities sharing satisfying videos and moments right before mishaps."
+  },
+  "traj_435": {
+    "label": "LOTR fandom",
+    "description": "Fan communities for J.R.R. Tolkien's Lord of the Rings works."
+  },
+  "traj_436": {
+    "label": "Meme stock investing",
+    "description": "Communities focused on meme stocks like GameStop, AMC, and Bed Bath & Beyond."
+  },
+  "traj_437": {
+    "label": "General Reddit subreddits",
+    "description": "A broad mix of Reddit's most popular general-interest, advice, and discussion subreddits."
+  },
+  "traj_438": {
+    "label": "Texas cities community",
+    "description": "Local subreddits for Texas cities including Austin, Houston, and Dallas."
+  },
+  "traj_439": {
+    "label": "NSFW chat farming",
+    "description": "Communities for adult NSFW chat, sexting, and Reddit karma farming, some overlapping with mental health support subs."
+  },
+  "traj_44": {
+    "label": "Fountain pen hobby",
+    "description": "Communities for fountain pen enthusiasts and pen trading."
+  },
+  "traj_440": {
+    "label": "Teen meme culture",
+    "description": "A broad cluster of teen-oriented meme, cartoon fandom, and character roleplay communities."
+  },
+  "traj_441": {
+    "label": "Fortnite and COD",
+    "description": "Communities for Fortnite and Call of Duty players, including competitive and content creator communities."
+  },
+  "traj_442": {
+    "label": "Spanish-language Reddit Q&A",
+    "description": "Spanish-language subreddits for Q&A, venting, and discussion across Latin America and Spain."
+  },
+  "traj_443": {
+    "label": "Wife-sharing bi content",
+    "description": "Adult NSFW communities focused on sharing photos of wives and bisexual married men's content."
+  },
+  "traj_444": {
+    "label": "Indian NSFW confessions",
+    "description": "Adult NSFW communities for South Asian confessions and content sharing."
+  },
+  "traj_445": {
+    "label": "Latin NSFW content",
+    "description": "Spanish-language adult NSFW communities covering hotwife, bisexual, and celebrity content."
+  },
+  "traj_446": {
+    "label": "Parenting and names",
+    "description": "Communities for parents discussing pregnancy, baby names, and childcare."
+  },
+  "traj_447": {
+    "label": "Hentai fetish roleplay",
+    "description": "Communities for adult hentai-themed and fetish sexual roleplay content."
+  },
+  "traj_448": {
+    "label": "Argentina local community",
+    "description": "Subreddits for Argentine culture, soccer, cities, and gaming discussion."
+  },
+  "traj_449": {
+    "label": "Meme identity subculture",
+    "description": "Communities built around internet meme identities and aesthetics like 'boykisser' and related online subcultures."
+  },
+  "traj_45": {
+    "label": "NHL hockey fandom",
+    "description": "Communities for NHL hockey fans, including specific team fandoms like the Canucks and Leafs."
+  },
+  "traj_450": {
+    "label": "Crypto meme stocks",
+    "description": "Communities for cryptocurrency, meme coins, meme stocks, and personal finance discussion."
+  },
+  "traj_451": {
+    "label": "Anime power scaling",
+    "description": "Communities debating power levels and matchups between anime and manga characters."
+  },
+  "traj_452": {
+    "label": "Mobile strategy gaming",
+    "description": "Communities for mobile strategy games like Clash Royale, Clash of Clans, and Brawl Stars."
+  },
+  "traj_453": {
+    "label": "Home buying",
+    "description": "Communities for home buyers and owners covering mortgages, real estate, and home improvement."
+  },
+  "traj_454": {
+    "label": "Pok\u00e9mon card collecting",
+    "description": "Communities for Pok\u00e9mon trading card game players and collectors, plus mobile game trading."
+  },
+  "traj_455": {
+    "label": "Ukraine local community",
+    "description": "Ukrainian-language subreddits covering local discussion and gaming."
+  },
+  "traj_456": {
+    "label": "Hungarian influencer culture",
+    "description": "Hungarian-language subreddits covering influencers, lifestyle, and everyday local topics."
+  },
+  "traj_457": {
+    "label": "Gacha game fandom",
+    "description": "Fan communities for gacha mobile games like Genshin Impact, Honkai Star Rail, and Zenless Zone Zero."
+  },
+  "traj_458": {
+    "label": "UK local discussion",
+    "description": "Communities covering UK cities, finance, driving, and everyday British life."
+  },
+  "traj_459": {
+    "label": "PC gaming hardware",
+    "description": "Communities for gaming hardware, PC building, and popular consoles and titles."
+  },
+  "traj_46": {
+    "label": "ASOIAF fandom",
+    "description": "Fan communities for George R.R. Martin's A Song of Ice and Fire book series."
+  },
+  "traj_460": {
+    "label": "Souls-like shooters",
+    "description": "Communities for Souls-like games like Elden Ring and Bloodborne alongside looter-shooters like Destiny and Warframe."
+  },
+  "traj_461": {
+    "label": "Federal employees DC",
+    "description": "Communities for U.S. federal government employees and the Washington DC metro area."
+  },
+  "traj_462": {
+    "label": "Media recommendations",
+    "description": "Communities for getting recommendations on movies, music, books, and TV shows."
+  },
+  "traj_463": {
+    "label": "European geography",
+    "description": "Communities covering European geography, maps, history, and country-specific culture."
+  },
+  "traj_464": {
+    "label": "NYC influencer snark",
+    "description": "Communities covering New York City life and food alongside influencer snark commentary."
+  },
+  "traj_465": {
+    "label": "Findom and feet",
+    "description": "Adult communities centered on financial domination and feet-picture selling."
+  },
+  "traj_466": {
+    "label": "Baldur's Gate 3",
+    "description": "Communities for Baldur's Gate 3, Dungeons & Dragons, and other BioWare-style RPGs."
+  },
+  "traj_467": {
+    "label": "Hero shooter games",
+    "description": "Communities for hero shooter games like Overwatch and Marvel Rivals plus fighting games like Tekken."
+  },
+  "traj_468": {
+    "label": "Historical photo archives",
+    "description": "Communities sharing rare and notable historical photographs."
+  },
+  "traj_469": {
+    "label": "Monster Hunter fandom",
+    "description": "Communities for players of the Monster Hunter video game series."
+  },
+  "traj_47": {
+    "label": "Entrepreneurship and startups",
+    "description": "Communities for entrepreneurs, startup founders, and small business owners."
+  },
+  "traj_470": {
+    "label": "South Indian cinema",
+    "description": "Communities covering South Indian film industries such as Tollywood, Kollywood, and Mollywood, and their cities."
+  },
+  "traj_471": {
+    "label": "Los Angeles community",
+    "description": "Local subreddits for residents and food recommendations in Los Angeles."
+  },
+  "traj_472": {
+    "label": "UFOs and aviation",
+    "description": "Communities covering UFO sightings, AI technology, and flight simulation and aviation."
+  },
+  "traj_473": {
+    "label": "Valve game fandom",
+    "description": "Fan communities for Valve games like Team Fortress 2, Half-Life, Portal, and Garry's Mod."
+  },
+  "traj_474": {
+    "label": "Sim racing hobby",
+    "description": "Communities for sim racing enthusiasts using titles like iRacing and Assetto Corsa."
+  },
+  "traj_475": {
+    "label": "Extreme fetish content",
+    "description": "A cluster of adult communities built around extreme non-consensual and taboo sexual fantasy content that violates most platforms' policies."
+  },
+  "traj_476": {
+    "label": "NASCAR racing fandom",
+    "description": "Communities for NASCAR racing fans and collectors of related memorabilia."
+  },
+  "traj_477": {
+    "label": "Rockstar Games fandom",
+    "description": "Communities for Rockstar Games titles like Grand Theft Auto and Red Dead Redemption."
+  },
+  "traj_478": {
+    "label": "Chile local community",
+    "description": "Subreddits for Chilean culture, education, gaming, and local discussion."
+  },
+  "traj_479": {
+    "label": "Final Fantasy fandom",
+    "description": "Fan communities for Final Fantasy, Persona, and other Japanese role-playing games."
+  },
+  "traj_48": {
+    "label": "Femboy NSFW content",
+    "description": "Adult NSFW communities centered on femboy, crossdressing, and related fetish content."
+  },
+  "traj_480": {
+    "label": "Russian-language community",
+    "description": "Russian-language subreddits covering culture, Q&A, and general discussion."
+  },
+  "traj_481": {
+    "label": "Narcissistic abuse recovery",
+    "description": "Communities supporting survivors of narcissistic parenting, childhood trauma, and family estrangement."
+  },
+  "traj_482": {
+    "label": "Object show fandom",
+    "description": "Fan communities for object show web series and related Roblox games like Dandy's World."
+  },
+  "traj_483": {
+    "label": "Plus-size NSFW content",
+    "description": "Adult NSFW communities focused on plus-size and mature body-type content."
+  },
+  "traj_484": {
+    "label": "Turkey local community",
+    "description": "Turkish-language subreddits covering culture, university life, and local discussion."
+  },
+  "traj_485": {
+    "label": "Balkans local community",
+    "description": "Subreddits for Serbian, Croatian, and broader Balkan culture and discussion."
+  },
+  "traj_486": {
+    "label": "DoorDash driver community",
+    "description": "Communities for DoorDash delivery drivers discussing gig work."
+  },
+  "traj_487": {
+    "label": "Retro gaming handhelds",
+    "description": "Communities for handheld retro-gaming emulation devices like Retroid and Anbernic."
+  },
+  "traj_488": {
+    "label": "Broadway musical fandom",
+    "description": "Fan communities for Broadway musicals, including Wicked."
+  },
+  "traj_489": {
+    "label": "Animal Crossing fandom",
+    "description": "Communities for players of the Animal Crossing life-simulation game series."
+  },
+  "traj_49": {
+    "label": "Singapore local community",
+    "description": "Subreddits for Singaporean culture, exams, and local discussion."
+  },
+  "traj_490": {
+    "label": "International geopolitics",
+    "description": "Communities discussing global news, the United Nations, and geopolitical conflicts."
+  },
+  "traj_491": {
+    "label": "College admissions preparation",
+    "description": "Communities helping students prepare for standardized tests and elite college applications."
+  },
+  "traj_492": {
+    "label": "Guitar playing gear",
+    "description": "Communities for guitarists discussing playing technique, gear, and brands."
+  },
+  "traj_493": {
+    "label": "Transformers fandom",
+    "description": "Fan communities for the Transformers franchise, including memes and fan art."
+  },
+  "traj_494": {
+    "label": "Pornstar rating",
+    "description": "Adult communities for rating and comparing pornographic performers."
+  },
+  "traj_495": {
+    "label": "JonBen\u00e9t Ramsey case",
+    "description": "Communities discussing the unsolved murder case of JonBen\u00e9t Ramsey."
+  },
+  "traj_496": {
+    "label": "Stepparent family support",
+    "description": "Communities for stepparents, especially stepmothers, sharing blended family experiences."
+  },
+  "traj_497": {
+    "label": "Ear stretching",
+    "description": "Communities for body piercing advice and ear stretching."
+  },
+  "traj_498": {
+    "label": "Unsent letters",
+    "description": "Communities for sharing brief personal writing like unsent letters and six-word stories."
+  },
+  "traj_499": {
+    "label": "Malaysia local community",
+    "description": "Subreddits for Malaysian culture, food, cars, and university life."
+  },
+  "traj_5": {
+    "label": "American sports fandom",
+    "description": "Communities covering NFL, NBA, college sports, and fantasy football with team-specific fandoms."
+  },
+  "traj_50": {
+    "label": "Fallout game fandom",
+    "description": "Communities for players of the Fallout video game series, including Fallout 76 trading."
+  },
+  "traj_500": {
+    "label": "Yu-Gi-Oh! card game",
+    "description": "Communities for players of the Yu-Gi-Oh! trading card game and its digital adaptation Master Duel."
+  },
+  "traj_501": {
+    "label": "Alcohol recovery support",
+    "description": "Communities supporting people quitting drinking through mutual and AA-based support."
+  },
+  "traj_502": {
+    "label": "Undertale Deltarune fandom",
+    "description": "Fan communities for the indie RPGs Undertale and Deltarune."
+  },
+  "traj_503": {
+    "label": "Gay interracial fetish",
+    "description": "Adult NSFW communities centered on gay interracial fetish content."
+  },
+  "traj_504": {
+    "label": "Air Force community",
+    "description": "Communities for Air Force members, recruits, and military financial planning."
+  },
+  "traj_505": {
+    "label": "Media identification help",
+    "description": "Communities for identifying half-remembered songs, movies, books, games, and fashion items."
+  },
+  "traj_506": {
+    "label": "Tattoo advice",
+    "description": "Communities for tattoo advice, designs, and sharing both good and bad tattoos."
+  },
+  "traj_507": {
+    "label": "Teaching profession community",
+    "description": "Communities for teachers and substitute teachers to share advice and experiences."
+  },
+  "traj_508": {
+    "label": "Stardew Valley fandom",
+    "description": "Communities for players of the farming simulation game Stardew Valley."
+  },
+  "traj_509": {
+    "label": "Connecticut local community",
+    "description": "Local subreddits for the state of Connecticut, including New Haven."
+  },
+  "traj_51": {
+    "label": "OnlyFans promotion community",
+    "description": "Communities for promoting and sharing OnlyFans adult content creator profiles."
+  },
+  "traj_510": {
+    "label": "Maghreb community",
+    "description": "Subreddits for the culture and discussion of Morocco, Algeria, and Tunisia."
+  },
+  "traj_511": {
+    "label": "Wedding planning",
+    "description": "Communities for planning weddings, choosing dresses, and budgeting."
+  },
+  "traj_512": {
+    "label": "Flight deals",
+    "description": "Communities for travel advice, solo travel, and finding flight deals."
+  },
+  "traj_513": {
+    "label": "Board gaming hobby",
+    "description": "Communities for board game enthusiasts, including solo board gaming."
+  },
+  "traj_514": {
+    "label": "Disney World fandom",
+    "description": "Communities for fans and visitors of Walt Disney World theme parks."
+  },
+  "traj_515": {
+    "label": "The Office fandom",
+    "description": "Fan communities for the sitcom The Office."
+  },
+  "traj_52": {
+    "label": "ARK: Survival Evolved",
+    "description": "Communities for players of the survival game ARK: Survival Evolved across platforms."
+  },
+  "traj_53": {
+    "label": "Canada hockey community",
+    "description": "Communities for Canadian cities, personal finance, and hockey fandom."
+  },
+  "traj_54": {
+    "label": "Bay Area community",
+    "description": "Local subreddits for the San Francisco Bay Area, including San Jose and Oakland."
+  },
+  "traj_55": {
+    "label": "Portugal local community",
+    "description": "Portuguese-language subreddits covering culture, finance, and soccer in Portugal."
+  },
+  "traj_56": {
+    "label": "Dream SMP fandom",
+    "description": "Fan communities for Minecraft YouTubers and the Dream SMP roleplay server."
+  },
+  "traj_57": {
+    "label": "Philippines local community",
+    "description": "Subreddits for Filipino culture, gaming, finance, and everyday life discussion."
+  },
+  "traj_58": {
+    "label": "No Man's Sky",
+    "description": "Communities for players of the space exploration game No Man's Sky."
+  },
+  "traj_59": {
+    "label": "Watch collecting hobby",
+    "description": "Communities for watch collectors, including luxury watches and replica watch discussion."
+  },
+  "traj_6": {
+    "label": "Sneakers and reps",
+    "description": "Communities for sneaker collectors and buyers of replica designer fashion items."
+  },
+  "traj_60": {
+    "label": "Vinyl and audiophile",
+    "description": "Communities for vinyl record collectors and home audio and audiophile enthusiasts."
+  },
+  "traj_61": {
+    "label": "Life-sim trading",
+    "description": "Communities for trading items in life-simulation games like Animal Crossing and The Sims."
+  },
+  "traj_62": {
+    "label": "Blender 3D modeling",
+    "description": "Communities for 3D modeling and animation using the Blender software."
+  },
+  "traj_63": {
+    "label": "Los Angeles community",
+    "description": "Local subreddits for residents and discussion about Los Angeles."
+  },
+  "traj_64": {
+    "label": "Contest of Champions",
+    "description": "Communities for players of the mobile game Marvel Contest of Champions."
+  },
+  "traj_65": {
+    "label": "Christianity debate",
+    "description": "Communities discussing Christian faith, denominations, and debates with atheists."
+  },
+  "traj_66": {
+    "label": "New Zealand community",
+    "description": "Subreddits for New Zealand culture, cities, finance, and politics."
+  },
+  "traj_67": {
+    "label": "COVID lockdown skepticism",
+    "description": "Communities skeptical of COVID-19 lockdowns and pandemic restrictions."
+  },
+  "traj_68": {
+    "label": "Elite Dangerous",
+    "description": "Communities for players of the space simulation game Elite Dangerous."
+  },
+  "traj_69": {
+    "label": "USPS postal service",
+    "description": "Communities for USPS employees and customers to discuss postal service issues."
+  },
+  "traj_7": {
+    "label": "Knives and EDC",
+    "description": "Communities for knife collectors and everyday carry gear enthusiasts."
+  },
+  "traj_70": {
+    "label": "Racing games",
+    "description": "Communities for racing games like Forza and open-world titles like GTA and Red Dead Redemption."
+  },
+  "traj_71": {
+    "label": "Dark Souls fandom",
+    "description": "Communities for FromSoftware's Souls-like games including Dark Souls, Bloodborne, and Elden Ring."
+  },
+  "traj_72": {
+    "label": "Alcohol recovery support",
+    "description": "Communities supporting people quitting drinking through mutual and AA-based support."
+  },
+  "traj_73": {
+    "label": "Bipolar disorder support",
+    "description": "Communities for people with bipolar disorder to share support and experiences."
+  },
+  "traj_74": {
+    "label": "Running hobby",
+    "description": "Communities for runners discussing training, shoes, and running watches."
+  },
+  "traj_75": {
+    "label": "Australia local community",
+    "description": "Communities for Australian cities, finance, cricket, and general discussion."
+  },
+  "traj_76": {
+    "label": "Dating strategy community",
+    "description": "Communities offering dating strategy advice aimed at women."
+  },
+  "traj_77": {
+    "label": "Turkey Caucasus community",
+    "description": "Turkish-language subreddits covering Turkey, Armenia, and Azerbaijan culture and discussion."
+  },
+  "traj_78": {
+    "label": "SMG4 YouTube fandom",
+    "description": "Fan communities for the SMG4 YouTube animation series."
+  },
+  "traj_79": {
+    "label": "Washington DC community",
+    "description": "Local subreddits for Washington DC and Northern Virginia."
+  },
+  "traj_8": {
+    "label": "Anime and gacha",
+    "description": "Communities for anime, gacha mobile games, and VTubers like Hololive."
+  },
+  "traj_80": {
+    "label": "Weight loss fasting",
+    "description": "Communities supporting weight loss through calorie tracking and intermittent fasting."
+  },
+  "traj_81": {
+    "label": "Chess community",
+    "description": "Communities for chess players and beginners, including chess meme culture."
+  },
+  "traj_82": {
+    "label": "Minnesota local community",
+    "description": "Local subreddits for Minnesota, including Minneapolis and the Twin Cities."
+  },
+  "traj_83": {
+    "label": "Motorcycle riding hobby",
+    "description": "Communities for motorcycle riders discussing bikes, brands, and gear."
+  },
+  "traj_84": {
+    "label": "Italian meme culture",
+    "description": "Italian-language subreddits for memes and teen humor."
+  },
+  "traj_85": {
+    "label": "Apple and Android",
+    "description": "Communities for smartphone users covering both Apple and Android devices."
+  },
+  "traj_86": {
+    "label": "BBQ and grilling",
+    "description": "Communities for barbecue smoking and grilling enthusiasts."
+  },
+  "traj_87": {
+    "label": "Drawing and painting",
+    "description": "Communities for artists sharing drawings, paintings, and digital art."
+  },
+  "traj_88": {
+    "label": "Dragon Ball games",
+    "description": "Communities for Dragon Ball mobile and fighting games like Dokkan Battle and FighterZ."
+  },
+  "traj_89": {
+    "label": "CS careers coding",
+    "description": "Communities for CS students and developers discussing careers and learning to code."
+  },
+  "traj_9": {
+    "label": "LGBTQ community",
+    "description": "Communities for LGBTQ people, especially transgender and non-binary individuals, to discuss identity and experiences."
+  },
+  "traj_90": {
+    "label": "Autism ADHD community",
+    "description": "Communities for autistic and ADHD people to share support, memes, and experiences."
+  },
+  "traj_91": {
+    "label": "Overwatch gaming",
+    "description": "Communities for players of the hero shooter game Overwatch."
+  },
+  "traj_92": {
+    "label": "Star Trek fandom",
+    "description": "Fan communities for the Star Trek science fiction franchise."
+  },
+  "traj_93": {
+    "label": "Guitar playing gear",
+    "description": "Communities for guitarists discussing playing, pedals, and gear trading."
+  },
+  "traj_94": {
+    "label": "Smite MOBA gaming",
+    "description": "Communities for players of the MOBA game Smite."
+  },
+  "traj_95": {
+    "label": "NYC local community",
+    "description": "Local subreddits for New York City residents covering news and food."
+  },
+  "traj_96": {
+    "label": "Hip-hop fandom",
+    "description": "Communities for fans of hip-hop and rap artists like Kanye West, Kendrick Lamar, and Playboi Carti."
+  },
+  "traj_97": {
+    "label": "Yu-Gi-Oh! card game",
+    "description": "Communities for players of the Yu-Gi-Oh! trading card game and its digital adaptations."
+  },
+  "traj_98": {
+    "label": "Marine Corps community",
+    "description": "Communities for Marine Corps members and recruits discussing service life."
+  },
+  "traj_99": {
+    "label": "Fishing hobby",
+    "description": "Communities for fishing enthusiasts discussing gear and bass fishing."
+  }
+}

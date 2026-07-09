@@ -6,6 +6,7 @@ const TOP_N = 8;
 export default function CommunityOverviewCard({
   graph,
   communityId,
+  label,
   onZoomIn,
   onClose,
 }) {
@@ -26,7 +27,7 @@ export default function CommunityOverviewCard({
   return (
     <div>
       <CloseButton onClick={onClose} />
-      <h2 style={{ marginTop: 0 }}>Community {communityId}</h2>
+      <h2 style={{ marginTop: 0 }}>{label ?? `Community ${communityId}`}</h2>
       <p>Subreddits: {rawData.size?.toLocaleString()}</p>
       <p>Total interactions: {rawData.total_interactions?.toLocaleString()}</p>
       <p>Total users: {rawData.total_users?.toLocaleString()}</p>

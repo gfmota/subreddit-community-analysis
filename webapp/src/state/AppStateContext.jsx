@@ -16,6 +16,7 @@ export function AppStateProvider({ children }) {
   const { data: trajectories } = useFetchJson(
     "/graph_data/community_trajectories.json",
   );
+  const { data: labels } = useFetchJson("/graph_data/community_labels.json");
 
   // Reverse of `trajectories` ("<date>:<communityId>" -> trajectoryId), keyed
   // instead by "<date>:<trajectoryId>" -> communityId, so following a
@@ -77,6 +78,7 @@ export function AppStateProvider({ children }) {
     selectedCommunity,
     selectedSubreddit,
     trajectories,
+    labels,
     selectDate,
     selectCommunity,
     selectSearchResult,

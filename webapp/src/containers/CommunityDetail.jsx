@@ -3,7 +3,7 @@ import { SigmaContainer, useLoadGraph } from "@react-sigma/core";
 import "@react-sigma/core/lib/style.css";
 import { getColor } from "../utils/colors";
 import { buildGraph, applyLayout } from "../utils/graph";
-import { resolveColorKey } from "../utils/trajectories";
+import { resolveColorKey, resolveLabel } from "../utils/trajectories";
 import { useFetchJson } from "../hooks/useFetchJson";
 import { useAppState } from "../state/AppStateContext";
 import DragHandler from "../components/DragHandler";
@@ -84,6 +84,7 @@ export default function CommunityDetail() {
     selectedSubreddit,
     selectSubreddit,
     trajectories,
+    labels,
     goBack,
   } = useAppState();
   const [stats, setStats] = useState(null);
@@ -120,6 +121,10 @@ export default function CommunityDetail() {
     [subredditNodes, effectiveMinInteractions],
   );
 
+  const communityLabel =
+    resolveLabel(trajectories, labels, selectedDate, selectedCommunity) ??
+    `Community ${selectedCommunity}`;
+
   return (
     <>
       <Sidebar
@@ -138,8 +143,8 @@ export default function CommunityDetail() {
             <Button onClick={goBack}>← Back to communities</Button>
             {stats && (
               <p style={{ fontSize: 13, color: "#666" }}>
-                Community {selectedCommunity}: {stats.nodes} subreddits,{" "}
-                {stats.edges} connections
+                {communityLabel}: {stats.nodes} subreddits, {stats.edges}{" "}
+                connections
               </p>
             )}
             <CommunitySubredditTable
