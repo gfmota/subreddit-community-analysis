@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3aab8l", "name": "PUBGM_CheaterReports", "interactions": 1910, "users": 139, "degree": 1, "strength": 82}, {"id": "t5_4bp1y", "name": "PUBGMobile", "interactions": 19958, "users": 1615, "degree": 1, "strength": 82}], "edges": [{"source": "t5_3aab8l", "target": "t5_4bp1y", "shared_users": 82, "cosine": 0.17306936049295177, "jaccard": 0.04904306220095694}]}

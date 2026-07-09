@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2vjfl", "name": "Rollerskating", "interactions": 13016, "users": 1274, "degree": 1, "strength": 90}, {"id": "t5_2vp4su", "name": "DudeWheresMyMoxis", "interactions": 1923, "users": 276, "degree": 1, "strength": 90}], "edges": [{"source": "t5_2vjfl", "target": "t5_2vp4su", "shared_users": 90, "cosine": 0.15177605292317753, "jaccard": 0.06164383561643835}]}

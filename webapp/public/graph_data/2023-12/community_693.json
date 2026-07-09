@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rec6", "name": "RhodeIsland", "interactions": 16305, "users": 1412, "degree": 1, "strength": 182}, {"id": "t5_2rmqg", "name": "providence", "interactions": 7347, "users": 655, "degree": 1, "strength": 182}], "edges": [{"source": "t5_2rec6", "target": "t5_2rmqg", "shared_users": 182, "cosine": 0.18924891122841841, "jaccard": 0.09655172413793103}]}

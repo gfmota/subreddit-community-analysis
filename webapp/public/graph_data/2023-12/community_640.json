@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sm23", "name": "Flooring", "interactions": 19110, "users": 1368, "degree": 1, "strength": 57}, {"id": "t5_36btj", "name": "HardWoodFloors", "interactions": 9940, "users": 574, "degree": 1, "strength": 57}], "edges": [{"source": "t5_2sm23", "target": "t5_36btj", "shared_users": 57, "cosine": 0.06432441730805577, "jaccard": 0.030238726790450927}]}

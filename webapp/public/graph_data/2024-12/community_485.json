@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_107cgy", "name": "MartialMemes", "interactions": 16124, "users": 1130, "degree": 1, "strength": 86}, {"id": "t5_wz89q", "name": "ReverendInsanity", "interactions": 10023, "users": 755, "degree": 1, "strength": 86}], "edges": [{"source": "t5_107cgy", "target": "t5_wz89q", "shared_users": 86, "cosine": 0.09310773325137418, "jaccard": 0.04780433574207893}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2tfa4", "name": "AirBnB", "interactions": 9217, "users": 598, "degree": 1, "strength": 86}, {"id": "t5_3ji5s", "name": "airbnb_hosts", "interactions": 12339, "users": 814, "degree": 1, "strength": 86}], "edges": [{"source": "t5_2tfa4", "target": "t5_3ji5s", "shared_users": 86, "cosine": 0.12326382971379254, "jaccard": 0.06485671191553545}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2au4lz", "name": "Fedexers", "interactions": 19443, "users": 1797, "degree": 1, "strength": 136}, {"id": "t5_2r73z", "name": "FedEx", "interactions": 16773, "users": 1532, "degree": 1, "strength": 136}], "edges": [{"source": "t5_2au4lz", "target": "t5_2r73z", "shared_users": 136, "cosine": 0.08196632942551889, "jaccard": 0.042593172564985904}]}

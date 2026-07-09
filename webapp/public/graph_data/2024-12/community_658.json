@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2u0tb", "name": "indianstartups", "interactions": 5148, "users": 510, "degree": 1, "strength": 111}, {"id": "t5_37h3t", "name": "StartUpIndia", "interactions": 16913, "users": 1457, "degree": 1, "strength": 111}], "edges": [{"source": "t5_2u0tb", "target": "t5_37h3t", "shared_users": 111, "cosine": 0.12876804876966833, "jaccard": 0.05980603448275862}]}

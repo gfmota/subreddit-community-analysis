@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3ek9n", "name": "eFootball", "interactions": 24875, "users": 1560, "degree": 1, "strength": 200}, {"id": "t5_3gcxf", "name": "pesmobile", "interactions": 22357, "users": 1454, "degree": 1, "strength": 200}], "edges": [{"source": "t5_3ek9n", "target": "t5_3gcxf", "shared_users": 200, "cosine": 0.13279615274933423, "jaccard": 0.07107320540156362}]}

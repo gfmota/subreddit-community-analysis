@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_6z5as0", "name": "EdmontonGW", "interactions": 9443, "users": 871, "degree": 1, "strength": 90}, {"id": "t5_zxazw", "name": "EdmontonR4R", "interactions": 10342, "users": 800, "degree": 1, "strength": 90}], "edges": [{"source": "t5_6z5as0", "target": "t5_zxazw", "shared_users": 90, "cosine": 0.10781729666612104, "jaccard": 0.056925996204933584}]}

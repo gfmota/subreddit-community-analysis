@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_rbmui", "name": "EDAnonymous", "interactions": 26656, "users": 2275, "degree": 1, "strength": 398}, {"id": "t5_rczr0", "name": "EDanonymemes", "interactions": 16926, "users": 1574, "degree": 1, "strength": 398}], "edges": [{"source": "t5_rbmui", "target": "t5_rczr0", "shared_users": 398, "cosine": 0.21032456897058696, "jaccard": 0.11532889017676036}]}

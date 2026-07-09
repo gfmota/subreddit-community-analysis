@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_g53ao", "name": "amphibia", "interactions": 21868, "users": 1223, "degree": 1, "strength": 318}, {"id": "t5_g53v4", "name": "TheOwlHouse", "interactions": 53615, "users": 2536, "degree": 2, "strength": 461}], "edges": [{"source": "t5_g53ao", "target": "t5_g53v4", "shared_users": 318, "cosine": 0.18056736765390585, "jaccard": 0.09241499564080209}]}

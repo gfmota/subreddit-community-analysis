@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3amg0g", "name": "ATXBangbros", "interactions": 2894, "users": 317, "degree": 1, "strength": 77}, {"id": "t5_4aadei", "name": "AustinBulls", "interactions": 2528, "users": 276, "degree": 1, "strength": 77}], "edges": [{"source": "t5_3amg0g", "target": "t5_4aadei", "shared_users": 77, "cosine": 0.26031941104433626, "jaccard": 0.14922480620155038}]}

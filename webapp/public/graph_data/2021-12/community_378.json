@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2r1ip", "name": "Filmmakers", "interactions": 12188, "users": 1120, "degree": 1, "strength": 83}, {"id": "t5_2ri38", "name": "cinematography", "interactions": 6930, "users": 645, "degree": 1, "strength": 83}], "edges": [{"source": "t5_2r1ip", "target": "t5_2ri38", "shared_users": 83, "cosine": 0.09765381710701493, "jaccard": 0.04934601664684899}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2s2ul", "name": "AndroidGaming", "interactions": 15857, "users": 1271, "degree": 1, "strength": 53}, {"id": "t5_33syo", "name": "EmulationOnAndroid", "interactions": 21284, "users": 1538, "degree": 1, "strength": 53}], "edges": [{"source": "t5_2s2ul", "target": "t5_33syo", "shared_users": 53, "cosine": 0.037907481054358594, "jaccard": 0.019230769230769232}]}

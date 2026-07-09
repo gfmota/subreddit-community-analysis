@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rddy", "name": "DJs", "interactions": 13511, "users": 1181, "degree": 1, "strength": 171}, {"id": "t5_2syix", "name": "Beatmatch", "interactions": 9904, "users": 943, "degree": 1, "strength": 171}], "edges": [{"source": "t5_2rddy", "target": "t5_2syix", "shared_users": 171, "cosine": 0.1620374183563285, "jaccard": 0.08755760368663594}]}

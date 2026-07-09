@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2tmc9", "name": "romancenovels", "interactions": 16439, "users": 1599, "degree": 1, "strength": 599}, {"id": "t5_bkqylb", "name": "Novelnews", "interactions": 28248, "users": 1646, "degree": 1, "strength": 599}], "edges": [{"source": "t5_2tmc9", "target": "t5_bkqylb", "shared_users": 599, "cosine": 0.36922208894916897, "jaccard": 0.22637944066515495}]}

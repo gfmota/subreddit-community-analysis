@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2tiga", "name": "Guiltygear", "interactions": 27931, "users": 1835, "degree": 1, "strength": 143}, {"id": "t5_80wv28", "name": "TheyBlamedTheBeasts", "interactions": 4064, "users": 296, "degree": 1, "strength": 143}], "edges": [{"source": "t5_2tiga", "target": "t5_80wv28", "shared_users": 143, "cosine": 0.1940314582481309, "jaccard": 0.07193158953722334}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2ui3x", "name": "battlemaps", "interactions": 3587, "users": 308, "degree": 1, "strength": 87}, {"id": "t5_3isai", "name": "dndmaps", "interactions": 3586, "users": 309, "degree": 1, "strength": 87}], "edges": [{"source": "t5_2ui3x", "target": "t5_3isai", "shared_users": 87, "cosine": 0.28201009486783185, "jaccard": 0.1641509433962264}]}

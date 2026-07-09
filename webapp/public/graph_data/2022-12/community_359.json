@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2gek70", "name": "Longislandhookups", "interactions": 9393, "users": 1223, "degree": 1, "strength": 94}, {"id": "t5_690ahs", "name": "SuffolkHookups", "interactions": 1565, "users": 173, "degree": 1, "strength": 94}], "edges": [{"source": "t5_2gek70", "target": "t5_690ahs", "shared_users": 94, "cosine": 0.20435796697492542, "jaccard": 0.07219662058371736}]}

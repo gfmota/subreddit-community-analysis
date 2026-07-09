@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_27hnjr", "name": "HouseOfTheDragon", "interactions": 24743, "users": 1106, "degree": 1, "strength": 133}, {"id": "t5_7131ym", "name": "HOTDGreens", "interactions": 12232, "users": 526, "degree": 1, "strength": 133}], "edges": [{"source": "t5_27hnjr", "target": "t5_7131ym", "shared_users": 133, "cosine": 0.1743737893566377, "jaccard": 0.08872581721147432}]}

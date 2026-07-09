@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_av5agz", "name": "PunjabiModelss", "interactions": 3601, "users": 340, "degree": 1, "strength": 230}, {"id": "t5_cddg99", "name": "punjabiactress_", "interactions": 10475, "users": 1141, "degree": 1, "strength": 230}], "edges": [{"source": "t5_av5agz", "target": "t5_cddg99", "shared_users": 230, "cosine": 0.36927129997259606, "jaccard": 0.1838529176658673}]}

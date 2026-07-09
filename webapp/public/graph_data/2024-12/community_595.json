@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_23oax0", "name": "cabincrewcareers", "interactions": 8602, "users": 919, "degree": 1, "strength": 111}, {"id": "t5_2vb78", "name": "flightattendants", "interactions": 5991, "users": 621, "degree": 1, "strength": 111}], "edges": [{"source": "t5_23oax0", "target": "t5_2vb78", "shared_users": 111, "cosine": 0.14693302609301206, "jaccard": 0.07767669699090272}]}

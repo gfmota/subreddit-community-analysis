@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rzgi", "name": "homestuck", "interactions": 8714, "users": 747, "degree": 1, "strength": 53}, {"id": "t5_z0wva", "name": "althomestuck", "interactions": 2437, "users": 159, "degree": 1, "strength": 53}], "edges": [{"source": "t5_2rzgi", "target": "t5_z0wva", "shared_users": 53, "cosine": 0.15378607277733788, "jaccard": 0.06213364595545135}]}

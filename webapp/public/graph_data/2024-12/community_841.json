@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qmhl", "name": "CreditCards", "interactions": 35422, "users": 2787, "degree": 1, "strength": 105}, {"id": "t5_2sn34", "name": "amex", "interactions": 14762, "users": 1258, "degree": 1, "strength": 105}], "edges": [{"source": "t5_2qmhl", "target": "t5_2sn34", "shared_users": 105, "cosine": 0.056076447671198286, "jaccard": 0.0266497461928934}]}

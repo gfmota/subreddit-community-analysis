@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2vnka", "name": "emetophobia", "interactions": 14519, "users": 1208, "degree": 1, "strength": 92}, {"id": "t5_5mnb42", "name": "emetophobiarecovery", "interactions": 4622, "users": 389, "degree": 1, "strength": 92}], "edges": [{"source": "t5_2vnka", "target": "t5_5mnb42", "shared_users": 92, "cosine": 0.13420835695283728, "jaccard": 0.061129568106312294}]}

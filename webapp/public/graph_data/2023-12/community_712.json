@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_38twja", "name": "Punjabiactresses", "interactions": 12914, "users": 938, "degree": 1, "strength": 152}, {"id": "t5_90fsts", "name": "Mutth_di_Rani", "interactions": 4526, "users": 372, "degree": 1, "strength": 152}], "edges": [{"source": "t5_38twja", "target": "t5_90fsts", "shared_users": 152, "cosine": 0.2573183149830473, "jaccard": 0.13126079447322972}]}

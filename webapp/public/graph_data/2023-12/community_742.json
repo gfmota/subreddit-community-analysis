@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qhxd", "name": "police", "interactions": 6907, "users": 564, "degree": 1, "strength": 101}, {"id": "t5_33cpo", "name": "AskLE", "interactions": 17193, "users": 1252, "degree": 1, "strength": 101}], "edges": [{"source": "t5_2qhxd", "target": "t5_33cpo", "shared_users": 101, "cosine": 0.12019313342775535, "jaccard": 0.05889212827988338}]}

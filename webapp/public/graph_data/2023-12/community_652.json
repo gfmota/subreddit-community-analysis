@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2x0eq", "name": "SuicideBoys", "interactions": 6847, "users": 527, "degree": 1, "strength": 171}, {"id": "t5_38c8e", "name": "G59", "interactions": 26382, "users": 2257, "degree": 1, "strength": 171}], "edges": [{"source": "t5_2x0eq", "target": "t5_38c8e", "shared_users": 171, "cosine": 0.15679240555852184, "jaccard": 0.06544202066590127}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_gxs23", "name": "playarkmobile", "interactions": 10097, "users": 740, "degree": 1, "strength": 164}, {"id": "t5_h0pj9", "name": "arkmobile", "interactions": 5192, "users": 414, "degree": 1, "strength": 164}], "edges": [{"source": "t5_gxs23", "target": "t5_h0pj9", "shared_users": 164, "cosine": 0.2962973843388649, "jaccard": 0.16565656565656567}]}

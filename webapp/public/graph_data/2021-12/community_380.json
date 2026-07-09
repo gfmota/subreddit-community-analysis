@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3g4xs", "name": "KikRoleplay", "interactions": 15302, "users": 480, "degree": 1, "strength": 192}, {"id": "t5_3kem5", "name": "DirtyKIKRoleplay", "interactions": 27756, "users": 753, "degree": 1, "strength": 192}], "edges": [{"source": "t5_3g4xs", "target": "t5_3kem5", "shared_users": 192, "cosine": 0.31936191362231964, "jaccard": 0.1844380403458213}]}

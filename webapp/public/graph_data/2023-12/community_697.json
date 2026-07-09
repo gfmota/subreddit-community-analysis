@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3ns26k", "name": "ChumbaCasino", "interactions": 8594, "users": 804, "degree": 1, "strength": 70}, {"id": "t5_6waorj", "name": "ChumbaSweepstakes", "interactions": 2841, "users": 278, "degree": 1, "strength": 70}], "edges": [{"source": "t5_3ns26k", "target": "t5_6waorj", "shared_users": 70, "cosine": 0.1480633658243095, "jaccard": 0.0691699604743083}]}

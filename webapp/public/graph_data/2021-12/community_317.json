@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sj683", "name": "DeathBattleMatchups", "interactions": 56184, "users": 821, "degree": 1, "strength": 335}, {"id": "t5_2u2t4", "name": "deathbattle", "interactions": 25262, "users": 948, "degree": 1, "strength": 335}], "edges": [{"source": "t5_2sj683", "target": "t5_2u2t4", "shared_users": 335, "cosine": 0.37972488548611966, "jaccard": 0.23361227336122734}]}

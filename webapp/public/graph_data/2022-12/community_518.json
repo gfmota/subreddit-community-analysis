@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_282xv9", "name": "HelluvaBoss", "interactions": 34339, "users": 1676, "degree": 1, "strength": 141}, {"id": "t5_igfxt", "name": "HazbinHotel", "interactions": 10268, "users": 541, "degree": 1, "strength": 141}], "edges": [{"source": "t5_282xv9", "target": "t5_igfxt", "shared_users": 141, "cosine": 0.14807559041366822, "jaccard": 0.06791907514450866}]}

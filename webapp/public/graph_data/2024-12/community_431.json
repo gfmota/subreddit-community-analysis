@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_542te9", "name": "tacticus", "interactions": 4079, "users": 445, "degree": 1, "strength": 174}, {"id": "t5_6r38yx", "name": "WH40KTacticus", "interactions": 17110, "users": 1449, "degree": 1, "strength": 174}], "edges": [{"source": "t5_542te9", "target": "t5_6r38yx", "shared_users": 174, "cosine": 0.21668809426800903, "jaccard": 0.10116279069767442}]}

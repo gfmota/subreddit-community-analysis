@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_25dhyg", "name": "PassNclex", "interactions": 4904, "users": 497, "degree": 1, "strength": 130}, {"id": "t5_2x9zs", "name": "NCLEX", "interactions": 2551, "users": 343, "degree": 1, "strength": 130}], "edges": [{"source": "t5_25dhyg", "target": "t5_2x9zs", "shared_users": 130, "cosine": 0.3148604399289815, "jaccard": 0.18309859154929578}]}

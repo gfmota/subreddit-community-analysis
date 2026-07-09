@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2r8c5", "name": "jailbreak", "interactions": 30482, "users": 2800, "degree": 1, "strength": 133}, {"id": "t5_2w997", "name": "iOSthemes", "interactions": 4025, "users": 394, "degree": 1, "strength": 133}], "edges": [{"source": "t5_2r8c5", "target": "t5_2w997", "shared_users": 133, "cosine": 0.12662647416472933, "jaccard": 0.04344985298921921}]}

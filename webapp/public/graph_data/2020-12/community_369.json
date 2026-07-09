@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qh3r", "name": "boston", "interactions": 36603, "users": 2580, "degree": 3, "strength": 340}, {"id": "t5_2gqpy4", "name": "CoronavirusMa", "interactions": 9267, "users": 568, "degree": 1, "strength": 101}], "edges": [{"source": "t5_2qh3r", "target": "t5_2gqpy4", "shared_users": 101, "cosine": 0.08343290262949944, "jaccard": 0.03314735805710535}]}

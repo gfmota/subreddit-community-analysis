@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qi09", "name": "Sacramento", "interactions": 28540, "users": 2479, "degree": 2, "strength": 214}, {"id": "t5_3mgws", "name": "CAStateWorkers", "interactions": 4138, "users": 492, "degree": 1, "strength": 74}], "edges": [{"source": "t5_2qi09", "target": "t5_3mgws", "shared_users": 74, "cosine": 0.06700556984311987, "jaccard": 0.02554366586123576}]}

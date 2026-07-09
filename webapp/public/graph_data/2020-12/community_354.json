@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2ywzs", "name": "twitchstreams", "interactions": 7453, "users": 946, "degree": 1, "strength": 200}, {"id": "t5_3icy9", "name": "Twitch_Startup", "interactions": 10102, "users": 1159, "degree": 1, "strength": 200}], "edges": [{"source": "t5_2ywzs", "target": "t5_3icy9", "shared_users": 200, "cosine": 0.19100410870014775, "jaccard": 0.10498687664041995}]}

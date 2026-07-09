@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qmij", "name": "Anxiety", "interactions": 41420, "users": 3595, "degree": 2, "strength": 236}, {"id": "t5_2zcvb", "name": "Anxietyhelp", "interactions": 5505, "users": 515, "degree": 1, "strength": 73}], "edges": [{"source": "t5_2qmij", "target": "t5_2zcvb", "shared_users": 73, "cosine": 0.05365000888682167, "jaccard": 0.01808273470398811}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rq04", "name": "tundra", "interactions": 2534, "users": 280, "degree": 1, "strength": 69}, {"id": "t5_35y2r", "name": "ToyotaTundra", "interactions": 13594, "users": 1286, "degree": 1, "strength": 69}], "edges": [{"source": "t5_2rq04", "target": "t5_35y2r", "shared_users": 69, "cosine": 0.11498722435145754, "jaccard": 0.04609218436873747}]}

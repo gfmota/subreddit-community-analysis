@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_87xxbt", "name": "757kink", "interactions": 2857, "users": 383, "degree": 1, "strength": 109}, {"id": "t5_bik04k", "name": "757meetup", "interactions": 2607, "users": 371, "degree": 1, "strength": 109}], "edges": [{"source": "t5_87xxbt", "target": "t5_bik04k", "shared_users": 109, "cosine": 0.2891612917341414, "jaccard": 0.16899224806201552}]}

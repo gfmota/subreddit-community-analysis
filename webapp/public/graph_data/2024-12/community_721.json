@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sqxv", "name": "comicswap", "interactions": 4794, "users": 333, "degree": 1, "strength": 86}, {"id": "t5_39rj8", "name": "OmnibusCollectors", "interactions": 16447, "users": 1179, "degree": 1, "strength": 86}], "edges": [{"source": "t5_2sqxv", "target": "t5_39rj8", "shared_users": 86, "cosine": 0.13725223713656126, "jaccard": 0.06030855539971949}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rdud", "name": "backpain", "interactions": 10546, "users": 903, "degree": 1, "strength": 67}, {"id": "t5_2vbe1", "name": "Sciatica", "interactions": 9752, "users": 982, "degree": 1, "strength": 67}], "edges": [{"source": "t5_2rdud", "target": "t5_2vbe1", "shared_users": 67, "cosine": 0.07115004574601508, "jaccard": 0.03685368536853685}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3jnvp5", "name": "gymsnark", "interactions": 26260, "users": 1924, "degree": 1, "strength": 136}, {"id": "t5_4y4a4d", "name": "GymSnarkUncensored", "interactions": 1530, "users": 175, "degree": 1, "strength": 136}], "edges": [{"source": "t5_3jnvp5", "target": "t5_4y4a4d", "shared_users": 136, "cosine": 0.23437827316791743, "jaccard": 0.06928171166581763}]}

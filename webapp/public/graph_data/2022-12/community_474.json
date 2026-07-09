@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2s989", "name": "giftcardexchange", "interactions": 25931, "users": 1245, "degree": 1, "strength": 127}, {"id": "t5_bv5od", "name": "GCTrading", "interactions": 3891, "users": 252, "degree": 1, "strength": 127}], "edges": [{"source": "t5_2s989", "target": "t5_bv5od", "shared_users": 127, "cosine": 0.2267351094174539, "jaccard": 0.0927007299270073}]}

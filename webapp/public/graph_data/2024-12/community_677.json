@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2snem", "name": "GrannyPanties", "interactions": 4910, "users": 178, "degree": 1, "strength": 68}, {"id": "t5_3i6no", "name": "FullBackPanties", "interactions": 17163, "users": 756, "degree": 1, "strength": 68}], "edges": [{"source": "t5_2snem", "target": "t5_3i6no", "shared_users": 68, "cosine": 0.18536938701605646, "jaccard": 0.07852193995381063}]}

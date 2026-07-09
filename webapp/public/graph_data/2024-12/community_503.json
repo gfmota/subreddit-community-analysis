@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rru6", "name": "Berserk", "interactions": 39254, "users": 2655, "degree": 1, "strength": 64}, {"id": "t5_398od", "name": "berserklejerk", "interactions": 5167, "users": 255, "degree": 1, "strength": 64}], "edges": [{"source": "t5_2rru6", "target": "t5_398od", "shared_users": 64, "cosine": 0.0777817340619704, "jaccard": 0.022487702037947997}]}

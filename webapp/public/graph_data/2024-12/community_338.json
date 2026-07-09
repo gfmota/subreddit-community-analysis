@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2s8ot", "name": "Endo", "interactions": 11707, "users": 1176, "degree": 1, "strength": 222}, {"id": "t5_2z46j", "name": "endometriosis", "interactions": 18299, "users": 1939, "degree": 1, "strength": 222}], "edges": [{"source": "t5_2s8ot", "target": "t5_2z46j", "shared_users": 222, "cosine": 0.1470145805101368, "jaccard": 0.07673695126166609}]}

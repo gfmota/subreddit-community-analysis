@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qhk3", "name": "MensRights", "interactions": 36475, "users": 1752, "degree": 3, "strength": 279}, {"id": "t5_2zaj2", "name": "antifeminists", "interactions": 12924, "users": 484, "degree": 1, "strength": 90}], "edges": [{"source": "t5_2qhk3", "target": "t5_2zaj2", "shared_users": 90, "cosine": 0.09773559870698793, "jaccard": 0.04193849021435228}]}

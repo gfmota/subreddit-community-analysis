@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qjmy", "name": "flashlight", "interactions": 35608, "users": 1693, "degree": 1, "strength": 145}, {"id": "t5_3ugk08", "name": "Hanklights", "interactions": 3073, "users": 216, "degree": 1, "strength": 145}], "edges": [{"source": "t5_2qjmy", "target": "t5_3ugk08", "shared_users": 145, "cosine": 0.2397798298077061, "jaccard": 0.08219954648526077}]}

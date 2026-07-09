@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2vnp9", "name": "attackontitan", "interactions": 27718, "users": 1574, "degree": 1, "strength": 173}, {"id": "t5_2we2n", "name": "ShingekiNoKyojin", "interactions": 15063, "users": 857, "degree": 1, "strength": 173}], "edges": [{"source": "t5_2vnp9", "target": "t5_2we2n", "shared_users": 173, "cosine": 0.14895439714830214, "jaccard": 0.07661647475642161}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qudv", "name": "Broadway", "interactions": 26531, "users": 2003, "degree": 1, "strength": 173}, {"id": "t5_2rntx", "name": "musicals", "interactions": 17418, "users": 1310, "degree": 1, "strength": 173}], "edges": [{"source": "t5_2qudv", "target": "t5_2rntx", "shared_users": 173, "cosine": 0.10679968718574803, "jaccard": 0.05509554140127389}]}

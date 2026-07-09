@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3gwf7", "name": "EdibleButtholes", "interactions": 31182, "users": 911, "degree": 1, "strength": 47}, {"id": "t5_3nmfg4", "name": "AssHoleGW", "interactions": 31134, "users": 412, "degree": 1, "strength": 47}], "edges": [{"source": "t5_3gwf7", "target": "t5_3nmfg4", "shared_users": 47, "cosine": 0.07671672618289, "jaccard": 0.03683385579937304}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3elto", "name": "SpokaneNSFW", "interactions": 11189, "users": 1008, "degree": 1, "strength": 236}, {"id": "t5_46q7x5", "name": "xSpokane", "interactions": 5075, "users": 648, "degree": 1, "strength": 236}], "edges": [{"source": "t5_3elto", "target": "t5_46q7x5", "shared_users": 236, "cosine": 0.29200765320061184, "jaccard": 0.16619718309859155}]}

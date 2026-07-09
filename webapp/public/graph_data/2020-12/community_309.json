@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2scn9", "name": "23andme", "interactions": 18984, "users": 1494, "degree": 1, "strength": 109}, {"id": "t5_3lh3c", "name": "AncestryDNA", "interactions": 4978, "users": 491, "degree": 1, "strength": 109}], "edges": [{"source": "t5_2scn9", "target": "t5_3lh3c", "shared_users": 109, "cosine": 0.1272654311480233, "jaccard": 0.05810234541577825}]}

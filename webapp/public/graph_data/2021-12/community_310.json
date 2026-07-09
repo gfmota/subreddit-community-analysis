@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sgoq", "name": "streetwear", "interactions": 15748, "users": 1078, "degree": 1, "strength": 72}, {"id": "t5_2z6wn", "name": "streetwearstartup", "interactions": 9493, "users": 970, "degree": 1, "strength": 72}], "edges": [{"source": "t5_2sgoq", "target": "t5_2z6wn", "shared_users": 72, "cosine": 0.07041047090252567, "jaccard": 0.03643724696356275}]}

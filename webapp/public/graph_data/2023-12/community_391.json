@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_7uic6r", "name": "Amberverse_", "interactions": 46937, "users": 2452, "degree": 1, "strength": 170}, {"id": "t5_8mcv5d", "name": "FoodieCutie", "interactions": 22764, "users": 845, "degree": 1, "strength": 170}], "edges": [{"source": "t5_7uic6r", "target": "t5_8mcv5d", "shared_users": 170, "cosine": 0.1181028380506106, "jaccard": 0.054365206267988485}]}

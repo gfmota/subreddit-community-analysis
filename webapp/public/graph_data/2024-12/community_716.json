@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2si9d", "name": "uktrees", "interactions": 9450, "users": 793, "degree": 1, "strength": 62}, {"id": "t5_30y26p", "name": "ukmedicalcannabis", "interactions": 19285, "users": 1352, "degree": 1, "strength": 62}], "edges": [{"source": "t5_2si9d", "target": "t5_30y26p", "shared_users": 62, "cosine": 0.05987792611348688, "jaccard": 0.029764762361977917}]}

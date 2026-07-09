@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2vjfp", "name": "fujix", "interactions": 2873, "users": 375, "degree": 1, "strength": 87}, {"id": "t5_2yahd", "name": "fujifilm", "interactions": 5262, "users": 619, "degree": 1, "strength": 87}], "edges": [{"source": "t5_2vjfp", "target": "t5_2yahd", "shared_users": 87, "cosine": 0.18057527887524466, "jaccard": 0.09592061742006615}]}

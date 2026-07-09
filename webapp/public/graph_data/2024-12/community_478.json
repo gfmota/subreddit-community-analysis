@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qudz", "name": "kindle", "interactions": 45842, "users": 3789, "degree": 1, "strength": 111}, {"id": "t5_2rqj6", "name": "kobo", "interactions": 13495, "users": 1300, "degree": 1, "strength": 111}], "edges": [{"source": "t5_2qudz", "target": "t5_2rqj6", "shared_users": 111, "cosine": 0.05001370175864953, "jaccard": 0.022298111691442347}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_29ucb3", "name": "ElegooSaturn", "interactions": 4216, "users": 466, "degree": 1, "strength": 92}, {"id": "t5_2ysf8", "name": "resinprinting", "interactions": 14577, "users": 1346, "degree": 1, "strength": 92}], "edges": [{"source": "t5_29ucb3", "target": "t5_2ysf8", "shared_users": 92, "cosine": 0.11616420887708125, "jaccard": 0.053488372093023255}]}

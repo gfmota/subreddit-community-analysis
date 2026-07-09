@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rm6q", "name": "selfharm", "interactions": 16268, "users": 1684, "degree": 1, "strength": 118}, {"id": "t5_35jbl", "name": "MadeOfStyrofoam", "interactions": 21694, "users": 1335, "degree": 1, "strength": 118}], "edges": [{"source": "t5_2rm6q", "target": "t5_35jbl", "shared_users": 118, "cosine": 0.07869920239576447, "jaccard": 0.040675629093416064}]}

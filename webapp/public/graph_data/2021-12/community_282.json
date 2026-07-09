@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qp6s", "name": "celebnsfw", "interactions": 18616, "users": 1382, "degree": 1, "strength": 89}, {"id": "t5_iuc8g", "name": "Celebhub", "interactions": 17271, "users": 700, "degree": 1, "strength": 89}], "edges": [{"source": "t5_2qp6s", "target": "t5_iuc8g", "shared_users": 89, "cosine": 0.09048716152395084, "jaccard": 0.044656297039638734}]}

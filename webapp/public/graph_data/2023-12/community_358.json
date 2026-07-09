@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2ttok", "name": "gaychastity", "interactions": 6339, "users": 531, "degree": 1, "strength": 85}, {"id": "t5_r9eh6", "name": "MasculineMaleChastity", "interactions": 4308, "users": 302, "degree": 1, "strength": 85}], "edges": [{"source": "t5_2ttok", "target": "t5_r9eh6", "shared_users": 85, "cosine": 0.21226001652027557, "jaccard": 0.11363636363636363}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2z759", "name": "gpumining", "interactions": 3204, "users": 318, "degree": 1, "strength": 91}, {"id": "t5_32rww", "name": "EtherMining", "interactions": 7488, "users": 703, "degree": 1, "strength": 91}], "edges": [{"source": "t5_2z759", "target": "t5_32rww", "shared_users": 91, "cosine": 0.19246429349855654, "jaccard": 0.0978494623655914}]}

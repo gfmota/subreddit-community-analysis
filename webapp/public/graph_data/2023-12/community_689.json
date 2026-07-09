@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2r721", "name": "hikikomori", "interactions": 4295, "users": 314, "degree": 1, "strength": 55}, {"id": "t5_2rxjp", "name": "NEET", "interactions": 9269, "users": 601, "degree": 1, "strength": 55}], "edges": [{"source": "t5_2r721", "target": "t5_2rxjp", "shared_users": 55, "cosine": 0.12660784871948805, "jaccard": 0.06395348837209303}]}

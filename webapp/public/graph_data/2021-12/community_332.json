@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3ltwg", "name": "dragonballfighterz", "interactions": 14663, "users": 1135, "degree": 1, "strength": 134}, {"id": "t5_3ltx9", "name": "dbfz", "interactions": 5325, "users": 432, "degree": 1, "strength": 134}], "edges": [{"source": "t5_3ltwg", "target": "t5_3ltx9", "shared_users": 134, "cosine": 0.19136609473910438, "jaccard": 0.09351011863224006}]}

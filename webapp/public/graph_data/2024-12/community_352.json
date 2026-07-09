@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2vlut", "name": "SexDolls", "interactions": 13662, "users": 883, "degree": 1, "strength": 128}, {"id": "t5_2w4ek", "name": "Sexdolling", "interactions": 5251, "users": 344, "degree": 1, "strength": 128}], "edges": [{"source": "t5_2vlut", "target": "t5_2w4ek", "shared_users": 128, "cosine": 0.23224715175435745, "jaccard": 0.1164695177434031}]}

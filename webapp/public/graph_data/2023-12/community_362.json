@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qiog", "name": "korea", "interactions": 24798, "users": 1760, "degree": 1, "strength": 146}, {"id": "t5_2y3pu2", "name": "Living_in_Korea", "interactions": 8884, "users": 808, "degree": 1, "strength": 146}], "edges": [{"source": "t5_2qiog", "target": "t5_2y3pu2", "shared_users": 146, "cosine": 0.12243084346333287, "jaccard": 0.06028075970272502}]}

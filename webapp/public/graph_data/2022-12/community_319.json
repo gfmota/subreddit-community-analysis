@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qmjp", "name": "boardgames", "interactions": 54577, "users": 4411, "degree": 3, "strength": 416}, {"id": "t5_31pu4", "name": "soloboardgaming", "interactions": 6284, "users": 605, "degree": 1, "strength": 144}], "edges": [{"source": "t5_2qmjp", "target": "t5_31pu4", "shared_users": 144, "cosine": 0.08814877389900448, "jaccard": 0.029556650246305417}]}

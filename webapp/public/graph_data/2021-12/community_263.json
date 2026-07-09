@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2s91l", "name": "GhostRecon", "interactions": 12697, "users": 933, "degree": 1, "strength": 71}, {"id": "t5_3ceyj", "name": "BreakPoint", "interactions": 2652, "users": 270, "degree": 1, "strength": 71}], "edges": [{"source": "t5_2s91l", "target": "t5_3ceyj", "shared_users": 71, "cosine": 0.1414606485238309, "jaccard": 0.0627208480565371}]}

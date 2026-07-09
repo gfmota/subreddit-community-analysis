@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2r1b9", "name": "medical", "interactions": 18393, "users": 1733, "degree": 2, "strength": 195}, {"id": "t5_2xtuc", "name": "AskDocs", "interactions": 58785, "users": 3678, "degree": 2, "strength": 255}], "edges": [{"source": "t5_2r1b9", "target": "t5_2xtuc", "shared_users": 92, "cosine": 0.03644036207690801, "jaccard": 0.017296484301560444}]}

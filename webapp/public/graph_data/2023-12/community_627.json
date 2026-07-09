@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2k4wu7", "name": "Maine_gonewild", "interactions": 6423, "users": 657, "degree": 1, "strength": 187}, {"id": "t5_7d9p5i", "name": "Maine_NSFW", "interactions": 5540, "users": 509, "degree": 1, "strength": 187}], "edges": [{"source": "t5_2k4wu7", "target": "t5_7d9p5i", "shared_users": 187, "cosine": 0.3233702263130023, "jaccard": 0.19101123595505617}]}

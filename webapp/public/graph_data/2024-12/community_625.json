@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2t1rd", "name": "AdvancedRunning", "interactions": 9486, "users": 986, "degree": 1, "strength": 103}, {"id": "t5_31lup", "name": "Marathon_Training", "interactions": 15907, "users": 1484, "degree": 1, "strength": 103}], "edges": [{"source": "t5_2t1rd", "target": "t5_31lup", "shared_users": 103, "cosine": 0.0851494440521937, "jaccard": 0.04351499788762146}]}

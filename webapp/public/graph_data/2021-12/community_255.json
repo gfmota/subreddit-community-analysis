@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2r2o9", "name": "asoiaf", "interactions": 33135, "users": 1503, "degree": 2, "strength": 181}, {"id": "t5_3288z", "name": "pureasoiaf", "interactions": 4667, "users": 250, "degree": 1, "strength": 100}], "edges": [{"source": "t5_2r2o9", "target": "t5_3288z", "shared_users": 100, "cosine": 0.1631362614107988, "jaccard": 0.060496067755595885}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_88ecba", "name": "CocotteNSFW", "interactions": 3288, "users": 446, "degree": 1, "strength": 105}, {"id": "t5_aepkcn", "name": "branlette1284", "interactions": 4199, "users": 470, "degree": 1, "strength": 105}], "edges": [{"source": "t5_88ecba", "target": "t5_aepkcn", "shared_users": 105, "cosine": 0.22933637351364822, "jaccard": 0.12946979038224415}]}

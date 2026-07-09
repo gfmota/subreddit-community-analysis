@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2r4dl", "name": "saskatchewan", "interactions": 9955, "users": 703, "degree": 1, "strength": 182}, {"id": "t5_2rbq2", "name": "saskatoon", "interactions": 18795, "users": 1860, "degree": 1, "strength": 182}], "edges": [{"source": "t5_2r4dl", "target": "t5_2rbq2", "shared_users": 182, "cosine": 0.15916121777621586, "jaccard": 0.07643847123057539}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qkcr", "name": "VietNam", "interactions": 37177, "users": 3368, "degree": 1, "strength": 166}, {"id": "t5_356bu", "name": "vozforums", "interactions": 29690, "users": 3051, "degree": 1, "strength": 166}], "edges": [{"source": "t5_2qkcr", "target": "t5_356bu", "shared_users": 166, "cosine": 0.05178463777857279, "jaccard": 0.026547257316488087}]}

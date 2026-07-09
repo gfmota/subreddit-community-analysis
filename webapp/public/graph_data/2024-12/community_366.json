@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qn77", "name": "dropshipping", "interactions": 12107, "users": 1225, "degree": 1, "strength": 120}, {"id": "t5_2txzl", "name": "dropship", "interactions": 4394, "users": 387, "degree": 1, "strength": 120}], "edges": [{"source": "t5_2qn77", "target": "t5_2txzl", "shared_users": 120, "cosine": 0.1742840803801196, "jaccard": 0.08042895442359249}]}

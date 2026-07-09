@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qq2q", "name": "sandiego", "interactions": 28450, "users": 2689, "degree": 2, "strength": 236}, {"id": "t5_3f157", "name": "SanDiegan", "interactions": 15478, "users": 1284, "degree": 1, "strength": 119}], "edges": [{"source": "t5_2qq2q", "target": "t5_3f157", "shared_users": 119, "cosine": 0.06404261376305563, "jaccard": 0.030877010897768554}]}

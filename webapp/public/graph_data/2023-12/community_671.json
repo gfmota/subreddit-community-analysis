@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qk72", "name": "climbing", "interactions": 9717, "users": 808, "degree": 1, "strength": 99}, {"id": "t5_2rb1o", "name": "bouldering", "interactions": 16832, "users": 1625, "degree": 1, "strength": 99}], "edges": [{"source": "t5_2qk72", "target": "t5_2rb1o", "shared_users": 99, "cosine": 0.08639782937105807, "jaccard": 0.042416452442159386}]}

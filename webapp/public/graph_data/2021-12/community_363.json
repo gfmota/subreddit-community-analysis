@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_40x3ov", "name": "VeVeCollectables", "interactions": 22006, "users": 1539, "degree": 1, "strength": 115}, {"id": "t5_j0x63", "name": "ecomi", "interactions": 4129, "users": 419, "degree": 1, "strength": 115}], "edges": [{"source": "t5_40x3ov", "target": "t5_j0x63", "shared_users": 115, "cosine": 0.14320939794274037, "jaccard": 0.062398263700488336}]}

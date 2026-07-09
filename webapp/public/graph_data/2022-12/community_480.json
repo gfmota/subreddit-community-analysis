@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2xmg7", "name": "aa_cups", "interactions": 21866, "users": 632, "degree": 1, "strength": 68}, {"id": "t5_30vpj", "name": "flatchested", "interactions": 11175, "users": 462, "degree": 1, "strength": 68}], "edges": [{"source": "t5_2xmg7", "target": "t5_30vpj", "shared_users": 68, "cosine": 0.12584309353681103, "jaccard": 0.06627680311890838}]}

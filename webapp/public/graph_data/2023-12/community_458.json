@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_887vuq", "name": "LAREDOSX", "interactions": 7468, "users": 662, "degree": 1, "strength": 65}, {"id": "t5_9eqn9g", "name": "Laredo_TxNSFW2", "interactions": 1639, "users": 241, "degree": 1, "strength": 65}], "edges": [{"source": "t5_887vuq", "target": "t5_9eqn9g", "shared_users": 65, "cosine": 0.1627330786352302, "jaccard": 0.07756563245823389}]}

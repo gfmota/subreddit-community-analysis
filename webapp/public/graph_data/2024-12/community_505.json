@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2r06y", "name": "whiskey", "interactions": 32325, "users": 2556, "degree": 1, "strength": 207}, {"id": "t5_2rgos", "name": "bourbon", "interactions": 12169, "users": 907, "degree": 1, "strength": 207}], "edges": [{"source": "t5_2r06y", "target": "t5_2rgos", "shared_users": 207, "cosine": 0.13595221170190558, "jaccard": 0.06357493857493858}]}

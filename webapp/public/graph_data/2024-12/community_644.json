@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_bt1g2r", "name": "Histoire2Celebrites", "interactions": 9871, "users": 1162, "degree": 1, "strength": 301}, {"id": "t5_bu0fhx", "name": "Star_sex", "interactions": 25199, "users": 2548, "degree": 1, "strength": 301}], "edges": [{"source": "t5_bt1g2r", "target": "t5_bu0fhx", "shared_users": 301, "cosine": 0.17492976782901426, "jaccard": 0.08829568788501027}]}

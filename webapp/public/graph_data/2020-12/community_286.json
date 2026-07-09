@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qzzt", "name": "hungary", "interactions": 45845, "users": 2013, "degree": 1, "strength": 125}, {"id": "t5_kiiam", "name": "FostTalicska", "interactions": 5778, "users": 627, "degree": 1, "strength": 125}], "edges": [{"source": "t5_2qzzt", "target": "t5_kiiam", "shared_users": 125, "cosine": 0.11126391959205428, "jaccard": 0.04970178926441352}]}

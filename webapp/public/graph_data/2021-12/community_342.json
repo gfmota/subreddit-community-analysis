@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2stl8", "name": "Smite", "interactions": 52938, "users": 4228, "degree": 2, "strength": 261}, {"id": "t5_2x8hu", "name": "gank", "interactions": 2545, "users": 230, "degree": 1, "strength": 104}], "edges": [{"source": "t5_2stl8", "target": "t5_2x8hu", "shared_users": 104, "cosine": 0.10546343974625991, "jaccard": 0.02388608176389527}]}

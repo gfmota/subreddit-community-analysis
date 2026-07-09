@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qzqt", "name": "newfoundland", "interactions": 11904, "users": 1076, "degree": 1, "strength": 116}, {"id": "t5_2rutz", "name": "StJohnsNL", "interactions": 2644, "users": 286, "degree": 1, "strength": 116}], "edges": [{"source": "t5_2qzqt", "target": "t5_2rutz", "shared_users": 116, "cosine": 0.20910712789784774, "jaccard": 0.09309791332263243}]}

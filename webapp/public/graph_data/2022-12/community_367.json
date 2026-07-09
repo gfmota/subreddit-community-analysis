@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rcyx", "name": "headphones", "interactions": 42692, "users": 3119, "degree": 1, "strength": 394}, {"id": "t5_3k8u4", "name": "HeadphoneAdvice", "interactions": 29096, "users": 2170, "degree": 1, "strength": 394}], "edges": [{"source": "t5_2rcyx", "target": "t5_3k8u4", "shared_users": 394, "cosine": 0.15144630000593928, "jaccard": 0.0804902962206333}]}

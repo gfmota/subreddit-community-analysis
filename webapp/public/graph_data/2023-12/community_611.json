@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_1uyb31", "name": "CaliBanging", "interactions": 11516, "users": 819, "degree": 1, "strength": 156}, {"id": "t5_839rua", "name": "CaliConnection", "interactions": 8817, "users": 673, "degree": 1, "strength": 156}], "edges": [{"source": "t5_1uyb31", "target": "t5_839rua", "shared_users": 156, "cosine": 0.21012373668060608, "jaccard": 0.11676646706586827}]}

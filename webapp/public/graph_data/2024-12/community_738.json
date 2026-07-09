@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2r8c5", "name": "jailbreak", "interactions": 13235, "users": 1217, "degree": 1, "strength": 70}, {"id": "t5_352su", "name": "LegacyJailbreak", "interactions": 8958, "users": 587, "degree": 1, "strength": 70}], "edges": [{"source": "t5_2r8c5", "target": "t5_352su", "shared_users": 70, "cosine": 0.0828197090129599, "jaccard": 0.040369088811995385}]}

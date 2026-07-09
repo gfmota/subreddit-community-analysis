@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_31h3t", "name": "sissycaptions", "interactions": 9222, "users": 651, "degree": 1, "strength": 71}, {"id": "t5_31nbt", "name": "Sissyperfection", "interactions": 5248, "users": 372, "degree": 1, "strength": 71}], "edges": [{"source": "t5_31h3t", "target": "t5_31nbt", "shared_users": 71, "cosine": 0.14427676120244695, "jaccard": 0.07457983193277311}]}

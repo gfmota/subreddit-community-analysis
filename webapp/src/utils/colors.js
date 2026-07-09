@@ -16,10 +16,20 @@ const PALETTE = [
   "#f43f5e", // rose
 ];
 
-export function getColor(communityId) {
-  const numericId =
-    typeof communityId === "string" ? parseInt(communityId, 10) : communityId;
-  const index =
-    ((numericId % PALETTE.length) + PALETTE.length) % PALETTE.length;
-  return PALETTE[index];
+// Accepts numbers (raw community ids) or arbitrary strings (e.g. trajectory
+// ids like "traj_7") and maps them to a stable palette entry.
+export function getColor(key) {
+  const index = hashToInt(key) % PALETTE.length;
+  return PALETTE[(index + PALETTE.length) % PALETTE.length];
+}
+
+function hashToInt(key) {
+  if (typeof key === "number") return key;
+
+  const str = String(key);
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    hash = (hash * 31 + str.charCodeAt(i)) | 0;
+  }
+  return hash;
 }

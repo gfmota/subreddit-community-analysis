@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2r6ex", "name": "evangelion", "interactions": 14289, "users": 1090, "degree": 1, "strength": 117}, {"id": "t5_3g1u2", "name": "evangelionmemes", "interactions": 19787, "users": 1173, "degree": 1, "strength": 117}], "edges": [{"source": "t5_2r6ex", "target": "t5_3g1u2", "shared_users": 117, "cosine": 0.1034721818146729, "jaccard": 0.054520037278657965}]}

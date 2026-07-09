@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qrt0", "name": "Scams", "interactions": 91664, "users": 5833, "degree": 1, "strength": 86}, {"id": "t5_3n82c", "name": "CryptoScams", "interactions": 12866, "users": 1083, "degree": 1, "strength": 86}], "edges": [{"source": "t5_2qrt0", "target": "t5_3n82c", "shared_users": 86, "cosine": 0.034216708875055284, "jaccard": 0.012591508052708639}]}

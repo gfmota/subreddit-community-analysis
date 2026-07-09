@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2vbli", "name": "SeattleWA", "interactions": 48535, "users": 2613, "degree": 2, "strength": 758}, {"id": "t5_2qhad", "name": "Seattle", "interactions": 75393, "users": 5118, "degree": 4, "strength": 1131}], "edges": [{"source": "t5_2vbli", "target": "t5_2qhad", "shared_users": 629, "cosine": 0.17200093185534387, "jaccard": 0.08856660095747677}]}

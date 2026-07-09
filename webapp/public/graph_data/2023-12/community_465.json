@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rtqf", "name": "falloutnewvegas", "interactions": 27581, "users": 1552, "degree": 1, "strength": 144}, {"id": "t5_2rzr5", "name": "fnv", "interactions": 20454, "users": 1183, "degree": 1, "strength": 144}], "edges": [{"source": "t5_2rtqf", "target": "t5_2rzr5", "shared_users": 144, "cosine": 0.10627332320123117, "jaccard": 0.05557699729834041}]}

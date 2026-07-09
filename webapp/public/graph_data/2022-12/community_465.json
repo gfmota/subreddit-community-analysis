@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2s8wn", "name": "homeautomation", "interactions": 10685, "users": 928, "degree": 1, "strength": 85}, {"id": "t5_3bekp", "name": "homeassistant", "interactions": 23446, "users": 2453, "degree": 1, "strength": 85}], "edges": [{"source": "t5_2s8wn", "target": "t5_3bekp", "shared_users": 85, "cosine": 0.05633731740670305, "jaccard": 0.02578883495145631}]}

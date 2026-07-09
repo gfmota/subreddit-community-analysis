@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qizo", "name": "GYM", "interactions": 34722, "users": 1835, "degree": 2, "strength": 151}, {"id": "t5_2qyd9", "name": "strength_training", "interactions": 14509, "users": 865, "degree": 1, "strength": 62}], "edges": [{"source": "t5_2qizo", "target": "t5_2qyd9", "shared_users": 62, "cosine": 0.049211386532889465, "jaccard": 0.02350265352539803}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qibb", "name": "humanresources", "interactions": 13472, "users": 1041, "degree": 1, "strength": 71}, {"id": "t5_2usvo", "name": "AskHR", "interactions": 17066, "users": 1246, "degree": 1, "strength": 71}], "edges": [{"source": "t5_2qibb", "target": "t5_2usvo", "shared_users": 71, "cosine": 0.06234102847529359, "jaccard": 0.03203971119133574}]}

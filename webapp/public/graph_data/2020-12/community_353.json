@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rbd9", "name": "MBA", "interactions": 13970, "users": 1493, "degree": 1, "strength": 73}, {"id": "t5_2rucg", "name": "GMAT", "interactions": 3641, "users": 410, "degree": 1, "strength": 73}], "edges": [{"source": "t5_2rbd9", "target": "t5_2rucg", "shared_users": 73, "cosine": 0.09330416441326995, "jaccard": 0.03989071038251366}]}

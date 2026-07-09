@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2if1xi", "name": "depoop", "interactions": 6291, "users": 392, "degree": 1, "strength": 74}, {"id": "t5_2y4mt", "name": "Depop", "interactions": 21517, "users": 1851, "degree": 1, "strength": 74}], "edges": [{"source": "t5_2if1xi", "target": "t5_2y4mt", "shared_users": 74, "cosine": 0.08687313152296389, "jaccard": 0.03411710465652374}]}

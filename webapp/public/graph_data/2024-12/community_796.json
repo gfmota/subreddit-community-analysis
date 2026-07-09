@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rudk", "name": "drones", "interactions": 14899, "users": 1093, "degree": 1, "strength": 135}, {"id": "t5_2wu4v", "name": "dji", "interactions": 20956, "users": 1916, "degree": 1, "strength": 135}], "edges": [{"source": "t5_2rudk", "target": "t5_2wu4v", "shared_users": 135, "cosine": 0.09328803282328248, "jaccard": 0.04697286012526096}]}

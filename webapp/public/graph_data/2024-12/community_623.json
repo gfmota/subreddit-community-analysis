@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3x19dn", "name": "DenverDicks", "interactions": 3438, "users": 334, "degree": 1, "strength": 115}, {"id": "t5_8ogf10", "name": "GayDenverHookUp", "interactions": 10029, "users": 1097, "degree": 1, "strength": 115}], "edges": [{"source": "t5_3x19dn", "target": "t5_8ogf10", "shared_users": 115, "cosine": 0.18998586615192298, "jaccard": 0.08738601823708207}]}

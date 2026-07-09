@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3jn1r", "name": "Couplesporn", "interactions": 17596, "users": 748, "degree": 1, "strength": 135}, {"id": "t5_7c6l8r", "name": "CouplesAmateurPorn", "interactions": 23637, "users": 1101, "degree": 1, "strength": 135}], "edges": [{"source": "t5_3jn1r", "target": "t5_7c6l8r", "shared_users": 135, "cosine": 0.1487610756896982, "jaccard": 0.07876312718786464}]}

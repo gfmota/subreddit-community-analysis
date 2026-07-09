@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_56s50u", "name": "Lakewoodnsfw", "interactions": 2979, "users": 350, "degree": 1, "strength": 92}, {"id": "t5_64w2xz", "name": "tacoma_r4r", "interactions": 4107, "users": 477, "degree": 1, "strength": 92}], "edges": [{"source": "t5_56s50u", "target": "t5_64w2xz", "shared_users": 92, "cosine": 0.22516175011906803, "jaccard": 0.1251700680272109}]}

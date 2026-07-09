@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_s9op2", "name": "SummrsXo", "interactions": 3902, "users": 354, "degree": 1, "strength": 85}, {"id": "t5_tbcbo", "name": "summrs", "interactions": 5372, "users": 439, "degree": 1, "strength": 85}], "edges": [{"source": "t5_s9op2", "target": "t5_tbcbo", "shared_users": 85, "cosine": 0.21561801053885435, "jaccard": 0.12005649717514125}]}

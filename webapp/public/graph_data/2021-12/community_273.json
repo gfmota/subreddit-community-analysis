@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2tifv", "name": "hoggit", "interactions": 22763, "users": 1767, "degree": 1, "strength": 102}, {"id": "t5_32txt", "name": "hotas", "interactions": 6497, "users": 555, "degree": 1, "strength": 102}], "edges": [{"source": "t5_2tifv", "target": "t5_32txt", "shared_users": 102, "cosine": 0.10299956853428552, "jaccard": 0.04594594594594595}]}

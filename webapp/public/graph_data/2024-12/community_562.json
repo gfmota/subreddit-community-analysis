@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_359z1", "name": "clat", "interactions": 31102, "users": 1487, "degree": 1, "strength": 250}, {"id": "t5_36di1", "name": "NLUs", "interactions": 4416, "users": 458, "degree": 1, "strength": 250}], "edges": [{"source": "t5_359z1", "target": "t5_36di1", "shared_users": 250, "cosine": 0.3029366269207266, "jaccard": 0.14749262536873156}]}

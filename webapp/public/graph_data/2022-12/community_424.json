@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_56cqut", "name": "conversasdecornos", "interactions": 1605, "users": 180, "degree": 1, "strength": 72}, {"id": "t5_5lt37r", "name": "esposasafadas", "interactions": 4267, "users": 471, "degree": 1, "strength": 72}], "edges": [{"source": "t5_56cqut", "target": "t5_5lt37r", "shared_users": 72, "cosine": 0.24727817698957308, "jaccard": 0.12435233160621761}]}

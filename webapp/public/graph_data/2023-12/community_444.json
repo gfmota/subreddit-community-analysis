@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3ofkf", "name": "askspain", "interactions": 12347, "users": 1137, "degree": 1, "strength": 95}, {"id": "t5_6sx16d", "name": "GoingToSpain", "interactions": 9478, "users": 878, "degree": 1, "strength": 95}], "edges": [{"source": "t5_3ofkf", "target": "t5_6sx16d", "shared_users": 95, "cosine": 0.09508151980869495, "jaccard": 0.049479166666666664}]}

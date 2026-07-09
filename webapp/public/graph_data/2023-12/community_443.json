@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2s3bw", "name": "whatsthisbug", "interactions": 25795, "users": 2776, "degree": 1, "strength": 65}, {"id": "t5_4vq1l6", "name": "whatisthisbug", "interactions": 26821, "users": 2313, "degree": 1, "strength": 65}], "edges": [{"source": "t5_2s3bw", "target": "t5_4vq1l6", "shared_users": 65, "cosine": 0.025651679753762983, "jaccard": 0.012937898089171975}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3vlz8k", "name": "westtexasgonewild", "interactions": 6841, "users": 800, "degree": 1, "strength": 91}, {"id": "t5_7coh3j", "name": "HornyHubCity", "interactions": 3190, "users": 408, "degree": 1, "strength": 91}], "edges": [{"source": "t5_3vlz8k", "target": "t5_7coh3j", "shared_users": 91, "cosine": 0.15928185955818613, "jaccard": 0.08146821844225605}]}

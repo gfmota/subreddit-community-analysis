@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qv0q", "name": "asexuality", "interactions": 21920, "users": 1838, "degree": 2, "strength": 293}, {"id": "t5_3aa11", "name": "aaaaaaacccccccce", "interactions": 14421, "users": 1018, "degree": 1, "strength": 161}], "edges": [{"source": "t5_2qv0q", "target": "t5_3aa11", "shared_users": 161, "cosine": 0.11770075089159265, "jaccard": 0.05974025974025974}]}

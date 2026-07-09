@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2g4d3q", "name": "GIJOEClassifiedSeries", "interactions": 5773, "users": 444, "degree": 1, "strength": 92}, {"id": "t5_2qv08", "name": "gijoe", "interactions": 7318, "users": 527, "degree": 1, "strength": 92}], "edges": [{"source": "t5_2g4d3q", "target": "t5_2qv08", "shared_users": 92, "cosine": 0.1901914698036637, "jaccard": 0.10466439135381114}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_12rcw6", "name": "TurkGayPaylasim", "interactions": 4626, "users": 617, "degree": 1, "strength": 122}, {"id": "t5_84xzfv", "name": "turkpipi", "interactions": 2661, "users": 331, "degree": 1, "strength": 122}], "edges": [{"source": "t5_12rcw6", "target": "t5_84xzfv", "shared_users": 122, "cosine": 0.26996238219126234, "jaccard": 0.14769975786924938}]}

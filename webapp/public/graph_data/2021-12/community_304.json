@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qhwc", "name": "Nails", "interactions": 18537, "users": 1785, "degree": 1, "strength": 103}, {"id": "t5_2se5q", "name": "RedditLaqueristas", "interactions": 11466, "users": 931, "degree": 1, "strength": 103}], "edges": [{"source": "t5_2qhwc", "target": "t5_2se5q", "shared_users": 103, "cosine": 0.0798993551052644, "jaccard": 0.039418293149636435}]}

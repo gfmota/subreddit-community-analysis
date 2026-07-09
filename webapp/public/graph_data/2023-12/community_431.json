@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2l6li2", "name": "YVRGoneWild", "interactions": 10050, "users": 823, "degree": 1, "strength": 142}, {"id": "t5_33mi79", "name": "VancouverNSFW", "interactions": 3140, "users": 337, "degree": 1, "strength": 142}], "edges": [{"source": "t5_2l6li2", "target": "t5_33mi79", "shared_users": 142, "cosine": 0.2696332685439253, "jaccard": 0.13948919449901767}]}

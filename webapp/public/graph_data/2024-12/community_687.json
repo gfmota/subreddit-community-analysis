@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2m1ae9", "name": "GodofWarRagnarok", "interactions": 14394, "users": 961, "degree": 1, "strength": 111}, {"id": "t5_2ts07", "name": "GodofWar", "interactions": 25851, "users": 1560, "degree": 1, "strength": 111}], "edges": [{"source": "t5_2m1ae9", "target": "t5_2ts07", "shared_users": 111, "cosine": 0.09065650785990886, "jaccard": 0.04605809128630706}]}

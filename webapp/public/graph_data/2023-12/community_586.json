@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2ebl2n", "name": "MonarchMoney", "interactions": 7186, "users": 779, "degree": 1, "strength": 103}, {"id": "t5_35qvn", "name": "mintuit", "interactions": 9325, "users": 975, "degree": 1, "strength": 103}], "edges": [{"source": "t5_2ebl2n", "target": "t5_35qvn", "shared_users": 103, "cosine": 0.1181860418540256, "jaccard": 0.06238643246517262}]}

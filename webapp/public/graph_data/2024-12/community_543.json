@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2s9o3", "name": "Sakartvelo", "interactions": 18947, "users": 1358, "degree": 1, "strength": 186}, {"id": "t5_2tco4", "name": "tbilisi", "interactions": 6378, "users": 710, "degree": 1, "strength": 186}], "edges": [{"source": "t5_2s9o3", "target": "t5_2tco4", "shared_users": 186, "cosine": 0.1894235122241781, "jaccard": 0.09883103081827843}]}

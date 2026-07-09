@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_7uhemb", "name": "sandiegoporn", "interactions": 5810, "users": 620, "degree": 1, "strength": 166}, {"id": "t5_9pt1xy", "name": "sandiegosinglez", "interactions": 6031, "users": 656, "degree": 1, "strength": 166}], "edges": [{"source": "t5_7uhemb", "target": "t5_9pt1xy", "shared_users": 166, "cosine": 0.2602917022489155, "jaccard": 0.14954954954954955}]}

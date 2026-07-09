@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2unux", "name": "Silverado", "interactions": 12362, "users": 1277, "degree": 1, "strength": 61}, {"id": "t5_3a4sp", "name": "gmcsierra", "interactions": 13040, "users": 1339, "degree": 1, "strength": 61}], "edges": [{"source": "t5_2unux", "target": "t5_3a4sp", "shared_users": 61, "cosine": 0.04664918899681084, "jaccard": 0.023874755381604697}]}

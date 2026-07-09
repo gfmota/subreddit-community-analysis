@@ -6,6 +6,13 @@ mkdir -p "$DEST"
 # cross-month files
 cp storage/network/timeseries/manifest.json "$DEST/"
 cp storage/network/timeseries/subreddit_timeseries.json "$DEST/"
+cp storage/network/timeseries/community_trajectories.json "$DEST/"
+
+# optional: only present if `make apply-labels` has been run
+if [ -f storage/network/timeseries/community_labels.json ]; then
+    cp storage/network/timeseries/community_labels.json "$DEST/"
+    echo "Copied community labels"
+fi
 
 # per-date files
 for date_dir in storage/network/*/; do

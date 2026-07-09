@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_33726", "name": "KotakuInAction", "interactions": 22898, "users": 1089, "degree": 1, "strength": 57}, {"id": "t5_3400v", "name": "kotakuinaction2", "interactions": 4232, "users": 199, "degree": 1, "strength": 57}], "edges": [{"source": "t5_33726", "target": "t5_3400v", "shared_users": 57, "cosine": 0.12244311722871257, "jaccard": 0.0463038180341186}]}

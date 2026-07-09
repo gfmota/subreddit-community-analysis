@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_298rgl", "name": "LibbyandAbby", "interactions": 17635, "users": 788, "degree": 1, "strength": 291}, {"id": "t5_3jg93", "name": "DelphiMurders", "interactions": 12657, "users": 839, "degree": 1, "strength": 291}], "edges": [{"source": "t5_298rgl", "target": "t5_3jg93", "shared_users": 291, "cosine": 0.35788945292082913, "jaccard": 0.21781437125748504}]}

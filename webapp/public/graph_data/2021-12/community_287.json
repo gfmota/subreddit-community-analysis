@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_1miga2", "name": "gayonlyfans", "interactions": 2834, "users": 198, "degree": 1, "strength": 73}, {"id": "t5_2790b0", "name": "GayOnlyFansPromotions", "interactions": 2679, "users": 187, "degree": 1, "strength": 73}], "edges": [{"source": "t5_1miga2", "target": "t5_2790b0", "shared_users": 73, "cosine": 0.37937565804251955, "jaccard": 0.23397435897435898}]}

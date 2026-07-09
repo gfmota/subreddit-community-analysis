@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_21ub0l", "name": "AdoptMeRBX", "interactions": 23951, "users": 859, "degree": 1, "strength": 342}, {"id": "t5_2bdleh", "name": "AdoptMeTrading", "interactions": 30006, "users": 868, "degree": 1, "strength": 342}], "edges": [{"source": "t5_21ub0l", "target": "t5_2bdleh", "shared_users": 342, "cosine": 0.3960679144643511, "jaccard": 0.24693140794223828}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2mfwt3", "name": "onlyfansadvice", "interactions": 21151, "users": 1444, "degree": 1, "strength": 199}, {"id": "t5_4xgztn", "name": "CreatorsAdvice", "interactions": 14717, "users": 946, "degree": 1, "strength": 199}], "edges": [{"source": "t5_2mfwt3", "target": "t5_4xgztn", "shared_users": 199, "cosine": 0.17026442324172192, "jaccard": 0.0908261068005477}]}

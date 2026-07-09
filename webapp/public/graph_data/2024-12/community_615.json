@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_379r4", "name": "FUTMobile", "interactions": 61976, "users": 3441, "degree": 1, "strength": 511}, {"id": "t5_6ckwal", "name": "EASportsFCMobile", "interactions": 11786, "users": 909, "degree": 1, "strength": 511}], "edges": [{"source": "t5_379r4", "target": "t5_6ckwal", "shared_users": 511, "cosine": 0.28893265093262555, "jaccard": 0.1331075800989841}]}

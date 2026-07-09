@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qwwd", "name": "Honda", "interactions": 15487, "users": 1094, "degree": 1, "strength": 61}, {"id": "t5_2yx7v", "name": "accord", "interactions": 12531, "users": 1208, "degree": 1, "strength": 61}], "edges": [{"source": "t5_2qwwd", "target": "t5_2yx7v", "shared_users": 61, "cosine": 0.053062499912210154, "jaccard": 0.027219991075412762}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_b58l3d", "name": "NordGW", "interactions": 10334, "users": 818, "degree": 1, "strength": 173}, {"id": "t5_b7yugc", "name": "NordicBabesNSFW", "interactions": 4841, "users": 357, "degree": 1, "strength": 173}], "edges": [{"source": "t5_b58l3d", "target": "t5_b7yugc", "shared_users": 173, "cosine": 0.32013661107037605, "jaccard": 0.17265469061876249}]}

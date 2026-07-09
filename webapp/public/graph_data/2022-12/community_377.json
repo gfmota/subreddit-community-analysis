@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qlaa", "name": "GERD", "interactions": 8432, "users": 807, "degree": 1, "strength": 64}, {"id": "t5_2we8l", "name": "Gastritis", "interactions": 10900, "users": 751, "degree": 1, "strength": 64}], "edges": [{"source": "t5_2qlaa", "target": "t5_2we8l", "shared_users": 64, "cosine": 0.08220973307777653, "jaccard": 0.0428380187416332}]}

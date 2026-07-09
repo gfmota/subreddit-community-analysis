@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3ba7z", "name": "Male_Feet", "interactions": 5240, "users": 413, "degree": 1, "strength": 103}, {"id": "t5_61pmc7", "name": "feetboys", "interactions": 2907, "users": 238, "degree": 1, "strength": 103}], "edges": [{"source": "t5_3ba7z", "target": "t5_61pmc7", "shared_users": 103, "cosine": 0.3285290065069855, "jaccard": 0.18795620437956204}]}

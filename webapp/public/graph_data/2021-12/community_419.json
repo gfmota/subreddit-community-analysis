@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2t1bl", "name": "Rainbow6", "interactions": 58997, "users": 4820, "degree": 4, "strength": 609}, {"id": "t5_3jojv", "name": "SiegeAcademy", "interactions": 6198, "users": 469, "degree": 1, "strength": 131}], "edges": [{"source": "t5_2t1bl", "target": "t5_3jojv", "shared_users": 131, "cosine": 0.08712872426883768, "jaccard": 0.0253974408685537}]}

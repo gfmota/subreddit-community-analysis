@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_c0u23x", "name": "israel_bm", "interactions": 7130, "users": 572, "degree": 1, "strength": 110}, {"id": "t5_kl47w", "name": "ani_bm", "interactions": 12190, "users": 811, "degree": 1, "strength": 110}], "edges": [{"source": "t5_c0u23x", "target": "t5_kl47w", "shared_users": 110, "cosine": 0.16150435722610157, "jaccard": 0.08641005498821681}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2wn8y", "name": "NSFWgaming", "interactions": 2489, "users": 246, "degree": 1, "strength": 145}, {"id": "t5_3ja4m", "name": "lewdgames", "interactions": 5941, "users": 573, "degree": 1, "strength": 145}], "edges": [{"source": "t5_2wn8y", "target": "t5_3ja4m", "shared_users": 145, "cosine": 0.3862096648086598, "jaccard": 0.21513353115727002}]}

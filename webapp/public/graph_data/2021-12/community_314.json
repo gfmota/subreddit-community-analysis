@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3fgkq8", "name": "PS5restock", "interactions": 21188, "users": 1959, "degree": 1, "strength": 100}, {"id": "t5_42nuza", "name": "PS5Shipping", "interactions": 6428, "users": 591, "degree": 1, "strength": 100}], "edges": [{"source": "t5_3fgkq8", "target": "t5_42nuza", "shared_users": 100, "cosine": 0.09293708392667097, "jaccard": 0.04081632653061224}]}

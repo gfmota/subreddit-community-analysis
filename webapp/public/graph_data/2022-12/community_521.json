@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2wb7y", "name": "StardewValley", "interactions": 92518, "users": 6784, "degree": 3, "strength": 670}, {"id": "t5_3jgdy", "name": "StardewMemes", "interactions": 4528, "users": 258, "degree": 1, "strength": 89}], "edges": [{"source": "t5_2wb7y", "target": "t5_3jgdy", "shared_users": 89, "cosine": 0.06727244836849977, "jaccard": 0.012800230116496477}]}

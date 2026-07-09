@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qvdk", "name": "PPC", "interactions": 8756, "users": 897, "degree": 1, "strength": 109}, {"id": "t5_2rge2", "name": "googleads", "interactions": 3852, "users": 426, "degree": 1, "strength": 109}], "edges": [{"source": "t5_2qvdk", "target": "t5_2rge2", "shared_users": 109, "cosine": 0.17632970334748288, "jaccard": 0.08978583196046129}]}

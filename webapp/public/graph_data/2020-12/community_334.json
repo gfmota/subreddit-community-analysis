@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qh2u", "name": "japan", "interactions": 9000, "users": 646, "degree": 1, "strength": 151}, {"id": "t5_2rg2o", "name": "japanlife", "interactions": 23486, "users": 1750, "degree": 1, "strength": 151}], "edges": [{"source": "t5_2qh2u", "target": "t5_2rg2o", "shared_users": 151, "cosine": 0.14201743481433118, "jaccard": 0.06726057906458797}]}

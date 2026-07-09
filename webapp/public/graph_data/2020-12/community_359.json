@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2uxp8", "name": "BattlefieldV", "interactions": 19261, "users": 1519, "degree": 1, "strength": 81}, {"id": "t5_t9e22", "name": "BattlefieldCosmetics", "interactions": 4339, "users": 260, "degree": 1, "strength": 81}], "edges": [{"source": "t5_2uxp8", "target": "t5_t9e22", "shared_users": 81, "cosine": 0.1288900695274398, "jaccard": 0.04770318021201413}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2r3p6", "name": "radiohead", "interactions": 24150, "users": 1901, "degree": 1, "strength": 125}, {"id": "t5_318a4", "name": "radioheadcirclejerk", "interactions": 11777, "users": 668, "degree": 1, "strength": 125}], "edges": [{"source": "t5_2r3p6", "target": "t5_318a4", "shared_users": 125, "cosine": 0.1109253284501797, "jaccard": 0.051145662847790506}]}

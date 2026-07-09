@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_13tv6w", "name": "Lima_Peru", "interactions": 23863, "users": 1613, "degree": 1, "strength": 472}, {"id": "t5_2qp9h", "name": "PERU", "interactions": 14134, "users": 1435, "degree": 1, "strength": 472}], "edges": [{"source": "t5_13tv6w", "target": "t5_2qp9h", "shared_users": 472, "cosine": 0.3102407662670302, "jaccard": 0.18322981366459629}]}

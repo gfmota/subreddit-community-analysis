@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_35fw1", "name": "HoleWreckers", "interactions": 5989, "users": 369, "degree": 1, "strength": 58}, {"id": "t5_s8ma9", "name": "LoosePussyLand", "interactions": 8909, "users": 579, "degree": 1, "strength": 58}], "edges": [{"source": "t5_35fw1", "target": "t5_s8ma9", "shared_users": 58, "cosine": 0.1254802943010515, "jaccard": 0.0651685393258427}]}

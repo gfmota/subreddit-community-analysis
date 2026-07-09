@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_5yvqd4", "name": "TheRealPAMMJ", "interactions": 3412, "users": 187, "degree": 1, "strength": 122}, {"id": "t5_vlfm1", "name": "PaMedicalMarijuana", "interactions": 18758, "users": 1547, "degree": 1, "strength": 122}], "edges": [{"source": "t5_5yvqd4", "target": "t5_vlfm1", "shared_users": 122, "cosine": 0.22682654126883442, "jaccard": 0.07568238213399504}]}

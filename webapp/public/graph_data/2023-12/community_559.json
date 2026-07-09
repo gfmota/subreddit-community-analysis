@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3flb9", "name": "acotar", "interactions": 19972, "users": 1634, "degree": 1, "strength": 70}, {"id": "t5_8f0p87", "name": "fourthwing", "interactions": 16405, "users": 1499, "degree": 1, "strength": 70}], "edges": [{"source": "t5_3flb9", "target": "t5_8f0p87", "shared_users": 70, "cosine": 0.04472714706958855, "jaccard": 0.022853411687887692}]}

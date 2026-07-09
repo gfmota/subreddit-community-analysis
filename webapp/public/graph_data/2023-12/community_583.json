@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2ax851", "name": "M4Matlanta", "interactions": 3395, "users": 449, "degree": 1, "strength": 236}, {"id": "t5_2tkpg", "name": "atlantar4r", "interactions": 14987, "users": 1792, "degree": 1, "strength": 236}], "edges": [{"source": "t5_2ax851", "target": "t5_2tkpg", "shared_users": 236, "cosine": 0.2630993831161874, "jaccard": 0.11770573566084788}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_387sk", "name": "DrogasBrasil", "interactions": 4472, "users": 423, "degree": 1, "strength": 142}, {"id": "t5_88tcgv", "name": "DopeBrasil", "interactions": 6640, "users": 475, "degree": 1, "strength": 142}], "edges": [{"source": "t5_387sk", "target": "t5_88tcgv", "shared_users": 142, "cosine": 0.31678992120085386, "jaccard": 0.18783068783068782}]}

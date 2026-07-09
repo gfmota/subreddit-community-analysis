@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2t5id", "name": "Garmin", "interactions": 19730, "users": 1982, "degree": 1, "strength": 160}, {"id": "t5_3yt9w9", "name": "GarminWatches", "interactions": 8365, "users": 803, "degree": 1, "strength": 160}], "edges": [{"source": "t5_2t5id", "target": "t5_3yt9w9", "shared_users": 160, "cosine": 0.1268266102241592, "jaccard": 0.06095238095238095}]}

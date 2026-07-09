@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2svt4", "name": "acecombat", "interactions": 16364, "users": 1027, "degree": 1, "strength": 64}, {"id": "t5_3gvtuc", "name": "Project_Wingman", "interactions": 7645, "users": 601, "degree": 1, "strength": 64}], "edges": [{"source": "t5_2svt4", "target": "t5_3gvtuc", "shared_users": 64, "cosine": 0.08146245914260965, "jaccard": 0.04092071611253197}]}

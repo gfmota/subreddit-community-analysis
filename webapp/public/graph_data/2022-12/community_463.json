@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_342em", "name": "muacjdiscussion", "interactions": 4715, "users": 364, "degree": 1, "strength": 74}, {"id": "t5_3jayp", "name": "BeautyGuruChatter", "interactions": 20766, "users": 1637, "degree": 1, "strength": 74}], "edges": [{"source": "t5_342em", "target": "t5_3jayp", "shared_users": 74, "cosine": 0.09586425205575301, "jaccard": 0.038401660612350806}]}

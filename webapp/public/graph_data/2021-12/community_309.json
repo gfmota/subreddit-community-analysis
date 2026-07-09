@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_30c2m", "name": "AsianMasculinity", "interactions": 5408, "users": 399, "degree": 1, "strength": 86}, {"id": "t5_3amv4", "name": "aznidentity", "interactions": 11025, "users": 656, "degree": 1, "strength": 86}], "edges": [{"source": "t5_30c2m", "target": "t5_3amv4", "shared_users": 86, "cosine": 0.16809704682901985, "jaccard": 0.08875128998968008}]}

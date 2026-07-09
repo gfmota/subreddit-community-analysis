@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_9nywhs", "name": "Band4na3atsSnark", "interactions": 73897, "users": 376, "degree": 1, "strength": 76}, {"id": "t5_9o0e27", "name": "BandanaEats_NOT", "interactions": 2507, "users": 106, "degree": 1, "strength": 76}], "edges": [{"source": "t5_9nywhs", "target": "t5_9o0e27", "shared_users": 76, "cosine": 0.380685852357909, "jaccard": 0.18719211822660098}]}

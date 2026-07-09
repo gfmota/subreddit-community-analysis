@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2m1lxc", "name": "Spudmode", "interactions": 7637, "users": 610, "degree": 1, "strength": 100}, {"id": "t5_65gs9", "name": "MSsEcReTPoDcAsT", "interactions": 8626, "users": 745, "degree": 1, "strength": 100}], "edges": [{"source": "t5_2m1lxc", "target": "t5_65gs9", "shared_users": 100, "cosine": 0.14833954621207315, "jaccard": 0.0796812749003984}]}

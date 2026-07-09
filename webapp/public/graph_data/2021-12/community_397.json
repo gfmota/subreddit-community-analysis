@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qrf3", "name": "indiegames", "interactions": 6008, "users": 635, "degree": 1, "strength": 153}, {"id": "t5_2r0e3", "name": "IndieGaming", "interactions": 9544, "users": 837, "degree": 1, "strength": 153}], "edges": [{"source": "t5_2qrf3", "target": "t5_2r0e3", "shared_users": 153, "cosine": 0.20986588118933522, "jaccard": 0.11599696739954511}]}

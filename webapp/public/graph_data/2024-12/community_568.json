@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_a02vpz", "name": "PetSimulator99", "interactions": 40069, "users": 2516, "degree": 1, "strength": 81}, {"id": "t5_cnb3yw", "name": "PetsGo", "interactions": 2777, "users": 303, "degree": 1, "strength": 81}], "edges": [{"source": "t5_a02vpz", "target": "t5_cnb3yw", "shared_users": 81, "cosine": 0.09277017722097736, "jaccard": 0.0295836376917458}]}

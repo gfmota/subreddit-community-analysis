@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3122l", "name": "Sexsells", "interactions": 87804, "users": 2103, "degree": 1, "strength": 210}, {"id": "t5_43hq6q", "name": "FetishWantAds", "interactions": 85080, "users": 2004, "degree": 1, "strength": 210}], "edges": [{"source": "t5_3122l", "target": "t5_43hq6q", "shared_users": 210, "cosine": 0.10229415042699018, "jaccard": 0.05388760585065435}]}

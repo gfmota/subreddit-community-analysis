@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rfq3", "name": "sto", "interactions": 18705, "users": 1155, "degree": 1, "strength": 79}, {"id": "t5_2uv5z", "name": "stobuilds", "interactions": 1872, "users": 127, "degree": 1, "strength": 79}], "edges": [{"source": "t5_2rfq3", "target": "t5_2uv5z", "shared_users": 79, "cosine": 0.20626913088966556, "jaccard": 0.0656691604322527}]}

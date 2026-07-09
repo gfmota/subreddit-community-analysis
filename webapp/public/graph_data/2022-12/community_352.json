@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_5zgprq", "name": "ttttrans", "interactions": 28579, "users": 853, "degree": 1, "strength": 237}, {"id": "t5_6ackyj", "name": "4tranSelfieTrain", "interactions": 11685, "users": 539, "degree": 1, "strength": 237}], "edges": [{"source": "t5_5zgprq", "target": "t5_6ackyj", "shared_users": 237, "cosine": 0.34952596855016116, "jaccard": 0.2051948051948052}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2tma3", "name": "lululemon", "interactions": 30741, "users": 2596, "degree": 1, "strength": 122}, {"id": "t5_3a3p6", "name": "lululemonBST", "interactions": 2502, "users": 346, "degree": 1, "strength": 122}], "edges": [{"source": "t5_2tma3", "target": "t5_3a3p6", "shared_users": 122, "cosine": 0.12872693749862316, "jaccard": 0.04326241134751773}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_36g55c", "name": "ShinobiLife2", "interactions": 3576, "users": 376, "degree": 1, "strength": 93}, {"id": "t5_3gt5e1", "name": "Shindo_Life", "interactions": 3581, "users": 348, "degree": 1, "strength": 93}], "edges": [{"source": "t5_36g55c", "target": "t5_3gt5e1", "shared_users": 93, "cosine": 0.25709841788380683, "jaccard": 0.1473851030110935}]}

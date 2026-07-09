@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rc75", "name": "Veterans", "interactions": 18669, "users": 1542, "degree": 1, "strength": 313}, {"id": "t5_2vlaz", "name": "VeteransBenefits", "interactions": 52672, "users": 3818, "degree": 1, "strength": 313}], "edges": [{"source": "t5_2rc75", "target": "t5_2vlaz", "shared_users": 313, "cosine": 0.1289983598987675, "jaccard": 0.06201703982563899}]}

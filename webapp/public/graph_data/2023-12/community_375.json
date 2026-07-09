@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_32gvi", "name": "ukvisa", "interactions": 29658, "users": 2768, "degree": 1, "strength": 111}, {"id": "t5_6melo5", "name": "SpouseVisaUk", "interactions": 2153, "users": 210, "degree": 1, "strength": 111}], "edges": [{"source": "t5_32gvi", "target": "t5_6melo5", "shared_users": 111, "cosine": 0.14558957844210427, "jaccard": 0.0387164283222881}]}

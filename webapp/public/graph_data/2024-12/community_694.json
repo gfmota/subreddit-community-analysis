@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2vza0", "name": "vudu", "interactions": 7556, "users": 770, "degree": 1, "strength": 163}, {"id": "t5_3bk8v", "name": "DigitalCodeSELL", "interactions": 32126, "users": 1532, "degree": 1, "strength": 163}], "edges": [{"source": "t5_2vza0", "target": "t5_3bk8v", "shared_users": 163, "cosine": 0.1500765574979666, "jaccard": 0.07620383356708742}]}

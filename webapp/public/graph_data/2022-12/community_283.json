@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_7cqb0j", "name": "TacticsOgre_Reborn", "interactions": 2852, "users": 230, "degree": 1, "strength": 75}, {"id": "t5_io3nq", "name": "Tactics_Ogre", "interactions": 10860, "users": 724, "degree": 1, "strength": 75}], "edges": [{"source": "t5_7cqb0j", "target": "t5_io3nq", "shared_users": 75, "cosine": 0.1837926172592902, "jaccard": 0.08532423208191127}]}

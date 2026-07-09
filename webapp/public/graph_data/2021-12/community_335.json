@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qhp6", "name": "Switzerland", "interactions": 15582, "users": 1287, "degree": 1, "strength": 128}, {"id": "t5_2tob7", "name": "askswitzerland", "interactions": 5330, "users": 495, "degree": 1, "strength": 128}], "edges": [{"source": "t5_2qhp6", "target": "t5_2tob7", "shared_users": 128, "cosine": 0.1603681416910978, "jaccard": 0.0773881499395405}]}

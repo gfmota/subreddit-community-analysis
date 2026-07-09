@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rpg3", "name": "Ultramarathon", "interactions": 4517, "users": 434, "degree": 1, "strength": 66}, {"id": "t5_2thxz", "name": "ultrarunning", "interactions": 4076, "users": 388, "degree": 1, "strength": 66}], "edges": [{"source": "t5_2rpg3", "target": "t5_2thxz", "shared_users": 66, "cosine": 0.16083597939085642, "jaccard": 0.0873015873015873}]}

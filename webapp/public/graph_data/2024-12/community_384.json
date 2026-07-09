@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_5uw0nj", "name": "HtownNSFW", "interactions": 7369, "users": 805, "degree": 1, "strength": 206}, {"id": "t5_cce0r8", "name": "HtownSlutz", "interactions": 8460, "users": 813, "degree": 1, "strength": 206}], "edges": [{"source": "t5_5uw0nj", "target": "t5_cce0r8", "shared_users": 206, "cosine": 0.25463846486020103, "jaccard": 0.14589235127478753}]}

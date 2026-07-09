@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qhyq", "name": "classicalmusic", "interactions": 11391, "users": 911, "degree": 1, "strength": 82}, {"id": "t5_2qnw8", "name": "piano", "interactions": 19793, "users": 1779, "degree": 1, "strength": 82}], "edges": [{"source": "t5_2qhyq", "target": "t5_2qnw8", "shared_users": 82, "cosine": 0.06441198599861976, "jaccard": 0.03144171779141104}]}

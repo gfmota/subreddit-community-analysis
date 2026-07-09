@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2xekz", "name": "mushroomID", "interactions": 15133, "users": 1191, "degree": 1, "strength": 106}, {"id": "t5_2xpli", "name": "ShroomID", "interactions": 14707, "users": 1142, "degree": 1, "strength": 106}], "edges": [{"source": "t5_2xekz", "target": "t5_2xpli", "shared_users": 106, "cosine": 0.09089017352534474, "jaccard": 0.047597665020206556}]}

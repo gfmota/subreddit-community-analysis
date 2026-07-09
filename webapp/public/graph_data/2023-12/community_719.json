@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2vhg0", "name": "RWBY", "interactions": 20612, "users": 927, "degree": 1, "strength": 115}, {"id": "t5_wuw08", "name": "RWBYcritics", "interactions": 16838, "users": 737, "degree": 1, "strength": 115}], "edges": [{"source": "t5_2vhg0", "target": "t5_wuw08", "shared_users": 115, "cosine": 0.1391311033907019, "jaccard": 0.07424144609425436}]}

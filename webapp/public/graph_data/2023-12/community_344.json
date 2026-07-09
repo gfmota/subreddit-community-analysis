@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2v3yk", "name": "Division2", "interactions": 10033, "users": 898, "degree": 1, "strength": 243}, {"id": "t5_2xiqd", "name": "thedivision", "interactions": 23979, "users": 1950, "degree": 1, "strength": 243}], "edges": [{"source": "t5_2v3yk", "target": "t5_2xiqd", "shared_users": 243, "cosine": 0.1836330297109492, "jaccard": 0.09328214971209213}]}

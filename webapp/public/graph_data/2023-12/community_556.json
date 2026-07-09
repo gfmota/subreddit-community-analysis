@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_740wum", "name": "SanAntonioDLguys", "interactions": 3688, "users": 424, "degree": 1, "strength": 218}, {"id": "t5_7nais7", "name": "SanAntonioM4M", "interactions": 6245, "users": 715, "degree": 1, "strength": 218}], "edges": [{"source": "t5_740wum", "target": "t5_7nais7", "shared_users": 218, "cosine": 0.39593194594363, "jaccard": 0.23669923995656894}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_41wwew", "name": "DIYCosmeticProcedures", "interactions": 3748, "users": 334, "degree": 1, "strength": 80}, {"id": "t5_adngr0", "name": "DIYaesthetics", "interactions": 3271, "users": 266, "degree": 1, "strength": 80}], "edges": [{"source": "t5_41wwew", "target": "t5_adngr0", "shared_users": 80, "cosine": 0.2683959358318926, "jaccard": 0.15384615384615385}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2werl", "name": "leana", "interactions": 23467, "users": 1905, "degree": 1, "strength": 85}, {"id": "t5_84dxe0", "name": "francaiseNFSW", "interactions": 1994, "users": 258, "degree": 1, "strength": 85}], "edges": [{"source": "t5_2werl", "target": "t5_84dxe0", "shared_users": 85, "cosine": 0.12124437042209857, "jaccard": 0.04090471607314726}]}

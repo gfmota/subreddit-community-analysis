@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qfkim", "name": "SiloSeries", "interactions": 25947, "users": 1591, "degree": 1, "strength": 57}, {"id": "t5_8aslfl", "name": "SiloTVSeries", "interactions": 4513, "users": 293, "degree": 1, "strength": 57}], "edges": [{"source": "t5_2qfkim", "target": "t5_8aslfl", "shared_users": 57, "cosine": 0.0834845202246329, "jaccard": 0.031198686371100164}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_305sd", "name": "sharpening", "interactions": 11306, "users": 701, "degree": 1, "strength": 78}, {"id": "t5_95bg32", "name": "TrueChefKnives", "interactions": 19541, "users": 1122, "degree": 1, "strength": 78}], "edges": [{"source": "t5_305sd", "target": "t5_95bg32", "shared_users": 78, "cosine": 0.0879506726379757, "jaccard": 0.04469914040114613}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_26oqns", "name": "AnaloguePocket", "interactions": 6580, "users": 661, "degree": 1, "strength": 216}, {"id": "t5_2f2t7a", "name": "AnalogueInc", "interactions": 8684, "users": 848, "degree": 1, "strength": 216}], "edges": [{"source": "t5_26oqns", "target": "t5_2f2t7a", "shared_users": 216, "cosine": 0.2885061632614302, "jaccard": 0.16705336426914152}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qlu4", "name": "Fishing", "interactions": 29692, "users": 2241, "degree": 2, "strength": 172}, {"id": "t5_2quue", "name": "bassfishing", "interactions": 6953, "users": 521, "degree": 1, "strength": 79}], "edges": [{"source": "t5_2qlu4", "target": "t5_2quue", "shared_users": 79, "cosine": 0.07311177055312477, "jaccard": 0.029444651509504285}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_1178j8", "name": "orslokx", "interactions": 7365, "users": 695, "degree": 1, "strength": 74}, {"id": "t5_11rkix", "name": "LMDShow", "interactions": 13996, "users": 1975, "degree": 1, "strength": 74}], "edges": [{"source": "t5_1178j8", "target": "t5_11rkix", "shared_users": 74, "cosine": 0.06316198460357318, "jaccard": 0.028505392912172575}]}

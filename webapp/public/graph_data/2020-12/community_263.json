@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_30y4t", "name": "WrestleWithThePlot", "interactions": 18708, "users": 1138, "degree": 1, "strength": 211}, {"id": "t5_3get9", "name": "WrestleFap", "interactions": 9132, "users": 602, "degree": 1, "strength": 211}], "edges": [{"source": "t5_30y4t", "target": "t5_3get9", "shared_users": 211, "cosine": 0.25492538193156355, "jaccard": 0.1379986919555265}]}

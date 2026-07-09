@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3asuxv", "name": "LesionsOnSkanks", "interactions": 4685, "users": 363, "degree": 1, "strength": 87}, {"id": "t5_65gs9", "name": "MSsEcReTPoDcAsT", "interactions": 15132, "users": 1241, "degree": 1, "strength": 87}], "edges": [{"source": "t5_3asuxv", "target": "t5_65gs9", "shared_users": 87, "cosine": 0.12962239733142106, "jaccard": 0.057350032959789056}]}

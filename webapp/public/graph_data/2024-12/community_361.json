@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_30sy6", "name": "seniordogs", "interactions": 22674, "users": 1124, "degree": 1, "strength": 110}, {"id": "t5_3epk9", "name": "OldManDog", "interactions": 15144, "users": 698, "degree": 1, "strength": 110}], "edges": [{"source": "t5_30sy6", "target": "t5_3epk9", "shared_users": 110, "cosine": 0.12418862487740184, "jaccard": 0.06425233644859812}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qhbx", "name": "SEO", "interactions": 20207, "users": 1989, "degree": 1, "strength": 133}, {"id": "t5_3j43f", "name": "SEO_Digital_Marketing", "interactions": 3294, "users": 346, "degree": 1, "strength": 133}], "edges": [{"source": "t5_2qhbx", "target": "t5_3j43f", "shared_users": 133, "cosine": 0.1603231362668756, "jaccard": 0.06039963669391462}]}

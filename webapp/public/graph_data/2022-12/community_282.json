@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3yfxte", "name": "UKcuckoldcommunity", "interactions": 5041, "users": 574, "degree": 1, "strength": 86}, {"id": "t5_493xzj", "name": "UKSwinging", "interactions": 4446, "users": 416, "degree": 1, "strength": 86}], "edges": [{"source": "t5_3yfxte", "target": "t5_493xzj", "shared_users": 86, "cosine": 0.17599318046776855, "jaccard": 0.09513274336283185}]}

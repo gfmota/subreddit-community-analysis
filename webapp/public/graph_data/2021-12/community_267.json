@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2r344", "name": "analog", "interactions": 21474, "users": 2323, "degree": 1, "strength": 381}, {"id": "t5_3k1ng", "name": "AnalogCommunity", "interactions": 22622, "users": 1848, "degree": 1, "strength": 381}], "edges": [{"source": "t5_2r344", "target": "t5_3k1ng", "shared_users": 381, "cosine": 0.18388630547922846, "jaccard": 0.10052770448548813}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rc19", "name": "masseffect", "interactions": 54584, "users": 2942, "degree": 2, "strength": 245}, {"id": "t5_2r8lo", "name": "dragonage", "interactions": 33309, "users": 2054, "degree": 1, "strength": 114}], "edges": [{"source": "t5_2rc19", "target": "t5_2r8lo", "shared_users": 114, "cosine": 0.04637493324899022, "jaccard": 0.023351085620647277}]}

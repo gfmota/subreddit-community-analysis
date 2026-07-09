@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2ryfy", "name": "DebateAnAtheist", "interactions": 10188, "users": 380, "degree": 1, "strength": 84}, {"id": "t5_2snuc", "name": "DebateReligion", "interactions": 28416, "users": 996, "degree": 1, "strength": 84}], "edges": [{"source": "t5_2ryfy", "target": "t5_2snuc", "shared_users": 84, "cosine": 0.13653934606819568, "jaccard": 0.06501547987616099}]}

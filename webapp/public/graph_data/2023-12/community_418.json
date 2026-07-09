@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qn1h", "name": "Iowa", "interactions": 26272, "users": 1499, "degree": 1, "strength": 156}, {"id": "t5_2rbt6", "name": "desmoines", "interactions": 11130, "users": 1063, "degree": 1, "strength": 156}], "edges": [{"source": "t5_2qn1h", "target": "t5_2rbt6", "shared_users": 156, "cosine": 0.12358254928106992, "jaccard": 0.06483790523690773}]}

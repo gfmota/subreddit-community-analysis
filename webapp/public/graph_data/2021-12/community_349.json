@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rc2z", "name": "cumfetish", "interactions": 13742, "users": 586, "degree": 1, "strength": 53}, {"id": "t5_2sl16", "name": "cumsluts", "interactions": 25601, "users": 1241, "degree": 1, "strength": 53}], "edges": [{"source": "t5_2rc2z", "target": "t5_2sl16", "shared_users": 53, "cosine": 0.06215000541865543, "jaccard": 0.02987598647125141}]}

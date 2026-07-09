@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3kgik", "name": "zillakami", "interactions": 3671, "users": 313, "degree": 1, "strength": 61}, {"id": "t5_h8npn", "name": "CityMorgue", "interactions": 2814, "users": 278, "degree": 1, "strength": 61}], "edges": [{"source": "t5_3kgik", "target": "t5_h8npn", "shared_users": 61, "cosine": 0.20679273077807825, "jaccard": 0.11509433962264151}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2wabp", "name": "factorio", "interactions": 40228, "users": 3171, "degree": 2, "strength": 189}, {"id": "t5_mobcv", "name": "Factoriohno", "interactions": 4024, "users": 268, "degree": 1, "strength": 111}], "edges": [{"source": "t5_2wabp", "target": "t5_mobcv", "shared_users": 111, "cosine": 0.12040858722159212, "jaccard": 0.033353365384615384}]}

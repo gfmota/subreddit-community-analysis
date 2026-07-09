@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qm0m", "name": "Somalia", "interactions": 21776, "users": 1376, "degree": 1, "strength": 67}, {"id": "t5_2qrcn", "name": "Ethiopia", "interactions": 10923, "users": 824, "degree": 1, "strength": 67}], "edges": [{"source": "t5_2qm0m", "target": "t5_2qrcn", "shared_users": 67, "cosine": 0.06292192198251942, "jaccard": 0.031411157993436474}]}

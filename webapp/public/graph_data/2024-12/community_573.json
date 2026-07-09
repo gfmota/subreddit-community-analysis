@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_4vfqn3", "name": "GalaxyS24Ultra", "interactions": 10610, "users": 839, "degree": 1, "strength": 176}, {"id": "t5_55rqy1", "name": "S24Ultra", "interactions": 19730, "users": 1755, "degree": 1, "strength": 176}], "edges": [{"source": "t5_4vfqn3", "target": "t5_55rqy1", "shared_users": 176, "cosine": 0.14504178202896845, "jaccard": 0.07278742762613731}]}

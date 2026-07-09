@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qts0", "name": "Maine", "interactions": 24285, "users": 1889, "degree": 2, "strength": 254}, {"id": "t5_2t1eh", "name": "portlandme", "interactions": 5597, "users": 535, "degree": 1, "strength": 135}], "edges": [{"source": "t5_2qts0", "target": "t5_2t1eh", "shared_users": 135, "cosine": 0.1342891418397834, "jaccard": 0.05897771952817824}]}

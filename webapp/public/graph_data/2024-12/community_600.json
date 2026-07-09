@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2zj3lo", "name": "underdogfantasy", "interactions": 13211, "users": 1010, "degree": 1, "strength": 104}, {"id": "t5_4bv8z0", "name": "PrizePicks", "interactions": 43487, "users": 2704, "degree": 1, "strength": 104}], "edges": [{"source": "t5_2zj3lo", "target": "t5_4bv8z0", "shared_users": 104, "cosine": 0.06293167755275526, "jaccard": 0.028808864265927978}]}

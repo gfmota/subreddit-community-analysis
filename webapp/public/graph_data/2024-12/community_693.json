@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sk8b", "name": "wnba", "interactions": 21555, "users": 1110, "degree": 1, "strength": 148}, {"id": "t5_2yyss", "name": "NCAAW", "interactions": 16276, "users": 599, "degree": 1, "strength": 148}], "edges": [{"source": "t5_2sk8b", "target": "t5_2yyss", "shared_users": 148, "cosine": 0.1815042567386395, "jaccard": 0.09481101857783472}]}

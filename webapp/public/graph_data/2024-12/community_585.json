@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rk3b", "name": "civ", "interactions": 35488, "users": 2458, "degree": 1, "strength": 142}, {"id": "t5_346b8", "name": "CivVI", "interactions": 13651, "users": 1073, "degree": 1, "strength": 142}], "edges": [{"source": "t5_2rk3b", "target": "t5_346b8", "shared_users": 142, "cosine": 0.08743746220771582, "jaccard": 0.04190026556506344}]}

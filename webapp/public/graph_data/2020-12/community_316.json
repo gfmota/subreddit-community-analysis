@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qzdf", "name": "modular", "interactions": 6832, "users": 710, "degree": 1, "strength": 136}, {"id": "t5_2rdyc", "name": "synthesizers", "interactions": 27500, "users": 2472, "degree": 1, "strength": 136}], "edges": [{"source": "t5_2qzdf", "target": "t5_2rdyc", "shared_users": 136, "cosine": 0.10265627487286644, "jaccard": 0.04464871963230466}]}

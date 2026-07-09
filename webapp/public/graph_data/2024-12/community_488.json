@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2vbwe", "name": "WRX", "interactions": 26338, "users": 2454, "degree": 1, "strength": 228}, {"id": "t5_7r23zp", "name": "wrx_vb", "interactions": 19618, "users": 1441, "degree": 1, "strength": 228}], "edges": [{"source": "t5_2vbwe", "target": "t5_7r23zp", "shared_users": 228, "cosine": 0.12124548564145123, "jaccard": 0.06217616580310881}]}

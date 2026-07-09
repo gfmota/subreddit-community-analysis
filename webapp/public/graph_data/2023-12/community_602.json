@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3n5i9i", "name": "DHHMemes", "interactions": 8100, "users": 569, "degree": 1, "strength": 204}, {"id": "t5_r3wni", "name": "IndianHipHopHeads", "interactions": 16503, "users": 1233, "degree": 1, "strength": 204}], "edges": [{"source": "t5_3n5i9i", "target": "t5_r3wni", "shared_users": 204, "cosine": 0.2435524462110622, "jaccard": 0.1276595744680851}]}

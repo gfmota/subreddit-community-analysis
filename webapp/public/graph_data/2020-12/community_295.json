@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qhlc", "name": "privacy", "interactions": 19619, "users": 1450, "degree": 1, "strength": 128}, {"id": "t5_37ib1", "name": "privacytoolsIO", "interactions": 8180, "users": 703, "degree": 1, "strength": 128}], "edges": [{"source": "t5_2qhlc", "target": "t5_37ib1", "shared_users": 128, "cosine": 0.12677928729975058, "jaccard": 0.06320987654320988}]}

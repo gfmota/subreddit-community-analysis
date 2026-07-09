@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2r9d6", "name": "pantyhose", "interactions": 17475, "users": 760, "degree": 1, "strength": 67}, {"id": "t5_310wj", "name": "pantyhosefetish", "interactions": 9196, "users": 201, "degree": 1, "strength": 67}], "edges": [{"source": "t5_2r9d6", "target": "t5_310wj", "shared_users": 67, "cosine": 0.17142334996225195, "jaccard": 0.07494407158836688}]}

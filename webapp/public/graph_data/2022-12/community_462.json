@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3fy8uh", "name": "JailbreakCreations", "interactions": 1784, "users": 222, "degree": 1, "strength": 85}, {"id": "t5_3k554", "name": "robloxjailbreak", "interactions": 12377, "users": 808, "degree": 1, "strength": 85}], "edges": [{"source": "t5_3fy8uh", "target": "t5_3k554", "shared_users": 85, "cosine": 0.20069509484626866, "jaccard": 0.08994708994708994}]}

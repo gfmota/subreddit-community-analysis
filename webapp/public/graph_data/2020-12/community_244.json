@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_30gcq", "name": "Waxpen", "interactions": 9840, "users": 613, "degree": 1, "strength": 115}, {"id": "t5_3cxz8", "name": "DivineTribeVaporizers", "interactions": 6226, "users": 378, "degree": 1, "strength": 115}], "edges": [{"source": "t5_30gcq", "target": "t5_3cxz8", "shared_users": 115, "cosine": 0.23890305489014615, "jaccard": 0.1312785388127854}]}

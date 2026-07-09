@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2r709z", "name": "YigaClanOfficial", "interactions": 48275, "users": 681, "degree": 1, "strength": 56}, {"id": "t5_8upy60", "name": "HyruleTown", "interactions": 6925, "users": 215, "degree": 1, "strength": 56}], "edges": [{"source": "t5_2r709z", "target": "t5_8upy60", "shared_users": 56, "cosine": 0.14635084728711428, "jaccard": 0.06666666666666667}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2s3lm", "name": "osugame", "interactions": 37737, "users": 3036, "degree": 2, "strength": 165}, {"id": "t5_3buwn", "name": "osureport", "interactions": 1944, "users": 191, "degree": 1, "strength": 74}], "edges": [{"source": "t5_2s3lm", "target": "t5_3buwn", "shared_users": 74, "cosine": 0.09717714877357979, "jaccard": 0.023469711385981605}]}

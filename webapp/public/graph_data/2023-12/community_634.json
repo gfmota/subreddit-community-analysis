@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2r88c", "name": "Dreadlocks", "interactions": 18709, "users": 1839, "degree": 1, "strength": 157}, {"id": "t5_2vfg9", "name": "locs", "interactions": 8402, "users": 726, "degree": 1, "strength": 157}], "edges": [{"source": "t5_2r88c", "target": "t5_2vfg9", "shared_users": 157, "cosine": 0.13587528794314208, "jaccard": 0.06519933554817275}]}

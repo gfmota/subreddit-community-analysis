@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rh21", "name": "SonicTheHedgehog", "interactions": 78338, "users": 3749, "degree": 1, "strength": 306}, {"id": "t5_6k61v8", "name": "MoonPissing", "interactions": 25637, "users": 749, "degree": 1, "strength": 306}], "edges": [{"source": "t5_2rh21", "target": "t5_6k61v8", "shared_users": 306, "cosine": 0.18260926036416433, "jaccard": 0.07299618320610687}]}

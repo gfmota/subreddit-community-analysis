@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_penom", "name": "CallOfDutyMobile", "interactions": 51146, "users": 3245, "degree": 1, "strength": 250}, {"id": "t5_pjuk3", "name": "CODMobile", "interactions": 7409, "users": 739, "degree": 1, "strength": 250}], "edges": [{"source": "t5_penom", "target": "t5_pjuk3", "shared_users": 250, "cosine": 0.16143973607744, "jaccard": 0.06695232994108195}]}

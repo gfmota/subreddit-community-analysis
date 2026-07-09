@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rq3c", "name": "SocialSecurity", "interactions": 23731, "users": 1279, "degree": 1, "strength": 86}, {"id": "t5_344td", "name": "SSDI", "interactions": 16657, "users": 1130, "degree": 1, "strength": 86}], "edges": [{"source": "t5_2rq3c", "target": "t5_344td", "shared_users": 86, "cosine": 0.07153588547820981, "jaccard": 0.03702109341368919}]}

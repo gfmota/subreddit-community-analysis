@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_4qmvr9", "name": "emergencyintercom", "interactions": 6464, "users": 890, "degree": 1, "strength": 79}, {"id": "t5_96tdrk", "name": "SlushyNoobz", "interactions": 10848, "users": 1318, "degree": 1, "strength": 79}], "edges": [{"source": "t5_4qmvr9", "target": "t5_96tdrk", "shared_users": 79, "cosine": 0.07294144839667431, "jaccard": 0.0371066228276186}]}

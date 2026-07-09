@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2lkssn", "name": "FamosasGostosas", "interactions": 2682, "users": 275, "degree": 1, "strength": 109}, {"id": "t5_2zflu", "name": "CelebsBR", "interactions": 10148, "users": 1364, "degree": 1, "strength": 109}], "edges": [{"source": "t5_2lkssn", "target": "t5_2zflu", "shared_users": 109, "cosine": 0.17797252655380422, "jaccard": 0.07124183006535947}]}

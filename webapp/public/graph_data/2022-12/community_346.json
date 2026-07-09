@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3ajb8", "name": "throneofglassseries", "interactions": 2591, "users": 274, "degree": 1, "strength": 98}, {"id": "t5_3flb9", "name": "acotar", "interactions": 16086, "users": 1401, "degree": 1, "strength": 98}], "edges": [{"source": "t5_3ajb8", "target": "t5_3flb9", "shared_users": 98, "cosine": 0.15817277231967322, "jaccard": 0.062143310082435003}]}

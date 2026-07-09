@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_4ruqze", "name": "CensoredSimps", "interactions": 6596, "users": 387, "degree": 1, "strength": 74}, {"id": "t5_565416", "name": "BetaSafeHeaven", "interactions": 8133, "users": 412, "degree": 1, "strength": 74}], "edges": [{"source": "t5_4ruqze", "target": "t5_565416", "shared_users": 74, "cosine": 0.18532227767985818, "jaccard": 0.10206896551724139}]}

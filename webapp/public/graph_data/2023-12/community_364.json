@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2u4ca", "name": "graffhelp", "interactions": 9554, "users": 856, "degree": 1, "strength": 158}, {"id": "t5_2wnjr", "name": "GraffitiTagging", "interactions": 9663, "users": 705, "degree": 1, "strength": 158}], "edges": [{"source": "t5_2u4ca", "target": "t5_2wnjr", "shared_users": 158, "cosine": 0.20338815004104682, "jaccard": 0.11261582323592302}]}

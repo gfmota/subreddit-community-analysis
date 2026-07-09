@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qi0t", "name": "snowboarding", "interactions": 15712, "users": 1568, "degree": 1, "strength": 101}, {"id": "t5_3gip3", "name": "snowboardingnoobs", "interactions": 5020, "users": 542, "degree": 1, "strength": 101}], "edges": [{"source": "t5_2qi0t", "target": "t5_3gip3", "shared_users": 101, "cosine": 0.10955916189698123, "jaccard": 0.05027376804380289}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2vjm4", "name": "problemgambling", "interactions": 6988, "users": 645, "degree": 1, "strength": 84}, {"id": "t5_34c1e", "name": "GamblingAddiction", "interactions": 4431, "users": 475, "degree": 1, "strength": 84}], "edges": [{"source": "t5_2vjm4", "target": "t5_34c1e", "shared_users": 84, "cosine": 0.15175835975392576, "jaccard": 0.08108108108108109}]}

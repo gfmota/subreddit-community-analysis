@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_6rxuso", "name": "rgvnsfw", "interactions": 18609, "users": 1803, "degree": 1, "strength": 234}, {"id": "t5_81gpob", "name": "RgvDlmen", "interactions": 4230, "users": 567, "degree": 1, "strength": 234}], "edges": [{"source": "t5_6rxuso", "target": "t5_81gpob", "shared_users": 234, "cosine": 0.23143362859227698, "jaccard": 0.10955056179775281}]}

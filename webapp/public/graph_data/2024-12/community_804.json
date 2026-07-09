@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2txqt", "name": "bostonr4r", "interactions": 21778, "users": 1989, "degree": 1, "strength": 79}, {"id": "t5_9brpru", "name": "horny_boston", "interactions": 2708, "users": 297, "degree": 1, "strength": 79}], "edges": [{"source": "t5_2txqt", "target": "t5_9brpru", "shared_users": 79, "cosine": 0.10278541059021998, "jaccard": 0.03579519710013593}]}

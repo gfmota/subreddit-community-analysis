@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qliv", "name": "birding", "interactions": 22806, "users": 1757, "degree": 1, "strength": 124}, {"id": "t5_2tb3z", "name": "whatsthisbird", "interactions": 15892, "users": 1223, "degree": 1, "strength": 124}], "edges": [{"source": "t5_2qliv", "target": "t5_2tb3z", "shared_users": 124, "cosine": 0.0845906916389304, "jaccard": 0.04341736694677871}]}

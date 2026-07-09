@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_21oyw3", "name": "YAPms", "interactions": 34120, "users": 787, "degree": 1, "strength": 97}, {"id": "t5_7tif5w", "name": "AngryObservation", "interactions": 7219, "users": 196, "degree": 1, "strength": 97}], "edges": [{"source": "t5_21oyw3", "target": "t5_7tif5w", "shared_users": 97, "cosine": 0.24697689843769052, "jaccard": 0.10948081264108352}]}

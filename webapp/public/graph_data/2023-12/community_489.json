@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_7q5r8u", "name": "IslamabadDatingg", "interactions": 8653, "users": 1075, "degree": 1, "strength": 252}, {"id": "t5_87jpme", "name": "Lahore_hookups", "interactions": 5510, "users": 712, "degree": 1, "strength": 252}], "edges": [{"source": "t5_7q5r8u", "target": "t5_87jpme", "shared_users": 252, "cosine": 0.2880423276969454, "jaccard": 0.16416938110749185}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2dggmf", "name": "ElPasoSwings", "interactions": 7754, "users": 821, "degree": 1, "strength": 340}, {"id": "t5_athwh6", "name": "elpasopersonals_", "interactions": 11086, "users": 1264, "degree": 1, "strength": 340}], "edges": [{"source": "t5_2dggmf", "target": "t5_athwh6", "shared_users": 340, "cosine": 0.33375962709026746, "jaccard": 0.19484240687679083}]}

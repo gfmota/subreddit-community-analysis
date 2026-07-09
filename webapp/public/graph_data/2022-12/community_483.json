@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2uu0j", "name": "paragon", "interactions": 4638, "users": 412, "degree": 1, "strength": 178}, {"id": "t5_xsntt", "name": "PredecessorGame", "interactions": 20969, "users": 1665, "degree": 1, "strength": 178}], "edges": [{"source": "t5_2uu0j", "target": "t5_xsntt", "shared_users": 178, "cosine": 0.21491378622211246, "jaccard": 0.0937335439705108}]}

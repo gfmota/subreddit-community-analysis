@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qswv", "name": "USMC", "interactions": 42309, "users": 3218, "degree": 2, "strength": 323}, {"id": "t5_2xmbn", "name": "USMCboot", "interactions": 8229, "users": 739, "degree": 1, "strength": 213}], "edges": [{"source": "t5_2qswv", "target": "t5_2xmbn", "shared_users": 213, "cosine": 0.13812247898888835, "jaccard": 0.05689102564102564}]}

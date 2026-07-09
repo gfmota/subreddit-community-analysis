@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qjw5", "name": "Thailand", "interactions": 16578, "users": 1182, "degree": 1, "strength": 159}, {"id": "t5_340kd", "name": "ThailandTourism", "interactions": 14494, "users": 1130, "degree": 1, "strength": 159}], "edges": [{"source": "t5_2qjw5", "target": "t5_340kd", "shared_users": 159, "cosine": 0.137578054669464, "jaccard": 0.07385044124477473}]}

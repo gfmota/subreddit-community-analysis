@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_30msm", "name": "PanPorn", "interactions": 8241, "users": 861, "degree": 1, "strength": 98}, {"id": "t5_32g1x", "name": "MakeupRehab", "interactions": 7598, "users": 601, "degree": 1, "strength": 98}], "edges": [{"source": "t5_30msm", "target": "t5_32g1x", "shared_users": 98, "cosine": 0.13623455075650243, "jaccard": 0.0718475073313783}]}

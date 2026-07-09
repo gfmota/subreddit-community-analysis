@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3pek2b", "name": "Andjustlikethat", "interactions": 34494, "users": 2042, "degree": 2, "strength": 410}, {"id": "t5_2t88c", "name": "sexandthecity", "interactions": 19813, "users": 1243, "degree": 1, "strength": 291}], "edges": [{"source": "t5_3pek2b", "target": "t5_2t88c", "shared_users": 291, "cosine": 0.18265415493195536, "jaccard": 0.09719438877755511}]}

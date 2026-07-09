@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_12mzg1", "name": "portugalr4r", "interactions": 3456, "users": 458, "degree": 1, "strength": 208}, {"id": "t5_a9czoi", "name": "Viagra_Natural", "interactions": 9768, "users": 992, "degree": 1, "strength": 208}], "edges": [{"source": "t5_12mzg1", "target": "t5_a9czoi", "shared_users": 208, "cosine": 0.3085849632310824, "jaccard": 0.16747181964573268}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3i58n", "name": "abstractmemes", "interactions": 22858, "users": 1043, "degree": 1, "strength": 144}, {"id": "t5_c7sy88", "name": "Cunicle", "interactions": 2739, "users": 258, "degree": 1, "strength": 144}], "edges": [{"source": "t5_3i58n", "target": "t5_c7sy88", "shared_users": 144, "cosine": 0.2775942620573898, "jaccard": 0.12445980985306827}]}

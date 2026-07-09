@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_56xocj", "name": "dropout", "interactions": 17087, "users": 1317, "degree": 1, "strength": 101}, {"id": "t5_pgc6w", "name": "Dimension20", "interactions": 9959, "users": 949, "degree": 1, "strength": 101}], "edges": [{"source": "t5_56xocj", "target": "t5_pgc6w", "shared_users": 101, "cosine": 0.09034318141709011, "jaccard": 0.046651270207852195}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2iuvwn", "name": "Foot_JOIs", "interactions": 2770, "users": 249, "degree": 1, "strength": 101}, {"id": "t5_au9t9h", "name": "nohoesjustsoles", "interactions": 14340, "users": 1370, "degree": 1, "strength": 101}], "edges": [{"source": "t5_2iuvwn", "target": "t5_au9t9h", "shared_users": 101, "cosine": 0.17292644629771364, "jaccard": 0.06653491436100131}]}

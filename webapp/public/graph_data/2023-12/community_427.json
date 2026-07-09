@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qh7i", "name": "vinyl", "interactions": 50990, "users": 3748, "degree": 2, "strength": 316}, {"id": "t5_2z1x0", "name": "turntables", "interactions": 21787, "users": 1686, "degree": 1, "strength": 191}], "edges": [{"source": "t5_2qh7i", "target": "t5_2z1x0", "shared_users": 191, "cosine": 0.07598096254423223, "jaccard": 0.03642952508106046}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_32r9r", "name": "ArizonaGirls", "interactions": 5070, "users": 441, "degree": 1, "strength": 230}, {"id": "t5_yu550", "name": "AZGoneWild", "interactions": 11442, "users": 1004, "degree": 1, "strength": 230}], "edges": [{"source": "t5_32r9r", "target": "t5_yu550", "shared_users": 230, "cosine": 0.34565407788689223, "jaccard": 0.18930041152263374}]}

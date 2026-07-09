@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_7saea6", "name": "RomanceClubDiscussion", "interactions": 7019, "users": 373, "degree": 1, "strength": 254}, {"id": "t5_rmf5z", "name": "RomanceClub", "interactions": 15702, "users": 1189, "degree": 1, "strength": 254}], "edges": [{"source": "t5_7saea6", "target": "t5_rmf5z", "shared_users": 254, "cosine": 0.381406748805724, "jaccard": 0.19418960244648317}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sga8", "name": "MaleUnderwear", "interactions": 8316, "users": 477, "degree": 1, "strength": 51}, {"id": "t5_31naw", "name": "tightywhities", "interactions": 14858, "users": 812, "degree": 1, "strength": 51}], "edges": [{"source": "t5_2sga8", "target": "t5_31naw", "shared_users": 51, "cosine": 0.0819469835572793, "jaccard": 0.04119547657512116}]}

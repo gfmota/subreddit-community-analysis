@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2ryfw", "name": "snakes", "interactions": 18912, "users": 1330, "degree": 1, "strength": 105}, {"id": "t5_2srho", "name": "ballpython", "interactions": 16723, "users": 1524, "degree": 1, "strength": 105}], "edges": [{"source": "t5_2ryfw", "target": "t5_2srho", "shared_users": 105, "cosine": 0.07375152333588685, "jaccard": 0.03819570753001091}]}

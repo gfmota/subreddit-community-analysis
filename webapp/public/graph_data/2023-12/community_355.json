@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_33zyg", "name": "joinsquad", "interactions": 16255, "users": 1271, "degree": 1, "strength": 115}, {"id": "t5_3fv79", "name": "PlaySquad", "interactions": 5502, "users": 419, "degree": 1, "strength": 115}], "edges": [{"source": "t5_33zyg", "target": "t5_3fv79", "shared_users": 115, "cosine": 0.15758615298439937, "jaccard": 0.07301587301587302}]}

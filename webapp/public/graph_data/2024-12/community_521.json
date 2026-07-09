@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rpzk", "name": "WomensHealth", "interactions": 12959, "users": 1247, "degree": 1, "strength": 61}, {"id": "t5_ilpqk", "name": "Healthyhooha", "interactions": 24768, "users": 2630, "degree": 1, "strength": 61}], "edges": [{"source": "t5_2rpzk", "target": "t5_ilpqk", "shared_users": 61, "cosine": 0.03368361804452855, "jaccard": 0.0159853249475891}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qjoe", "name": "mountainbiking", "interactions": 17627, "users": 1491, "degree": 1, "strength": 344}, {"id": "t5_2qo3d", "name": "MTB", "interactions": 28323, "users": 2408, "degree": 1, "strength": 344}], "edges": [{"source": "t5_2qjoe", "target": "t5_2qo3d", "shared_users": 344, "cosine": 0.1815479626388982, "jaccard": 0.09676511954992968}]}

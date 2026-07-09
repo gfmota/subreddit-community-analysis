@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qhv7", "name": "mexico", "interactions": 39382, "users": 2419, "degree": 2, "strength": 357}, {"id": "t5_3la4d", "name": "Mujico", "interactions": 27328, "users": 943, "degree": 1, "strength": 255}], "edges": [{"source": "t5_2qhv7", "target": "t5_3la4d", "shared_users": 255, "cosine": 0.1688365230469089, "jaccard": 0.08207273897650466}]}

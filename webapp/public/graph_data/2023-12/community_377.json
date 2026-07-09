@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3im0d", "name": "SoulKnight", "interactions": 7550, "users": 570, "degree": 1, "strength": 69}, {"id": "t5_6ce9hk", "name": "SoulKnightPrequel", "interactions": 11672, "users": 936, "degree": 1, "strength": 69}], "edges": [{"source": "t5_3im0d", "target": "t5_6ce9hk", "shared_users": 69, "cosine": 0.0944656111339443, "jaccard": 0.04801670146137787}]}

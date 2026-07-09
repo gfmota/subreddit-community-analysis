@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3buaw", "name": "putaria", "interactions": 8186, "users": 591, "degree": 1, "strength": 123}, {"id": "t5_89b9t6", "name": "JulgueMeuNude", "interactions": 9637, "users": 828, "degree": 1, "strength": 123}], "edges": [{"source": "t5_3buaw", "target": "t5_89b9t6", "shared_users": 123, "cosine": 0.17583130629909835, "jaccard": 0.09490740740740741}]}

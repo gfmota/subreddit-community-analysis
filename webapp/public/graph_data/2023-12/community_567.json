@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qhuq", "name": "coins", "interactions": 39458, "users": 2739, "degree": 1, "strength": 253}, {"id": "t5_2rni3", "name": "coincollecting", "interactions": 13923, "users": 1105, "degree": 1, "strength": 253}], "edges": [{"source": "t5_2qhuq", "target": "t5_2rni3", "shared_users": 253, "cosine": 0.1454264377230648, "jaccard": 0.07045391255917571}]}

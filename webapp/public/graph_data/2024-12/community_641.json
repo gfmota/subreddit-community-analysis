@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3x2lko", "name": "FromDuvalToDade", "interactions": 6778, "users": 638, "degree": 1, "strength": 115}, {"id": "t5_4lmhr1", "name": "Miraq", "interactions": 7339, "users": 871, "degree": 1, "strength": 115}], "edges": [{"source": "t5_3x2lko", "target": "t5_4lmhr1", "shared_users": 115, "cosine": 0.15426891444021507, "jaccard": 0.0824964131994261}]}

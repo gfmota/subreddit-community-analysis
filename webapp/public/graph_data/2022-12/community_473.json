@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_269b1d", "name": "Tarotpractices", "interactions": 5162, "users": 486, "degree": 1, "strength": 115}, {"id": "t5_3856c", "name": "tarotpractice", "interactions": 3544, "users": 395, "degree": 1, "strength": 115}], "edges": [{"source": "t5_269b1d", "target": "t5_3856c", "shared_users": 115, "cosine": 0.2624708984778959, "jaccard": 0.15013054830287206}]}

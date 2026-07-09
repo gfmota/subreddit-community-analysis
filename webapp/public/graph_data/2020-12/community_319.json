@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qig7", "name": "skiing", "interactions": 20742, "users": 1921, "degree": 2, "strength": 165}, {"id": "t5_2sa05", "name": "Backcountry", "interactions": 4380, "users": 464, "degree": 1, "strength": 72}], "edges": [{"source": "t5_2qig7", "target": "t5_2sa05", "shared_users": 72, "cosine": 0.07626228677208807, "jaccard": 0.0311284046692607}]}

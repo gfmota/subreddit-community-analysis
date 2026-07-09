@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2kpdau", "name": "delta8", "interactions": 27723, "users": 1585, "degree": 1, "strength": 126}, {"id": "t5_30ojcr", "name": "altcannabinoids", "interactions": 8932, "users": 541, "degree": 1, "strength": 126}], "edges": [{"source": "t5_2kpdau", "target": "t5_30ojcr", "shared_users": 126, "cosine": 0.1360684003911537, "jaccard": 0.063}]}

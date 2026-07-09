@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_38oz1", "name": "Seaofthieves", "interactions": 46482, "users": 3345, "degree": 2, "strength": 176}, {"id": "t5_hr8zb", "name": "SeaOfFashion", "interactions": 1556, "users": 193, "degree": 1, "strength": 74}], "edges": [{"source": "t5_38oz1", "target": "t5_hr8zb", "shared_users": 74, "cosine": 0.09209901897365634, "jaccard": 0.021362586605080832}]}

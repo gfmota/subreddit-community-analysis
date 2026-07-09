@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qqel", "name": "Mustang", "interactions": 22856, "users": 1818, "degree": 2, "strength": 123}, {"id": "t5_2vbtw", "name": "ecoboostmustang", "interactions": 2304, "users": 216, "degree": 1, "strength": 64}], "edges": [{"source": "t5_2qqel", "target": "t5_2vbtw", "shared_users": 64, "cosine": 0.10213066482158685, "jaccard": 0.03248730964467005}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_30vl9", "name": "Cookierun", "interactions": 8073, "users": 571, "degree": 1, "strength": 101}, {"id": "t5_3r5kro", "name": "CookieRunKingdoms", "interactions": 26419, "users": 2020, "degree": 1, "strength": 101}], "edges": [{"source": "t5_30vl9", "target": "t5_3r5kro", "shared_users": 101, "cosine": 0.09404325121891985, "jaccard": 0.040562248995983936}]}

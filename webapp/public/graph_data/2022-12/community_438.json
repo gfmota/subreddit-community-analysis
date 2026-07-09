@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2tlqg", "name": "SampleSize", "interactions": 9965, "users": 852, "degree": 1, "strength": 132}, {"id": "t5_2yh9c", "name": "SurveyExchange", "interactions": 3016, "users": 351, "degree": 1, "strength": 132}], "edges": [{"source": "t5_2tlqg", "target": "t5_2yh9c", "shared_users": 132, "cosine": 0.24137960684809884, "jaccard": 0.12324929971988796}]}

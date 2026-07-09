@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sakj", "name": "AskAcademia", "interactions": 7199, "users": 613, "degree": 1, "strength": 64}, {"id": "t5_2svhp", "name": "Professors", "interactions": 30099, "users": 1852, "degree": 1, "strength": 64}], "edges": [{"source": "t5_2sakj", "target": "t5_2svhp", "shared_users": 64, "cosine": 0.06006607382748067, "jaccard": 0.026655560183256977}]}

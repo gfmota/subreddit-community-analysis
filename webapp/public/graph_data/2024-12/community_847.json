@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2t08x", "name": "stepparents", "interactions": 32824, "users": 2088, "degree": 2, "strength": 226}, {"id": "t5_2y5iu", "name": "Stepmom", "interactions": 5720, "users": 427, "degree": 1, "strength": 107}], "edges": [{"source": "t5_2t08x", "target": "t5_2y5iu", "shared_users": 107, "cosine": 0.11331948522990137, "jaccard": 0.04443521594684385}]}

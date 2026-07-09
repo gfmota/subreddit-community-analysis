@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rcjg", "name": "Kenya", "interactions": 71464, "users": 3686, "degree": 2, "strength": 532}, {"id": "t5_2tblm", "name": "nairobi", "interactions": 4957, "users": 624, "degree": 1, "strength": 413}], "edges": [{"source": "t5_2rcjg", "target": "t5_2tblm", "shared_users": 413, "cosine": 0.27232034673399247, "jaccard": 0.10597895817295355}]}

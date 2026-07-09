@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_72sc2d", "name": "slotmachinequeen", "interactions": 4515, "users": 303, "degree": 1, "strength": 59}, {"id": "t5_8yk9rd", "name": "hipeeharlee", "interactions": 6347, "users": 290, "degree": 1, "strength": 59}], "edges": [{"source": "t5_72sc2d", "target": "t5_8yk9rd", "shared_users": 59, "cosine": 0.19903602901090364, "jaccard": 0.1104868913857678}]}

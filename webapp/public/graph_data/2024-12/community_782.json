@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rgaf", "name": "ssc", "interactions": 10133, "users": 826, "degree": 1, "strength": 170}, {"id": "t5_4x2aus", "name": "SSCCGL", "interactions": 4156, "users": 409, "degree": 1, "strength": 170}], "edges": [{"source": "t5_2rgaf", "target": "t5_4x2aus", "shared_users": 170, "cosine": 0.2924807203746591, "jaccard": 0.1596244131455399}]}

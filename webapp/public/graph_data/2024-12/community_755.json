@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3orhb", "name": "desenhos", "interactions": 12420, "users": 628, "degree": 1, "strength": 100}, {"id": "t5_51uzrq", "name": "RabiscosBr", "interactions": 10130, "users": 620, "degree": 1, "strength": 100}], "edges": [{"source": "t5_3orhb", "target": "t5_51uzrq", "shared_users": 100, "cosine": 0.1602597029369924, "jaccard": 0.08710801393728224}]}

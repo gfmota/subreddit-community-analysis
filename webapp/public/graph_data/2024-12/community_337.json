@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_37z52", "name": "tcap", "interactions": 12608, "users": 664, "degree": 1, "strength": 209}, {"id": "t5_3gwdg", "name": "FansHansenvsPredator", "interactions": 15442, "users": 822, "degree": 1, "strength": 209}], "edges": [{"source": "t5_37z52", "target": "t5_3gwdg", "shared_users": 209, "cosine": 0.2828956944003205, "jaccard": 0.16366483946750196}]}

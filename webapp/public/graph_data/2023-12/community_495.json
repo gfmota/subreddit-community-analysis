@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sxzy", "name": "camphalfblood", "interactions": 35117, "users": 2178, "degree": 1, "strength": 193}, {"id": "t5_5r0ebg", "name": "PercyJacksonTV", "interactions": 24731, "users": 1461, "degree": 1, "strength": 193}], "edges": [{"source": "t5_2sxzy", "target": "t5_5r0ebg", "shared_users": 193, "cosine": 0.10819402145005451, "jaccard": 0.056006964596633776}]}

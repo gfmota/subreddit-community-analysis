@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2s0ew", "name": "fountainpens", "interactions": 58959, "users": 3396, "degree": 2, "strength": 363}, {"id": "t5_2tyn2", "name": "Pen_Swap", "interactions": 6602, "users": 592, "degree": 1, "strength": 266}], "edges": [{"source": "t5_2s0ew", "target": "t5_2tyn2", "shared_users": 266, "cosine": 0.1876017747107897, "jaccard": 0.07146695325094035}]}

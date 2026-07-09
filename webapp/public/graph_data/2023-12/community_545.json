@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2re7h", "name": "galatasaray", "interactions": 15885, "users": 723, "degree": 1, "strength": 137}, {"id": "t5_2w9yp", "name": "superlig", "interactions": 5391, "users": 373, "degree": 1, "strength": 137}], "edges": [{"source": "t5_2re7h", "target": "t5_2w9yp", "shared_users": 137, "cosine": 0.2638134920334877, "jaccard": 0.14285714285714285}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3178u", "name": "instacart", "interactions": 15915, "users": 958, "degree": 1, "strength": 318}, {"id": "t5_37nqy", "name": "InstacartShoppers", "interactions": 47497, "users": 2937, "degree": 1, "strength": 318}], "edges": [{"source": "t5_3178u", "target": "t5_37nqy", "shared_users": 318, "cosine": 0.18957994467159278, "jaccard": 0.08890131395023763}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_anj1of", "name": "gorlworldreactors", "interactions": 3983, "users": 269, "degree": 1, "strength": 91}, {"id": "t5_bdj553", "name": "Amberverse__", "interactions": 52652, "users": 2802, "degree": 1, "strength": 91}], "edges": [{"source": "t5_anj1of", "target": "t5_bdj553", "shared_users": 91, "cosine": 0.10481687000367021, "jaccard": 0.03053691275167785}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qj20", "name": "lithuania", "interactions": 19280, "users": 2042, "degree": 1, "strength": 937}, {"id": "t5_2qr9a", "name": "lietuva", "interactions": 46493, "users": 3197, "degree": 1, "strength": 937}], "edges": [{"source": "t5_2qj20", "target": "t5_2qr9a", "shared_users": 937, "cosine": 0.36672490426810395, "jaccard": 0.21780567178056717}]}

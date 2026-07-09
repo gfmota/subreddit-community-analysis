@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_6lz0yx", "name": "pdx_sex", "interactions": 4024, "users": 505, "degree": 1, "strength": 151}, {"id": "t5_huno9", "name": "Portlandsex", "interactions": 6945, "users": 915, "degree": 1, "strength": 151}], "edges": [{"source": "t5_6lz0yx", "target": "t5_huno9", "shared_users": 151, "cosine": 0.22213690223101673, "jaccard": 0.11899133175728921}]}

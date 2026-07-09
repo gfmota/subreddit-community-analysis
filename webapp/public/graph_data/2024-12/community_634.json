@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qt49", "name": "berlin", "interactions": 16308, "users": 1347, "degree": 1, "strength": 97}, {"id": "t5_2sjnp", "name": "berlinsocialclub", "interactions": 10790, "users": 1079, "degree": 1, "strength": 97}], "edges": [{"source": "t5_2qt49", "target": "t5_2sjnp", "shared_users": 97, "cosine": 0.0804594786313191, "jaccard": 0.04164877629884071}]}

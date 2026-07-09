@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qqdd", "name": "vermont", "interactions": 19364, "users": 1553, "degree": 1, "strength": 275}, {"id": "t5_2ri40", "name": "burlington", "interactions": 12793, "users": 1114, "degree": 1, "strength": 275}], "edges": [{"source": "t5_2qqdd", "target": "t5_2ri40", "shared_users": 275, "cosine": 0.20907609044671147, "jaccard": 0.1149665551839465}]}

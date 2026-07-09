@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2zopm", "name": "thegildedage", "interactions": 26432, "users": 1479, "degree": 1, "strength": 140}, {"id": "t5_5rcd9e", "name": "GildedAgeHBO", "interactions": 13213, "users": 851, "degree": 1, "strength": 140}], "edges": [{"source": "t5_2zopm", "target": "t5_5rcd9e", "shared_users": 140, "cosine": 0.12478982297672428, "jaccard": 0.0639269406392694}]}

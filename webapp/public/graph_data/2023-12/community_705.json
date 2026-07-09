@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qiq1", "name": "tennis", "interactions": 31347, "users": 1876, "degree": 1, "strength": 130}, {"id": "t5_2u7it", "name": "10s", "interactions": 16939, "users": 1284, "degree": 1, "strength": 130}], "edges": [{"source": "t5_2qiq1", "target": "t5_2u7it", "shared_users": 130, "cosine": 0.08376149562918232, "jaccard": 0.0429042904290429}]}

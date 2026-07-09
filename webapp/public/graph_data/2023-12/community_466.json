@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_12gq79", "name": "PuneGW", "interactions": 4843, "users": 378, "degree": 1, "strength": 68}, {"id": "t5_76zslb", "name": "PuneHook_up", "interactions": 5811, "users": 651, "degree": 1, "strength": 68}], "edges": [{"source": "t5_12gq79", "target": "t5_76zslb", "shared_users": 68, "cosine": 0.13707950215893577, "jaccard": 0.07075962539021852}]}

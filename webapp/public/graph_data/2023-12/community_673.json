@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2ralu", "name": "CNC", "interactions": 4556, "users": 436, "degree": 1, "strength": 86}, {"id": "t5_2s1ie", "name": "Machinists", "interactions": 25063, "users": 2137, "degree": 1, "strength": 86}], "edges": [{"source": "t5_2ralu", "target": "t5_2s1ie", "shared_users": 86, "cosine": 0.08909492068073256, "jaccard": 0.03457981503819863}]}

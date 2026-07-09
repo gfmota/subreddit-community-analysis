@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2s90n", "name": "pornID", "interactions": 35177, "users": 5060, "degree": 1, "strength": 205}, {"id": "t5_2s96i", "name": "tipofmypenis", "interactions": 17621, "users": 2399, "degree": 1, "strength": 205}], "edges": [{"source": "t5_2s90n", "target": "t5_2s96i", "shared_users": 205, "cosine": 0.05883875553696371, "jaccard": 0.028260270195754066}]}

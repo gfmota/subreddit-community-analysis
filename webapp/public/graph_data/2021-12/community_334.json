@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qjl3", "name": "pharmacy", "interactions": 12648, "users": 1207, "degree": 1, "strength": 90}, {"id": "t5_2sgxc", "name": "CVS", "interactions": 18177, "users": 1695, "degree": 1, "strength": 90}], "edges": [{"source": "t5_2qjl3", "target": "t5_2sgxc", "shared_users": 90, "cosine": 0.06292221801101554, "jaccard": 0.032005689900426744}]}

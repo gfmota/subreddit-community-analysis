@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sjf8", "name": "AutoDetailing", "interactions": 10737, "users": 667, "degree": 1, "strength": 88}, {"id": "t5_2skld", "name": "Detailing", "interactions": 8983, "users": 647, "degree": 1, "strength": 88}], "edges": [{"source": "t5_2sjf8", "target": "t5_2skld", "shared_users": 88, "cosine": 0.1339576792067849, "jaccard": 0.07177814029363784}]}

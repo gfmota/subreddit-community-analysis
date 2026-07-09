@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2x5o7", "name": "Sims4", "interactions": 72940, "users": 6064, "degree": 3, "strength": 941}, {"id": "t5_2rbdu", "name": "thesims", "interactions": 23601, "users": 1807, "degree": 1, "strength": 434}], "edges": [{"source": "t5_2x5o7", "target": "t5_2rbdu", "shared_users": 434, "cosine": 0.13110856286055983, "jaccard": 0.05835686432701358}]}

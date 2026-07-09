@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_33toc", "name": "Nanny", "interactions": 25253, "users": 1711, "degree": 1, "strength": 100}, {"id": "t5_6hn39w", "name": "NannyEmployers", "interactions": 3472, "users": 254, "degree": 1, "strength": 100}], "edges": [{"source": "t5_33toc", "target": "t5_6hn39w", "shared_users": 100, "cosine": 0.15169041410080766, "jaccard": 0.05361930294906166}]}

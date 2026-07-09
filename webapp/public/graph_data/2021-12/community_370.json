@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2thu0", "name": "BadDragon", "interactions": 11938, "users": 1147, "degree": 1, "strength": 97}, {"id": "t5_3okel", "name": "BadDragonBST", "interactions": 1574, "users": 182, "degree": 1, "strength": 97}], "edges": [{"source": "t5_2thu0", "target": "t5_3okel", "shared_users": 97, "cosine": 0.21230212018131273, "jaccard": 0.07873376623376624}]}

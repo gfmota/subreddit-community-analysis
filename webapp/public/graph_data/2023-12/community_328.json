@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qhc5", "name": "spirituality", "interactions": 25687, "users": 1669, "degree": 1, "strength": 86}, {"id": "t5_2ubdb", "name": "awakened", "interactions": 13689, "users": 739, "degree": 1, "strength": 86}], "edges": [{"source": "t5_2qhc5", "target": "t5_2ubdb", "shared_users": 86, "cosine": 0.0774369187207834, "jaccard": 0.037037037037037035}]}

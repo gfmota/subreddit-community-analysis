@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sag0", "name": "MNGoneWild", "interactions": 13922, "users": 950, "degree": 1, "strength": 287}, {"id": "t5_5xoaml", "name": "MinnesotaSpice", "interactions": 15348, "users": 1531, "degree": 1, "strength": 287}], "edges": [{"source": "t5_2sag0", "target": "t5_5xoaml", "shared_users": 287, "cosine": 0.23797563741171615, "jaccard": 0.13081130355515042}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_290m6z", "name": "ThaiBL", "interactions": 15983, "users": 903, "degree": 1, "strength": 340}, {"id": "t5_2sbdb", "name": "boyslove", "interactions": 21682, "users": 994, "degree": 1, "strength": 340}], "edges": [{"source": "t5_290m6z", "target": "t5_2sbdb", "shared_users": 340, "cosine": 0.3588738796350313, "jaccard": 0.21836865767501606}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qr6k", "name": "Nikon", "interactions": 23375, "users": 1887, "degree": 1, "strength": 146}, {"id": "t5_q9p2g", "name": "nikon_Zseries", "interactions": 4811, "users": 485, "degree": 1, "strength": 146}], "edges": [{"source": "t5_2qr6k", "target": "t5_q9p2g", "shared_users": 146, "cosine": 0.1526145837154772, "jaccard": 0.06558849955076371}]}

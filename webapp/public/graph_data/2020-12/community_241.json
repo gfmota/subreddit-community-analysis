@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2f8e5i", "name": "DegradeThisPig", "interactions": 14308, "users": 907, "degree": 1, "strength": 116}, {"id": "t5_37khe", "name": "DegradingHoles", "interactions": 19903, "users": 934, "degree": 1, "strength": 116}], "edges": [{"source": "t5_2f8e5i", "target": "t5_37khe", "shared_users": 116, "cosine": 0.12603202305825517, "jaccard": 0.0672463768115942}]}

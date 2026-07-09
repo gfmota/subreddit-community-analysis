@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2r1jw", "name": "Sissy", "interactions": 18900, "users": 1499, "degree": 1, "strength": 205}, {"id": "t5_3d635", "name": "sissyology", "interactions": 12976, "users": 1205, "degree": 1, "strength": 205}], "edges": [{"source": "t5_2r1jw", "target": "t5_3d635", "shared_users": 205, "cosine": 0.1525314929854412, "jaccard": 0.0820328131252501}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2skjk", "name": "SexWorkers", "interactions": 20770, "users": 1307, "degree": 1, "strength": 107}, {"id": "t5_4ub23i", "name": "EscortClientsOnly", "interactions": 22250, "users": 1436, "degree": 1, "strength": 107}], "edges": [{"source": "t5_2skjk", "target": "t5_4ub23i", "shared_users": 107, "cosine": 0.0781031884961951, "jaccard": 0.04059180576631259}]}

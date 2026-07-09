@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qie5", "name": "drums", "interactions": 44017, "users": 3379, "degree": 2, "strength": 292}, {"id": "t5_2qxvm", "name": "Drumming", "interactions": 5578, "users": 452, "degree": 1, "strength": 172}], "edges": [{"source": "t5_2qie5", "target": "t5_2qxvm", "shared_users": 172, "cosine": 0.13917625097353475, "jaccard": 0.04700737906531839}]}

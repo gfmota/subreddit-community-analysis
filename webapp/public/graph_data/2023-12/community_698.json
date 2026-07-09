@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_7np8q1", "name": "patycaetanom", "interactions": 5431, "users": 651, "degree": 1, "strength": 115}, {"id": "t5_acrx0b", "name": "brpunhetabrbr", "interactions": 4097, "users": 514, "degree": 1, "strength": 115}], "edges": [{"source": "t5_7np8q1", "target": "t5_acrx0b", "shared_users": 115, "cosine": 0.19880430591369136, "jaccard": 0.10952380952380952}]}

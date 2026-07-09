@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3667v", "name": "litrpg", "interactions": 11063, "users": 1017, "degree": 1, "strength": 172}, {"id": "t5_x7vh9", "name": "ProgressionFantasy", "interactions": 11197, "users": 931, "degree": 1, "strength": 172}], "edges": [{"source": "t5_3667v", "target": "t5_x7vh9", "shared_users": 172, "cosine": 0.17676371886982342, "jaccard": 0.09684684684684684}]}

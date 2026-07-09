@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_88x2gp", "name": "MHNowGame", "interactions": 25503, "users": 1757, "degree": 1, "strength": 219}, {"id": "t5_88x8iw", "name": "MonsterHunterNowHub", "interactions": 6536, "users": 602, "degree": 1, "strength": 219}], "edges": [{"source": "t5_88x2gp", "target": "t5_88x8iw", "shared_users": 219, "cosine": 0.21294134283884278, "jaccard": 0.10233644859813085}]}

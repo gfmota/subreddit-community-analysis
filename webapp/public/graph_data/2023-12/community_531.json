@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2r8c5", "name": "jailbreak", "interactions": 28096, "users": 2368, "degree": 1, "strength": 199}, {"id": "t5_6zqrru", "name": "Trollstore", "interactions": 2988, "users": 336, "degree": 1, "strength": 199}], "edges": [{"source": "t5_2r8c5", "target": "t5_6zqrru", "shared_users": 199, "cosine": 0.2230964135367201, "jaccard": 0.07944111776447106}]}

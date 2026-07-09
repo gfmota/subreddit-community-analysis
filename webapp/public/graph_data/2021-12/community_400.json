@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_12ieog", "name": "datingoverfifty", "interactions": 9941, "users": 524, "degree": 1, "strength": 97}, {"id": "t5_su6ij", "name": "datingoverforty", "interactions": 20636, "users": 1083, "degree": 1, "strength": 97}], "edges": [{"source": "t5_12ieog", "target": "t5_su6ij", "shared_users": 97, "cosine": 0.12876323003583123, "jaccard": 0.06423841059602649}]}

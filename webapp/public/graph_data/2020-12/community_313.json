@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rqv6", "name": "KDRAMA", "interactions": 26618, "users": 2135, "degree": 1, "strength": 342}, {"id": "t5_31t53", "name": "kdramarecommends", "interactions": 15203, "users": 1159, "degree": 1, "strength": 342}], "edges": [{"source": "t5_2rqv6", "target": "t5_31t53", "shared_users": 342, "cosine": 0.21741296978744473, "jaccard": 0.11585365853658537}]}

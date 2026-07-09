@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2wv54", "name": "koreanvariety", "interactions": 5967, "users": 632, "degree": 1, "strength": 84}, {"id": "t5_7kw63y", "name": "Singlesinferno2", "interactions": 18451, "users": 1291, "degree": 1, "strength": 84}], "edges": [{"source": "t5_2wv54", "target": "t5_7kw63y", "shared_users": 84, "cosine": 0.09299457753040409, "jaccard": 0.04567699836867863}]}

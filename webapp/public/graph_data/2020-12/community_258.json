@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3616u", "name": "PEDs", "interactions": 6798, "users": 603, "degree": 1, "strength": 130}, {"id": "t5_lx01k", "name": "sarmssourcetalk", "interactions": 7888, "users": 703, "degree": 1, "strength": 130}], "edges": [{"source": "t5_3616u", "target": "t5_lx01k", "shared_users": 130, "cosine": 0.19966734068685477, "jaccard": 0.11054421768707483}]}

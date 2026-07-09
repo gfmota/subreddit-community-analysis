@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2baahr", "name": "yuri_manga", "interactions": 15321, "users": 1115, "degree": 1, "strength": 88}, {"id": "t5_xxiyb", "name": "yurimemes", "interactions": 12653, "users": 682, "degree": 1, "strength": 88}], "edges": [{"source": "t5_2baahr", "target": "t5_xxiyb", "shared_users": 88, "cosine": 0.10091437879333312, "jaccard": 0.051492100643651256}]}

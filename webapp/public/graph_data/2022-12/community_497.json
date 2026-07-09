@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2r3em", "name": "ARK", "interactions": 44773, "users": 3516, "degree": 2, "strength": 299}, {"id": "t5_386qw", "name": "playark", "interactions": 6458, "users": 554, "degree": 1, "strength": 180}], "edges": [{"source": "t5_2r3em", "target": "t5_386qw", "shared_users": 180, "cosine": 0.12897133328841756, "jaccard": 0.04627249357326478}]}

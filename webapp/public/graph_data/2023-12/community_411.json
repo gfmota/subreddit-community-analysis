@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_31nfz", "name": "LPOTL", "interactions": 20306, "users": 1594, "degree": 1, "strength": 114}, {"id": "t5_3cmmm", "name": "lastpodcastontheleft", "interactions": 9795, "users": 702, "degree": 1, "strength": 114}], "edges": [{"source": "t5_31nfz", "target": "t5_3cmmm", "shared_users": 114, "cosine": 0.10776857411317442, "jaccard": 0.05224564619615032}]}

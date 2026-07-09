@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2s0qt", "name": "Gameboy", "interactions": 19334, "users": 1391, "degree": 1, "strength": 70}, {"id": "t5_bnwc6v", "name": "ModRetroChromatic", "interactions": 8365, "users": 459, "degree": 1, "strength": 70}], "edges": [{"source": "t5_2s0qt", "target": "t5_bnwc6v", "shared_users": 70, "cosine": 0.08760484634976477, "jaccard": 0.03932584269662921}]}

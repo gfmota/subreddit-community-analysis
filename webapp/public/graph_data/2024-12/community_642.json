@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2uc06", "name": "shareyourmusic", "interactions": 2932, "users": 359, "degree": 1, "strength": 74}, {"id": "t5_2xs9o", "name": "PromoteYourMusic", "interactions": 3814, "users": 452, "degree": 1, "strength": 74}], "edges": [{"source": "t5_2uc06", "target": "t5_2xs9o", "shared_users": 74, "cosine": 0.18370258941762324, "jaccard": 0.10040705563093623}]}

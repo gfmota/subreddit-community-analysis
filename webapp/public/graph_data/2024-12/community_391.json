@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_36b188", "name": "ChromeHeart", "interactions": 9001, "users": 751, "degree": 1, "strength": 114}, {"id": "t5_85n4ua", "name": "chromeheartlc", "interactions": 5594, "users": 471, "degree": 1, "strength": 114}], "edges": [{"source": "t5_36b188", "target": "t5_85n4ua", "shared_users": 114, "cosine": 0.1916789533455788, "jaccard": 0.10288808664259928}]}

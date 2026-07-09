@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qpro", "name": "dubai", "interactions": 41373, "users": 3288, "degree": 2, "strength": 253}, {"id": "t5_2sm4e", "name": "abudhabi", "interactions": 3072, "users": 394, "degree": 1, "strength": 129}], "edges": [{"source": "t5_2qpro", "target": "t5_2sm4e", "shared_users": 129, "cosine": 0.11333803921969787, "jaccard": 0.03630734590486912}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_9bzs8l", "name": "uniao_dos_mansos", "interactions": 9289, "users": 699, "degree": 1, "strength": 149}, {"id": "t5_bi44gp", "name": "ILHADOKONG", "interactions": 6264, "users": 468, "degree": 1, "strength": 149}], "edges": [{"source": "t5_9bzs8l", "target": "t5_bi44gp", "shared_users": 149, "cosine": 0.26051021301372274, "jaccard": 0.14636542239685657}]}

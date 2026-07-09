@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qwza", "name": "starbucks", "interactions": 43758, "users": 4105, "degree": 1, "strength": 334}, {"id": "t5_2z2nq", "name": "starbucksbaristas", "interactions": 9892, "users": 1214, "degree": 1, "strength": 334}], "edges": [{"source": "t5_2qwza", "target": "t5_2z2nq", "shared_users": 334, "cosine": 0.14961686231621016, "jaccard": 0.06700100300902709}]}

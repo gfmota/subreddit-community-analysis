@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_445fo9", "name": "Jujutsushi", "interactions": 8936, "users": 569, "degree": 1, "strength": 120}, {"id": "t5_gdma4", "name": "JuJutsuKaisen", "interactions": 11783, "users": 873, "degree": 1, "strength": 120}], "edges": [{"source": "t5_445fo9", "target": "t5_gdma4", "shared_users": 120, "cosine": 0.1702621020983231, "jaccard": 0.0907715582450832}]}

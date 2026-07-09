@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rny1", "name": "soundcloud", "interactions": 12812, "users": 1088, "degree": 1, "strength": 56}, {"id": "t5_gay9i", "name": "Bandlab", "interactions": 8102, "users": 810, "degree": 1, "strength": 56}], "edges": [{"source": "t5_2rny1", "target": "t5_gay9i", "shared_users": 56, "cosine": 0.05965283246590659, "jaccard": 0.03040173724212812}]}

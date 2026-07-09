@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3e076", "name": "Re_Zero", "interactions": 21533, "users": 1113, "degree": 1, "strength": 200}, {"id": "t5_4tfsk8", "name": "ReZero", "interactions": 22057, "users": 1140, "degree": 1, "strength": 200}], "edges": [{"source": "t5_3e076", "target": "t5_4tfsk8", "shared_users": 200, "cosine": 0.17755380667890103, "jaccard": 0.0974184120798831}]}

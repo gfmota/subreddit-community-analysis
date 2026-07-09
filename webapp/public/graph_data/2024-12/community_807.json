@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2t93w", "name": "EroticHypnosis", "interactions": 7024, "users": 701, "degree": 1, "strength": 78}, {"id": "t5_2vhlv", "name": "HypnoHookup", "interactions": 9756, "users": 906, "degree": 1, "strength": 78}], "edges": [{"source": "t5_2t93w", "target": "t5_2vhlv", "shared_users": 78, "cosine": 0.09787493685322136, "jaccard": 0.051013734466971876}]}

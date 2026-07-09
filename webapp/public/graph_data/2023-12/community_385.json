@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sr4p", "name": "WomensSoccer", "interactions": 4684, "users": 320, "degree": 1, "strength": 54}, {"id": "t5_2vt38", "name": "NWSL", "interactions": 10356, "users": 463, "degree": 1, "strength": 54}], "edges": [{"source": "t5_2sr4p", "target": "t5_2vt38", "shared_users": 54, "cosine": 0.14029050390515077, "jaccard": 0.07407407407407407}]}

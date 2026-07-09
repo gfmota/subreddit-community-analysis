@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_38qlm", "name": "UberEATS", "interactions": 33211, "users": 2239, "degree": 1, "strength": 252}, {"id": "t5_4xfhtt", "name": "UberEatsDrivers", "interactions": 35313, "users": 2309, "degree": 1, "strength": 252}], "edges": [{"source": "t5_38qlm", "target": "t5_4xfhtt", "shared_users": 252, "cosine": 0.11083107037131515, "jaccard": 0.05865921787709497}]}

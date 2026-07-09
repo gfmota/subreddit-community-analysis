@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2ub74", "name": "vegasr4r", "interactions": 7307, "users": 728, "degree": 1, "strength": 160}, {"id": "t5_33nm9", "name": "LasVegasr4r", "interactions": 2415, "users": 326, "degree": 1, "strength": 160}], "edges": [{"source": "t5_2ub74", "target": "t5_33nm9", "shared_users": 160, "cosine": 0.3284320211705449, "jaccard": 0.1789709172259508}]}

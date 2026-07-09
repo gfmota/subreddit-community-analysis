@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2so9j", "name": "SSBM", "interactions": 13332, "users": 1040, "degree": 1, "strength": 64}, {"id": "t5_32h5b", "name": "RivalsOfAether", "interactions": 20249, "users": 1516, "degree": 1, "strength": 64}], "edges": [{"source": "t5_2so9j", "target": "t5_32h5b", "shared_users": 64, "cosine": 0.050969890864222746, "jaccard": 0.025682182985553772}]}

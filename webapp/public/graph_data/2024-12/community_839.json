@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2scp5", "name": "Menopause", "interactions": 38742, "users": 2531, "degree": 1, "strength": 146}, {"id": "t5_2x3ee", "name": "Perimenopause", "interactions": 15646, "users": 1159, "degree": 1, "strength": 146}], "edges": [{"source": "t5_2scp5", "target": "t5_2x3ee", "shared_users": 146, "cosine": 0.08524424433462692, "jaccard": 0.041196388261851014}]}

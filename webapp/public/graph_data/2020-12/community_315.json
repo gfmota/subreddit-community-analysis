@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sqw4", "name": "makinghiphop", "interactions": 17343, "users": 1511, "degree": 1, "strength": 92}, {"id": "t5_2wdcv", "name": "trapproduction", "interactions": 6722, "users": 741, "degree": 1, "strength": 92}], "edges": [{"source": "t5_2sqw4", "target": "t5_2wdcv", "shared_users": 92, "cosine": 0.08694537624771406, "jaccard": 0.04259259259259259}]}

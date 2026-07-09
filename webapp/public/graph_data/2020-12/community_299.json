@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3i9t9", "name": "WizardsUnite", "interactions": 2205, "users": 262, "degree": 1, "strength": 95}, {"id": "t5_3psru", "name": "harrypotterwu", "interactions": 7778, "users": 755, "degree": 1, "strength": 95}], "edges": [{"source": "t5_3i9t9", "target": "t5_3psru", "shared_users": 95, "cosine": 0.21359913214316398, "jaccard": 0.10303687635574837}]}

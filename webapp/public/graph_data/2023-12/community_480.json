@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_32xps", "name": "orthotropics", "interactions": 6621, "users": 727, "degree": 1, "strength": 182}, {"id": "t5_qp633", "name": "Mewing", "interactions": 11721, "users": 1108, "degree": 1, "strength": 182}], "edges": [{"source": "t5_32xps", "target": "t5_qp633", "shared_users": 182, "cosine": 0.20278428805435983, "jaccard": 0.11010284331518451}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2o7ors", "name": "DressForYourBody", "interactions": 7315, "users": 503, "degree": 1, "strength": 64}, {"id": "t5_35s40", "name": "coloranalysis", "interactions": 29490, "users": 2173, "degree": 1, "strength": 64}], "edges": [{"source": "t5_2o7ors", "target": "t5_35s40", "shared_users": 64, "cosine": 0.0612161649103646, "jaccard": 0.02450229709035222}]}

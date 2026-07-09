@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_11ajln", "name": "OSDD", "interactions": 3084, "users": 330, "degree": 1, "strength": 77}, {"id": "t5_2s73v", "name": "DID", "interactions": 13866, "users": 1061, "degree": 1, "strength": 77}], "edges": [{"source": "t5_11ajln", "target": "t5_2s73v", "shared_users": 77, "cosine": 0.1301295905478875, "jaccard": 0.05859969558599695}]}

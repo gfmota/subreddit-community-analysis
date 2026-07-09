@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qrwg", "name": "handbags", "interactions": 44388, "users": 3229, "degree": 1, "strength": 98}, {"id": "t5_2r6w9", "name": "Louisvuitton", "interactions": 11565, "users": 966, "degree": 1, "strength": 98}], "edges": [{"source": "t5_2qrwg", "target": "t5_2r6w9", "shared_users": 98, "cosine": 0.05548856453829627, "jaccard": 0.02391994142055162}]}

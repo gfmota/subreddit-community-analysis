@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2r4ni", "name": "SCP", "interactions": 26845, "users": 1327, "degree": 1, "strength": 55}, {"id": "t5_3k4sh", "name": "DankMemesFromSite19", "interactions": 7231, "users": 193, "degree": 1, "strength": 55}], "edges": [{"source": "t5_2r4ni", "target": "t5_3k4sh", "shared_users": 55, "cosine": 0.10867973569468194, "jaccard": 0.03754266211604096}]}

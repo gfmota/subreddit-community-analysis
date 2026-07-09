@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_33es7", "name": "ConnecticutR4R", "interactions": 2838, "users": 411, "degree": 1, "strength": 104}, {"id": "t5_4jt82b", "name": "CThookups", "interactions": 3776, "users": 469, "degree": 1, "strength": 104}], "edges": [{"source": "t5_33es7", "target": "t5_4jt82b", "shared_users": 104, "cosine": 0.23687869784079932, "jaccard": 0.13402061855670103}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2j0dsz", "name": "TikTokFeet", "interactions": 5835, "users": 476, "degree": 1, "strength": 106}, {"id": "t5_3oop3j", "name": "sendfeetpics", "interactions": 15376, "users": 1168, "degree": 1, "strength": 106}], "edges": [{"source": "t5_2j0dsz", "target": "t5_3oop3j", "shared_users": 106, "cosine": 0.14216116293582445, "jaccard": 0.06892067620286085}]}

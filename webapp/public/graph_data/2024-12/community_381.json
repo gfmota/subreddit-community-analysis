@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qm8s", "name": "Cruise", "interactions": 19240, "users": 1291, "degree": 1, "strength": 75}, {"id": "t5_31xr6", "name": "royalcaribbean", "interactions": 17613, "users": 1467, "degree": 1, "strength": 75}], "edges": [{"source": "t5_2qm8s", "target": "t5_31xr6", "shared_users": 75, "cosine": 0.05449831632232442, "jaccard": 0.02795378307864331}]}

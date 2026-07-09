@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qh5t", "name": "transformers", "interactions": 48706, "users": 3078, "degree": 2, "strength": 361}, {"id": "t5_3p4fi", "name": "Transformemes", "interactions": 9230, "users": 523, "degree": 1, "strength": 222}], "edges": [{"source": "t5_2qh5t", "target": "t5_3p4fi", "shared_users": 222, "cosine": 0.1749717043851247, "jaccard": 0.0656999112163362}]}

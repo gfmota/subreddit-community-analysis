@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qhi6", "name": "Physics", "interactions": 15333, "users": 1130, "degree": 1, "strength": 111}, {"id": "t5_2sumo", "name": "AskPhysics", "interactions": 21786, "users": 1270, "degree": 1, "strength": 111}], "edges": [{"source": "t5_2qhi6", "target": "t5_2sumo", "shared_users": 111, "cosine": 0.09265778125751784, "jaccard": 0.04849279161205767}]}

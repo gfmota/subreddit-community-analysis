@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rgfg", "name": "socialwork", "interactions": 13335, "users": 1153, "degree": 1, "strength": 83}, {"id": "t5_2wlgc", "name": "therapists", "interactions": 24072, "users": 2220, "degree": 1, "strength": 83}], "edges": [{"source": "t5_2rgfg", "target": "t5_2wlgc", "shared_users": 83, "cosine": 0.051878445167393525, "jaccard": 0.025227963525835867}]}

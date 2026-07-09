@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qhb8", "name": "Supplements", "interactions": 28492, "users": 2325, "degree": 1, "strength": 122}, {"id": "t5_2vnoe", "name": "Biohackers", "interactions": 47979, "users": 2945, "degree": 1, "strength": 122}], "edges": [{"source": "t5_2qhb8", "target": "t5_2vnoe", "shared_users": 122, "cosine": 0.046623589088135006, "jaccard": 0.0236985236985237}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2ty3s", "name": "dayz", "interactions": 46496, "users": 3999, "degree": 1, "strength": 182}, {"id": "t5_2vbed", "name": "DayzXbox", "interactions": 5938, "users": 558, "degree": 1, "strength": 182}], "edges": [{"source": "t5_2ty3s", "target": "t5_2vbed", "shared_users": 182, "cosine": 0.12183682877244477, "jaccard": 0.0416}]}

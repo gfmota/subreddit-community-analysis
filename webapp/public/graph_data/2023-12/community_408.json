@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2saq9", "name": "POTS", "interactions": 19346, "users": 1601, "degree": 1, "strength": 108}, {"id": "t5_2scc7", "name": "dysautonomia", "interactions": 6894, "users": 554, "degree": 1, "strength": 108}], "edges": [{"source": "t5_2saq9", "target": "t5_2scc7", "shared_users": 108, "cosine": 0.11467617723105247, "jaccard": 0.05276013678553981}]}

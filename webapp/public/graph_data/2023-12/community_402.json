@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2epyvd", "name": "Pnpgay", "interactions": 10500, "users": 1042, "degree": 1, "strength": 84}, {"id": "t5_3adqo", "name": "PnPplayground", "interactions": 7691, "users": 755, "degree": 1, "strength": 84}], "edges": [{"source": "t5_2epyvd", "target": "t5_3adqo", "shared_users": 84, "cosine": 0.09470479116960409, "jaccard": 0.04903677758318739}]}

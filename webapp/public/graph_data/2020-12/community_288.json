@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_34heql", "name": "Mm2subreddit", "interactions": 2164, "users": 174, "degree": 1, "strength": 93}, {"id": "t5_3ae1p", "name": "MurderMystery2", "interactions": 34910, "users": 1346, "degree": 1, "strength": 93}], "edges": [{"source": "t5_34heql", "target": "t5_3ae1p", "shared_users": 93, "cosine": 0.1921700904124427, "jaccard": 0.06517168885774352}]}

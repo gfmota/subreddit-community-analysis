@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_4b2ch5", "name": "Algonauts", "interactions": 8917, "users": 1352, "degree": 1, "strength": 708}, {"id": "t5_55kcld", "name": "algorandASA", "interactions": 14351, "users": 2317, "degree": 1, "strength": 708}], "edges": [{"source": "t5_4b2ch5", "target": "t5_55kcld", "shared_users": 708, "cosine": 0.40002017452884026, "jaccard": 0.23910840932117527}]}

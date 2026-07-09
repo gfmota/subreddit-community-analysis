@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2cscdf", "name": "WebtoonCanvas", "interactions": 2823, "users": 276, "degree": 1, "strength": 98}, {"id": "t5_2tt7s", "name": "webtoons", "interactions": 12906, "users": 1241, "degree": 1, "strength": 98}], "edges": [{"source": "t5_2cscdf", "target": "t5_2tt7s", "shared_users": 98, "cosine": 0.1674501897128557, "jaccard": 0.06906272022551092}]}

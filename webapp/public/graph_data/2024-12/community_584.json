@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3fsv6", "name": "yeezys", "interactions": 10085, "users": 760, "degree": 1, "strength": 125}, {"id": "t5_67y76k", "name": "yeezyxgap", "interactions": 10837, "users": 774, "degree": 1, "strength": 125}], "edges": [{"source": "t5_3fsv6", "target": "t5_67y76k", "shared_users": 125, "cosine": 0.1629794082137372, "jaccard": 0.0887154009936125}]}

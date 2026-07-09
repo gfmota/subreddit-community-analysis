@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2ia9mv", "name": "beingaDIK", "interactions": 16175, "users": 1168, "degree": 1, "strength": 151}, {"id": "t5_6g4r6v", "name": "AVN_Lovers", "interactions": 6404, "users": 587, "degree": 1, "strength": 151}], "edges": [{"source": "t5_2ia9mv", "target": "t5_6g4r6v", "shared_users": 151, "cosine": 0.18236289386529572, "jaccard": 0.09413965087281795}]}

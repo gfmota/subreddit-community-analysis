@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3d8f6", "name": "ScotlandR4R", "interactions": 14200, "users": 1312, "degree": 1, "strength": 83}, {"id": "t5_5packw", "name": "EdinburghHookUps", "interactions": 1979, "users": 240, "degree": 1, "strength": 83}], "edges": [{"source": "t5_3d8f6", "target": "t5_5packw", "shared_users": 83, "cosine": 0.14791273039535216, "jaccard": 0.05650102110279102}]}

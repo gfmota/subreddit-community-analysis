@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2w1an", "name": "slavelabour", "interactions": 7132, "users": 607, "degree": 1, "strength": 96}, {"id": "t5_6asvyt", "name": "DoneDirtCheap", "interactions": 7799, "users": 787, "degree": 1, "strength": 96}], "edges": [{"source": "t5_2w1an", "target": "t5_6asvyt", "shared_users": 96, "cosine": 0.13889593042174275, "jaccard": 0.07395993836671803}]}

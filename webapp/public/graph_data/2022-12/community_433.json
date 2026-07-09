@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2shyc", "name": "tmobile", "interactions": 29399, "users": 2435, "degree": 1, "strength": 102}, {"id": "t5_3flsz3", "name": "tmobileisp", "interactions": 6902, "users": 578, "degree": 1, "strength": 102}], "edges": [{"source": "t5_2shyc", "target": "t5_3flsz3", "shared_users": 102, "cosine": 0.08597788742029357, "jaccard": 0.03503950532463071}]}

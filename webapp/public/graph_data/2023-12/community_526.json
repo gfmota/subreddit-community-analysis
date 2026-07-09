@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_32fri", "name": "Aeroplan", "interactions": 6363, "users": 720, "degree": 1, "strength": 107}, {"id": "t5_333tz", "name": "aircanada", "interactions": 9423, "users": 799, "degree": 1, "strength": 107}], "edges": [{"source": "t5_32fri", "target": "t5_333tz", "shared_users": 107, "cosine": 0.14107307725969725, "jaccard": 0.07577903682719547}]}

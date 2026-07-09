@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3c1lr", "name": "NoJumper", "interactions": 21199, "users": 1355, "degree": 1, "strength": 178}, {"id": "t5_72pd0n", "name": "BackonFigg", "interactions": 6629, "users": 572, "degree": 1, "strength": 178}], "edges": [{"source": "t5_3c1lr", "target": "t5_72pd0n", "shared_users": 178, "cosine": 0.20218658656588687, "jaccard": 0.1017724413950829}]}

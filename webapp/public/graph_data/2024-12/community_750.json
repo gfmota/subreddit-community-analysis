@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qhrg", "name": "taiwan", "interactions": 18245, "users": 1562, "degree": 1, "strength": 80}, {"id": "t5_2rngn", "name": "Taipei", "interactions": 2526, "users": 276, "degree": 1, "strength": 80}], "edges": [{"source": "t5_2qhrg", "target": "t5_2rngn", "shared_users": 80, "cosine": 0.12184141420639366, "jaccard": 0.04550625711035267}]}

@@ -318,6 +318,140 @@ Each entry under `history` has the following shape:
 
 ---
 
+### Step 8 — Community trajectories (`community_trajectories_step.py`)
+
+Leiden assigns community ids independently on every run, so "community 14" in one month has no
+inherent relationship to "community 14" the next — the same group of subreddits can end up with
+a different id every month, or the same id can mean an entirely different group. This step
+recovers that continuity by matching each month's communities to the next month's using a
+weighted Jaccard similarity over their subreddit membership (rarer, more distinctive subreddits
+count more toward a match, via IDF weighting), then chains matched communities across months into
+a **trajectory**.
+
+Every community in every month gets a trajectory id, even ones that never match anything (a
+trajectory of length one). This makes the output a complete lookup: any `(date, community_id)`
+pair has exactly one trajectory id.
+
+This step needs no arguments — it scans `storage/network/` for every date with a completed
+`export_network_step.py` output and processes all of them together.
+
+**Parameters:**
+
+| parameter   | default | description                                                      |
+| ----------- | ------- | ---------------------------------------------------------------- |
+| `threshold` | `0.30`  | Minimum weighted-Jaccard score for two communities to be matched |
+
+#### Output files
+
+Location: `storage/network/timeseries/`
+
+**`community_trajectories.json`** — flat lookup from every `(date, community_id)` pair to its
+trajectory id.
+
+| key                       | value                          |
+| ------------------------- | ------------------------------ |
+| `"<date>:<community_id>"` | Trajectory id, e.g. `"traj_7"` |
+
+Consumed by the web interface to keep a community's color stable across dates and to follow the
+same community forward/backward when the date slider changes while a community is open.
+
+---
+
+## Optional: LLM-generated community labels
+
+Communities only have numeric ids, which aren't meaningful to a reader and (per Step 8 above)
+aren't even stable across months on their own — the trajectory is what actually identifies "the
+same community" over time. This optional workflow generates a human-readable label and
+description **per trajectory** (not per month) using any LLM of your choice, so the interface can
+show e.g. "Home Improvement & DIY" instead of "Community 42" for every date that community
+appears.
+
+This is entirely optional and does not require an API key or any code changes to run — the
+"LLM command" step is a prompt you paste into whatever LLM tool you have by hand. If you never run this workflow, or skip labeling some trajectories, the
+interface simply falls back to showing the raw community id.
+
+### 1. Export labeling input (`export_community_labeling_input_step.py`)
+
+```sh
+make run-label-input
+```
+
+Requires `community_trajectories.json` from Step 8 to already exist. For every trajectory, this
+collects the union of subreddits across all the months it spans, ranks them by cumulative
+interactions, and keeps the top 30 — enough signal for an LLM to infer the theme without paying
+to read every subreddit in a 400-member community.
+
+#### Output file
+
+Location: `storage/network/timeseries/community_labeling_input.json`
+
+A JSON array with one entry per trajectory:
+
+| field           | description                                                             |
+| --------------- | ----------------------------------------------------------------------- |
+| `trajectory_id` | Trajectory id from Step 8, e.g. `"traj_7"`                              |
+| `communities`   | List of `{date, community_id}` this trajectory corresponds to, in order |
+| `subreddits`    | Up to 30 subreddit names, most representative (by interactions) first   |
+
+### 2. Generate labels with an LLM
+
+Paste the following prompt into an LLM chat, followed by the full contents of
+`community_labeling_input.json`:
+
+```
+You are labeling Reddit subreddit communities detected by a graph clustering algorithm.
+
+Below is a JSON array. Each element represents ONE community that may persist across several
+months (see its `communities` field for which per-month community ids it corresponds to) and
+lists the community's most representative subreddits under `subreddits` (ranked by total
+interaction volume, most representative first).
+
+For EACH element, invent a short, human-readable label (3-6 words) that captures the shared
+theme of its subreddits, plus a one-sentence description explaining that theme.
+
+Rules:
+- Output a JSON array with EXACTLY one object per input `trajectory_id` — same count, no more,
+  no fewer.
+- Every output object must have exactly these three fields: `trajectory_id` (copied verbatim
+  from the input), `community_label` (string, 3-6 words, no surrounding quotes), `description`
+  (string, one sentence).
+- Do not invent, skip, merge, or reorder trajectory ids.
+- Output only the JSON array. No markdown code fences, no commentary before or after it.
+
+Input:
+<paste the contents of community_labeling_input.json here>
+```
+
+Save the LLM's response to a file, e.g. `community_labels_raw.json`. Its expected shape:
+
+| field             | description                                       |
+| ----------------- | ------------------------------------------------- |
+| `trajectory_id`   | Must match a `trajectory_id` from the input file  |
+| `community_label` | Short human-readable label, 3-6 words             |
+| `description`     | One-sentence description of the community's theme |
+
+### 3. Apply the labels (`apply_community_labels_step.py`)
+
+```sh
+make apply-labels LABELS=community_labels_raw.json
+```
+
+Validates the LLM's output against the trajectory ids from Step 1: entries with an unrecognized
+`trajectory_id` are skipped with a warning (in case the LLM hallucinated or mistyped one), and any
+trajectory the LLM didn't label is reported so you know it will fall back to its raw id. This step
+can be re-run at any time with a corrected or extended labels file — it always rebuilds the output
+from scratch rather than merging.
+
+#### Output file
+
+Location: `storage/network/timeseries/community_labels.json`
+
+| key               | value                                      |
+| ----------------- | ------------------------------------------ |
+| `<trajectory_id>` | `{ "label": "...", "description": "..." }` |
+
+---
+
 ## How to run
 
 ### Env setup
@@ -369,11 +503,22 @@ Example: `RC_2020-01.zst`, `RS_2020-01.zst`.
 ### Running the pipeline
 
 ```sh
-make run-pipeline DATE=<YEAR>-<MONTH>
+make run-pipeline
 ```
 
-This runs all four steps in order. Intermediate outputs are written to `storage/` and can be
-inspected independently between steps.
+Runs steps 5–6 (`identify_communities.py`, `export_network_step.py`) for every date listed in the
+`DATES` variable at the top of the `Makefile`, then runs steps 7–8 (`build_timeseries_step.py`,
+`community_trajectories_step.py`) once across all of them. Intermediate outputs are written to
+`storage/` and can be inspected independently between steps.
+
+Then copy the results into the web interface's data folder:
+
+```sh
+scripts/load_webapp_with_data.sh
+```
+
+See [Optional: LLM-generated community labels](#optional-llm-generated-community-labels) above
+for the extra (non-required) steps to give communities human-readable names.
 
 ## Web interface
 

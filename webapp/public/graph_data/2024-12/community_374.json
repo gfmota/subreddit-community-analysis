@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2s8z6", "name": "needforspeed", "interactions": 36352, "users": 2621, "degree": 1, "strength": 156}, {"id": "t5_782u0q", "name": "NFSUnboundGame", "interactions": 4967, "users": 423, "degree": 1, "strength": 156}], "edges": [{"source": "t5_2s8z6", "target": "t5_782u0q", "shared_users": 156, "cosine": 0.14815656630569984, "jaccard": 0.054016620498614956}]}

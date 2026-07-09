@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qx8j", "name": "centrist", "interactions": 28084, "users": 802, "degree": 1, "strength": 54}, {"id": "t5_2s6h3", "name": "moderatepolitics", "interactions": 24145, "users": 910, "degree": 1, "strength": 54}], "edges": [{"source": "t5_2qx8j", "target": "t5_2s6h3", "shared_users": 54, "cosine": 0.0632100129816602, "jaccard": 0.032569360675512665}]}

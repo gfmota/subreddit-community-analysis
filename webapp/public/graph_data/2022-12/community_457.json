@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_10cc6i", "name": "Vendorsofkratom", "interactions": 7564, "users": 477, "degree": 1, "strength": 101}, {"id": "t5_68j0ss", "name": "smallbatchkratom", "interactions": 4136, "users": 222, "degree": 1, "strength": 101}], "edges": [{"source": "t5_10cc6i", "target": "t5_68j0ss", "shared_users": 101, "cosine": 0.31037425994731205, "jaccard": 0.1688963210702341}]}

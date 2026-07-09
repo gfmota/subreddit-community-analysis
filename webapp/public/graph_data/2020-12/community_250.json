@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_39qmx", "name": "discordservers", "interactions": 16700, "users": 1230, "degree": 1, "strength": 84}, {"id": "t5_3ije8", "name": "DiscordAdvertising", "interactions": 2837, "users": 161, "degree": 1, "strength": 84}], "edges": [{"source": "t5_39qmx", "target": "t5_3ije8", "shared_users": 84, "cosine": 0.18876166190543625, "jaccard": 0.06426931905126243}]}

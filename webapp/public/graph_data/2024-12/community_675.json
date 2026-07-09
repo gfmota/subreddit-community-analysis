@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2u6j1", "name": "HalifaxR4R", "interactions": 4335, "users": 515, "degree": 1, "strength": 194}, {"id": "t5_7109ds", "name": "HalifaxFreaks", "interactions": 2940, "users": 348, "degree": 1, "strength": 194}], "edges": [{"source": "t5_2u6j1", "target": "t5_7109ds", "shared_users": 194, "cosine": 0.4582563518960966, "jaccard": 0.28998505231689087}]}

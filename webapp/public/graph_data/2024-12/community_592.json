@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_32dpu", "name": "HotWifeLifestyle", "interactions": 8110, "users": 666, "degree": 1, "strength": 81}, {"id": "t5_gjm1i", "name": "CuckoldPsychology", "interactions": 23432, "users": 1867, "degree": 1, "strength": 81}], "edges": [{"source": "t5_32dpu", "target": "t5_gjm1i", "shared_users": 81, "cosine": 0.07263998491416138, "jaccard": 0.03303425774877651}]}

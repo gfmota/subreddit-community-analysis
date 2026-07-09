@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2r3gv", "name": "MachineLearning", "interactions": 10717, "users": 1258, "degree": 1, "strength": 70}, {"id": "t5_3cqa1", "name": "learnmachinelearning", "interactions": 9510, "users": 952, "degree": 1, "strength": 70}], "edges": [{"source": "t5_2r3gv", "target": "t5_3cqa1", "shared_users": 70, "cosine": 0.06396453473541766, "jaccard": 0.03271028037383177}]}

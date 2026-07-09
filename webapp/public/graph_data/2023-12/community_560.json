@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_4ttiyf", "name": "PetSimulatorX", "interactions": 2208, "users": 214, "degree": 1, "strength": 95}, {"id": "t5_a02vpz", "name": "PetSimulator99", "interactions": 15918, "users": 1240, "degree": 1, "strength": 95}], "edges": [{"source": "t5_4ttiyf", "target": "t5_a02vpz", "shared_users": 95, "cosine": 0.18441909056474376, "jaccard": 0.06990434142752024}]}

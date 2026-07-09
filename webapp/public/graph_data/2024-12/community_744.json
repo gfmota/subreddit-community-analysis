@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_7z4jgk", "name": "NzMeetUps", "interactions": 3601, "users": 514, "degree": 1, "strength": 143}, {"id": "t5_atxmc6", "name": "nzhookups_", "interactions": 2605, "users": 329, "degree": 1, "strength": 143}], "edges": [{"source": "t5_7z4jgk", "target": "t5_atxmc6", "shared_users": 143, "cosine": 0.34774150468540904, "jaccard": 0.2042857142857143}]}

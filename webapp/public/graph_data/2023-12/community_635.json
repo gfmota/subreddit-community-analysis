@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2zvdtl", "name": "BlackpinkFap", "interactions": 9773, "users": 903, "degree": 1, "strength": 178}, {"id": "t5_5gtv2n", "name": "Twice_Fap", "interactions": 8271, "users": 690, "degree": 1, "strength": 178}], "edges": [{"source": "t5_2zvdtl", "target": "t5_5gtv2n", "shared_users": 178, "cosine": 0.2255026146487242, "jaccard": 0.12579505300353358}]}

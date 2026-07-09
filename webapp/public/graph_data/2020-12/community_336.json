@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qhbp", "name": "islam", "interactions": 18828, "users": 1070, "degree": 1, "strength": 91}, {"id": "t5_336mg", "name": "Izlam", "interactions": 14282, "users": 872, "degree": 1, "strength": 91}], "edges": [{"source": "t5_2qhbp", "target": "t5_336mg", "shared_users": 91, "cosine": 0.09420875424641405, "jaccard": 0.04916261480280929}]}

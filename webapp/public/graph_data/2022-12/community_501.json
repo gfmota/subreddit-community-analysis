@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qjdo", "name": "bdsm", "interactions": 10252, "users": 686, "degree": 1, "strength": 53}, {"id": "t5_2s5eq", "name": "BDSMGW", "interactions": 15714, "users": 687, "degree": 1, "strength": 53}], "edges": [{"source": "t5_2qjdo", "target": "t5_2s5eq", "shared_users": 53, "cosine": 0.077203225138236, "jaccard": 0.04015151515151515}]}

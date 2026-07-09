@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qk6v", "name": "retrogaming", "interactions": 32114, "users": 1723, "degree": 1, "strength": 90}, {"id": "t5_2s8fe", "name": "gamecollecting", "interactions": 35393, "users": 2393, "degree": 2, "strength": 175}], "edges": [{"source": "t5_2qk6v", "target": "t5_2s8fe", "shared_users": 90, "cosine": 0.04432293606036753, "jaccard": 0.022354694485842028}]}

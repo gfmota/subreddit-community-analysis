@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_6x1zhd", "name": "tiktokdramadk", "interactions": 13220, "users": 945, "degree": 1, "strength": 222}, {"id": "t5_9wytzx", "name": "Rediot", "interactions": 3171, "users": 315, "degree": 1, "strength": 222}], "edges": [{"source": "t5_6x1zhd", "target": "t5_9wytzx", "shared_users": 222, "cosine": 0.4068944754288791, "jaccard": 0.2138728323699422}]}

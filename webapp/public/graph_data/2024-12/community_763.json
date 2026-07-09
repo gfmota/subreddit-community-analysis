@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2dmvki", "name": "Wellbutrin_Bupropion", "interactions": 6428, "users": 692, "degree": 1, "strength": 71}, {"id": "t5_xuccg", "name": "bupropion", "interactions": 6746, "users": 804, "degree": 1, "strength": 71}], "edges": [{"source": "t5_2dmvki", "target": "t5_xuccg", "shared_users": 71, "cosine": 0.09518692059257189, "jaccard": 0.04982456140350877}]}

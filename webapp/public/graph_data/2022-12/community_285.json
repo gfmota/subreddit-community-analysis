@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2ntkrt", "name": "CelebWivesofNashville", "interactions": 4991, "users": 415, "degree": 1, "strength": 69}, {"id": "t5_5hybab", "name": "MWWives", "interactions": 4695, "users": 382, "degree": 1, "strength": 69}], "edges": [{"source": "t5_2ntkrt", "target": "t5_5hybab", "shared_users": 69, "cosine": 0.17329792430114418, "jaccard": 0.09478021978021978}]}

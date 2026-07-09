@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sird", "name": "mangaswap", "interactions": 11713, "users": 953, "degree": 1, "strength": 180}, {"id": "t5_3p7rg", "name": "MangaCollectors", "interactions": 25918, "users": 2194, "degree": 1, "strength": 180}], "edges": [{"source": "t5_2sird", "target": "t5_3p7rg", "shared_users": 180, "cosine": 0.12448233989714609, "jaccard": 0.06066734074823053}]}

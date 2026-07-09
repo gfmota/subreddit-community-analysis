@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_34n2x", "name": "FFBraveExvius", "interactions": 26797, "users": 1552, "degree": 1, "strength": 208}, {"id": "t5_nc60j", "name": "FFBEblog", "interactions": 5379, "users": 310, "degree": 1, "strength": 208}], "edges": [{"source": "t5_34n2x", "target": "t5_nc60j", "shared_users": 208, "cosine": 0.29987249257940696, "jaccard": 0.12575574365175332}]}

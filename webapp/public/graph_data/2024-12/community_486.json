@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_8ohkqn", "name": "HomewreckerGIRLS", "interactions": 29940, "users": 779, "degree": 1, "strength": 82}, {"id": "t5_a1rhic", "name": "HomeWrecker101", "interactions": 34315, "users": 999, "degree": 1, "strength": 82}], "edges": [{"source": "t5_8ohkqn", "target": "t5_a1rhic", "shared_users": 82, "cosine": 0.09295277922975169, "jaccard": 0.04834905660377359}]}

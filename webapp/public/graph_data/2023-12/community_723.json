@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2umwf", "name": "Type1Diabetes", "interactions": 10248, "users": 936, "degree": 1, "strength": 184}, {"id": "t5_2vzrv", "name": "diabetes_t1", "interactions": 15473, "users": 1442, "degree": 1, "strength": 184}], "edges": [{"source": "t5_2umwf", "target": "t5_2vzrv", "shared_users": 184, "cosine": 0.15837888035992653, "jaccard": 0.08386508659981769}]}

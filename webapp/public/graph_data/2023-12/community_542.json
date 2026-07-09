@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2ri8e", "name": "yiff", "interactions": 10941, "users": 881, "degree": 1, "strength": 72}, {"id": "t5_q0nns", "name": "FurryPornSubreddit", "interactions": 4587, "users": 277, "degree": 1, "strength": 72}], "edges": [{"source": "t5_2ri8e", "target": "t5_q0nns", "shared_users": 72, "cosine": 0.14574868923326903, "jaccard": 0.06629834254143646}]}

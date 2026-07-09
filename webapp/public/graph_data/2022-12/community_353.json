@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qrxs", "name": "Roleplay", "interactions": 5796, "users": 851, "degree": 1, "strength": 131}, {"id": "t5_32fff", "name": "RoleplayPartnerSearch", "interactions": 2847, "users": 335, "degree": 1, "strength": 131}], "edges": [{"source": "t5_2qrxs", "target": "t5_32fff", "shared_users": 131, "cosine": 0.2453488982455788, "jaccard": 0.12417061611374408}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3azd2", "name": "fakebaseball", "interactions": 7815, "users": 360, "degree": 1, "strength": 85}, {"id": "t5_j9g65", "name": "BaseballbytheNumbers", "interactions": 3385, "users": 183, "degree": 1, "strength": 85}], "edges": [{"source": "t5_3azd2", "target": "t5_j9g65", "shared_users": 85, "cosine": 0.33116324573363065, "jaccard": 0.185589519650655}]}

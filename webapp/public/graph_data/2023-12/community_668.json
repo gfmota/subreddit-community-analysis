@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2r528", "name": "Avatar", "interactions": 11556, "users": 698, "degree": 1, "strength": 119}, {"id": "t5_4le5hz", "name": "FrontiersOfPandora", "interactions": 25744, "users": 2136, "degree": 1, "strength": 119}], "edges": [{"source": "t5_2r528", "target": "t5_4le5hz", "shared_users": 119, "cosine": 0.09745825384987747, "jaccard": 0.04383057090239411}]}

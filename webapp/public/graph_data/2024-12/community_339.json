@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qs1d", "name": "SleepApnea", "interactions": 11389, "users": 888, "degree": 1, "strength": 104}, {"id": "t5_2s99h", "name": "CPAP", "interactions": 17795, "users": 1347, "degree": 1, "strength": 104}], "edges": [{"source": "t5_2qs1d", "target": "t5_2s99h", "shared_users": 104, "cosine": 0.09509179787134892, "jaccard": 0.048803378695448145}]}

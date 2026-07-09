@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qxpt", "name": "EroticArt", "interactions": 2895, "users": 228, "degree": 1, "strength": 94}, {"id": "t5_2ug7g", "name": "NSFWart", "interactions": 4422, "users": 403, "degree": 1, "strength": 94}], "edges": [{"source": "t5_2qxpt", "target": "t5_2ug7g", "shared_users": 94, "cosine": 0.3101043847504734, "jaccard": 0.1750465549348231}]}

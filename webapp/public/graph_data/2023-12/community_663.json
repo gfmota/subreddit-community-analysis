@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2nrc55", "name": "UnrealEngine5", "interactions": 5148, "users": 569, "degree": 1, "strength": 122}, {"id": "t5_2x11n", "name": "unrealengine", "interactions": 12877, "users": 1427, "degree": 1, "strength": 122}], "edges": [{"source": "t5_2nrc55", "target": "t5_2x11n", "shared_users": 122, "cosine": 0.13539159698954392, "jaccard": 0.06510138740661686}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2tdyx", "name": "BadGirlsClub", "interactions": 7725, "users": 469, "degree": 1, "strength": 78}, {"id": "t5_6i66so", "name": "BaddiesSouth", "interactions": 16692, "users": 1156, "degree": 1, "strength": 78}], "edges": [{"source": "t5_2tdyx", "target": "t5_6i66so", "shared_users": 78, "cosine": 0.10593251038261643, "jaccard": 0.05042016806722689}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_4xhh99", "name": "Littlesleepies", "interactions": 3117, "users": 288, "degree": 1, "strength": 72}, {"id": "t5_8qdctu", "name": "BambooBabble", "interactions": 6870, "users": 546, "degree": 1, "strength": 72}], "edges": [{"source": "t5_4xhh99", "target": "t5_8qdctu", "shared_users": 72, "cosine": 0.18156825980064073, "jaccard": 0.09448818897637795}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_4l29kb", "name": "dutchrp", "interactions": 4711, "users": 568, "degree": 1, "strength": 143}, {"id": "t5_9j6sgt", "name": "samengeiltrekken", "interactions": 1642, "users": 263, "degree": 1, "strength": 143}], "edges": [{"source": "t5_4l29kb", "target": "t5_9j6sgt", "shared_users": 143, "cosine": 0.3699848962253811, "jaccard": 0.20784883720930233}]}

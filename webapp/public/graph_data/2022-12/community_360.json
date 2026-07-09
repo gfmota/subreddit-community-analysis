@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2xy8z", "name": "fednews", "interactions": 17429, "users": 1521, "degree": 1, "strength": 184}, {"id": "t5_36omy", "name": "usajobs", "interactions": 11505, "users": 1069, "degree": 1, "strength": 184}], "edges": [{"source": "t5_2xy8z", "target": "t5_36omy", "shared_users": 184, "cosine": 0.14429934620258636, "jaccard": 0.07647547797173733}]}

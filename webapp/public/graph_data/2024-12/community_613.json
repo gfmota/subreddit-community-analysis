@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2x0pf", "name": "Arrowheads", "interactions": 9518, "users": 736, "degree": 1, "strength": 101}, {"id": "t5_9j20vf", "name": "LegitArtifacts", "interactions": 4862, "users": 298, "degree": 1, "strength": 101}], "edges": [{"source": "t5_2x0pf", "target": "t5_9j20vf", "shared_users": 101, "cosine": 0.2156623506533982, "jaccard": 0.1082529474812433}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2k98zj", "name": "PNW_4_Adults", "interactions": 11416, "users": 1062, "degree": 1, "strength": 181}, {"id": "t5_319ecj", "name": "SeattleGW", "interactions": 9257, "users": 642, "degree": 1, "strength": 181}], "edges": [{"source": "t5_2k98zj", "target": "t5_319ecj", "shared_users": 181, "cosine": 0.21920416537183293, "jaccard": 0.11884438608010506}]}

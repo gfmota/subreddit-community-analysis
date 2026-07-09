@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_25rtny", "name": "WalgreensRx", "interactions": 5528, "users": 611, "degree": 1, "strength": 115}, {"id": "t5_33erf", "name": "WalgreensStores", "interactions": 14316, "users": 1353, "degree": 1, "strength": 115}], "edges": [{"source": "t5_25rtny", "target": "t5_33erf", "shared_users": 115, "cosine": 0.12648188719344552, "jaccard": 0.062195781503515415}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_6ie9o7", "name": "DEvier", "interactions": 10947, "users": 316, "degree": 1, "strength": 123}, {"id": "t5_b6funh", "name": "DePi", "interactions": 13774, "users": 540, "degree": 1, "strength": 123}], "edges": [{"source": "t5_6ie9o7", "target": "t5_b6funh", "shared_users": 123, "cosine": 0.29775885805923996, "jaccard": 0.16780354706684858}]}

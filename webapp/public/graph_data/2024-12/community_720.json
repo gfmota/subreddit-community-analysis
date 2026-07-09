@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2tuob", "name": "deltaforce", "interactions": 3507, "users": 433, "degree": 1, "strength": 133}, {"id": "t5_awr9tg", "name": "DeltaForceGlobal", "interactions": 46857, "users": 3907, "degree": 1, "strength": 133}], "edges": [{"source": "t5_2tuob", "target": "t5_awr9tg", "shared_users": 133, "cosine": 0.10225533766622628, "jaccard": 0.03161397670549085}]}

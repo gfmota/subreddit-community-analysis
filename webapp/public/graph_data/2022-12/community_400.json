@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2x3i0", "name": "BulkOrCut", "interactions": 7705, "users": 776, "degree": 1, "strength": 69}, {"id": "t5_372io", "name": "GettingShredded", "interactions": 17950, "users": 1492, "degree": 1, "strength": 69}], "edges": [{"source": "t5_2x3i0", "target": "t5_372io", "shared_users": 69, "cosine": 0.06412595095611304, "jaccard": 0.03137789904502047}]}

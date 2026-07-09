@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_37lxm", "name": "mkxmobile", "interactions": 19300, "users": 822, "degree": 1, "strength": 79}, {"id": "t5_4v3p5d", "name": "StarInSkyClub", "interactions": 7335, "users": 386, "degree": 1, "strength": 79}], "edges": [{"source": "t5_37lxm", "target": "t5_4v3p5d", "shared_users": 79, "cosine": 0.14024827560681602, "jaccard": 0.06997342781222321}]}

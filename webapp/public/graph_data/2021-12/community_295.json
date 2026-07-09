@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2scn9", "name": "23andme", "interactions": 15731, "users": 1190, "degree": 1, "strength": 76}, {"id": "t5_3rlxu8", "name": "phenotypes", "interactions": 12672, "users": 489, "degree": 1, "strength": 76}], "edges": [{"source": "t5_2scn9", "target": "t5_3rlxu8", "shared_users": 76, "cosine": 0.09962897953712811, "jaccard": 0.047411104179663134}]}

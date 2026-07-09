@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2twma", "name": "HermitCraft", "interactions": 15473, "users": 1410, "degree": 1, "strength": 190}, {"id": "t5_4abse2", "name": "ThirdLifeSMP", "interactions": 26335, "users": 1794, "degree": 1, "strength": 190}], "edges": [{"source": "t5_2twma", "target": "t5_4abse2", "shared_users": 190, "cosine": 0.11946283730939718, "jaccard": 0.0630391506303915}]}

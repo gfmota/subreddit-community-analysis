@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3vxg7x", "name": "Tampabaydick", "interactions": 3479, "users": 384, "degree": 1, "strength": 103}, {"id": "t5_73wdfe", "name": "TampaBayAreaR4R", "interactions": 6702, "users": 600, "degree": 1, "strength": 103}], "edges": [{"source": "t5_3vxg7x", "target": "t5_73wdfe", "shared_users": 103, "cosine": 0.21458333333333332, "jaccard": 0.11691259931895573}]}

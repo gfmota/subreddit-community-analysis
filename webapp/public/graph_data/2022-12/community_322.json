@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qlkx", "name": "Hunting", "interactions": 33673, "users": 2528, "degree": 2, "strength": 202}, {"id": "t5_2stpz", "name": "bowhunting", "interactions": 5900, "users": 553, "degree": 1, "strength": 77}], "edges": [{"source": "t5_2qlkx", "target": "t5_2stpz", "shared_users": 77, "cosine": 0.06512378363055911, "jaccard": 0.02563249001331558}]}

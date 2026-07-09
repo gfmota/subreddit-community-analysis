@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2y7ty4", "name": "retroid", "interactions": 9503, "users": 916, "degree": 1, "strength": 85}, {"id": "t5_dgcm1", "name": "SBCGaming", "interactions": 12049, "users": 978, "degree": 1, "strength": 85}], "edges": [{"source": "t5_2y7ty4", "target": "t5_dgcm1", "shared_users": 85, "cosine": 0.08980525729820936, "jaccard": 0.046987285793255944}]}

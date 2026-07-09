@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_33t5h", "name": "TOTK", "interactions": 11480, "users": 775, "degree": 1, "strength": 94}, {"id": "t5_6zlggw", "name": "tearsofthekingdom", "interactions": 16831, "users": 1006, "degree": 1, "strength": 94}], "edges": [{"source": "t5_33t5h", "target": "t5_6zlggw", "shared_users": 94, "cosine": 0.10645792868126831, "jaccard": 0.05572021339656195}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3opwf", "name": "DDLC", "interactions": 32002, "users": 1360, "degree": 1, "strength": 61}, {"id": "t5_3pozq", "name": "DDLCMods", "interactions": 4538, "users": 340, "degree": 1, "strength": 61}], "edges": [{"source": "t5_3opwf", "target": "t5_3pozq", "shared_users": 61, "cosine": 0.08970588235294118, "jaccard": 0.03721781574130567}]}

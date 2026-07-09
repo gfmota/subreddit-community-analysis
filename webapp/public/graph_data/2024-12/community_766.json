@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_5zvcfk", "name": "midjourney", "interactions": 21069, "users": 1067, "degree": 1, "strength": 101}, {"id": "t5_fwb59", "name": "aivideo", "interactions": 11641, "users": 750, "degree": 1, "strength": 101}], "edges": [{"source": "t5_5zvcfk", "target": "t5_fwb59", "shared_users": 101, "cosine": 0.1129037930240842, "jaccard": 0.058857808857808856}]}

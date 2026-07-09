@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2r4wm", "name": "chickens", "interactions": 13444, "users": 974, "degree": 1, "strength": 194}, {"id": "t5_2sdri", "name": "BackYardChickens", "interactions": 15836, "users": 1126, "degree": 1, "strength": 194}], "edges": [{"source": "t5_2r4wm", "target": "t5_2sdri", "shared_users": 194, "cosine": 0.1852477988166661, "jaccard": 0.10178384050367262}]}

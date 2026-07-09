@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2twkac", "name": "CharlestonNSFW", "interactions": 1883, "users": 214, "degree": 1, "strength": 99}, {"id": "t5_468451", "name": "CharlestonSCHookups", "interactions": 2457, "users": 342, "degree": 1, "strength": 99}], "edges": [{"source": "t5_2twkac", "target": "t5_468451", "shared_users": 99, "cosine": 0.365944525804871, "jaccard": 0.21663019693654267}]}

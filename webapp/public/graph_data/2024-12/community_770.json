@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2r11c", "name": "grunge", "interactions": 15355, "users": 814, "degree": 1, "strength": 56}, {"id": "t5_2u9bf", "name": "AliceInChains", "interactions": 9449, "users": 730, "degree": 1, "strength": 56}], "edges": [{"source": "t5_2r11c", "target": "t5_2u9bf", "shared_users": 56, "cosine": 0.072646449654265, "jaccard": 0.03763440860215054}]}

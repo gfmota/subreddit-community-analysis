@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_43ec6r", "name": "indianahookup", "interactions": 3142, "users": 437, "degree": 1, "strength": 121}, {"id": "t5_y9x67", "name": "IndianaNsfw", "interactions": 4945, "users": 547, "degree": 1, "strength": 121}], "edges": [{"source": "t5_43ec6r", "target": "t5_y9x67", "shared_users": 121, "cosine": 0.24748620072800948, "jaccard": 0.14020857473928158}]}

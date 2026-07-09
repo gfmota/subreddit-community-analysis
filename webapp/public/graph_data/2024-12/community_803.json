@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2roju", "name": "subwoofer", "interactions": 3498, "users": 319, "degree": 1, "strength": 84}, {"id": "t5_2t73y", "name": "CarAV", "interactions": 24473, "users": 2011, "degree": 1, "strength": 84}], "edges": [{"source": "t5_2roju", "target": "t5_2t73y", "shared_users": 84, "cosine": 0.10487643331117928, "jaccard": 0.037399821905609976}]}

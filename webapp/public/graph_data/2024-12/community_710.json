@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2xlpv", "name": "Carts", "interactions": 3432, "users": 430, "degree": 1, "strength": 114}, {"id": "t5_yt6in", "name": "fakecartridges", "interactions": 26793, "users": 2071, "degree": 1, "strength": 114}], "edges": [{"source": "t5_2xlpv", "target": "t5_yt6in", "shared_users": 114, "cosine": 0.12080379400516461, "jaccard": 0.04775869291998324}]}

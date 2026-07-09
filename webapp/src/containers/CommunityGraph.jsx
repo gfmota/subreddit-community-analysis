@@ -3,6 +3,7 @@ import { SigmaContainer, useLoadGraph } from "@react-sigma/core";
 import "@react-sigma/core/lib/style.css";
 import { getColor } from "../utils/colors";
 import { buildGraph, applyLayout } from "../utils/graph";
+import { resolveColorKey } from "../utils/trajectories";
 import { useFetchJson } from "../hooks/useFetchJson";
 import { useAppState } from "../state/AppStateContext";
 import DragHandler from "../components/DragHandler";
@@ -15,7 +16,7 @@ import SizeFilter from "../components/SizeFilter";
 
 const communitySizeKey = (raw) => raw.size;
 
-function GraphLoader({ date, onDataLoaded, onGraphReady, scaleRef }) {
+function GraphLoader({ date, trajectories, onDataLoaded, onGraphReady, scaleRef }) {
   const loadGraph = useLoadGraph();
   const { data } = useFetchJson(`/graph_data/${date}/communities.json`);
 
@@ -26,7 +27,7 @@ function GraphLoader({ date, onDataLoaded, onGraphReady, scaleRef }) {
       sizeValue: (n) => n.size,
       nodeAttrs: (node) => ({
         label: node.label.toString(),
-        color: getColor(node.id),
+        color: getColor(resolveColorKey(trajectories, date, node.id)),
       }),
       edgeAttrs: (edge) => ({
         size: 1,
@@ -42,13 +43,13 @@ function GraphLoader({ date, onDataLoaded, onGraphReady, scaleRef }) {
     loadGraph(graph);
     onDataLoaded(data.nodes.length, data.edges.length);
     onGraphReady(graph);
-  }, [data, loadGraph, onDataLoaded, onGraphReady, scaleRef]);
+  }, [data, date, trajectories, loadGraph, onDataLoaded, onGraphReady, scaleRef]);
 
   return null;
 }
 
 export default function CommunityGraph() {
-  const { selectedDate, selectCommunity } = useAppState();
+  const { selectedDate, selectCommunity, trajectories } = useAppState();
   const [stats, setStats] = useState(null);
   const [graph, setGraph] = useState(null);
   const [highlightedCommunity, setHighlightedCommunity] = useState(null);
@@ -104,6 +105,7 @@ export default function CommunityGraph() {
           <DragHandler />
           <GraphLoader
             date={selectedDate}
+            trajectories={trajectories}
             onDataLoaded={handleDataLoaded}
             onGraphReady={handleGraphReady}
             scaleRef={scaleRef}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3ij8fu", "name": "HyderabadGW2", "interactions": 4562, "users": 451, "degree": 1, "strength": 131}, {"id": "t5_59fwyk", "name": "Hyderabad_hookups", "interactions": 6142, "users": 469, "degree": 1, "strength": 131}], "edges": [{"source": "t5_3ij8fu", "target": "t5_59fwyk", "shared_users": 131, "cosine": 0.2848371314178319, "jaccard": 0.16603295310519645}]}

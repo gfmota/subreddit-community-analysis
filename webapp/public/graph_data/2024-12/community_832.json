@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2joqz9", "name": "OutlastTrials", "interactions": 10359, "users": 968, "degree": 1, "strength": 129}, {"id": "t5_2v566", "name": "outlast", "interactions": 5753, "users": 492, "degree": 1, "strength": 129}], "edges": [{"source": "t5_2joqz9", "target": "t5_2v566", "shared_users": 129, "cosine": 0.1869258999662969, "jaccard": 0.09691960931630353}]}

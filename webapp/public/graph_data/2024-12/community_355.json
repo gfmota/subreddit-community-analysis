@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_73xzj7", "name": "OrlandoCasualR4R", "interactions": 6884, "users": 774, "degree": 1, "strength": 169}, {"id": "t5_kolch", "name": "orlandor4r", "interactions": 4669, "users": 394, "degree": 1, "strength": 169}], "edges": [{"source": "t5_73xzj7", "target": "t5_kolch", "shared_users": 169, "cosine": 0.3060328969239401, "jaccard": 0.16916916916916916}]}

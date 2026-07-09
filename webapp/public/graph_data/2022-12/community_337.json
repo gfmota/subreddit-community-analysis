@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2r5kb", "name": "FanFiction", "interactions": 76485, "users": 3802, "degree": 3, "strength": 752}, {"id": "t5_3c2cn", "name": "AO3", "interactions": 20334, "users": 1598, "degree": 1, "strength": 484}], "edges": [{"source": "t5_2r5kb", "target": "t5_3c2cn", "shared_users": 484, "cosine": 0.19635904801400095, "jaccard": 0.0984540276647681}]}

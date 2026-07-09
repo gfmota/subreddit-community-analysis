@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_30u6a", "name": "DFWcasualencounters", "interactions": 10693, "users": 1251, "degree": 1, "strength": 175}, {"id": "t5_3cscce", "name": "DFWHotwives", "interactions": 3424, "users": 472, "degree": 1, "strength": 175}], "edges": [{"source": "t5_30u6a", "target": "t5_3cscce", "shared_users": 175, "cosine": 0.2277395166216704, "jaccard": 0.11304909560723514}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_7uomzp", "name": "utahgayhookup", "interactions": 2314, "users": 356, "degree": 1, "strength": 104}, {"id": "t5_7x6dnv", "name": "biutahguys", "interactions": 2283, "users": 276, "degree": 1, "strength": 104}], "edges": [{"source": "t5_7uomzp", "target": "t5_7x6dnv", "shared_users": 104, "cosine": 0.3317827475395484, "jaccard": 0.19696969696969696}]}

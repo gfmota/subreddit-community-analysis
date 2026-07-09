@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2pnqin", "name": "BBCJustice", "interactions": 10936, "users": 634, "degree": 1, "strength": 54}, {"id": "t5_3k4z9", "name": "BlackWorldOrder", "interactions": 9436, "users": 490, "degree": 1, "strength": 54}], "edges": [{"source": "t5_2pnqin", "target": "t5_3k4z9", "shared_users": 54, "cosine": 0.0968837835799276, "jaccard": 0.05046728971962617}]}

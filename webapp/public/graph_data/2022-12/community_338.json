@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_28toh8", "name": "MichiganGayBiMen", "interactions": 2580, "users": 209, "degree": 1, "strength": 89}, {"id": "t5_3ag3j", "name": "gaymichigan", "interactions": 4170, "users": 545, "degree": 1, "strength": 89}], "edges": [{"source": "t5_28toh8", "target": "t5_3ag3j", "shared_users": 89, "cosine": 0.2637051506495151, "jaccard": 0.13383458646616542}]}

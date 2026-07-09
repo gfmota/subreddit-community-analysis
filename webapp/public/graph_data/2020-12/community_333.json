@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_p21sg", "name": "NorCalGonewild", "interactions": 2494, "users": 259, "degree": 1, "strength": 97}, {"id": "t5_xvozi", "name": "SacramentoGoneWild", "interactions": 3997, "users": 415, "degree": 1, "strength": 97}], "edges": [{"source": "t5_p21sg", "target": "t5_xvozi", "shared_users": 97, "cosine": 0.2958678691097276, "jaccard": 0.1681109185441941}]}

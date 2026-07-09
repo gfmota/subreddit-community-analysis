@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_72iaeg", "name": "BigLabiaEnergy", "interactions": 17247, "users": 683, "degree": 1, "strength": 67}, {"id": "t5_7s5j3q", "name": "hugelabialove", "interactions": 20545, "users": 777, "degree": 1, "strength": 67}], "edges": [{"source": "t5_72iaeg", "target": "t5_7s5j3q", "shared_users": 67, "cosine": 0.09197164227598151, "jaccard": 0.04809763101220388}]}

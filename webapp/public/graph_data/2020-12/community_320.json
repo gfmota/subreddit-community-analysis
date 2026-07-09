@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_244g7j", "name": "MenOfOnlyFans", "interactions": 5795, "users": 372, "degree": 1, "strength": 95}, {"id": "t5_2ea58h", "name": "onlyfansbros", "interactions": 6056, "users": 395, "degree": 1, "strength": 95}], "edges": [{"source": "t5_244g7j", "target": "t5_2ea58h", "shared_users": 95, "cosine": 0.24782983488406599, "jaccard": 0.14136904761904762}]}

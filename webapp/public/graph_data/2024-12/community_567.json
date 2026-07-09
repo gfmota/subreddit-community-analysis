@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2zf9m", "name": "ethereum", "interactions": 8109, "users": 494, "degree": 1, "strength": 140}, {"id": "t5_v7civ", "name": "ethfinance", "interactions": 10638, "users": 552, "degree": 1, "strength": 140}], "edges": [{"source": "t5_2zf9m", "target": "t5_v7civ", "shared_users": 140, "cosine": 0.2680988939871041, "jaccard": 0.1545253863134658}]}

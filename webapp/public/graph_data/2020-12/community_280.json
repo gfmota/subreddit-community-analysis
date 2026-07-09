@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2utnn", "name": "StateOfDecay", "interactions": 3959, "users": 325, "degree": 1, "strength": 95}, {"id": "t5_39zpz", "name": "StateofDecay2", "interactions": 7179, "users": 450, "degree": 1, "strength": 95}], "edges": [{"source": "t5_2utnn", "target": "t5_39zpz", "shared_users": 95, "cosine": 0.2484137711750331, "jaccard": 0.13970588235294118}]}

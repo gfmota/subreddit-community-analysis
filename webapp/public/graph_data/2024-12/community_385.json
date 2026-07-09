@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qj7g", "name": "hentai", "interactions": 23086, "users": 1528, "degree": 1, "strength": 97}, {"id": "t5_2qkd7", "name": "rule34", "interactions": 16869, "users": 1109, "degree": 1, "strength": 97}], "edges": [{"source": "t5_2qj7g", "target": "t5_2qkd7", "shared_users": 97, "cosine": 0.07451509922024213, "jaccard": 0.03818897637795276}]}

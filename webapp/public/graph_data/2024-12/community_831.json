@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2s0v1", "name": "MyChemicalRomance", "interactions": 29210, "users": 2474, "degree": 1, "strength": 54}, {"id": "t5_2uyxc", "name": "piercetheveil", "interactions": 12342, "users": 1416, "degree": 1, "strength": 54}], "edges": [{"source": "t5_2s0v1", "target": "t5_2uyxc", "shared_users": 54, "cosine": 0.028851093983581214, "jaccard": 0.014077163712200209}]}

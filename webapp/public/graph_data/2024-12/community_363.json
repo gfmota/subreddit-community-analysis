@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2riow", "name": "preppers", "interactions": 38086, "users": 1926, "degree": 2, "strength": 148}, {"id": "t5_5wnt5j", "name": "TwoXPreppers", "interactions": 22780, "users": 1177, "degree": 1, "strength": 79}], "edges": [{"source": "t5_2riow", "target": "t5_5wnt5j", "shared_users": 79, "cosine": 0.05246995823082001, "jaccard": 0.026124338624338623}]}

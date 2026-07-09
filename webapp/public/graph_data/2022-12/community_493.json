@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2w8pb", "name": "Indiemakeupandmore", "interactions": 9617, "users": 670, "degree": 1, "strength": 93}, {"id": "t5_393at", "name": "IndieExchange", "interactions": 1247, "users": 130, "degree": 1, "strength": 93}], "edges": [{"source": "t5_2w8pb", "target": "t5_393at", "shared_users": 93, "cosine": 0.3151184786208392, "jaccard": 0.13154172560113153}]}

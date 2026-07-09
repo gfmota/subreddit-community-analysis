@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sq9v", "name": "Stormlight_Archive", "interactions": 17908, "users": 1273, "degree": 1, "strength": 189}, {"id": "t5_2t7vi", "name": "Cosmere", "interactions": 14681, "users": 1028, "degree": 1, "strength": 189}], "edges": [{"source": "t5_2sq9v", "target": "t5_2t7vi", "shared_users": 189, "cosine": 0.16521559737872776, "jaccard": 0.08948863636363637}]}

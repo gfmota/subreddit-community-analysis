@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qu5n", "name": "polyamory", "interactions": 47574, "users": 2528, "degree": 1, "strength": 152}, {"id": "t5_2rc24", "name": "nonmonogamy", "interactions": 13696, "users": 941, "degree": 1, "strength": 152}], "edges": [{"source": "t5_2qu5n", "target": "t5_2rc24", "shared_users": 152, "cosine": 0.09855081982150675, "jaccard": 0.04582454024721134}]}

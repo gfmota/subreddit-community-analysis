@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_9m521o", "name": "cuckmeplz", "interactions": 5550, "users": 778, "degree": 1, "strength": 309}, {"id": "t5_9x1k7a", "name": "facetribs57627", "interactions": 8065, "users": 967, "degree": 1, "strength": 309}], "edges": [{"source": "t5_9m521o", "target": "t5_9x1k7a", "shared_users": 309, "cosine": 0.3562504682842279, "jaccard": 0.21518105849582173}]}

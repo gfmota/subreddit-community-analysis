@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2skgl", "name": "CanadianForces", "interactions": 14346, "users": 1363, "degree": 1, "strength": 131}, {"id": "t5_2x2jz", "name": "caf", "interactions": 5045, "users": 449, "degree": 1, "strength": 131}], "edges": [{"source": "t5_2skgl", "target": "t5_2x2jz", "shared_users": 131, "cosine": 0.16745580110828945, "jaccard": 0.07792980368828079}]}

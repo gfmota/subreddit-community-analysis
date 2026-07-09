@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qwwr", "name": "Metallica", "interactions": 38476, "users": 2965, "degree": 2, "strength": 297}, {"id": "t5_2s1dk", "name": "Megadeth", "interactions": 9516, "users": 799, "degree": 1, "strength": 126}], "edges": [{"source": "t5_2qwwr", "target": "t5_2s1dk", "shared_users": 126, "cosine": 0.08186246289913694, "jaccard": 0.034634414513468936}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_17du4p", "name": "HunSnark", "interactions": 31264, "users": 1444, "degree": 1, "strength": 104}, {"id": "t5_aj67zr", "name": "JoelFreemanEwoldsen", "interactions": 5324, "users": 199, "degree": 1, "strength": 104}], "edges": [{"source": "t5_17du4p", "target": "t5_aj67zr", "shared_users": 104, "cosine": 0.1940095929496498, "jaccard": 0.06757634827810266}]}

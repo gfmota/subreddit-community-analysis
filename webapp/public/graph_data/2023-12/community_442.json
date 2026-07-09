@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qs6h", "name": "Nepal", "interactions": 45394, "users": 3633, "degree": 1, "strength": 316}, {"id": "t5_zb6bc", "name": "technepal", "interactions": 3894, "users": 558, "degree": 1, "strength": 316}], "edges": [{"source": "t5_2qs6h", "target": "t5_zb6bc", "shared_users": 316, "cosine": 0.22194087004986693, "jaccard": 0.0815483870967742}]}

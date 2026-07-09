@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2w1k9", "name": "interstellar", "interactions": 21586, "users": 1865, "degree": 1, "strength": 174}, {"id": "t5_2xbiw", "name": "imax", "interactions": 16388, "users": 1314, "degree": 1, "strength": 174}], "edges": [{"source": "t5_2w1k9", "target": "t5_2xbiw", "shared_users": 174, "cosine": 0.11115068604495093, "jaccard": 0.057903494176372715}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_379nh", "name": "robloxhackers", "interactions": 13175, "users": 978, "degree": 1, "strength": 66}, {"id": "t5_ilbig", "name": "ROBLOXExploiting", "interactions": 2446, "users": 281, "degree": 1, "strength": 66}], "edges": [{"source": "t5_379nh", "target": "t5_ilbig", "shared_users": 66, "cosine": 0.12589872970990248, "jaccard": 0.055322715842414084}]}

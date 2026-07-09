@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2uylr", "name": "JapanTravel", "interactions": 15754, "users": 1276, "degree": 1, "strength": 193}, {"id": "t5_37afl", "name": "JapanTravelTips", "interactions": 17702, "users": 1660, "degree": 1, "strength": 193}], "edges": [{"source": "t5_2uylr", "target": "t5_37afl", "shared_users": 193, "cosine": 0.13261050465757845, "jaccard": 0.07036091870215093}]}

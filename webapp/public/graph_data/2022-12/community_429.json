@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_28t9e5", "name": "DutchGayGoneWild", "interactions": 3867, "users": 360, "degree": 1, "strength": 65}, {"id": "t5_64jxca", "name": "DutchGayDating", "interactions": 1952, "users": 286, "degree": 1, "strength": 65}], "edges": [{"source": "t5_28t9e5", "target": "t5_64jxca", "shared_users": 65, "cosine": 0.20257184783516574, "jaccard": 0.11187607573149742}]}

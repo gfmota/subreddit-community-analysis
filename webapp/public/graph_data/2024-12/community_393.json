@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3bi2f", "name": "BungouStrayDogs", "interactions": 22769, "users": 1346, "degree": 1, "strength": 180}, {"id": "t5_7y2oa6", "name": "BungouSimpBattles", "interactions": 6649, "users": 334, "degree": 1, "strength": 180}], "edges": [{"source": "t5_3bi2f", "target": "t5_7y2oa6", "shared_users": 180, "cosine": 0.2684582419208606, "jaccard": 0.12}]}

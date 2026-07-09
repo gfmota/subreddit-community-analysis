@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2r4jn", "name": "Jeep", "interactions": 14150, "users": 1371, "degree": 1, "strength": 134}, {"id": "t5_2u1rr", "name": "Wrangler", "interactions": 5360, "users": 561, "degree": 1, "strength": 134}], "edges": [{"source": "t5_2r4jn", "target": "t5_2u1rr", "shared_users": 134, "cosine": 0.15279341593761694, "jaccard": 0.07452725250278086}]}

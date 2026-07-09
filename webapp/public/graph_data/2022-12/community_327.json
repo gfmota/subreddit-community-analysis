@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3f1s6", "name": "Breath_of_the_Wild", "interactions": 40789, "users": 2240, "degree": 2, "strength": 270}, {"id": "t5_2r9f0", "name": "botw", "interactions": 14730, "users": 923, "degree": 1, "strength": 147}], "edges": [{"source": "t5_3f1s6", "target": "t5_2r9f0", "shared_users": 147, "cosine": 0.10223332245906135, "jaccard": 0.04874005305039788}]}

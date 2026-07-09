@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qhii", "name": "scuba", "interactions": 11444, "users": 992, "degree": 1, "strength": 70}, {"id": "t5_2tbfi", "name": "scubadiving", "interactions": 2961, "users": 242, "degree": 1, "strength": 70}], "edges": [{"source": "t5_2qhii", "target": "t5_2tbfi", "shared_users": 70, "cosine": 0.1428678538849346, "jaccard": 0.06013745704467354}]}

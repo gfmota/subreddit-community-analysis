@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2st8u", "name": "SFr4r", "interactions": 2479, "users": 396, "degree": 1, "strength": 73}, {"id": "t5_hgpmc", "name": "sfbaypersonals", "interactions": 2855, "users": 247, "degree": 1, "strength": 73}], "edges": [{"source": "t5_2st8u", "target": "t5_hgpmc", "shared_users": 73, "cosine": 0.23341394054332398, "jaccard": 0.1280701754385965}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_7vm1ii", "name": "juicyscoopsnark", "interactions": 7898, "users": 474, "degree": 1, "strength": 79}, {"id": "t5_838cj5", "name": "JeffLewisSirius", "interactions": 6204, "users": 384, "degree": 1, "strength": 79}], "edges": [{"source": "t5_7vm1ii", "target": "t5_838cj5", "shared_users": 79, "cosine": 0.18517071702740812, "jaccard": 0.10141206675224647}]}

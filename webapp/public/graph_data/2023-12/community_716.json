@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_21t8e4", "name": "BridgertonNetflix", "interactions": 7925, "users": 428, "degree": 1, "strength": 96}, {"id": "t5_6815yo", "name": "PolinBridgerton", "interactions": 4318, "users": 274, "degree": 1, "strength": 96}], "edges": [{"source": "t5_21t8e4", "target": "t5_6815yo", "shared_users": 96, "cosine": 0.28033289830124736, "jaccard": 0.15841584158415842}]}

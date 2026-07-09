@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2s6ky", "name": "LongDistance", "interactions": 24827, "users": 2274, "degree": 2, "strength": 220}, {"id": "t5_2rx8p", "name": "LDR", "interactions": 3717, "users": 392, "degree": 1, "strength": 110}], "edges": [{"source": "t5_2s6ky", "target": "t5_2rx8p", "shared_users": 110, "cosine": 0.11650764436547369, "jaccard": 0.04303599374021909}]}

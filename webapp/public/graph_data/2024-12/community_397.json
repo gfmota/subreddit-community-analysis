@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2td8l", "name": "Watercolor", "interactions": 17903, "users": 1194, "degree": 1, "strength": 93}, {"id": "t5_386h6", "name": "watercolor101", "interactions": 3802, "users": 278, "degree": 1, "strength": 93}], "edges": [{"source": "t5_2td8l", "target": "t5_386h6", "shared_users": 93, "cosine": 0.1614203881215515, "jaccard": 0.0674401740391588}]}

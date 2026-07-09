@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2wcd0", "name": "danganronpa", "interactions": 27121, "users": 1501, "degree": 1, "strength": 231}, {"id": "t5_9jyqj1", "name": "DanganAndChaos", "interactions": 16696, "users": 621, "degree": 1, "strength": 231}], "edges": [{"source": "t5_2wcd0", "target": "t5_9jyqj1", "shared_users": 231, "cosine": 0.2392631596830883, "jaccard": 0.12215758857747223}]}

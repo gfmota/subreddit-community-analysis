@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2thsj", "name": "LawFirm", "interactions": 7062, "users": 648, "degree": 1, "strength": 144}, {"id": "t5_2u7lz", "name": "Lawyertalk", "interactions": 35729, "users": 2494, "degree": 1, "strength": 144}], "edges": [{"source": "t5_2thsj", "target": "t5_2u7lz", "shared_users": 144, "cosine": 0.1132730943577198, "jaccard": 0.04803202134756504}]}

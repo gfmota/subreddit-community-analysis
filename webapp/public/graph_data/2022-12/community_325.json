@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qipv", "name": "Divorce", "interactions": 28249, "users": 2062, "degree": 2, "strength": 179}, {"id": "t5_30xzp", "name": "Divorce_Men", "interactions": 8140, "users": 530, "degree": 1, "strength": 75}], "edges": [{"source": "t5_2qipv", "target": "t5_30xzp", "shared_users": 75, "cosine": 0.0717429116164214, "jaccard": 0.029797377830750895}]}

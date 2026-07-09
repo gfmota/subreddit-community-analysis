@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2ror6", "name": "StudentLoans", "interactions": 27723, "users": 2095, "degree": 1, "strength": 110}, {"id": "t5_335oc", "name": "PSLF", "interactions": 24104, "users": 2097, "degree": 1, "strength": 110}], "edges": [{"source": "t5_2ror6", "target": "t5_335oc", "shared_users": 110, "cosine": 0.05248092200348503, "jaccard": 0.026947574718275354}]}

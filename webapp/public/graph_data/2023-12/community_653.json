@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qkju", "name": "cosplay", "interactions": 11909, "users": 807, "degree": 1, "strength": 107}, {"id": "t5_2tocz", "name": "cosplayers", "interactions": 9953, "users": 631, "degree": 1, "strength": 107}], "edges": [{"source": "t5_2qkju", "target": "t5_2tocz", "shared_users": 107, "cosine": 0.14994511813384473, "jaccard": 0.08039068369646882}]}

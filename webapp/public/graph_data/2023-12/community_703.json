@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rh53", "name": "Embroidery", "interactions": 22457, "users": 1383, "degree": 1, "strength": 70}, {"id": "t5_2rpor", "name": "CrossStitch", "interactions": 21705, "users": 1909, "degree": 1, "strength": 70}], "edges": [{"source": "t5_2rh53", "target": "t5_2rpor", "shared_users": 70, "cosine": 0.043080822450200916, "jaccard": 0.021725636250775917}]}

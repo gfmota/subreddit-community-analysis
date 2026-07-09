@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_46qgwe", "name": "Blackmailers", "interactions": 9922, "users": 890, "degree": 1, "strength": 154}, {"id": "t5_6ru802", "name": "blackmailfetish", "interactions": 5661, "users": 446, "degree": 1, "strength": 154}], "edges": [{"source": "t5_46qgwe", "target": "t5_6ru802", "shared_users": 154, "cosine": 0.2444321276911328, "jaccard": 0.13028764805414553}]}

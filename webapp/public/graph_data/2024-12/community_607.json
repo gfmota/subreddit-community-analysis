@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qixk", "name": "halo", "interactions": 35535, "users": 2269, "degree": 1, "strength": 65}, {"id": "t5_2vomh", "name": "HaloStory", "interactions": 6391, "users": 359, "degree": 1, "strength": 65}], "edges": [{"source": "t5_2qixk", "target": "t5_2vomh", "shared_users": 65, "cosine": 0.07201929809815573, "jaccard": 0.02536090518923137}]}

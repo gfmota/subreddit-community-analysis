@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_58102n", "name": "VRChatNSFW", "interactions": 2607, "users": 216, "degree": 1, "strength": 127}, {"id": "t5_vlmyq", "name": "VRChatERP", "interactions": 16738, "users": 1010, "degree": 1, "strength": 127}], "edges": [{"source": "t5_58102n", "target": "t5_vlmyq", "shared_users": 127, "cosine": 0.2719043518058996, "jaccard": 0.11555959963603275}]}

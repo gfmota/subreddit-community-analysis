@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_1387r9", "name": "AmazonFC", "interactions": 61445, "users": 4345, "degree": 2, "strength": 533}, {"id": "t5_ez8rn", "name": "FASCAmazon", "interactions": 9442, "users": 914, "degree": 1, "strength": 408}], "edges": [{"source": "t5_1387r9", "target": "t5_ez8rn", "shared_users": 408, "cosine": 0.20473503866077072, "jaccard": 0.08410636982065553}]}

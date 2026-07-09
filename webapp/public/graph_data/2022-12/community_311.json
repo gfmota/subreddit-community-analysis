@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_258mfq", "name": "memesITA", "interactions": 14146, "users": 984, "degree": 1, "strength": 68}, {"id": "t5_wz86i", "name": "Ratorix", "interactions": 4131, "users": 377, "degree": 1, "strength": 68}], "edges": [{"source": "t5_258mfq", "target": "t5_wz86i", "shared_users": 68, "cosine": 0.11164536255970205, "jaccard": 0.05259087393658159}]}

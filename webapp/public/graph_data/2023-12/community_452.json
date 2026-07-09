@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_24mm6m", "name": "wilbursoot", "interactions": 2387, "users": 283, "degree": 1, "strength": 67}, {"id": "t5_4crqrn", "name": "lovejoyband", "interactions": 6051, "users": 614, "degree": 1, "strength": 67}], "edges": [{"source": "t5_24mm6m", "target": "t5_4crqrn", "shared_users": 67, "cosine": 0.16073016826782094, "jaccard": 0.08072289156626505}]}

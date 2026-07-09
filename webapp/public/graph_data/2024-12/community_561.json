@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2ts8i", "name": "homegym", "interactions": 15328, "users": 1375, "degree": 1, "strength": 86}, {"id": "t5_3nyqr", "name": "GarageGym", "interactions": 2625, "users": 325, "degree": 1, "strength": 86}], "edges": [{"source": "t5_2ts8i", "target": "t5_3nyqr", "shared_users": 86, "cosine": 0.12864870582516372, "jaccard": 0.05328376703841388}]}

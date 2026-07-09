@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qpnj", "name": "gratefuldead", "interactions": 23752, "users": 1784, "degree": 2, "strength": 235}, {"id": "t5_2ql29", "name": "phish", "interactions": 24234, "users": 2184, "degree": 2, "strength": 247}], "edges": [{"source": "t5_2qpnj", "target": "t5_2ql29", "shared_users": 122, "cosine": 0.061806775768032604, "jaccard": 0.031721268850754034}]}

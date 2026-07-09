@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qh3h", "name": "dotnet", "interactions": 11774, "users": 1087, "degree": 1, "strength": 127}, {"id": "t5_2qhdf", "name": "csharp", "interactions": 9424, "users": 802, "degree": 1, "strength": 127}], "edges": [{"source": "t5_2qh3h", "target": "t5_2qhdf", "shared_users": 127, "cosine": 0.13601968500516354, "jaccard": 0.0720771850170261}]}

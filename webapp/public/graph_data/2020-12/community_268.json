@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rofz", "name": "Bestbuy", "interactions": 23899, "users": 2406, "degree": 1, "strength": 90}, {"id": "t5_2rrk9", "name": "GeekSquad", "interactions": 2242, "users": 324, "degree": 1, "strength": 90}], "edges": [{"source": "t5_2rofz", "target": "t5_2rrk9", "shared_users": 90, "cosine": 0.10193473373591622, "jaccard": 0.03409090909090909}]}

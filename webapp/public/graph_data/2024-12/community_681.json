@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2tny5", "name": "StardustCrusaders", "interactions": 34486, "users": 2235, "degree": 1, "strength": 70}, {"id": "t5_3f7q5", "name": "ShitPostCrusaders", "interactions": 15857, "users": 507, "degree": 1, "strength": 70}], "edges": [{"source": "t5_2tny5", "target": "t5_3f7q5", "shared_users": 70, "cosine": 0.06575901459142541, "jaccard": 0.02619760479041916}]}

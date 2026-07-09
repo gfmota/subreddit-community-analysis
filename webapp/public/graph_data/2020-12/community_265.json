@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rdhg", "name": "subaru", "interactions": 15927, "users": 1495, "degree": 1, "strength": 147}, {"id": "t5_2vbwe", "name": "WRX", "interactions": 19998, "users": 1801, "degree": 1, "strength": 147}], "edges": [{"source": "t5_2rdhg", "target": "t5_2vbwe", "shared_users": 147, "cosine": 0.08958594557543935, "jaccard": 0.046681486186090825}]}

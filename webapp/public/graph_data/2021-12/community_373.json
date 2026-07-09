@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rzez", "name": "rollercoasters", "interactions": 15537, "users": 1024, "degree": 1, "strength": 105}, {"id": "t5_3fg7o", "name": "rollercoasterjerk", "interactions": 3919, "users": 287, "degree": 1, "strength": 105}], "edges": [{"source": "t5_2rzez", "target": "t5_3fg7o", "shared_users": 105, "cosine": 0.19368606340812594, "jaccard": 0.08706467661691543}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_6e143o", "name": "ANTONBLAST", "interactions": 5350, "users": 330, "degree": 1, "strength": 57}, {"id": "t5_ugz41", "name": "PizzaTower", "interactions": 18820, "users": 925, "degree": 1, "strength": 57}], "edges": [{"source": "t5_6e143o", "target": "t5_ugz41", "shared_users": 57, "cosine": 0.10316847698660014, "jaccard": 0.04757929883138564}]}

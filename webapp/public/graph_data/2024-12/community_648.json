@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_34hq6", "name": "poshmark", "interactions": 8366, "users": 642, "degree": 1, "strength": 89}, {"id": "t5_rqgt2", "name": "BehindTheClosetDoor", "interactions": 4819, "users": 404, "degree": 1, "strength": 89}], "edges": [{"source": "t5_34hq6", "target": "t5_rqgt2", "shared_users": 89, "cosine": 0.1747558851154919, "jaccard": 0.09299895506792058}]}

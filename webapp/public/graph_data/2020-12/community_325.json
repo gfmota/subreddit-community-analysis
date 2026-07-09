@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qhue", "name": "electronics", "interactions": 5482, "users": 442, "degree": 1, "strength": 58}, {"id": "t5_2se13", "name": "AskElectronics", "interactions": 18242, "users": 1647, "degree": 1, "strength": 58}], "edges": [{"source": "t5_2qhue", "target": "t5_2se13", "shared_users": 58, "cosine": 0.06797826239446315, "jaccard": 0.028557360905957656}]}

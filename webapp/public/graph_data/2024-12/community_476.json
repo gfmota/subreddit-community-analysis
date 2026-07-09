@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qib3", "name": "sales", "interactions": 30547, "users": 2468, "degree": 1, "strength": 107}, {"id": "t5_2vnfb", "name": "techsales", "interactions": 4756, "users": 474, "degree": 1, "strength": 107}], "edges": [{"source": "t5_2qib3", "target": "t5_2vnfb", "shared_users": 107, "cosine": 0.09892863781735045, "jaccard": 0.037742504409171075}]}

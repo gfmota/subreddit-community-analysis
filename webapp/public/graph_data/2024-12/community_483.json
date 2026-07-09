@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2s4cy", "name": "insurgency", "interactions": 13592, "users": 1039, "degree": 1, "strength": 71}, {"id": "t5_51ebjz", "name": "InsurgencySandstorm", "interactions": 4524, "users": 346, "degree": 1, "strength": 71}], "edges": [{"source": "t5_2s4cy", "target": "t5_51ebjz", "shared_users": 71, "cosine": 0.11841658313982782, "jaccard": 0.05403348554033485}]}

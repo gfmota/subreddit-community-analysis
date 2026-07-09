@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2t2nt", "name": "vtm", "interactions": 12251, "users": 802, "degree": 1, "strength": 118}, {"id": "t5_2u6fa", "name": "WhiteWolfRPG", "interactions": 9771, "users": 635, "degree": 1, "strength": 118}], "edges": [{"source": "t5_2t2nt", "target": "t5_2u6fa", "shared_users": 118, "cosine": 0.16535143204309083, "jaccard": 0.08946171341925702}]}

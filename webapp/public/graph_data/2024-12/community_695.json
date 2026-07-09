@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2uhys", "name": "BHMGoneWild", "interactions": 6201, "users": 392, "degree": 1, "strength": 84}, {"id": "t5_472qai", "name": "Girls4FatGuys", "interactions": 15964, "users": 1117, "degree": 1, "strength": 84}], "edges": [{"source": "t5_2uhys", "target": "t5_472qai", "shared_users": 84, "cosine": 0.1269432655122271, "jaccard": 0.05894736842105263}]}

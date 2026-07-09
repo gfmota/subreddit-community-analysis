@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_37lnd", "name": "SATXgonewild", "interactions": 7162, "users": 783, "degree": 1, "strength": 131}, {"id": "t5_wtzlf", "name": "SanAntonioSwingers", "interactions": 2028, "users": 299, "degree": 1, "strength": 131}], "edges": [{"source": "t5_37lnd", "target": "t5_wtzlf", "shared_users": 131, "cosine": 0.2707414936049277, "jaccard": 0.1377497371188223}]}

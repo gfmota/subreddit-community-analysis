@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2vbk7", "name": "HayDay", "interactions": 27313, "users": 2582, "degree": 1, "strength": 140}, {"id": "t5_aslldm", "name": "HayDayDeco", "interactions": 2591, "users": 227, "degree": 1, "strength": 140}], "edges": [{"source": "t5_2vbk7", "target": "t5_aslldm", "shared_users": 140, "cosine": 0.18286769388868254, "jaccard": 0.05245410266017235}]}

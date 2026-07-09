@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2g9cxz", "name": "WeightGainTalk", "interactions": 2496, "users": 305, "degree": 1, "strength": 67}, {"id": "t5_3r2nm5", "name": "fatadmirertalk", "interactions": 2849, "users": 287, "degree": 1, "strength": 67}], "edges": [{"source": "t5_2g9cxz", "target": "t5_3r2nm5", "shared_users": 67, "cosine": 0.22645605358474097, "jaccard": 0.12761904761904763}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2ucfi", "name": "houstonr4r", "interactions": 14347, "users": 1132, "degree": 1, "strength": 91}, {"id": "t5_n32ny", "name": "htxgaybros", "interactions": 6152, "users": 863, "degree": 1, "strength": 91}], "edges": [{"source": "t5_2ucfi", "target": "t5_n32ny", "shared_users": 91, "cosine": 0.09206886324413475, "jaccard": 0.04779411764705882}]}

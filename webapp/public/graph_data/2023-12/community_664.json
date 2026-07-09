@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_33gvj", "name": "Stake", "interactions": 6370, "users": 791, "degree": 1, "strength": 111}, {"id": "t5_6rmwfi", "name": "stakeus", "interactions": 5670, "users": 572, "degree": 1, "strength": 111}], "edges": [{"source": "t5_33gvj", "target": "t5_6rmwfi", "shared_users": 111, "cosine": 0.16502005314379992, "jaccard": 0.08865814696485623}]}

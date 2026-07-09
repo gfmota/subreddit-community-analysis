@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_8erfew", "name": "utangPH", "interactions": 7816, "users": 842, "degree": 1, "strength": 86}, {"id": "t5_aw7ql3", "name": "ola_harassment", "interactions": 3634, "users": 290, "degree": 1, "strength": 86}], "edges": [{"source": "t5_8erfew", "target": "t5_aw7ql3", "shared_users": 86, "cosine": 0.17403772857905647, "jaccard": 0.08221797323135756}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_39d59", "name": "GermanCelebs", "interactions": 14861, "users": 644, "degree": 1, "strength": 252}, {"id": "t5_3l7tu4", "name": "InfluencerNSFW", "interactions": 45838, "users": 2393, "degree": 1, "strength": 252}], "edges": [{"source": "t5_39d59", "target": "t5_3l7tu4", "shared_users": 252, "cosine": 0.20299542858189148, "jaccard": 0.09048473967684022}]}

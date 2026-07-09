@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qpc3", "name": "Bass", "interactions": 20316, "users": 1792, "degree": 2, "strength": 239}, {"id": "t5_2qrky", "name": "BassGuitar", "interactions": 7402, "users": 707, "degree": 1, "strength": 120}], "edges": [{"source": "t5_2qpc3", "target": "t5_2qrky", "shared_users": 120, "cosine": 0.10661112752249884, "jaccard": 0.05044136191677175}]}

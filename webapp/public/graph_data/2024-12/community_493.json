@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sovd", "name": "ATC", "interactions": 5901, "users": 662, "degree": 1, "strength": 164}, {"id": "t5_apubpv", "name": "atc2", "interactions": 7252, "users": 531, "degree": 1, "strength": 164}], "edges": [{"source": "t5_2sovd", "target": "t5_apubpv", "shared_users": 164, "cosine": 0.27660981919386873, "jaccard": 0.15937803692905733}]}

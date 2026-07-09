@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qmlu", "name": "electronic_cigarette", "interactions": 7239, "users": 640, "degree": 1, "strength": 153}, {"id": "t5_2rg4n", "name": "Vaping", "interactions": 21187, "users": 1645, "degree": 1, "strength": 153}], "edges": [{"source": "t5_2qmlu", "target": "t5_2rg4n", "shared_users": 153, "cosine": 0.1491140248307174, "jaccard": 0.07176360225140713}]}

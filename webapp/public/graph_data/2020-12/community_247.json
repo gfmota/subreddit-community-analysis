@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qhrs", "name": "vegas", "interactions": 9680, "users": 755, "degree": 1, "strength": 144}, {"id": "t5_2xdzp", "name": "vegaslocals", "interactions": 6613, "users": 579, "degree": 1, "strength": 144}], "edges": [{"source": "t5_2qhrs", "target": "t5_2xdzp", "shared_users": 144, "cosine": 0.21779591730065864, "jaccard": 0.12100840336134454}]}

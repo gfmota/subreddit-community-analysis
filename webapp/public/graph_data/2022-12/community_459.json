@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2h9nzu", "name": "7DSGrandCross", "interactions": 5039, "users": 427, "degree": 1, "strength": 102}, {"id": "t5_xpfq5", "name": "SDSGrandCross", "interactions": 15697, "users": 1288, "degree": 1, "strength": 102}], "edges": [{"source": "t5_2h9nzu", "target": "t5_xpfq5", "shared_users": 102, "cosine": 0.13753977284300997, "jaccard": 0.06323620582765034}]}

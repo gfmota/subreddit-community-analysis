@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qvrw", "name": "pune", "interactions": 22406, "users": 2082, "degree": 1, "strength": 80}, {"id": "t5_2tu60", "name": "Maharashtra", "interactions": 11338, "users": 672, "degree": 1, "strength": 80}], "edges": [{"source": "t5_2qvrw", "target": "t5_2tu60", "shared_users": 80, "cosine": 0.06763398671799976, "jaccard": 0.029917726252804786}]}

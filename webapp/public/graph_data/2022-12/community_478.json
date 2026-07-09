@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_348z6", "name": "lovense", "interactions": 21536, "users": 1540, "degree": 1, "strength": 254}, {"id": "t5_3e8pp", "name": "ToyControl", "interactions": 4447, "users": 575, "degree": 1, "strength": 254}], "edges": [{"source": "t5_348z6", "target": "t5_3e8pp", "shared_users": 254, "cosine": 0.26992271516606375, "jaccard": 0.13648576034390114}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_aenqo4", "name": "wichsennsamstag", "interactions": 4295, "users": 452, "degree": 1, "strength": 79}, {"id": "t5_aeor5c", "name": "wichsbrooossamsta", "interactions": 3812, "users": 466, "degree": 1, "strength": 79}], "edges": [{"source": "t5_aenqo4", "target": "t5_aeor5c", "shared_users": 79, "cosine": 0.17213330823041548, "jaccard": 0.09415971394517282}]}

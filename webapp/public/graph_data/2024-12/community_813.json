@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2r828", "name": "schizophrenia", "interactions": 20057, "users": 1448, "degree": 1, "strength": 89}, {"id": "t5_2sfb8", "name": "schizoaffective", "interactions": 5410, "users": 496, "degree": 1, "strength": 89}], "edges": [{"source": "t5_2r828", "target": "t5_2sfb8", "shared_users": 89, "cosine": 0.10501827670622572, "jaccard": 0.04797843665768194}]}

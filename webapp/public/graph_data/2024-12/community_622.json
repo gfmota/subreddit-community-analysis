@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2vrf0", "name": "churning", "interactions": 9818, "users": 936, "degree": 1, "strength": 88}, {"id": "t5_35rd5", "name": "awardtravel", "interactions": 13659, "users": 1114, "degree": 1, "strength": 88}], "edges": [{"source": "t5_2vrf0", "target": "t5_35rd5", "shared_users": 88, "cosine": 0.08617913930656093, "jaccard": 0.04485219164118247}]}

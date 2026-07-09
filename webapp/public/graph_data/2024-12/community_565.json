@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sl1e", "name": "Dofus", "interactions": 14353, "users": 1381, "degree": 1, "strength": 102}, {"id": "t5_6oor59", "name": "DOFUS_FRANCE", "interactions": 3407, "users": 466, "degree": 1, "strength": 102}], "edges": [{"source": "t5_2sl1e", "target": "t5_6oor59", "shared_users": 102, "cosine": 0.1271482461852031, "jaccard": 0.05845272206303725}]}

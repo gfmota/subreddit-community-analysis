@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3fxj4", "name": "CanadianTeachers", "interactions": 7726, "users": 695, "degree": 1, "strength": 66}, {"id": "t5_706i8l", "name": "OntarioTeachers", "interactions": 2545, "users": 285, "degree": 1, "strength": 66}], "edges": [{"source": "t5_3fxj4", "target": "t5_706i8l", "shared_users": 66, "cosine": 0.1482958860590445, "jaccard": 0.07221006564551423}]}

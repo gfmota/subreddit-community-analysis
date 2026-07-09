@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rgny", "name": "ipad", "interactions": 25804, "users": 2160, "degree": 1, "strength": 96}, {"id": "t5_316hw", "name": "iPadPro", "interactions": 10264, "users": 859, "degree": 1, "strength": 96}], "edges": [{"source": "t5_2rgny", "target": "t5_316hw", "shared_users": 96, "cosine": 0.07047705945889653, "jaccard": 0.03284296955183031}]}

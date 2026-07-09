@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2w3o9", "name": "FrenchGoneWild", "interactions": 16004, "users": 795, "degree": 1, "strength": 61}, {"id": "t5_4qhj3u", "name": "Quebecoise", "interactions": 8105, "users": 506, "degree": 1, "strength": 61}], "edges": [{"source": "t5_2w3o9", "target": "t5_4qhj3u", "shared_users": 61, "cosine": 0.09617695261720138, "jaccard": 0.049193548387096775}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_12wqpf", "name": "MicrosoftFlightSim", "interactions": 18858, "users": 1822, "degree": 1, "strength": 209}, {"id": "t5_2qspy", "name": "flightsim", "interactions": 16114, "users": 1419, "degree": 1, "strength": 209}], "edges": [{"source": "t5_12wqpf", "target": "t5_2qspy", "shared_users": 209, "cosine": 0.12998130773415909, "jaccard": 0.06893139841688654}]}

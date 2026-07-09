@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2vs4r", "name": "BattleForDreamIsland", "interactions": 19901, "users": 962, "degree": 1, "strength": 66}, {"id": "t5_2zo8f", "name": "ObjectShows", "interactions": 4783, "users": 200, "degree": 1, "strength": 66}], "edges": [{"source": "t5_2vs4r", "target": "t5_2zo8f", "shared_users": 66, "cosine": 0.15046704835389257, "jaccard": 0.060218978102189784}]}

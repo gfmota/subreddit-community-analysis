@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qs0q", "name": "webdev", "interactions": 22749, "users": 2256, "degree": 1, "strength": 77}, {"id": "t5_2zldd", "name": "reactjs", "interactions": 8038, "users": 1067, "degree": 1, "strength": 77}], "edges": [{"source": "t5_2qs0q", "target": "t5_2zldd", "shared_users": 77, "cosine": 0.04962939348920466, "jaccard": 0.0237215033887862}]}

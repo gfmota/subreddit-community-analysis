@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rbfx", "name": "rockhounds", "interactions": 13875, "users": 1110, "degree": 1, "strength": 185}, {"id": "t5_2w6k5", "name": "whatsthisrock", "interactions": 30907, "users": 2150, "degree": 1, "strength": 185}], "edges": [{"source": "t5_2rbfx", "target": "t5_2w6k5", "shared_users": 185, "cosine": 0.11975427036777365, "jaccard": 0.06016260162601626}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qhrv", "name": "seduction", "interactions": 14042, "users": 1070, "degree": 1, "strength": 70}, {"id": "t5_2s7xh", "name": "askseddit", "interactions": 3490, "users": 292, "degree": 1, "strength": 70}], "edges": [{"source": "t5_2qhrv", "target": "t5_2s7xh", "shared_users": 70, "cosine": 0.1252318295727509, "jaccard": 0.05417956656346749}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_79yskj", "name": "Sklavensucht", "interactions": 6156, "users": 844, "degree": 1, "strength": 344}, {"id": "t5_7h8pv7", "name": "Sklavenerziehung", "interactions": 8078, "users": 1027, "degree": 1, "strength": 344}], "edges": [{"source": "t5_79yskj", "target": "t5_7h8pv7", "shared_users": 344, "cosine": 0.3694894116507175, "jaccard": 0.22527832351015062}]}

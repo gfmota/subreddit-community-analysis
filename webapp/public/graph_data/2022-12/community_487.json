@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sil5", "name": "TryingForABaby", "interactions": 14740, "users": 1218, "degree": 1, "strength": 120}, {"id": "t5_31bdc", "name": "TFABLinePorn", "interactions": 13079, "users": 1273, "degree": 1, "strength": 120}], "edges": [{"source": "t5_2sil5", "target": "t5_31bdc", "shared_users": 120, "cosine": 0.09637034196833386, "jaccard": 0.05061155630535639}]}

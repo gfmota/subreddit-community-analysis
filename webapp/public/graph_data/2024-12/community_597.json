@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2skjv", "name": "Beyblade", "interactions": 18399, "users": 1219, "degree": 1, "strength": 357}, {"id": "t5_80trlz", "name": "BeybladeX", "interactions": 11886, "users": 899, "degree": 1, "strength": 357}], "edges": [{"source": "t5_2skjv", "target": "t5_80trlz", "shared_users": 357, "cosine": 0.3410252354458373, "jaccard": 0.20272572402044292}]}

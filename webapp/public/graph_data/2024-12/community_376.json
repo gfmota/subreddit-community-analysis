@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_8gcijk", "name": "SleepTokenTheory", "interactions": 10478, "users": 740, "degree": 1, "strength": 214}, {"id": "t5_i1p5d", "name": "SleepToken", "interactions": 13786, "users": 1420, "degree": 1, "strength": 214}], "edges": [{"source": "t5_8gcijk", "target": "t5_i1p5d", "shared_users": 214, "cosine": 0.20876310195281714, "jaccard": 0.10996916752312436}]}

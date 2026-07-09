@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_70l8gt", "name": "Cebu_r4r", "interactions": 8043, "users": 922, "degree": 1, "strength": 241}, {"id": "t5_7jmy2w", "name": "HookupCebu", "interactions": 2610, "users": 460, "degree": 1, "strength": 241}], "edges": [{"source": "t5_70l8gt", "target": "t5_7jmy2w", "shared_users": 241, "cosine": 0.3700604445531062, "jaccard": 0.2112182296231376}]}

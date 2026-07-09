@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2tkwh", "name": "armoredcore", "interactions": 28475, "users": 1837, "degree": 1, "strength": 84}, {"id": "t5_7jf10r", "name": "ArmoredCoreVI", "interactions": 3641, "users": 267, "degree": 1, "strength": 84}], "edges": [{"source": "t5_2tkwh", "target": "t5_7jf10r", "shared_users": 84, "cosine": 0.11994138990604458, "jaccard": 0.041584158415841586}]}

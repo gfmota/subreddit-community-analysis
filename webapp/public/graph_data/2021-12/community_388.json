@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2s7wc", "name": "Sourdough", "interactions": 10048, "users": 819, "degree": 1, "strength": 79}, {"id": "t5_2s8h0", "name": "Breadit", "interactions": 15026, "users": 1227, "degree": 1, "strength": 79}], "edges": [{"source": "t5_2s7wc", "target": "t5_2s8h0", "shared_users": 79, "cosine": 0.07880664866037358, "jaccard": 0.04016268429079817}]}

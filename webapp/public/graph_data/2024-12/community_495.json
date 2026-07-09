@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sba4", "name": "ScottishFootball", "interactions": 40809, "users": 1451, "degree": 1, "strength": 162}, {"id": "t5_2snki", "name": "CelticFC", "interactions": 7942, "users": 484, "degree": 1, "strength": 162}], "edges": [{"source": "t5_2sba4", "target": "t5_2snki", "shared_users": 162, "cosine": 0.19331191696435232, "jaccard": 0.09137055837563451}]}

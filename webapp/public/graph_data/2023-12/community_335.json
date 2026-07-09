@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2r9tk", "name": "BDSMcommunity", "interactions": 16106, "users": 1273, "degree": 1, "strength": 182}, {"id": "t5_3a545", "name": "BDSMAdvice", "interactions": 26063, "users": 1907, "degree": 1, "strength": 182}], "edges": [{"source": "t5_2r9tk", "target": "t5_3a545", "shared_users": 182, "cosine": 0.11681048836171905, "jaccard": 0.06070713809206137}]}

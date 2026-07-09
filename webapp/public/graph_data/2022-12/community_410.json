@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2tkij", "name": "IVF", "interactions": 22676, "users": 1776, "degree": 1, "strength": 104}, {"id": "t5_2vy6k", "name": "InfertilityBabies", "interactions": 10039, "users": 514, "degree": 1, "strength": 104}], "edges": [{"source": "t5_2tkij", "target": "t5_2vy6k", "shared_users": 104, "cosine": 0.10885046761399865, "jaccard": 0.04757548032936871}]}

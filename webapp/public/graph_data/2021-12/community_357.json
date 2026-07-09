@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rlrf", "name": "Gunpla", "interactions": 35462, "users": 3099, "degree": 1, "strength": 263}, {"id": "t5_2sjr4", "name": "Gundam", "interactions": 24939, "users": 1711, "degree": 1, "strength": 263}], "edges": [{"source": "t5_2rlrf", "target": "t5_2sjr4", "shared_users": 263, "cosine": 0.11421416146077293, "jaccard": 0.057840334286342644}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2ys2j", "name": "AustralianMakeup", "interactions": 6380, "users": 630, "degree": 1, "strength": 67}, {"id": "t5_2zqxm", "name": "AusFemaleFashion", "interactions": 19937, "users": 1146, "degree": 1, "strength": 67}], "edges": [{"source": "t5_2ys2j", "target": "t5_2zqxm", "shared_users": 67, "cosine": 0.07885191029322482, "jaccard": 0.03920421299005266}]}

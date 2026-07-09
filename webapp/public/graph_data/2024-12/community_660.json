@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_38p4n", "name": "forhonor", "interactions": 31724, "users": 2462, "degree": 1, "strength": 300}, {"id": "t5_3jk0e", "name": "ForHonorRants", "interactions": 8247, "users": 624, "degree": 1, "strength": 300}], "edges": [{"source": "t5_38p4n", "target": "t5_3jk0e", "shared_users": 300, "cosine": 0.24203876906691077, "jaccard": 0.10768126346015794}]}

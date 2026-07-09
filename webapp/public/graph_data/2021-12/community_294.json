@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2t4e6", "name": "FtMPorn", "interactions": 9672, "users": 943, "degree": 1, "strength": 152}, {"id": "t5_addfp", "name": "ftmspunished", "interactions": 6825, "users": 428, "degree": 1, "strength": 152}], "edges": [{"source": "t5_2t4e6", "target": "t5_addfp", "shared_users": 152, "cosine": 0.2392576633929927, "jaccard": 0.12469237079573421}]}

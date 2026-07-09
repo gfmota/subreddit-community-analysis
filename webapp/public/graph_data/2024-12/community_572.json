@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qzpg", "name": "lebanon", "interactions": 33916, "users": 1929, "degree": 1, "strength": 98}, {"id": "t5_2uadd", "name": "Lebanese", "interactions": 5493, "users": 362, "degree": 1, "strength": 98}], "edges": [{"source": "t5_2qzpg", "target": "t5_2uadd", "shared_users": 98, "cosine": 0.11727506345428723, "jaccard": 0.04468764249886001}]}

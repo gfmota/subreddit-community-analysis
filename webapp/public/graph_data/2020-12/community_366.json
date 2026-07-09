@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sda0", "name": "fragrance", "interactions": 35220, "users": 2228, "degree": 2, "strength": 233}, {"id": "t5_2vmr7", "name": "fragranceswap", "interactions": 4845, "users": 434, "degree": 1, "strength": 154}], "edges": [{"source": "t5_2sda0", "target": "t5_2vmr7", "shared_users": 154, "cosine": 0.15660955763119128, "jaccard": 0.06140350877192982}]}

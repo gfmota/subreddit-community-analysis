@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2unet", "name": "Step2", "interactions": 7389, "users": 913, "degree": 1, "strength": 88}, {"id": "t5_37lrc", "name": "step1", "interactions": 15077, "users": 1576, "degree": 1, "strength": 88}], "edges": [{"source": "t5_2unet", "target": "t5_37lrc", "shared_users": 88, "cosine": 0.07336166455770525, "jaccard": 0.036651395251978344}]}

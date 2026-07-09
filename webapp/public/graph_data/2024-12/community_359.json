@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rxfl", "name": "Appliances", "interactions": 24849, "users": 2209, "degree": 1, "strength": 88}, {"id": "t5_2t10v", "name": "appliancerepair", "interactions": 10396, "users": 1216, "degree": 1, "strength": 88}], "edges": [{"source": "t5_2rxfl", "target": "t5_2t10v", "shared_users": 88, "cosine": 0.05369304409736552, "jaccard": 0.02637099190890021}]}

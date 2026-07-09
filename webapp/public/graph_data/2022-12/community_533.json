@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2tifv", "name": "hoggit", "interactions": 26702, "users": 2088, "degree": 2, "strength": 223}, {"id": "t5_2u2vx", "name": "dcsworld", "interactions": 5118, "users": 466, "degree": 1, "strength": 132}], "edges": [{"source": "t5_2tifv", "target": "t5_2u2vx", "shared_users": 132, "cosine": 0.13381836695763377, "jaccard": 0.054500412881915775}]}

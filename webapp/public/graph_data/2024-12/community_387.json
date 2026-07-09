@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_8fr2re", "name": "phR4RSouthies", "interactions": 7929, "users": 660, "degree": 1, "strength": 78}, {"id": "t5_bomptv", "name": "phr4rSouthLuzon", "interactions": 3539, "users": 263, "degree": 1, "strength": 78}], "edges": [{"source": "t5_8fr2re", "target": "t5_bomptv", "shared_users": 78, "cosine": 0.18721677537464404, "jaccard": 0.09230769230769231}]}

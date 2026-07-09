@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2j6d7j", "name": "DenverGW", "interactions": 7904, "users": 707, "degree": 1, "strength": 204}, {"id": "t5_31hhzn", "name": "Coloradosluts", "interactions": 8312, "users": 898, "degree": 1, "strength": 204}], "edges": [{"source": "t5_2j6d7j", "target": "t5_31hhzn", "shared_users": 204, "cosine": 0.256024951295208, "jaccard": 0.145610278372591}]}

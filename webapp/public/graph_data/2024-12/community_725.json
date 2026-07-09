@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sclw", "name": "crt", "interactions": 8228, "users": 545, "degree": 1, "strength": 125}, {"id": "t5_3c23m", "name": "crtgaming", "interactions": 18524, "users": 1483, "degree": 1, "strength": 125}], "edges": [{"source": "t5_2sclw", "target": "t5_3c23m", "shared_users": 125, "cosine": 0.13904045693718628, "jaccard": 0.06568575932737783}]}

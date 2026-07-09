@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qixf", "name": "bangladesh", "interactions": 21938, "users": 1483, "degree": 1, "strength": 420}, {"id": "t5_2s6vl", "name": "Dhaka", "interactions": 36723, "users": 3360, "degree": 1, "strength": 420}], "edges": [{"source": "t5_2qixf", "target": "t5_2s6vl", "shared_users": 420, "cosine": 0.1881521027145331, "jaccard": 0.09495817318562062}]}

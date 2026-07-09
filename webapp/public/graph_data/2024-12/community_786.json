@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rz4st", "name": "VoreRoleplaying", "interactions": 4123, "users": 331, "degree": 1, "strength": 91}, {"id": "t5_2s3m1", "name": "Vore", "interactions": 6974, "users": 732, "degree": 1, "strength": 91}], "edges": [{"source": "t5_2rz4st", "target": "t5_2s3m1", "shared_users": 91, "cosine": 0.18487230450496028, "jaccard": 0.09362139917695474}]}

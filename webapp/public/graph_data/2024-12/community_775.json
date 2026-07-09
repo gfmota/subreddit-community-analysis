@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_7lv9o6", "name": "aiwars", "interactions": 24859, "users": 825, "degree": 1, "strength": 156}, {"id": "t5_7lva3z", "name": "DefendingAIArt", "interactions": 13982, "users": 611, "degree": 1, "strength": 156}], "edges": [{"source": "t5_7lv9o6", "target": "t5_7lva3z", "shared_users": 156, "cosine": 0.21972375834364757, "jaccard": 0.121875}]}

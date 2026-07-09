@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_805nac", "name": "TransBootyShaking", "interactions": 4002, "users": 380, "degree": 1, "strength": 70}, {"id": "t5_9bf27i", "name": "EliteTranContent", "interactions": 7714, "users": 583, "degree": 1, "strength": 70}], "edges": [{"source": "t5_805nac", "target": "t5_9bf27i", "shared_users": 70, "cosine": 0.14872088608872047, "jaccard": 0.07838745800671892}]}

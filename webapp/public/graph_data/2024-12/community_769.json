@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_6qxeqs", "name": "Alabamagonewild1A", "interactions": 3924, "users": 293, "degree": 1, "strength": 134}, {"id": "t5_7kq2xe", "name": "alabamahotwife", "interactions": 5220, "users": 635, "degree": 1, "strength": 134}], "edges": [{"source": "t5_6qxeqs", "target": "t5_7kq2xe", "shared_users": 134, "cosine": 0.310659132768473, "jaccard": 0.16876574307304787}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3ieox", "name": "HSVpositive", "interactions": 16364, "users": 1156, "degree": 1, "strength": 134}, {"id": "t5_6kstt7", "name": "HerpesQuestions", "interactions": 4962, "users": 524, "degree": 1, "strength": 134}], "edges": [{"source": "t5_3ieox", "target": "t5_6kstt7", "shared_users": 134, "cosine": 0.17217109351849866, "jaccard": 0.08667529107373868}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_41jlq8", "name": "BSTsquishmallow", "interactions": 6781, "users": 509, "degree": 1, "strength": 214}, {"id": "t5_xnz2i", "name": "squishmallow", "interactions": 29420, "users": 2281, "degree": 1, "strength": 214}], "edges": [{"source": "t5_41jlq8", "target": "t5_xnz2i", "shared_users": 214, "cosine": 0.19860594279183907, "jaccard": 0.08307453416149069}]}

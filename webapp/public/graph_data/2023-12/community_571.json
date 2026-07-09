@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2r5bq", "name": "gshock", "interactions": 15593, "users": 1287, "degree": 1, "strength": 147}, {"id": "t5_2t7hn", "name": "casio", "interactions": 13379, "users": 1123, "degree": 1, "strength": 147}], "edges": [{"source": "t5_2r5bq", "target": "t5_2t7hn", "shared_users": 147, "cosine": 0.12227514406059756, "jaccard": 0.06495802032699956}]}

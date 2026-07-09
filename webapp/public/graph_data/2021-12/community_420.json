@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2w5fv", "name": "GunMemes", "interactions": 36302, "users": 2021, "degree": 3, "strength": 385}, {"id": "t5_3p8bds", "name": "brandonherrara", "interactions": 13728, "users": 922, "degree": 1, "strength": 140}], "edges": [{"source": "t5_2w5fv", "target": "t5_3p8bds", "shared_users": 140, "cosine": 0.1025603320835588, "jaccard": 0.049946485907955765}]}

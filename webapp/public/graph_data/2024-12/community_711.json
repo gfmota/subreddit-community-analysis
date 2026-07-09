@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rbii", "name": "eyes", "interactions": 21152, "users": 1376, "degree": 1, "strength": 103}, {"id": "t5_92odw2", "name": "WhatisMyEyeColour", "interactions": 13549, "users": 1014, "degree": 1, "strength": 103}], "edges": [{"source": "t5_2rbii", "target": "t5_92odw2", "shared_users": 103, "cosine": 0.0871985032226339, "jaccard": 0.04503716659379099}]}

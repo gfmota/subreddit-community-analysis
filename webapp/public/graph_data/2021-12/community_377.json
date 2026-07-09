@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2svyr", "name": "Miscarriage", "interactions": 4398, "users": 496, "degree": 1, "strength": 60}, {"id": "t5_34scd", "name": "ttcafterloss", "interactions": 5351, "users": 341, "degree": 1, "strength": 60}], "edges": [{"source": "t5_2svyr", "target": "t5_34scd", "shared_users": 60, "cosine": 0.14589258608601466, "jaccard": 0.07722007722007722}]}

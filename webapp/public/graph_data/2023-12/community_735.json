@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2lzfs1", "name": "BengaluruGays", "interactions": 4008, "users": 452, "degree": 1, "strength": 141}, {"id": "t5_2m02pt", "name": "gaybangalore", "interactions": 1821, "users": 219, "degree": 1, "strength": 141}], "edges": [{"source": "t5_2lzfs1", "target": "t5_2m02pt", "shared_users": 141, "cosine": 0.4481545786520901, "jaccard": 0.2660377358490566}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_33ene7", "name": "NCGW", "interactions": 11437, "users": 833, "degree": 1, "strength": 189}, {"id": "t5_3lxbr5", "name": "NCWives", "interactions": 8301, "users": 624, "degree": 1, "strength": 189}], "edges": [{"source": "t5_33ene7", "target": "t5_3lxbr5", "shared_users": 189, "cosine": 0.2621482776159584, "jaccard": 0.14905362776025236}]}

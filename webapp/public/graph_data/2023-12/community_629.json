@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3mdns", "name": "lookismcomic", "interactions": 49138, "users": 1890, "degree": 1, "strength": 210}, {"id": "t5_61lxuo", "name": "Quest_Supremacy", "interactions": 6833, "users": 316, "degree": 1, "strength": 210}], "edges": [{"source": "t5_3mdns", "target": "t5_61lxuo", "shared_users": 210, "cosine": 0.27173454408164116, "jaccard": 0.10521042084168336}]}

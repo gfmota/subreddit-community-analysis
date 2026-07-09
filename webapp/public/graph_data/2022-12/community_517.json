@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2scrt", "name": "ActionFigures", "interactions": 24867, "users": 1647, "degree": 1, "strength": 257}, {"id": "t5_3851f", "name": "MarvelLegends", "interactions": 30722, "users": 2130, "degree": 1, "strength": 257}], "edges": [{"source": "t5_2scrt", "target": "t5_3851f", "shared_users": 257, "cosine": 0.13721339880290992, "jaccard": 0.07301136363636364}]}

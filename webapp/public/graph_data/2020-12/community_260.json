@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2s7p2", "name": "Ultralight", "interactions": 19925, "users": 1536, "degree": 1, "strength": 121}, {"id": "t5_3j2wz", "name": "ULgeartrade", "interactions": 2368, "users": 339, "degree": 1, "strength": 121}], "edges": [{"source": "t5_2s7p2", "target": "t5_3j2wz", "shared_users": 121, "cosine": 0.16768333902868013, "jaccard": 0.06898517673888255}]}

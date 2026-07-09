@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2tsd7", "name": "linuxmemes", "interactions": 11530, "users": 801, "degree": 1, "strength": 101}, {"id": "t5_2ykcc", "name": "linuxmasterrace", "interactions": 13052, "users": 892, "degree": 1, "strength": 101}], "edges": [{"source": "t5_2tsd7", "target": "t5_2ykcc", "shared_users": 101, "cosine": 0.11948755886067196, "jaccard": 0.06344221105527638}]}

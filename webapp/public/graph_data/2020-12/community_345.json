@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3fy91", "name": "RepLadies", "interactions": 34461, "users": 2361, "degree": 1, "strength": 467}, {"id": "t5_g28vm", "name": "RepLadiesBST", "interactions": 8030, "users": 1007, "degree": 1, "strength": 467}], "edges": [{"source": "t5_3fy91", "target": "t5_g28vm", "shared_users": 467, "cosine": 0.30286853145027837, "jaccard": 0.16097897276801104}]}

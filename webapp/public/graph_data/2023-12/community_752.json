@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qham", "name": "missouri", "interactions": 11319, "users": 643, "degree": 1, "strength": 78}, {"id": "t5_2qpnm", "name": "StLouis", "interactions": 41510, "users": 3413, "degree": 2, "strength": 256}], "edges": [{"source": "t5_2qham", "target": "t5_2qpnm", "shared_users": 78, "cosine": 0.05265273947812356, "jaccard": 0.0196078431372549}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2ddof4", "name": "WomanHands", "interactions": 9215, "users": 417, "degree": 1, "strength": 138}, {"id": "t5_399ep", "name": "ManHands", "interactions": 26743, "users": 1100, "degree": 1, "strength": 138}], "edges": [{"source": "t5_2ddof4", "target": "t5_399ep", "shared_users": 138, "cosine": 0.20375802214704097, "jaccard": 0.10007251631617115}]}

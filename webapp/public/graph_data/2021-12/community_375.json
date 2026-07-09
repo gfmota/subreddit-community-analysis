@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_30m6u", "name": "slatestarcodex", "interactions": 7324, "users": 603, "degree": 1, "strength": 77}, {"id": "t5_vkedk", "name": "TheMotte", "interactions": 13816, "users": 599, "degree": 1, "strength": 77}], "edges": [{"source": "t5_30m6u", "target": "t5_vkedk", "shared_users": 77, "cosine": 0.1281205097486688, "jaccard": 0.06844444444444445}]}

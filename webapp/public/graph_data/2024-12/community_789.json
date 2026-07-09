@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qh8o", "name": "facebook", "interactions": 24767, "users": 2133, "degree": 1, "strength": 107}, {"id": "t5_3kk761", "name": "facebookdisabledme", "interactions": 7954, "users": 814, "degree": 1, "strength": 107}], "edges": [{"source": "t5_2qh8o", "target": "t5_3kk761", "shared_users": 107, "cosine": 0.08120376159913016, "jaccard": 0.03767605633802817}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_4vqnu4", "name": "MultiVersus", "interactions": 16930, "users": 978, "degree": 1, "strength": 249}, {"id": "t5_58epme", "name": "MultiVersusTheGame", "interactions": 14044, "users": 749, "degree": 1, "strength": 249}], "edges": [{"source": "t5_4vqnu4", "target": "t5_58epme", "shared_users": 249, "cosine": 0.2909303375558778, "jaccard": 0.16847090663058187}]}

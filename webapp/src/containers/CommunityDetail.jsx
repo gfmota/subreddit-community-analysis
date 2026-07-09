@@ -3,6 +3,7 @@ import { SigmaContainer, useLoadGraph } from "@react-sigma/core";
 import "@react-sigma/core/lib/style.css";
 import { getColor } from "../utils/colors";
 import { buildGraph, applyLayout } from "../utils/graph";
+import { resolveColorKey } from "../utils/trajectories";
 import { useFetchJson } from "../hooks/useFetchJson";
 import { useAppState } from "../state/AppStateContext";
 import DragHandler from "../components/DragHandler";
@@ -19,6 +20,7 @@ const subredditSizeKey = (raw) => raw.interactions;
 function GraphLoader({
   date,
   communityId,
+  trajectories,
   onDataLoaded,
   onGraphReady,
   scaleRef,
@@ -32,7 +34,7 @@ function GraphLoader({
   useEffect(() => {
     if (!data) return;
 
-    const color = getColor(communityId);
+    const color = getColor(resolveColorKey(trajectories, date, communityId));
     setColor(color);
 
     const { graph, scaleFn } = buildGraph(data, {
@@ -62,7 +64,9 @@ function GraphLoader({
     onGraphReady(graph);
   }, [
     data,
+    date,
     communityId,
+    trajectories,
     loadGraph,
     onDataLoaded,
     onGraphReady,
@@ -79,6 +83,7 @@ export default function CommunityDetail() {
     selectedCommunity,
     selectedSubreddit,
     selectSubreddit,
+    trajectories,
     goBack,
   } = useAppState();
   const [stats, setStats] = useState(null);
@@ -158,6 +163,7 @@ export default function CommunityDetail() {
           <GraphLoader
             date={selectedDate}
             communityId={selectedCommunity}
+            trajectories={trajectories}
             onDataLoaded={handleDataLoaded}
             onGraphReady={handleGraphReady}
             scaleRef={scaleRef}

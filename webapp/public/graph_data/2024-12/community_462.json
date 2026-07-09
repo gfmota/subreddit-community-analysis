@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3ejz4", "name": "HellLetLoose", "interactions": 21402, "users": 2071, "degree": 1, "strength": 92}, {"id": "t5_47sj1e", "name": "HellLetLooseConsole", "interactions": 3156, "users": 328, "degree": 1, "strength": 92}], "edges": [{"source": "t5_3ejz4", "target": "t5_47sj1e", "shared_users": 92, "cosine": 0.11162484170968381, "jaccard": 0.03987863025574339}]}

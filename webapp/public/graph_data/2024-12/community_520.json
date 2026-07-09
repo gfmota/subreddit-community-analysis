@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_9d3jzc", "name": "DaniMarina", "interactions": 6354, "users": 329, "degree": 1, "strength": 90}, {"id": "t5_g49g0", "name": "illnessfakers", "interactions": 12337, "users": 762, "degree": 1, "strength": 90}], "edges": [{"source": "t5_9d3jzc", "target": "t5_g49g0", "shared_users": 90, "cosine": 0.17974924495905714, "jaccard": 0.0899100899100899}]}

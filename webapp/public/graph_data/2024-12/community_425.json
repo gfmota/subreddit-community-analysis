@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sw5m", "name": "tamagotchi", "interactions": 16666, "users": 1338, "degree": 1, "strength": 132}, {"id": "t5_8jaswr", "name": "TamagotchiUni", "interactions": 3140, "users": 246, "degree": 1, "strength": 132}], "edges": [{"source": "t5_2sw5m", "target": "t5_8jaswr", "shared_users": 132, "cosine": 0.23007970980615933, "jaccard": 0.09090909090909091}]}

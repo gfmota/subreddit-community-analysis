@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sj81", "name": "youtubers", "interactions": 8948, "users": 727, "degree": 1, "strength": 136}, {"id": "t5_2ujnz", "name": "NewTubers", "interactions": 22599, "users": 1879, "degree": 1, "strength": 136}], "edges": [{"source": "t5_2sj81", "target": "t5_2ujnz", "shared_users": 136, "cosine": 0.11636123256352313, "jaccard": 0.05506072874493927}]}

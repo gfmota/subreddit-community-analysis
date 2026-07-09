@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2ihy50", "name": "DermatologyQuestions", "interactions": 9503, "users": 894, "degree": 1, "strength": 80}, {"id": "t5_2sqjh", "name": "Dermatology", "interactions": 5330, "users": 639, "degree": 1, "strength": 80}], "edges": [{"source": "t5_2ihy50", "target": "t5_2sqjh", "shared_users": 80, "cosine": 0.10584510998052192, "jaccard": 0.05505849965588438}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sxjx", "name": "RomanceBooks", "interactions": 46017, "users": 3305, "degree": 3, "strength": 273}, {"id": "t5_2uk1r", "name": "HistoricalRomance", "interactions": 2581, "users": 226, "degree": 1, "strength": 80}], "edges": [{"source": "t5_2sxjx", "target": "t5_2uk1r", "shared_users": 80, "cosine": 0.09256568844880891, "jaccard": 0.023181686467690525}]}

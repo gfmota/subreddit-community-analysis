@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2s4f7", "name": "granturismo", "interactions": 27111, "users": 2195, "degree": 1, "strength": 361}, {"id": "t5_50bd7t", "name": "GranTurismo7", "interactions": 21218, "users": 1700, "degree": 1, "strength": 361}], "edges": [{"source": "t5_2s4f7", "target": "t5_50bd7t", "shared_users": 361, "cosine": 0.18688114182129487, "jaccard": 0.10215053763440861}]}

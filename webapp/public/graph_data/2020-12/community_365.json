@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rer8", "name": "chile", "interactions": 47736, "users": 2232, "degree": 1, "strength": 92}, {"id": "t5_qjv65", "name": "RepublicadeChile", "interactions": 3569, "users": 193, "degree": 1, "strength": 92}], "edges": [{"source": "t5_2rer8", "target": "t5_qjv65", "shared_users": 92, "cosine": 0.1401722607014599, "jaccard": 0.03943420488641235}]}

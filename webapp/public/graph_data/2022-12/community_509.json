@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2svvty", "name": "blogsnarkmetasnark", "interactions": 4304, "users": 211, "degree": 1, "strength": 98}, {"id": "t5_39xf0", "name": "blogsnark", "interactions": 23470, "users": 2296, "degree": 1, "strength": 98}], "edges": [{"source": "t5_2svvty", "target": "t5_39xf0", "shared_users": 98, "cosine": 0.14079878468596255, "jaccard": 0.0406807804068078}]}

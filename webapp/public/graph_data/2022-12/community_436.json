@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2kg202", "name": "Perthgirls", "interactions": 4442, "users": 353, "degree": 1, "strength": 134}, {"id": "t5_2nljhq", "name": "perth_get_naughty", "interactions": 4297, "users": 420, "degree": 1, "strength": 134}], "edges": [{"source": "t5_2kg202", "target": "t5_2nljhq", "shared_users": 134, "cosine": 0.34801086300806394, "jaccard": 0.20970266040688576}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qpp6", "name": "starcraft", "interactions": 15862, "users": 1039, "degree": 1, "strength": 137}, {"id": "t5_2qspc", "name": "starcraft2", "interactions": 5499, "users": 461, "degree": 1, "strength": 137}], "edges": [{"source": "t5_2qpp6", "target": "t5_2qspc", "shared_users": 137, "cosine": 0.19795311065234666, "jaccard": 0.10051357300073367}]}

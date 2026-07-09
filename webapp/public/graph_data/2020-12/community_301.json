@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3opwf", "name": "DDLC", "interactions": 38797, "users": 1441, "degree": 2, "strength": 187}, {"id": "t5_3ow12", "name": "JustMonika", "interactions": 2878, "users": 169, "degree": 1, "strength": 81}], "edges": [{"source": "t5_3opwf", "target": "t5_3ow12", "shared_users": 81, "cosine": 0.16413820366030926, "jaccard": 0.052975801177240024}]}

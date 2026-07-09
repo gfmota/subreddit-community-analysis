@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2t25p", "name": "DeadBedrooms", "interactions": 48419, "users": 2823, "degree": 2, "strength": 254}, {"id": "t5_107yma", "name": "HLCommunity", "interactions": 5519, "users": 313, "degree": 1, "strength": 103}], "edges": [{"source": "t5_2t25p", "target": "t5_107yma", "shared_users": 103, "cosine": 0.10957453008972448, "jaccard": 0.03395977579953841}]}

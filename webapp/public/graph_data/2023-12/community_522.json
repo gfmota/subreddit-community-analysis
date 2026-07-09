@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_31hpy", "name": "OMORI", "interactions": 28125, "users": 1658, "degree": 1, "strength": 83}, {"id": "t5_40xv70", "name": "Omorimemes", "interactions": 4813, "users": 236, "degree": 1, "strength": 83}], "edges": [{"source": "t5_31hpy", "target": "t5_40xv70", "shared_users": 83, "cosine": 0.13268744386720652, "jaccard": 0.04583103257868581}]}

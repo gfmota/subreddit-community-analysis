@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2ra79", "name": "BreakUps", "interactions": 33366, "users": 3044, "degree": 2, "strength": 434}, {"id": "t5_319jr", "name": "ExNoContact", "interactions": 8772, "users": 887, "degree": 1, "strength": 216}], "edges": [{"source": "t5_2ra79", "target": "t5_319jr", "shared_users": 216, "cosine": 0.13145273219624745, "jaccard": 0.058142664872139975}]}

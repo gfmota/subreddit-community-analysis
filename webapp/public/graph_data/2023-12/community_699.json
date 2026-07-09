@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2xcav", "name": "dyinglight", "interactions": 12242, "users": 988, "degree": 1, "strength": 78}, {"id": "t5_38pzr", "name": "dyinglight2", "interactions": 3899, "users": 375, "degree": 1, "strength": 78}], "edges": [{"source": "t5_2xcav", "target": "t5_38pzr", "shared_users": 78, "cosine": 0.12814465510343748, "jaccard": 0.060700389105058365}]}

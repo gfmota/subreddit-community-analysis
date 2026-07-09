@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_29ott5", "name": "Columbushookups", "interactions": 4101, "users": 538, "degree": 1, "strength": 96}, {"id": "t5_5n2560", "name": "ColumbusOHhookup", "interactions": 3002, "users": 381, "degree": 1, "strength": 96}], "edges": [{"source": "t5_29ott5", "target": "t5_5n2560", "shared_users": 96, "cosine": 0.21203990812014592, "jaccard": 0.1166464155528554}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3bulc2", "name": "Daniellarson", "interactions": 8908, "users": 602, "degree": 1, "strength": 86}, {"id": "t5_3njh9q", "name": "WorldOfTShirts", "interactions": 32379, "users": 2046, "degree": 1, "strength": 86}], "edges": [{"source": "t5_3bulc2", "target": "t5_3njh9q", "shared_users": 86, "cosine": 0.07749030868587253, "jaccard": 0.03356752537080406}]}

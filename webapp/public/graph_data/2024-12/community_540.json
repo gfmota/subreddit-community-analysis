@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2r8xk", "name": "ABDL", "interactions": 21721, "users": 2025, "degree": 1, "strength": 179}, {"id": "t5_2vjo1", "name": "ABDLPersonals", "interactions": 6878, "users": 903, "degree": 1, "strength": 179}], "edges": [{"source": "t5_2r8xk", "target": "t5_2vjo1", "shared_users": 179, "cosine": 0.13237215587723355, "jaccard": 0.06511458712259004}]}

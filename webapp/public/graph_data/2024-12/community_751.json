@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2epyvd", "name": "Pnpgay", "interactions": 8095, "users": 812, "degree": 1, "strength": 160}, {"id": "t5_8vbmsx", "name": "gaytweaker", "interactions": 4824, "users": 497, "degree": 1, "strength": 160}], "edges": [{"source": "t5_2epyvd", "target": "t5_8vbmsx", "shared_users": 160, "cosine": 0.25186265298357713, "jaccard": 0.1392515230635335}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2v620", "name": "feedthebeast", "interactions": 26312, "users": 2595, "degree": 2, "strength": 194}, {"id": "t5_iuwgn", "name": "feedthememes", "interactions": 5122, "users": 357, "degree": 1, "strength": 88}], "edges": [{"source": "t5_2v620", "target": "t5_iuwgn", "shared_users": 88, "cosine": 0.09142813965561385, "jaccard": 0.030726256983240222}]}

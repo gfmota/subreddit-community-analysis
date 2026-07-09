@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_82soxc", "name": "Futanari_Ai", "interactions": 3209, "users": 185, "degree": 1, "strength": 82}, {"id": "t5_8uwfqg", "name": "FutaAI", "interactions": 5818, "users": 376, "degree": 1, "strength": 82}], "edges": [{"source": "t5_82soxc", "target": "t5_8uwfqg", "shared_users": 82, "cosine": 0.31090955253295, "jaccard": 0.17118997912317327}]}

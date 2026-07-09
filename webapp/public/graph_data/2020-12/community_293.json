@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2u463", "name": "gonewildaudio", "interactions": 42442, "users": 3048, "degree": 1, "strength": 248}, {"id": "t5_301vc", "name": "pillowtalkaudio", "interactions": 4039, "users": 429, "degree": 1, "strength": 248}], "edges": [{"source": "t5_2u463", "target": "t5_301vc", "shared_users": 248, "cosine": 0.21687802685413182, "jaccard": 0.0768039640755652}]}

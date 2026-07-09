@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_359qr", "name": "beermoneyuk", "interactions": 16424, "users": 1047, "degree": 1, "strength": 71}, {"id": "t5_becjiw", "name": "MakeMoneyInUK", "interactions": 2739, "users": 99, "degree": 1, "strength": 71}], "edges": [{"source": "t5_359qr", "target": "t5_becjiw", "shared_users": 71, "cosine": 0.22052986447703135, "jaccard": 0.06604651162790698}]}

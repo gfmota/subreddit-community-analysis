@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qi67", "name": "Judaism", "interactions": 31324, "users": 1477, "degree": 1, "strength": 274}, {"id": "t5_2qtts", "name": "Jewish", "interactions": 20150, "users": 1119, "degree": 1, "strength": 274}], "edges": [{"source": "t5_2qi67", "target": "t5_2qtts", "shared_users": 274, "cosine": 0.21313033712405924, "jaccard": 0.11800172265288544}]}

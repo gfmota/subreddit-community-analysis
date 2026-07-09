@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2tb4x", "name": "fpv", "interactions": 31697, "users": 2515, "degree": 1, "strength": 305}, {"id": "t5_3enmu", "name": "TinyWhoop", "interactions": 7628, "users": 658, "degree": 1, "strength": 305}], "edges": [{"source": "t5_2tb4x", "target": "t5_3enmu", "shared_users": 305, "cosine": 0.23709254464727472, "jaccard": 0.10634588563458856}]}

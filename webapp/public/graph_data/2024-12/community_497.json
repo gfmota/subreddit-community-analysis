@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sx2i", "name": "unixporn", "interactions": 12664, "users": 1226, "degree": 1, "strength": 74}, {"id": "t5_6sciw0", "name": "hyprland", "interactions": 4976, "users": 576, "degree": 1, "strength": 74}], "edges": [{"source": "t5_2sx2i", "target": "t5_6sciw0", "shared_users": 74, "cosine": 0.08805930285487074, "jaccard": 0.04282407407407408}]}

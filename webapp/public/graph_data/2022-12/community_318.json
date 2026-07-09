@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2s1da", "name": "Chefit", "interactions": 11915, "users": 730, "degree": 1, "strength": 115}, {"id": "t5_2sa8b", "name": "KitchenConfidential", "interactions": 62685, "users": 4218, "degree": 2, "strength": 454}], "edges": [{"source": "t5_2s1da", "target": "t5_2sa8b", "shared_users": 115, "cosine": 0.06553648167680937, "jaccard": 0.023794744465135527}]}

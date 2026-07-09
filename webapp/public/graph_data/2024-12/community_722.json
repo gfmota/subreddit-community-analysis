@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_114k7h", "name": "OnePlus12", "interactions": 4921, "users": 518, "degree": 1, "strength": 114}, {"id": "t5_30qnb", "name": "oneplus", "interactions": 16462, "users": 1712, "degree": 1, "strength": 114}], "edges": [{"source": "t5_114k7h", "target": "t5_30qnb", "shared_users": 114, "cosine": 0.1210564938423531, "jaccard": 0.05387523629489603}]}

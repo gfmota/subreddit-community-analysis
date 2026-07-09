@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_7w19t6", "name": "LasVegasKinkyPerverts", "interactions": 2878, "users": 332, "degree": 1, "strength": 83}, {"id": "t5_bcwsg7", "name": "Vegashookups", "interactions": 3684, "users": 518, "degree": 1, "strength": 83}], "edges": [{"source": "t5_7w19t6", "target": "t5_bcwsg7", "shared_users": 83, "cosine": 0.20014473527403878, "jaccard": 0.10821382007822686}]}

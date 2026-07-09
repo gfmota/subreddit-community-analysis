@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_avxt94", "name": "DTI", "interactions": 15953, "users": 1355, "degree": 1, "strength": 362}, {"id": "t5_awlu30", "name": "DressToImpressRoblox", "interactions": 54298, "users": 3394, "degree": 1, "strength": 362}], "edges": [{"source": "t5_avxt94", "target": "t5_awlu30", "shared_users": 362, "cosine": 0.16880410511265664, "jaccard": 0.08251652609984043}]}

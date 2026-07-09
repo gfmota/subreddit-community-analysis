@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3fvpq", "name": "satisfactory", "interactions": 2085, "users": 207, "degree": 1, "strength": 80}, {"id": "t5_gs464", "name": "SatisfactoryGame", "interactions": 27138, "users": 2023, "degree": 1, "strength": 80}], "edges": [{"source": "t5_3fvpq", "target": "t5_gs464", "shared_users": 80, "cosine": 0.12362516176299618, "jaccard": 0.037209302325581395}]}

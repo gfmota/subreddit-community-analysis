@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qinp", "name": "venezuela", "interactions": 8033, "users": 854, "degree": 1, "strength": 349}, {"id": "t5_2sh9s", "name": "vzla", "interactions": 19212, "users": 1582, "degree": 1, "strength": 349}], "edges": [{"source": "t5_2qinp", "target": "t5_2sh9s", "shared_users": 349, "cosine": 0.3002570767256036, "jaccard": 0.16722568279827504}]}

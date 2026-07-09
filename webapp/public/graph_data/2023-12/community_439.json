@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sebi", "name": "witcher", "interactions": 14349, "users": 860, "degree": 1, "strength": 90}, {"id": "t5_2xjxs", "name": "Witcher3", "interactions": 14818, "users": 1078, "degree": 1, "strength": 90}], "edges": [{"source": "t5_2sebi", "target": "t5_2xjxs", "shared_users": 90, "cosine": 0.09347250968072764, "jaccard": 0.048701298701298704}]}

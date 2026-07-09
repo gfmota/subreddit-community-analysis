@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qhtr", "name": "wedding", "interactions": 6331, "users": 532, "degree": 1, "strength": 110}, {"id": "t5_2rv3t", "name": "weddingplanning", "interactions": 18431, "users": 1712, "degree": 1, "strength": 110}], "edges": [{"source": "t5_2qhtr", "target": "t5_2rv3t", "shared_users": 110, "cosine": 0.11526169153870802, "jaccard": 0.05154639175257732}]}

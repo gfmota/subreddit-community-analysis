@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qnqv", "name": "country", "interactions": 25680, "users": 1380, "degree": 1, "strength": 69}, {"id": "t5_znjft", "name": "CountryMusicStuff", "interactions": 5852, "users": 407, "degree": 1, "strength": 69}], "edges": [{"source": "t5_2qnqv", "target": "t5_znjft", "shared_users": 69, "cosine": 0.09206877036573519, "jaccard": 0.040162980209545986}]}

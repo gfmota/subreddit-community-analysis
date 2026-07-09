@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_9m7hed", "name": "HyperOS", "interactions": 6442, "users": 718, "degree": 1, "strength": 86}, {"id": "t5_nwa8t", "name": "PocoPhones", "interactions": 16641, "users": 1521, "degree": 1, "strength": 86}], "edges": [{"source": "t5_9m7hed", "target": "t5_nwa8t", "shared_users": 86, "cosine": 0.082294653710434, "jaccard": 0.03994426381792847}]}

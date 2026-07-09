@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2z21m", "name": "firewood", "interactions": 14336, "users": 820, "degree": 1, "strength": 102}, {"id": "t5_329i6", "name": "woodstoving", "interactions": 19434, "users": 1493, "degree": 1, "strength": 102}], "edges": [{"source": "t5_2z21m", "target": "t5_329i6", "shared_users": 102, "cosine": 0.09218565413282066, "jaccard": 0.04613297150610583}]}

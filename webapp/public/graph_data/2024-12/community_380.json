@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2ql7e", "name": "PleX", "interactions": 33114, "users": 2768, "degree": 1, "strength": 79}, {"id": "t5_2sn94", "name": "unRAID", "interactions": 13559, "users": 1255, "degree": 1, "strength": 79}], "edges": [{"source": "t5_2ql7e", "target": "t5_2sn94", "shared_users": 79, "cosine": 0.042385975766364735, "jaccard": 0.020030425963488845}]}

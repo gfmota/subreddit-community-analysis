@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2y25j", "name": "ToyotaTacoma", "interactions": 28486, "users": 2604, "degree": 2, "strength": 190}, {"id": "t5_30hyl", "name": "Tacomaworld", "interactions": 2948, "users": 324, "degree": 1, "strength": 93}], "edges": [{"source": "t5_2y25j", "target": "t5_30hyl", "shared_users": 93, "cosine": 0.10124881604899265, "jaccard": 0.0328042328042328}]}

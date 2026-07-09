@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_31h59", "name": "FurryKikPals", "interactions": 6639, "users": 804, "degree": 1, "strength": 113}, {"id": "t5_5xphyg", "name": "FurryPals", "interactions": 1176, "users": 164, "degree": 1, "strength": 113}], "edges": [{"source": "t5_31h59", "target": "t5_5xphyg", "shared_users": 113, "cosine": 0.31119205108527104, "jaccard": 0.13216374269005848}]}

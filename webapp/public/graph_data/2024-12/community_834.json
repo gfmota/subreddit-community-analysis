@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3srnqs", "name": "NothingTech", "interactions": 12928, "users": 1254, "degree": 1, "strength": 255}, {"id": "t5_4ujlxf", "name": "NOTHING", "interactions": 11204, "users": 1145, "degree": 1, "strength": 255}], "edges": [{"source": "t5_3srnqs", "target": "t5_4ujlxf", "shared_users": 255, "cosine": 0.21280835215585175, "jaccard": 0.11893656716417911}]}

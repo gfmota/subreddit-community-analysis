@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_4liq2g", "name": "chimeboost", "interactions": 19713, "users": 2851, "degree": 1, "strength": 265}, {"id": "t5_su9bq", "name": "chimebank", "interactions": 19133, "users": 2550, "degree": 1, "strength": 265}], "edges": [{"source": "t5_4liq2g", "target": "t5_su9bq", "shared_users": 265, "cosine": 0.09828272178266252, "jaccard": 0.05159657320872274}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_38f3iy", "name": "FridayNightFunkin", "interactions": 27069, "users": 1465, "degree": 1, "strength": 64}, {"id": "t5_ugz41", "name": "PizzaTower", "interactions": 29383, "users": 1507, "degree": 1, "strength": 64}], "edges": [{"source": "t5_38f3iy", "target": "t5_ugz41", "shared_users": 64, "cosine": 0.043072941920886, "jaccard": 0.02200825309491059}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2roa2", "name": "AirForce", "interactions": 38058, "users": 3076, "degree": 2, "strength": 243}, {"id": "t5_2q94jn", "name": "AirForceRecruits", "interactions": 7853, "users": 662, "degree": 1, "strength": 122}], "edges": [{"source": "t5_2roa2", "target": "t5_2q94jn", "shared_users": 122, "cosine": 0.08549440031739439, "jaccard": 0.03373893805309734}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qh63", "name": "Libertarian", "interactions": 33334, "users": 1663, "degree": 1, "strength": 78}, {"id": "t5_2qorf", "name": "Anarcho_Capitalism", "interactions": 25766, "users": 959, "degree": 1, "strength": 78}], "edges": [{"source": "t5_2qh63", "target": "t5_2qorf", "shared_users": 78, "cosine": 0.0617645347658313, "jaccard": 0.030660377358490566}]}

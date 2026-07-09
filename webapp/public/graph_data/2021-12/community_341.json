@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qqdp", "name": "BPD", "interactions": 17536, "users": 1689, "degree": 1, "strength": 74}, {"id": "t5_3jpv5", "name": "BPDmemes", "interactions": 7375, "users": 580, "degree": 1, "strength": 74}], "edges": [{"source": "t5_2qqdp", "target": "t5_3jpv5", "shared_users": 74, "cosine": 0.0747657851096203, "jaccard": 0.0337129840546697}]}

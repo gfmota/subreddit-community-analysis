@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_12eytj", "name": "onlineSugar", "interactions": 12694, "users": 788, "degree": 1, "strength": 161}, {"id": "t5_6i1w83", "name": "sugarbaby2", "interactions": 6961, "users": 694, "degree": 1, "strength": 161}], "edges": [{"source": "t5_12eytj", "target": "t5_6i1w83", "shared_users": 161, "cosine": 0.21771233317271294, "jaccard": 0.12187736563209689}]}

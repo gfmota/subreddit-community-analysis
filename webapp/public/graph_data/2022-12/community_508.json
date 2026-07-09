@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_1znivi", "name": "SkyChildrenOfLight", "interactions": 9515, "users": 883, "degree": 1, "strength": 313}, {"id": "t5_3oekq", "name": "SkyGame", "interactions": 17154, "users": 1300, "degree": 1, "strength": 313}], "edges": [{"source": "t5_1znivi", "target": "t5_3oekq", "shared_users": 313, "cosine": 0.29214086417267515, "jaccard": 0.16737967914438504}]}

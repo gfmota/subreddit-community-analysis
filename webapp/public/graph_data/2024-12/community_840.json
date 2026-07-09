@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rloq", "name": "reloading", "interactions": 15390, "users": 1049, "degree": 1, "strength": 89}, {"id": "t5_2ts6o", "name": "longrange", "interactions": 16694, "users": 1101, "degree": 1, "strength": 89}], "edges": [{"source": "t5_2rloq", "target": "t5_2ts6o", "shared_users": 89, "cosine": 0.08281492312706748, "jaccard": 0.043182920912178555}]}

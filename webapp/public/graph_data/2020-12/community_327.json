@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2euqdz", "name": "StreetsIsWatchin", "interactions": 10571, "users": 961, "degree": 1, "strength": 110}, {"id": "t5_2tcjl2", "name": "ThotX", "interactions": 13978, "users": 1409, "degree": 1, "strength": 110}], "edges": [{"source": "t5_2euqdz", "target": "t5_2tcjl2", "shared_users": 110, "cosine": 0.09453127048254678, "jaccard": 0.048672566371681415}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qy7t", "name": "linux4noobs", "interactions": 9274, "users": 716, "degree": 1, "strength": 100}, {"id": "t5_2rbms", "name": "linuxquestions", "interactions": 18877, "users": 1378, "degree": 1, "strength": 100}], "edges": [{"source": "t5_2qy7t", "target": "t5_2rbms", "shared_users": 100, "cosine": 0.10067436061164074, "jaccard": 0.05015045135406219}]}

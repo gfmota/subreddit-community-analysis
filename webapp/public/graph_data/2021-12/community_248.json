@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sczp", "name": "sewing", "interactions": 26882, "users": 2264, "degree": 2, "strength": 186}, {"id": "t5_2rjcg", "name": "quilting", "interactions": 16768, "users": 1463, "degree": 1, "strength": 91}], "edges": [{"source": "t5_2sczp", "target": "t5_2rjcg", "shared_users": 91, "cosine": 0.05000126801104035, "jaccard": 0.025027502750275026}]}

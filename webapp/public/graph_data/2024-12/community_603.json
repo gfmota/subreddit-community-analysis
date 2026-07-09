@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rpm4", "name": "vce", "interactions": 21828, "users": 2027, "degree": 1, "strength": 127}, {"id": "t5_2spbx", "name": "Monash", "interactions": 5784, "users": 816, "degree": 1, "strength": 127}], "edges": [{"source": "t5_2rpm4", "target": "t5_2spbx", "shared_users": 127, "cosine": 0.09874878646391166, "jaccard": 0.046759941089838}]}

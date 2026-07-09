@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qibp", "name": "Sprint", "interactions": 5696, "users": 446, "degree": 1, "strength": 85}, {"id": "t5_2shyc", "name": "tmobile", "interactions": 32304, "users": 2671, "degree": 1, "strength": 85}], "edges": [{"source": "t5_2qibp", "target": "t5_2shyc", "shared_users": 85, "cosine": 0.07787795742156615, "jaccard": 0.028034300791556728}]}

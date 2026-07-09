@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2s7d1", "name": "men_in_panties", "interactions": 25973, "users": 1200, "degree": 1, "strength": 194}, {"id": "t5_3fh2s", "name": "HeWearsPanties", "interactions": 11768, "users": 549, "degree": 1, "strength": 194}], "edges": [{"source": "t5_2s7d1", "target": "t5_3fh2s", "shared_users": 194, "cosine": 0.2390148776086452, "jaccard": 0.12475884244372991}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2tdnb", "name": "ausents", "interactions": 5051, "users": 505, "degree": 1, "strength": 62}, {"id": "t5_36num1", "name": "AusGrowers", "interactions": 2012, "users": 206, "degree": 1, "strength": 62}], "edges": [{"source": "t5_2tdnb", "target": "t5_36num1", "shared_users": 62, "cosine": 0.1922261156918456, "jaccard": 0.09553158705701079}]}

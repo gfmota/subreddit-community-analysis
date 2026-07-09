@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_6e3b07", "name": "Mounjaro", "interactions": 43631, "users": 3291, "degree": 2, "strength": 182}, {"id": "t5_29ojlt", "name": "Ozempic", "interactions": 14548, "users": 1453, "degree": 1, "strength": 106}], "edges": [{"source": "t5_6e3b07", "target": "t5_29ojlt", "shared_users": 106, "cosine": 0.048474028847456344, "jaccard": 0.02285467874083657}]}

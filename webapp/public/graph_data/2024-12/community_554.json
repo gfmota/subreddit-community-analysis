@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_au7seh", "name": "gaygooncave", "interactions": 2958, "users": 277, "degree": 1, "strength": 65}, {"id": "t5_buvxb3", "name": "GayGoonerGuys", "interactions": 2491, "users": 228, "degree": 1, "strength": 65}], "edges": [{"source": "t5_au7seh", "target": "t5_buvxb3", "shared_users": 65, "cosine": 0.25864616809174146, "jaccard": 0.14772727272727273}]}

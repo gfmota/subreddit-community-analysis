@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2uols", "name": "Sephora", "interactions": 28807, "users": 2439, "degree": 1, "strength": 129}, {"id": "t5_30vvl", "name": "Ulta", "interactions": 16995, "users": 1515, "degree": 1, "strength": 129}], "edges": [{"source": "t5_2uols", "target": "t5_30vvl", "shared_users": 129, "cosine": 0.06710849414191104, "jaccard": 0.03372549019607843}]}

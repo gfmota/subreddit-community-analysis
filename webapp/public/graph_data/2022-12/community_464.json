@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qlc6", "name": "russian", "interactions": 15787, "users": 1405, "degree": 1, "strength": 169}, {"id": "t5_2xzpo", "name": "AskARussian", "interactions": 41982, "users": 1957, "degree": 1, "strength": 169}], "edges": [{"source": "t5_2qlc6", "target": "t5_2xzpo", "shared_users": 169, "cosine": 0.10191852497341214, "jaccard": 0.05292828061384278}]}

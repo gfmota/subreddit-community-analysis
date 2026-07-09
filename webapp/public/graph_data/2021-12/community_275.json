@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_263ot8", "name": "PhillyWiki", "interactions": 12982, "users": 1027, "degree": 1, "strength": 223}, {"id": "t5_4j6qb5", "name": "Phillyscoreboard", "interactions": 4365, "users": 448, "degree": 1, "strength": 223}], "edges": [{"source": "t5_263ot8", "target": "t5_4j6qb5", "shared_users": 223, "cosine": 0.3287612584924619, "jaccard": 0.1781150159744409}]}

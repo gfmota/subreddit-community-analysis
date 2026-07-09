@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qmqp", "name": "Gold", "interactions": 23697, "users": 1463, "degree": 1, "strength": 180}, {"id": "t5_2t1b5", "name": "Silverbugs", "interactions": 21628, "users": 1490, "degree": 1, "strength": 180}], "edges": [{"source": "t5_2qmqp", "target": "t5_2t1b5", "shared_users": 180, "cosine": 0.12191501820115959, "jaccard": 0.06491164803461955}]}

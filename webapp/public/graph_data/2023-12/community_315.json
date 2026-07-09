@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2voav", "name": "littlespace", "interactions": 6843, "users": 625, "degree": 1, "strength": 67}, {"id": "t5_3nmgd", "name": "ageregression", "interactions": 12836, "users": 1018, "degree": 1, "strength": 67}], "edges": [{"source": "t5_2voav", "target": "t5_3nmgd", "shared_users": 67, "cosine": 0.08399644486816785, "jaccard": 0.04251269035532995}]}

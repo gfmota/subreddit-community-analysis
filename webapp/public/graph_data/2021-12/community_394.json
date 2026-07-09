@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3iyfvr", "name": "gettingbigger", "interactions": 11095, "users": 741, "degree": 1, "strength": 137}, {"id": "t5_3nmia", "name": "AJelqForYou", "interactions": 3495, "users": 322, "degree": 1, "strength": 137}], "edges": [{"source": "t5_3iyfvr", "target": "t5_3nmia", "shared_users": 137, "cosine": 0.28046813544687704, "jaccard": 0.14794816414686826}]}

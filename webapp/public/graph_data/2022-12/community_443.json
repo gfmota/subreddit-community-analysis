@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_7iyqqa", "name": "TooHotToHandleGame", "interactions": 7647, "users": 610, "degree": 1, "strength": 222}, {"id": "t5_nahbs", "name": "fuseboxgames", "interactions": 8432, "users": 730, "degree": 1, "strength": 222}], "edges": [{"source": "t5_7iyqqa", "target": "t5_nahbs", "shared_users": 222, "cosine": 0.3326799494988581, "jaccard": 0.19856887298747763}]}

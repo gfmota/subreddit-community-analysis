@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_38eua", "name": "HentaiBeast", "interactions": 3165, "users": 277, "degree": 1, "strength": 65}, {"id": "t5_578dhe", "name": "beastclub", "interactions": 7416, "users": 583, "degree": 1, "strength": 65}], "edges": [{"source": "t5_38eua", "target": "t5_578dhe", "shared_users": 65, "cosine": 0.1617481025587338, "jaccard": 0.08176100628930817}]}

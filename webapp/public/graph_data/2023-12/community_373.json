@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2hqebk", "name": "Cashfag_n_Cashmaster", "interactions": 3719, "users": 334, "degree": 1, "strength": 149}, {"id": "t5_3pwcqx", "name": "FindomMale", "interactions": 4743, "users": 436, "degree": 1, "strength": 149}], "edges": [{"source": "t5_2hqebk", "target": "t5_3pwcqx", "shared_users": 149, "cosine": 0.3904539227365578, "jaccard": 0.23993558776167473}]}

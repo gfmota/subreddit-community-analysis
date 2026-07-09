@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_75v8b8", "name": "Gaylor_Swift", "interactions": 6287, "users": 408, "degree": 1, "strength": 118}, {"id": "t5_mnhlw", "name": "GaylorSwift", "interactions": 14479, "users": 935, "degree": 1, "strength": 118}], "edges": [{"source": "t5_75v8b8", "target": "t5_mnhlw", "shared_users": 118, "cosine": 0.19104959453663317, "jaccard": 0.0963265306122449}]}

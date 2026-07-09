@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qwyp", "name": "diablo2", "interactions": 21727, "users": 1739, "degree": 1, "strength": 451}, {"id": "t5_403kab", "name": "Diablo_2_Resurrected", "interactions": 18221, "users": 1379, "degree": 1, "strength": 451}], "edges": [{"source": "t5_2qwyp", "target": "t5_403kab", "shared_users": 451, "cosine": 0.29123570508175434, "jaccard": 0.16910386201724784}]}

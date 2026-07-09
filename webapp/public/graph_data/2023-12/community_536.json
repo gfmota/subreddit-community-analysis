@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_36228", "name": "dbxv", "interactions": 11859, "users": 816, "degree": 1, "strength": 137}, {"id": "t5_3ens1", "name": "DragonBallXenoverse2", "interactions": 8774, "users": 594, "degree": 1, "strength": 137}], "edges": [{"source": "t5_36228", "target": "t5_3ens1", "shared_users": 137, "cosine": 0.19678059313699342, "jaccard": 0.10761979575805185}]}

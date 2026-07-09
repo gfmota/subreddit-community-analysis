@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_61rwql", "name": "WI_AfterDark", "interactions": 6399, "users": 575, "degree": 1, "strength": 53}, {"id": "t5_7c7tyn", "name": "wi_gonewild", "interactions": 2173, "users": 178, "degree": 1, "strength": 53}], "edges": [{"source": "t5_61rwql", "target": "t5_7c7tyn", "shared_users": 53, "cosine": 0.16566545060507257, "jaccard": 0.07571428571428572}]}

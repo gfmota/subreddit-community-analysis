@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_9jkutb", "name": "CalgaryKink", "interactions": 2589, "users": 350, "degree": 1, "strength": 179}, {"id": "t5_tk4vh", "name": "CalgaryGoneWildAgain", "interactions": 13288, "users": 1283, "degree": 1, "strength": 179}], "edges": [{"source": "t5_9jkutb", "target": "t5_tk4vh", "shared_users": 179, "cosine": 0.2671195538132605, "jaccard": 0.12310866574965612}]}

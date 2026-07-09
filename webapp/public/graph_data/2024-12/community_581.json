@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_6wm3u3", "name": "avatartrading", "interactions": 15813, "users": 463, "degree": 1, "strength": 83}, {"id": "t5_c4dx3x", "name": "animeavatartrading", "interactions": 5316, "users": 140, "degree": 1, "strength": 83}], "edges": [{"source": "t5_6wm3u3", "target": "t5_c4dx3x", "shared_users": 83, "cosine": 0.326004488093842, "jaccard": 0.1596153846153846}]}

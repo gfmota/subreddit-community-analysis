@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3pnv2", "name": "nonutnovember", "interactions": 21370, "users": 2972, "degree": 1, "strength": 154}, {"id": "t5_qwtxo", "name": "DontDiddleDecember", "interactions": 9301, "users": 549, "degree": 1, "strength": 154}], "edges": [{"source": "t5_3pnv2", "target": "t5_qwtxo", "shared_users": 154, "cosine": 0.12056191732962451, "jaccard": 0.04573804573804574}]}

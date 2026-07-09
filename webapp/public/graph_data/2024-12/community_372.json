@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_6m6tcj", "name": "SissyFrancaise", "interactions": 5902, "users": 467, "degree": 1, "strength": 76}, {"id": "t5_7t9otv", "name": "France_Gay", "interactions": 7389, "users": 773, "degree": 1, "strength": 76}], "edges": [{"source": "t5_6m6tcj", "target": "t5_7t9otv", "shared_users": 76, "cosine": 0.12649268319516224, "jaccard": 0.06529209621993128}]}

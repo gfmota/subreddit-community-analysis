@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qtno", "name": "Winnipeg", "interactions": 36187, "users": 3106, "degree": 2, "strength": 225}, {"id": "t5_2r8t6", "name": "Manitoba", "interactions": 6486, "users": 428, "degree": 1, "strength": 103}], "edges": [{"source": "t5_2qtno", "target": "t5_2r8t6", "shared_users": 103, "cosine": 0.08933355449826758, "jaccard": 0.03002040221509764}]}

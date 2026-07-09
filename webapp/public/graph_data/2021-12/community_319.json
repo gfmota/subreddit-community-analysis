@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3o3fz", "name": "Augenbleiche", "interactions": 6490, "users": 350, "degree": 1, "strength": 70}, {"id": "t5_4c13tw", "name": "Augenschmaus", "interactions": 6584, "users": 386, "degree": 1, "strength": 70}], "edges": [{"source": "t5_3o3fz", "target": "t5_4c13tw", "shared_users": 70, "cosine": 0.1904453466268301, "jaccard": 0.10510510510510511}]}

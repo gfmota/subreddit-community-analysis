@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2xd5g", "name": "ksi", "interactions": 28553, "users": 2308, "degree": 1, "strength": 129}, {"id": "t5_314cb", "name": "Sidemen", "interactions": 7739, "users": 683, "degree": 1, "strength": 129}], "edges": [{"source": "t5_2xd5g", "target": "t5_314cb", "shared_users": 129, "cosine": 0.10274517973738861, "jaccard": 0.04507337526205451}]}

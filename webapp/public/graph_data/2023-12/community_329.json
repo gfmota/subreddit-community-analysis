@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qnwk", "name": "battletech", "interactions": 25860, "users": 1635, "degree": 1, "strength": 68}, {"id": "t5_3hu31", "name": "Mechwarrior5", "interactions": 8220, "users": 601, "degree": 1, "strength": 68}], "edges": [{"source": "t5_2qnwk", "target": "t5_3hu31", "shared_users": 68, "cosine": 0.06859821234112114, "jaccard": 0.03136531365313653}]}

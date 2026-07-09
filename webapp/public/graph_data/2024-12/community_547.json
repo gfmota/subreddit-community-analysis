@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_11isbz", "name": "DaDumbWay", "interactions": 7083, "users": 449, "degree": 1, "strength": 125}, {"id": "t5_mtkhg", "name": "NBAYoungboy", "interactions": 20486, "users": 964, "degree": 1, "strength": 125}], "edges": [{"source": "t5_11isbz", "target": "t5_mtkhg", "shared_users": 125, "cosine": 0.18999769207405218, "jaccard": 0.09704968944099379}]}

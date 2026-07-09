@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qvj0", "name": "immigration", "interactions": 8884, "users": 821, "degree": 1, "strength": 117}, {"id": "t5_2udts", "name": "USCIS", "interactions": 28942, "users": 2851, "degree": 1, "strength": 117}], "edges": [{"source": "t5_2qvj0", "target": "t5_2udts", "shared_users": 117, "cosine": 0.07647432890119935, "jaccard": 0.03291139240506329}]}

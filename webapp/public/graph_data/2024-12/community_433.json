@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_22d0f4", "name": "generationology", "interactions": 24686, "users": 779, "degree": 1, "strength": 88}, {"id": "t5_2v3ze", "name": "decadeology", "interactions": 45908, "users": 1478, "degree": 1, "strength": 88}], "edges": [{"source": "t5_22d0f4", "target": "t5_2v3ze", "shared_users": 88, "cosine": 0.0820118722049084, "jaccard": 0.04057169202397418}]}

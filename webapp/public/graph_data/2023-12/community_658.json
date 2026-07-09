@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2ryfq", "name": "rescuedogs", "interactions": 9281, "users": 367, "degree": 1, "strength": 122}, {"id": "t5_7urxl2", "name": "National_Pet_Adoption", "interactions": 11992, "users": 301, "degree": 1, "strength": 122}], "edges": [{"source": "t5_2ryfq", "target": "t5_7urxl2", "shared_users": 122, "cosine": 0.367065485709872, "jaccard": 0.22344322344322345}]}

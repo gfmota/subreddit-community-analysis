@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qxpi", "name": "UPS", "interactions": 9748, "users": 874, "degree": 1, "strength": 183}, {"id": "t5_2vs88", "name": "UPSers", "interactions": 15580, "users": 1258, "degree": 1, "strength": 183}], "edges": [{"source": "t5_2qxpi", "target": "t5_2vs88", "shared_users": 183, "cosine": 0.174523957654144, "jaccard": 0.09389430477167779}]}

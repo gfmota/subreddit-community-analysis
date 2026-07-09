@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_12753r", "name": "IowaSwingers", "interactions": 6302, "users": 712, "degree": 1, "strength": 114}, {"id": "t5_23s94b", "name": "IowaNSFW", "interactions": 4940, "users": 463, "degree": 1, "strength": 114}], "edges": [{"source": "t5_12753r", "target": "t5_23s94b", "shared_users": 114, "cosine": 0.19855204250433617, "jaccard": 0.10744580584354382}]}

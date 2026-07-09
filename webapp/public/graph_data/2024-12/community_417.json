@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qoeg", "name": "flyfishing", "interactions": 11625, "users": 1142, "degree": 1, "strength": 113}, {"id": "t5_2sfbh", "name": "flytying", "interactions": 5295, "users": 422, "degree": 1, "strength": 113}], "edges": [{"source": "t5_2qoeg", "target": "t5_2sfbh", "shared_users": 113, "cosine": 0.1627755479740997, "jaccard": 0.07787732598208132}]}

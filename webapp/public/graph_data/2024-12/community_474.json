@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rpgi", "name": "Dentistry", "interactions": 15102, "users": 1353, "degree": 1, "strength": 97}, {"id": "t5_38bow", "name": "askdentists", "interactions": 27042, "users": 2192, "degree": 1, "strength": 97}], "edges": [{"source": "t5_2rpgi", "target": "t5_38bow", "shared_users": 97, "cosine": 0.056325176469197415, "jaccard": 0.028132250580046404}]}

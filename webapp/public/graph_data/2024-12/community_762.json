@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2smmb", "name": "DragonsDogma", "interactions": 10212, "users": 691, "degree": 1, "strength": 145}, {"id": "t5_4tubnp", "name": "DragonsDogma2", "interactions": 11915, "users": 806, "degree": 1, "strength": 145}], "edges": [{"source": "t5_2smmb", "target": "t5_4tubnp", "shared_users": 145, "cosine": 0.1942949253159761, "jaccard": 0.10724852071005918}]}

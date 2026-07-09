@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2rvme", "name": "carnivore", "interactions": 2842, "users": 232, "degree": 1, "strength": 61}, {"id": "t5_hpayg", "name": "carnivorediet", "interactions": 28422, "users": 1808, "degree": 1, "strength": 61}], "edges": [{"source": "t5_2rvme", "target": "t5_hpayg", "shared_users": 61, "cosine": 0.09418605992741491, "jaccard": 0.030823648307225872}]}

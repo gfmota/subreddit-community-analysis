@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_324q4", "name": "splatoon", "interactions": 24868, "users": 1428, "degree": 1, "strength": 81}, {"id": "t5_390l9", "name": "Saltoon", "interactions": 6060, "users": 352, "degree": 1, "strength": 81}], "edges": [{"source": "t5_324q4", "target": "t5_390l9", "shared_users": 81, "cosine": 0.1142482570874374, "jaccard": 0.047675103001765744}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2a8ue0", "name": "tianguancifu", "interactions": 7449, "users": 660, "degree": 1, "strength": 61}, {"id": "t5_2sbcqs", "name": "DanmeiNovels", "interactions": 6197, "users": 643, "degree": 1, "strength": 61}], "edges": [{"source": "t5_2a8ue0", "target": "t5_2sbcqs", "shared_users": 61, "cosine": 0.09363805426563718, "jaccard": 0.04911433172302738}]}

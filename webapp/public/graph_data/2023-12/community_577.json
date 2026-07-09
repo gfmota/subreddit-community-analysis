@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2r25j", "name": "USPS", "interactions": 61282, "users": 4439, "degree": 2, "strength": 239}, {"id": "t5_74gj3q", "name": "fromatoarbitration", "interactions": 1972, "users": 206, "degree": 1, "strength": 117}], "edges": [{"source": "t5_2r25j", "target": "t5_74gj3q", "shared_users": 117, "cosine": 0.12235160733222292, "jaccard": 0.02583922261484099}]}

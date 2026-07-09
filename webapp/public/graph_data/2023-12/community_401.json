@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_5m69eo", "name": "mtfashion", "interactions": 17207, "users": 854, "degree": 1, "strength": 70}, {"id": "t5_9cynp1", "name": "TransFeminineFashion", "interactions": 14238, "users": 635, "degree": 1, "strength": 70}], "edges": [{"source": "t5_5m69eo", "target": "t5_9cynp1", "shared_users": 70, "cosine": 0.09505659249325943, "jaccard": 0.04933051444679352}]}

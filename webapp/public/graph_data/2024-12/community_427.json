@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sctw", "name": "TheVampireDiaries", "interactions": 28662, "users": 1671, "degree": 1, "strength": 114}, {"id": "t5_2w11q", "name": "TheOriginals", "interactions": 5109, "users": 339, "degree": 1, "strength": 114}], "edges": [{"source": "t5_2sctw", "target": "t5_2w11q", "shared_users": 114, "cosine": 0.15146656528246888, "jaccard": 0.060126582278481014}]}

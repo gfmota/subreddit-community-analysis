@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_6qcncg", "name": "SOCALmeetupsOnly", "interactions": 7826, "users": 1039, "degree": 1, "strength": 103}, {"id": "t5_a017sy", "name": "209_meetups", "interactions": 10844, "users": 1393, "degree": 1, "strength": 103}], "edges": [{"source": "t5_6qcncg", "target": "t5_a017sy", "shared_users": 103, "cosine": 0.08561579479610029, "jaccard": 0.04422498926577931}]}

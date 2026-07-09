@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_301sk", "name": "onebag", "interactions": 11978, "users": 938, "degree": 1, "strength": 84}, {"id": "t5_hwj28", "name": "ManyBaggers", "interactions": 12368, "users": 1211, "degree": 1, "strength": 84}], "edges": [{"source": "t5_301sk", "target": "t5_hwj28", "shared_users": 84, "cosine": 0.07881444021587213, "jaccard": 0.04067796610169491}]}

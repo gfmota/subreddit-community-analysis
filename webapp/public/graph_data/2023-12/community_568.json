@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2t7vv", "name": "Webkinz", "interactions": 24617, "users": 1592, "degree": 1, "strength": 162}, {"id": "t5_91rcv6", "name": "webkinzbuyselltrade", "interactions": 2641, "users": 216, "degree": 1, "strength": 162}], "edges": [{"source": "t5_2t7vv", "target": "t5_91rcv6", "shared_users": 162, "cosine": 0.27625910931114456, "jaccard": 0.09842041312272175}]}

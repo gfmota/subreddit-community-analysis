@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2sak2", "name": "Supreme", "interactions": 5608, "users": 574, "degree": 1, "strength": 82}, {"id": "t5_2tual", "name": "supremeclothing", "interactions": 5613, "users": 624, "degree": 1, "strength": 82}], "edges": [{"source": "t5_2sak2", "target": "t5_2tual", "shared_users": 82, "cosine": 0.1370142101130163, "jaccard": 0.07347670250896057}]}

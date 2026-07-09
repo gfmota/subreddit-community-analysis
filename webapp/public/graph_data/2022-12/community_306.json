@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qr4f", "name": "Volkswagen", "interactions": 11308, "users": 994, "degree": 1, "strength": 75}, {"id": "t5_2tzrn", "name": "GolfGTI", "interactions": 20506, "users": 1844, "degree": 1, "strength": 75}], "edges": [{"source": "t5_2qr4f", "target": "t5_2tzrn", "shared_users": 75, "cosine": 0.05539717430524255, "jaccard": 0.02714440825190011}]}

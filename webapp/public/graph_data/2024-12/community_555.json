@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2m5vfl", "name": "nasikatok", "interactions": 10294, "users": 818, "degree": 1, "strength": 388}, {"id": "t5_2s0lk", "name": "Brunei", "interactions": 12581, "users": 1407, "degree": 1, "strength": 388}], "edges": [{"source": "t5_2m5vfl", "target": "t5_2s0lk", "shared_users": 388, "cosine": 0.36166628490614333, "jaccard": 0.21121393576483397}]}

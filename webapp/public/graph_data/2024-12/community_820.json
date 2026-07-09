@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_b1rsni", "name": "outlier_ai", "interactions": 33509, "users": 3255, "degree": 1, "strength": 74}, {"id": "t5_ckxbqs", "name": "joinstellarai", "interactions": 4374, "users": 407, "degree": 1, "strength": 74}], "edges": [{"source": "t5_b1rsni", "target": "t5_ckxbqs", "shared_users": 74, "cosine": 0.0642923083089607, "jaccard": 0.020624303232998884}]}

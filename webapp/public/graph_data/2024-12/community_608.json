@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_85hm78", "name": "ROGAlly", "interactions": 26607, "users": 2475, "degree": 1, "strength": 169}, {"id": "t5_bh1snw", "name": "ROGAllyX", "interactions": 8083, "users": 792, "degree": 1, "strength": 169}], "edges": [{"source": "t5_85hm78", "target": "t5_bh1snw", "shared_users": 169, "cosine": 0.12070812729346114, "jaccard": 0.05455132343447385}]}

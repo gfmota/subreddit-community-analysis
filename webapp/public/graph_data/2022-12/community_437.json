@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2u387", "name": "PreggoPorn", "interactions": 17631, "users": 788, "degree": 1, "strength": 90}, {"id": "t5_2yfro", "name": "pregnantgonewild", "interactions": 10895, "users": 399, "degree": 1, "strength": 90}], "edges": [{"source": "t5_2u387", "target": "t5_2yfro", "shared_users": 90, "cosine": 0.16050662130221244, "jaccard": 0.0820419325432999}]}

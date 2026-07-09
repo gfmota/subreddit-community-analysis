@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qk68", "name": "discgolf", "interactions": 46570, "users": 4237, "degree": 2, "strength": 437}, {"id": "t5_2siry", "name": "discexchange", "interactions": 11861, "users": 849, "degree": 1, "strength": 358}], "edges": [{"source": "t5_2qk68", "target": "t5_2siry", "shared_users": 358, "cosine": 0.1887556453675442, "jaccard": 0.07571912013536379}]}

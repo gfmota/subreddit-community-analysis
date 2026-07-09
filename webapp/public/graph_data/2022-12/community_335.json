@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qq24", "name": "Etsy", "interactions": 12284, "users": 1106, "degree": 1, "strength": 242}, {"id": "t5_2wthr", "name": "EtsySellers", "interactions": 13626, "users": 1199, "degree": 1, "strength": 242}], "edges": [{"source": "t5_2qq24", "target": "t5_2wthr", "shared_users": 242, "cosine": 0.21014942736993822, "jaccard": 0.11730489578284052}]}

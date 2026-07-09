@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_3lwmq", "name": "LoveIslandTV", "interactions": 11463, "users": 717, "degree": 1, "strength": 74}, {"id": "t5_6taqhq", "name": "ekinde", "interactions": 8929, "users": 134, "degree": 1, "strength": 74}], "edges": [{"source": "t5_3lwmq", "target": "t5_6taqhq", "shared_users": 74, "cosine": 0.23873700579998436, "jaccard": 0.09523809523809523}]}

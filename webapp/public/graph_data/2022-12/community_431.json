@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2wl6d", "name": "DoggyDNA", "interactions": 9609, "users": 729, "degree": 1, "strength": 72}, {"id": "t5_319c0", "name": "IDmydog", "interactions": 5422, "users": 497, "degree": 1, "strength": 72}], "edges": [{"source": "t5_2wl6d", "target": "t5_319c0", "shared_users": 72, "cosine": 0.11961634773766844, "jaccard": 0.06239168110918544}]}

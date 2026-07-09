@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2uctp", "name": "BeautyBoxes", "interactions": 3226, "users": 270, "degree": 1, "strength": 56}, {"id": "t5_2vz73", "name": "Ipsy", "interactions": 7071, "users": 509, "degree": 1, "strength": 56}], "edges": [{"source": "t5_2uctp", "target": "t5_2vz73", "shared_users": 56, "cosine": 0.1510592255260567, "jaccard": 0.07745504840940526}]}

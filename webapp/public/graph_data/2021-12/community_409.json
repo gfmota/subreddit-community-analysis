@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2pbpum", "name": "SurviveIcarus", "interactions": 12604, "users": 1198, "degree": 1, "strength": 303}, {"id": "t5_4tg797", "name": "ICARUS", "interactions": 17768, "users": 1709, "degree": 1, "strength": 303}], "edges": [{"source": "t5_2pbpum", "target": "t5_4tg797", "shared_users": 303, "cosine": 0.21175963909290454, "jaccard": 0.11635944700460829}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_9grzvm", "name": "NSFW_AI_Images", "interactions": 4560, "users": 614, "degree": 1, "strength": 189}, {"id": "t5_9lac0i", "name": "NSFW_AI_GIF", "interactions": 4462, "users": 773, "degree": 1, "strength": 189}], "edges": [{"source": "t5_9grzvm", "target": "t5_9lac0i", "shared_users": 189, "cosine": 0.27433920239169246, "jaccard": 0.15776293823038398}]}

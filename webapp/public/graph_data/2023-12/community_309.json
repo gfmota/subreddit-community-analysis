@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2uh6j", "name": "Ohior4r", "interactions": 6348, "users": 583, "degree": 1, "strength": 108}, {"id": "t5_3ggkdx", "name": "OhioHookups", "interactions": 7443, "users": 649, "degree": 1, "strength": 108}], "edges": [{"source": "t5_2uh6j", "target": "t5_3ggkdx", "shared_users": 108, "cosine": 0.17557680009788154, "jaccard": 0.09608540925266904}]}

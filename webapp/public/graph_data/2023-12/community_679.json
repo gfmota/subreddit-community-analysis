@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2op63a", "name": "TrapTurkey", "interactions": 5616, "users": 820, "degree": 1, "strength": 232}, {"id": "t5_62xy5b", "name": "FemboysTurkey", "interactions": 4462, "users": 666, "degree": 1, "strength": 232}], "edges": [{"source": "t5_2op63a", "target": "t5_62xy5b", "shared_users": 232, "cosine": 0.31393804114672835, "jaccard": 0.1850079744816587}]}

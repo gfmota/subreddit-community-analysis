@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2br5lh", "name": "drillshitpost", "interactions": 2051, "users": 140, "degree": 1, "strength": 72}, {"id": "t5_3fvkh", "name": "ukdrill", "interactions": 15922, "users": 1052, "degree": 1, "strength": 72}], "edges": [{"source": "t5_2br5lh", "target": "t5_3fvkh", "shared_users": 72, "cosine": 0.1876119980551121, "jaccard": 0.06428571428571428}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2u6ph", "name": "Totaldrama", "interactions": 24210, "users": 1054, "degree": 1, "strength": 203}, {"id": "t5_7drw6x", "name": "DisventureCamp", "interactions": 30952, "users": 870, "degree": 1, "strength": 203}], "edges": [{"source": "t5_2u6ph", "target": "t5_7drw6x", "shared_users": 203, "cosine": 0.21199035697043, "jaccard": 0.1179546775130738}]}

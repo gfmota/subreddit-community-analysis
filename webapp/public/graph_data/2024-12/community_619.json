@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_6axkmg", "name": "EbonyTSLovers", "interactions": 8110, "users": 683, "degree": 1, "strength": 110}, {"id": "t5_az46a3", "name": "DL_Hood_Ninja", "interactions": 12996, "users": 918, "degree": 1, "strength": 110}], "edges": [{"source": "t5_6axkmg", "target": "t5_az46a3", "shared_users": 110, "cosine": 0.1389187902625456, "jaccard": 0.07377598926894702}]}

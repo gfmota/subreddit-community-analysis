@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qh89", "name": "pakistan", "interactions": 28161, "users": 1630, "degree": 1, "strength": 192}, {"id": "t5_2ytva", "name": "chutyapa", "interactions": 8219, "users": 426, "degree": 1, "strength": 192}], "edges": [{"source": "t5_2qh89", "target": "t5_2ytva", "shared_users": 192, "cosine": 0.2304106913041205, "jaccard": 0.10300429184549356}]}

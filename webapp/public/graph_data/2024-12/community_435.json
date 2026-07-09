@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2uqgs", "name": "Pmsforsale", "interactions": 25964, "users": 1263, "degree": 1, "strength": 388}, {"id": "t5_2xfgn", "name": "PMsFeedback", "interactions": 4599, "users": 422, "degree": 1, "strength": 388}], "edges": [{"source": "t5_2uqgs", "target": "t5_2xfgn", "shared_users": 388, "cosine": 0.531463966919416, "jaccard": 0.2991518889745567}]}

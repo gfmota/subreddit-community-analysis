@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qh2v", "name": "China", "interactions": 32722, "users": 1885, "degree": 2, "strength": 213}, {"id": "t5_2qyu0", "name": "shanghai", "interactions": 6387, "users": 552, "degree": 1, "strength": 129}], "edges": [{"source": "t5_2qh2v", "target": "t5_2qyu0", "shared_users": 129, "cosine": 0.12646329529129616, "jaccard": 0.05589254766031196}]}

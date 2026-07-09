@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_5rpamk", "name": "northhoustonnaughtyli", "interactions": 7654, "users": 739, "degree": 1, "strength": 126}, {"id": "t5_5uw0nj", "name": "HtownNSFW", "interactions": 6177, "users": 559, "degree": 1, "strength": 126}], "edges": [{"source": "t5_5rpamk", "target": "t5_5uw0nj", "shared_users": 126, "cosine": 0.19603897448619703, "jaccard": 0.1075085324232082}]}

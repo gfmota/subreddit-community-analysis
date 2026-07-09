@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2re38", "name": "Pottery", "interactions": 15166, "users": 1403, "degree": 1, "strength": 182}, {"id": "t5_2sk72", "name": "Ceramics", "interactions": 8346, "users": 808, "degree": 1, "strength": 182}], "edges": [{"source": "t5_2re38", "target": "t5_2sk72", "shared_users": 182, "cosine": 0.17093731267497048, "jaccard": 0.08969935929029078}]}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2r1yp", "name": "Herpes", "interactions": 14137, "users": 1251, "degree": 1, "strength": 55}, {"id": "t5_2s4ni", "name": "STD", "interactions": 4700, "users": 533, "degree": 1, "strength": 55}], "edges": [{"source": "t5_2r1yp", "target": "t5_2s4ni", "shared_users": 55, "cosine": 0.06735509145115834, "jaccard": 0.031810294968189705}]}

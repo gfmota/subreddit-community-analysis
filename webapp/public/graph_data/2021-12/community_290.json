@@ -1,0 +1,1 @@
+{"nodes": [{"id": "t5_2qi86", "name": "amateurradio", "interactions": 11303, "users": 836, "degree": 1, "strength": 84}, {"id": "t5_2r1db", "name": "HamRadio", "interactions": 2804, "users": 238, "degree": 1, "strength": 84}], "edges": [{"source": "t5_2qi86", "target": "t5_2r1db", "shared_users": 84, "cosine": 0.18831619426740903, "jaccard": 0.08484848484848485}]}
