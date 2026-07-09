@@ -1,28 +1,16 @@
 import { useState, useEffect, useRef } from "react";
+import { useFetchJson } from "../hooks/useFetchJson";
+import { useAppState } from "../state/AppStateContext";
 
-export default function SearchBar({ date, onSelectSubreddit }) {
+export default function SearchBar() {
+  const { selectedDate, selectSearchResult } = useAppState();
   const [query, setQuery] = useState("");
-  const [index, setIndex] = useState([]);
   const [results, setResults] = useState([]);
-  const [loading, setLoading] = useState(true);
   const containerRef = useRef(null);
 
-  useEffect(() => {
-    fetch(`/graph_data/${date}/search_index.json`)
-      .then((r) => {
-        if (!r.ok)
-          throw new Error(`Failed to load search_index.json: ${r.status}`);
-        return r.json();
-      })
-      .then((data) => {
-        setIndex(data);
-        setLoading(false);
-      })
-      .catch((err) => {
-        console.error(err);
-        setLoading(false);
-      });
-  }, [date]);
+  const { data: index, loading } = useFetchJson(
+    `/graph_data/${selectedDate}/search_index.json`,
+  );
 
   // close results when clicking outside
   useEffect(() => {
@@ -46,26 +34,24 @@ export default function SearchBar({ date, onSelectSubreddit }) {
     }
     const lower = q.toLowerCase();
     setResults(
-      index.filter((n) => n.name?.toLowerCase().includes(lower)).slice(0, 10),
+      (index ?? [])
+        .filter((n) => n.name?.toLowerCase().includes(lower))
+        .slice(0, 10),
     );
   };
 
   const handlePick = (result) => {
     setQuery("");
     setResults([]);
-    onSelectSubreddit(result);
+    selectSearchResult(result);
   };
 
   return (
     <div
       ref={containerRef}
       style={{
-        position: "absolute",
-        top: 8,
-        left: "50%",
-        transform: "translateX(-50%)",
-        width: 320,
-        zIndex: 30,
+        padding: "12px 12px",
+        borderBottom: "1px solid #eee",
       }}
     >
       <input
@@ -74,8 +60,8 @@ export default function SearchBar({ date, onSelectSubreddit }) {
         placeholder={loading ? "Loading index..." : "Search subreddits..."}
         disabled={loading}
         style={{
-          width: "100%",
-          padding: "8px 12px",
+          width: "calc(100% - 24px)",
+          padding: "8px 8px",
           fontSize: 14,
           border: "1px solid #ddd",
           borderRadius: 6,
