@@ -50,6 +50,7 @@ export default function SearchBar() {
     <div
       ref={containerRef}
       style={{
+        position: "relative",
         padding: "12px 12px",
         borderBottom: "1px solid #eee",
       }}
