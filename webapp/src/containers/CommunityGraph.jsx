@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { SigmaContainer, useLoadGraph } from "@react-sigma/core";
 import "@react-sigma/core/lib/style.css";
 import { getColor } from "../utils/colors";
@@ -11,6 +11,9 @@ import SelectionHandler from "../components/SelectionHandler";
 import Sidebar from "../components/Sidebar";
 import OverviewGuide from "../components/OverviewGuide";
 import CommunityOverviewCard from "../components/CommunityOverviewCard";
+import SizeFilter from "../components/SizeFilter";
+
+const communitySizeKey = (raw) => raw.size;
 
 function GraphLoader({ date, onDataLoaded, onGraphReady, scaleRef }) {
   const loadGraph = useLoadGraph();
@@ -49,6 +52,7 @@ export default function CommunityGraph() {
   const [stats, setStats] = useState(null);
   const [graph, setGraph] = useState(null);
   const [highlightedCommunity, setHighlightedCommunity] = useState(null);
+  const [minSize, setMinSize] = useState(0);
   const scaleRef = useRef(null);
 
   const handleDataLoaded = useCallback((nodes, edges) => {
@@ -59,9 +63,31 @@ export default function CommunityGraph() {
     setGraph(g);
   }, []);
 
+  const maxSize = useMemo(() => {
+    if (!graph) return 0;
+    return Math.max(
+      0,
+      ...graph.nodes().map((id) => graph.getNodeAttributes(id).rawData.size),
+    );
+  }, [graph]);
+
+  // Clamp instead of resetting via effect: keeps the threshold valid for the
+  // current graph without needing to reset state when the date changes.
+  const effectiveMinSize = Math.min(minSize, maxSize);
+
   return (
     <>
-      <Sidebar>
+      <Sidebar
+        filters={
+          <SizeFilter
+            label="Minimum community size"
+            min={0}
+            max={maxSize}
+            value={effectiveMinSize}
+            onChange={setMinSize}
+          />
+        }
+      >
         {highlightedCommunity === null ? (
           <OverviewGuide stats={stats} />
         ) : (
@@ -85,6 +111,8 @@ export default function CommunityGraph() {
           <SelectionHandler
             selectedNode={highlightedCommunity}
             onSelectNode={setHighlightedCommunity}
+            minSize={effectiveMinSize}
+            sizeKey={communitySizeKey}
           />
         </SigmaContainer>
         {scaleRef.current && (

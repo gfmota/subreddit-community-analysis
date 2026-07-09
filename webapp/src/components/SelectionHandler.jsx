@@ -5,6 +5,8 @@ export default function SelectionHandler({
   selectedNode,
   onSelectNode,
   sizeBoost = 1.5,
+  minSize = 0,
+  sizeKey,
 }) {
   const sigma = useSigma();
   const registerEvents = useRegisterEvents();
@@ -17,7 +19,14 @@ export default function SelectionHandler({
   }, [registerEvents, onSelectNode]);
 
   useEffect(() => {
+    const isFilteredOut = (nodeData) =>
+      sizeKey && minSize > 0 && sizeKey(nodeData.rawData) < minSize;
+
     sigma.setSetting("nodeReducer", (node, data) => {
+      if (isFilteredOut(data)) {
+        return { ...data, hidden: true };
+      }
+
       const graph = sigma.getGraph();
       if (
         selectedNode &&
@@ -34,8 +43,16 @@ export default function SelectionHandler({
 
     sigma.setSetting("edgeReducer", (edge, data) => {
       const graph = sigma.getGraph();
+      const [source, target] = graph.extremities(edge);
+
+      if (
+        isFilteredOut(graph.getNodeAttributes(source)) ||
+        isFilteredOut(graph.getNodeAttributes(target))
+      ) {
+        return { ...data, hidden: true };
+      }
+
       if (selectedNode) {
-        const [source, target] = graph.extremities(edge);
         if (source !== selectedNode && target !== selectedNode) {
           return { ...data, hidden: true };
         }
@@ -45,7 +62,7 @@ export default function SelectionHandler({
     });
 
     sigma.refresh();
-  }, [sigma, selectedNode, sizeBoost]);
+  }, [sigma, selectedNode, sizeBoost, minSize, sizeKey]);
 
   return null;
 }

@@ -12,6 +12,9 @@ import Sidebar from "../components/Sidebar";
 import SubredditPanel from "../components/SubredditPanel";
 import CommunitySubredditTable from "../components/CommunitySubredditTable";
 import Button from "../components/Button";
+import SizeFilter from "../components/SizeFilter";
+
+const subredditSizeKey = (raw) => raw.interactions;
 
 function GraphLoader({
   date,
@@ -81,6 +84,7 @@ export default function CommunityDetail() {
   const [stats, setStats] = useState(null);
   const [graph, setGraph] = useState(null);
   const [color, setColor] = useState("#3b82f6");
+  const [minInteractions, setMinInteractions] = useState(0);
   const scaleRef = useRef(null);
 
   const handleDataLoaded = useCallback((nodes, edges) => {
@@ -96,9 +100,34 @@ export default function CommunityDetail() {
     return graph.nodes().map((id) => graph.getNodeAttributes(id).rawData);
   }, [graph]);
 
+  const maxInteractions = useMemo(
+    () => Math.max(0, ...subredditNodes.map((n) => n.interactions)),
+    [subredditNodes],
+  );
+
+  // Clamp instead of resetting via effect: keeps the threshold valid for the
+  // current community without needing to reset state when it changes.
+  const effectiveMinInteractions = Math.min(minInteractions, maxInteractions);
+
+  const filteredSubredditNodes = useMemo(
+    () =>
+      subredditNodes.filter((n) => n.interactions >= effectiveMinInteractions),
+    [subredditNodes, effectiveMinInteractions],
+  );
+
   return (
     <>
-      <Sidebar>
+      <Sidebar
+        filters={
+          <SizeFilter
+            label="Minimum interactions"
+            min={0}
+            max={maxInteractions}
+            value={effectiveMinInteractions}
+            onChange={setMinInteractions}
+          />
+        }
+      >
         {selectedSubreddit === null ? (
           <>
             <Button onClick={goBack}>← Back to communities</Button>
@@ -109,7 +138,7 @@ export default function CommunityDetail() {
               </p>
             )}
             <CommunitySubredditTable
-              nodes={subredditNodes}
+              nodes={filteredSubredditNodes}
               date={selectedDate}
               selectedSubreddit={selectedSubreddit}
               onSelectSubreddit={selectSubreddit}
@@ -138,6 +167,8 @@ export default function CommunityDetail() {
           <SelectionHandler
             selectedNode={selectedSubreddit}
             onSelectNode={selectSubreddit}
+            minSize={effectiveMinInteractions}
+            sizeKey={subredditSizeKey}
           />
         </SigmaContainer>
         {scaleRef.current && (
