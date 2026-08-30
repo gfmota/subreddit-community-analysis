@@ -1,10 +1,10 @@
-import { useState, useEffect, useRef } from "react";
-import { useFetchJson } from "../hooks/useFetchJson";
-import { useAppState } from "../state/AppStateContext";
+import { useState, useEffect, useRef } from 'react';
+import { useFetchJson } from '../hooks/useFetchJson';
+import { useAppState } from '../state/AppStateContext';
 
 export default function SearchBar() {
   const { selectedDate, selectSearchResult } = useAppState();
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useState('');
   const [results, setResults] = useState([]);
   const containerRef = useRef(null);
 
@@ -22,8 +22,8 @@ export default function SearchBar() {
         setResults([]);
       }
     }
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
   const handleSearch = (q) => {
@@ -41,7 +41,7 @@ export default function SearchBar() {
   };
 
   const handlePick = (result) => {
-    setQuery("");
+    setQuery('');
     setResults([]);
     selectSearchResult(result);
   };
@@ -50,38 +50,37 @@ export default function SearchBar() {
     <div
       ref={containerRef}
       style={{
-        position: "relative",
-        padding: "12px 12px",
-        borderBottom: "1px solid #eee",
+        position: 'relative',
+        padding: '12px 12px',
       }}
     >
       <input
         value={query}
         onChange={(e) => handleSearch(e.target.value)}
-        placeholder={loading ? "Loading index..." : "Search subreddits..."}
+        placeholder={loading ? 'Loading index...' : 'Search subreddits...'}
         disabled={loading}
         style={{
-          width: "calc(100% - 24px)",
-          padding: "8px 8px",
-          fontSize: 14,
-          border: "1px solid #ddd",
+          width: 'calc(100% - 24px)',
+          padding: '8px 8px',
+          fontSize: 16,
+          border: '1px solid #ddd',
           borderRadius: 6,
-          boxShadow: "0 1px 3px rgba(0,0,0,0.1)",
+          boxShadow: '0 1px 3px rgba(0,0,0,0.1)',
         }}
       />
       {results.length > 0 && (
         <div
           style={{
-            position: "absolute",
-            top: "100%",
+            position: 'absolute',
+            top: '100%',
             left: 0,
             right: 0,
             marginTop: 4,
-            background: "white",
+            background: 'white',
             borderRadius: 6,
-            boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
+            boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
             maxHeight: 300,
-            overflowY: "auto",
+            overflowY: 'auto',
           }}
         >
           {results.map((r) => (
@@ -89,15 +88,15 @@ export default function SearchBar() {
               key={r.id}
               onClick={() => handlePick(r)}
               style={{
-                padding: "8px 12px",
-                cursor: "pointer",
-                borderBottom: "1px solid #f1f1f1",
+                padding: '8px 12px',
+                cursor: 'pointer',
+                borderBottom: '1px solid #f1f1f1',
                 fontSize: 14,
               }}
               onMouseEnter={(e) =>
-                (e.currentTarget.style.background = "#f8fafc")
+                (e.currentTarget.style.background = '#f8fafc')
               }
-              onMouseLeave={(e) => (e.currentTarget.style.background = "white")}
+              onMouseLeave={(e) => (e.currentTarget.style.background = 'white')}
             >
               r/{r.name}
             </div>

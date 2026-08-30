@@ -1,7 +1,7 @@
-import Graph from "graphology";
-import forceAtlas2 from "graphology-layout-forceatlas2";
-import noverlap from "graphology-layout-noverlap";
-import { createSizeScale } from "./scale";
+import Graph from 'graphology';
+import forceAtlas2 from 'graphology-layout-forceatlas2';
+import noverlap from 'graphology-layout-noverlap';
+import { createSizeScale } from './scale';
 
 // Builds a graphology Graph from { nodes, edges } data, deduping edges and
 // sizing nodes off a shared scale. `nodeAttrs`/`edgeAttrs` let callers supply

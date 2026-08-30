@@ -4,19 +4,19 @@ import {
   useContext,
   useMemo,
   useState,
-} from "react";
-import { useFetchJson } from "../hooks/useFetchJson";
+} from 'react';
+import { useFetchJson } from '../hooks/useFetchJson';
 
 const AppStateContext = createContext(null);
 
 export function AppStateProvider({ children }) {
-  const [selectedDate, setSelectedDate] = useState("2024-12");
+  const [selectedDate, setSelectedDate] = useState('2024-12');
   const [selectedCommunity, setSelectedCommunity] = useState(null);
   const [selectedSubreddit, setSelectedSubreddit] = useState(null);
   const { data: trajectories } = useFetchJson(
-    "/graph_data/community_trajectories.json",
+    '/graph_data/community_trajectories.json',
   );
-  const { data: labels } = useFetchJson("/graph_data/community_labels.json");
+  const { data: labels } = useFetchJson('/graph_data/community_labels.json');
 
   // Reverse of `trajectories` ("<date>:<communityId>" -> trajectoryId), keyed
   // instead by "<date>:<trajectoryId>" -> communityId, so following a
@@ -25,7 +25,7 @@ export function AppStateProvider({ children }) {
     if (!trajectories) return null;
     const map = {};
     for (const [key, trajectoryId] of Object.entries(trajectories)) {
-      const [date] = key.split(":");
+      const [date] = key.split(':');
       map[`${date}:${trajectoryId}`] = key.slice(date.length + 1);
     }
     return map;
@@ -38,7 +38,8 @@ export function AppStateProvider({ children }) {
       // overview. Falls back to resetting when the trajectory doesn't
       // reach this date (e.g. the community didn't exist yet, or merged).
       if (selectedCommunity !== null && trajectories && communityByTrajectory) {
-        const trajectoryId = trajectories[`${selectedDate}:${selectedCommunity}`];
+        const trajectoryId =
+          trajectories[`${selectedDate}:${selectedCommunity}`];
         const nextCommunity = trajectoryId
           ? communityByTrajectory[`${date}:${trajectoryId}`]
           : undefined;
@@ -97,7 +98,7 @@ export function AppStateProvider({ children }) {
 export function useAppState() {
   const ctx = useContext(AppStateContext);
   if (!ctx) {
-    throw new Error("useAppState must be used within an AppStateProvider");
+    throw new Error('useAppState must be used within an AppStateProvider');
   }
   return ctx;
 }

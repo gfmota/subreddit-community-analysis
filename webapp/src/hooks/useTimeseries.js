@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
 
 let cachedTimeseries = null; // module-level cache, fetched once for the whole app session
 
@@ -9,7 +9,7 @@ export function useTimeseries() {
   useEffect(() => {
     if (cachedTimeseries) return;
 
-    fetch("/graph_data/subreddit_timeseries.json")
+    fetch('/graph_data/subreddit_timeseries.json')
       .then((r) => {
         if (!r.ok)
           throw new Error(

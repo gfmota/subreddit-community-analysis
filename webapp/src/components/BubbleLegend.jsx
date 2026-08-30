@@ -1,8 +1,10 @@
+import useIsMobile from '../hooks/useIsMobile';
+
 const LegendCircle = ({ size, label, color }) => (
   <div
     style={{
-      display: "flex",
-      alignItems: "center",
+      display: 'flex',
+      alignItems: 'center',
       marginBottom: 12,
     }}
   >
@@ -10,7 +12,7 @@ const LegendCircle = ({ size, label, color }) => (
       style={{
         width: size * 2,
         height: size * 2,
-        borderRadius: "50%",
+        borderRadius: '50%',
         background: color,
         marginRight: 12,
         flexShrink: 0,
@@ -24,21 +26,22 @@ export default function BubbleLegend({
   label,
   scale,
   values,
-  color = "#3b82f6",
+  color = '#3b82f6',
 }) {
+  const isMobile = useIsMobile();
   return (
     <div
       style={{
-        position: "absolute",
-        bottom: 8,
+        position: 'absolute',
+        bottom: isMobile ? 96 : 8,
         right: 8,
         zIndex: 10,
         fontSize: 12,
-        color: "#666",
+        color: '#666',
         padding: 12,
-        background: "white",
+        background: 'white',
         borderRadius: 8,
-        boxShadow: "0 2px 6px rgba(0,0,0,.15)",
+        boxShadow: '0 4px 12px rgba(0,0,0,.15)',
       }}
     >
       <strong>{label}</strong>

@@ -1,5 +1,6 @@
-import Button from "./Button";
-import CloseButton from "./CloseButton";
+import useIsMobile from '../hooks/useIsMobile';
+import Button from './Button';
+import CloseButton from './CloseButton';
 
 const TOP_N = 8;
 
@@ -10,6 +11,7 @@ export default function CommunityOverviewCard({
   onZoomIn,
   onClose,
 }) {
+  const isMobile = useIsMobile();
   if (
     communityId === null ||
     communityId === undefined ||
@@ -26,8 +28,10 @@ export default function CommunityOverviewCard({
 
   return (
     <div>
-      <CloseButton onClick={onClose} />
-      <h2 style={{ marginTop: 0 }}>{label ?? `Community ${communityId}`}</h2>
+      {!isMobile && <CloseButton onClick={onClose} />}
+      {!isMobile && (
+        <h2 style={{ marginTop: 0 }}>{label ?? `Community ${communityId}`}</h2>
+      )}
       <p>Subreddits: {rawData.size?.toLocaleString()}</p>
       <p>Total interactions: {rawData.total_interactions?.toLocaleString()}</p>
       <p>Total users: {rawData.total_users?.toLocaleString()}</p>
@@ -37,14 +41,14 @@ export default function CommunityOverviewCard({
         <div
           key={s.id}
           style={{
-            borderBottom: "1px solid #f5f5f5",
-            padding: "8px 0",
+            borderBottom: '1px solid #f5f5f5',
+            padding: '8px 0',
             fontSize: 14,
           }}
         >
           <strong>r/{s.name}</strong>
-          <div style={{ color: "#666" }}>
-            {s.interactions.toLocaleString()} interactions,{" "}
+          <div style={{ color: '#666' }}>
+            {s.interactions.toLocaleString()} interactions,{' '}
             {s.users.toLocaleString()} users
           </div>
         </div>

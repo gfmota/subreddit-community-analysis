@@ -1,37 +1,37 @@
-import { useTimeseries } from "../hooks/useTimeseries";
-import MetricBarChart from "./MetricBarChart";
+import { useTimeseries } from '../hooks/useTimeseries';
+import MetricBarChart from './MetricBarChart';
 
 const METRICS = [
-  { label: "Interactions", metricKey: "interactions", color: "#6366f1" },
-  { label: "Users", metricKey: "users", color: "#22c55e" },
-  { label: "Degree", metricKey: "degree", color: "#f59e0b" },
-  { label: "Strength", metricKey: "strength", color: "#ef4444" },
+  { label: 'Interactions', metricKey: 'interactions', color: '#6366f1' },
+  { label: 'Users', metricKey: 'users', color: '#22c55e' },
+  { label: 'Degree', metricKey: 'degree', color: '#f59e0b' },
+  { label: 'Strength', metricKey: 'strength', color: '#ef4444' },
   {
-    label: "Community Strength",
-    metricKey: "community_strength",
-    color: "#ef4444",
+    label: 'Community Strength',
+    metricKey: 'community_strength',
+    color: '#ef4444',
   },
   {
-    label: "Betweenness centrality",
-    metricKey: "centrality",
-    color: "#06b6d4",
+    label: 'Betweenness centrality',
+    metricKey: 'centrality',
+    color: '#06b6d4',
   },
   {
-    label: "Community centrality (Betweenness)",
-    metricKey: "community_centrality",
-    color: "#06b6d4",
+    label: 'Community centrality (Betweenness)',
+    metricKey: 'community_centrality',
+    color: '#06b6d4',
   },
   {
-    label: "Clustering coefficient",
-    metricKey: "clustering",
-    color: "#ec4899",
+    label: 'Clustering coefficient',
+    metricKey: 'clustering',
+    color: '#ec4899',
   },
   {
-    label: "Community Clustering coefficient",
-    metricKey: "community_clustering",
-    color: "#ec4899",
+    label: 'Community Clustering coefficient',
+    metricKey: 'community_clustering',
+    color: '#ec4899',
   },
-  { label: "K-core", metricKey: "k_core", color: "#8b5cf6" },
+  { label: 'K-core', metricKey: 'k_core', color: '#8b5cf6' },
 ];
 
 export default function SubredditHistory({ subredditId }) {
@@ -39,7 +39,7 @@ export default function SubredditHistory({ subredditId }) {
 
   if (loading) {
     return (
-      <div style={{ fontSize: 12, color: "#666" }}>Loading history...</div>
+      <div style={{ fontSize: 12, color: '#666' }}>Loading history...</div>
     );
   }
 
@@ -64,7 +64,7 @@ export default function SubredditHistory({ subredditId }) {
     Object.keys(subreddit.history).length === 0
   ) {
     return (
-      <div style={{ fontSize: 12, color: "#999" }}>
+      <div style={{ fontSize: 12, color: '#999' }}>
         No historical data available.
       </div>
     );

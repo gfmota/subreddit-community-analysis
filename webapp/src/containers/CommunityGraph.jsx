@@ -1,18 +1,24 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { SigmaContainer, useLoadGraph } from "@react-sigma/core";
-import "@react-sigma/core/lib/style.css";
-import { getColor } from "../utils/colors";
-import { buildGraph, applyLayout } from "../utils/graph";
-import { resolveColorKey, resolveLabel } from "../utils/trajectories";
-import { useFetchJson } from "../hooks/useFetchJson";
-import { useAppState } from "../state/AppStateContext";
-import DragHandler from "../components/DragHandler";
-import BubbleLegend from "../components/BubbleLegend";
-import SelectionHandler from "../components/SelectionHandler";
-import Sidebar from "../components/Sidebar";
-import OverviewGuide from "../components/OverviewGuide";
-import CommunityOverviewCard from "../components/CommunityOverviewCard";
-import SizeFilter from "../components/SizeFilter";
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { SigmaContainer, useLoadGraph, useSigma } from '@react-sigma/core';
+import '@react-sigma/core/lib/style.css';
+import { getColor } from '../utils/colors';
+import { buildGraph, applyLayout } from '../utils/graph';
+import { resolveColorKey, resolveLabel } from '../utils/trajectories';
+import { useFetchJson } from '../hooks/useFetchJson';
+import { useAppState } from '../state/AppStateContext';
+import DragHandler from '../components/DragHandler';
+import BubbleLegend from '../components/BubbleLegend';
+import SelectionHandler from '../components/SelectionHandler';
+import Sidebar from '../components/Sidebar';
+import OverviewGuide from '../components/OverviewGuide';
+import CommunityOverviewCard from '../components/CommunityOverviewCard';
+import SizeFilter from '../components/SizeFilter';
+import useIsMobile from '../hooks/useIsMobile';
+import OverlayPanel from '../components/OverlayPanel';
+import SearchBar from '../components/SearchBar';
+import DateSelector from '../components/DateSelector';
+import BottomModal from '../components/BottomModal';
+import InfoButton from '../components/InfoButton';
 
 const communitySizeKey = (raw) => raw.size;
 
@@ -40,7 +46,7 @@ function GraphLoader({
       }),
       edgeAttrs: (edge) => ({
         size: 1,
-        color: "#e2e8f0",
+        color: '#e2e8f0',
         weight: edge.subreddit_links || 1,
       }),
     });
@@ -67,12 +73,19 @@ function GraphLoader({
 }
 
 export default function CommunityGraph() {
+  const isMobile = useIsMobile();
+  const [isModalOpen, setIsModalOpen] = useState(true);
   const { selectedDate, selectCommunity, trajectories, labels } = useAppState();
   const [stats, setStats] = useState(null);
   const [graph, setGraph] = useState(null);
-  const [highlightedCommunity, setHighlightedCommunity] = useState(null);
+  const [highlightedCommunity, setHighlightedCommunityState] = useState(null);
   const [minSize, setMinSize] = useState(0);
   const scaleRef = useRef(null);
+
+  const setHighlightedCommunity = (community) => {
+    setHighlightedCommunityState(community);
+    if (community) setIsModalOpen(true);
+  };
 
   const handleDataLoaded = useCallback((nodes, edges) => {
     setStats({ nodes, edges });
@@ -99,34 +112,86 @@ export default function CommunityGraph() {
       ? resolveLabel(trajectories, labels, selectedDate, highlightedCommunity)
       : undefined;
 
+  const handleClose = useCallback(() => {
+    setIsModalOpen(false);
+    setHighlightedCommunityState(null);
+  }, []);
+
+  const content =
+    highlightedCommunity === null ? (
+      <OverviewGuide stats={stats} title="Subreddit Network Explorer" />
+    ) : (
+      <CommunityOverviewCard
+        graph={graph}
+        communityId={highlightedCommunity}
+        label={highlightedLabel}
+        onZoomIn={() => selectCommunity(highlightedCommunity)}
+        onClose={handleClose}
+      />
+    );
+
   return (
     <>
-      <Sidebar
-        filters={
-          <SizeFilter
-            label="Minimum community size"
-            min={0}
-            max={maxSize}
-            value={effectiveMinSize}
-            onChange={setMinSize}
-          />
-        }
-      >
-        {highlightedCommunity === null ? (
-          <OverviewGuide stats={stats} />
-        ) : (
-          <CommunityOverviewCard
-            graph={graph}
-            communityId={highlightedCommunity}
-            label={highlightedLabel}
-            onZoomIn={() => selectCommunity(highlightedCommunity)}
-            onClose={() => setHighlightedCommunity(null)}
-          />
-        )}
-      </Sidebar>
-      <div style={{ flex: 1, height: "100%", position: "relative" }}>
-        <SigmaContainer style={{ width: "100%", height: "100%" }}>
-          <DragHandler />
+      {isMobile ? (
+        <>
+          <OverlayPanel style={{ width: '100%' }}>
+            <SearchBar />
+          </OverlayPanel>
+          <OverlayPanel bottom={96} left={16}>
+            <InfoButton onClick={() => setIsModalOpen(true)} />
+          </OverlayPanel>
+          <OverlayPanel
+            left="50%"
+            bottom={8}
+            style={{
+              width: 'calc(100% - 32px)',
+              transform: 'translateX(-50%)',
+              backgroundColor: '#fff',
+              boxShadow: '0 4px 12px rgba(0,0,0,.15)',
+              borderRadius: 8,
+              display: 'flex',
+              padding: 8,
+              gap: 8,
+            }}
+          >
+            <DateSelector />
+            <SizeFilter
+              label={`Min. community size (max. ${maxSize})`}
+              max={maxSize}
+              value={effectiveMinSize}
+              onChange={setMinSize}
+            />
+          </OverlayPanel>
+          <BottomModal
+            isOpen={isModalOpen}
+            onClose={handleClose}
+            title={
+              highlightedCommunity
+                ? highlightedLabel
+                : 'Subreddit Network Explorer'
+            }
+          >
+            {content}
+          </BottomModal>
+        </>
+      ) : (
+        <Sidebar
+          filters={
+            <SizeFilter
+              label="Minimum community size"
+              max={maxSize}
+              value={effectiveMinSize}
+              onChange={setMinSize}
+              scroller
+            />
+          }
+        >
+          {content}
+        </Sidebar>
+      )}
+      <div style={{ flex: 1, height: '100%', position: 'relative' }}>
+        <SigmaContainer style={{ width: '100%', height: '100%' }}>
+          {!isMobile && <DragHandler />}
           <GraphLoader
             date={selectedDate}
             trajectories={trajectories}
@@ -144,7 +209,13 @@ export default function CommunityGraph() {
         </SigmaContainer>
         {scaleRef.current && (
           <BubbleLegend
-            label="Community size (subreddits count)"
+            label={
+              <>
+                Community size
+                <br />
+                (subreddits count)
+              </>
+            }
             scale={scaleRef.current}
             values={[10, 100, 1000]}
           />

@@ -1,5 +1,5 @@
-import DateSelector from "./DateSelector";
-import SearchBar from "./SearchBar";
+import DateSelector from './DateSelector';
+import SearchBar from './SearchBar';
 
 export default function Sidebar({ filters, children }) {
   return (
@@ -7,15 +7,23 @@ export default function Sidebar({ filters, children }) {
       style={{
         width: 340,
         flexShrink: 0,
-        height: "100%",
-        display: "flex",
-        flexDirection: "column",
-        borderRight: "1px solid #eee",
-        background: "white",
+        height: '100%',
+        display: 'flex',
+        flexDirection: 'column',
+        borderRight: '1px solid #eee',
+        background: 'white',
       }}
     >
       <SearchBar />
-      <div style={{ flex: 1, overflowY: "auto", padding: 8, minHeight: 0 }}>
+      <div
+        style={{
+          flex: 1,
+          overflowY: 'auto',
+          padding: 8,
+          minHeight: 0,
+          borderTop: '1px solid #eee',
+        }}
+      >
         {children}
       </div>
       {filters}

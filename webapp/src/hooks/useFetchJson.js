@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
 
 // `result.url` tracks which url a resolved fetch belongs to, so `loading` can
 // be derived instead of toggled directly in the effect (avoids an extra
