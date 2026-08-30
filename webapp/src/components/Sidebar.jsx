@@ -27,7 +27,7 @@ export default function Sidebar({ filters, children }) {
         {children}
       </div>
       {filters}
-      <DateSelector />
+      <DateSelector scroller />
     </div>
   );
 }
