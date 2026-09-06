@@ -7,11 +7,17 @@ Made with React + Vite
 Install dependencies:
 
 ```
-npm install
+npm install --legacy-peer-deps
 ```
 
 Run locally:
 
 ```
 npm run dev
+```
+
+This project uses Prettier:
+
+```
+npm run format
 ```
