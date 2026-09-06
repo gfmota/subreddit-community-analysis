@@ -180,12 +180,10 @@ export default function CommunityDetail() {
           <OverlayPanel
             left="50%"
             bottom={8}
+            withBackground
             style={{
               width: 'calc(100% - 32px)',
               transform: 'translateX(-50%)',
-              backgroundColor: '#fff',
-              boxShadow: '0 4px 12px rgba(0,0,0,.15)',
-              borderRadius: 8,
               display: 'flex',
               padding: 8,
               gap: 8,
@@ -215,6 +213,7 @@ export default function CommunityDetail() {
               max={maxInteractions}
               value={effectiveMinInteractions}
               onChange={setMinInteractions}
+              scroller
             />
           }
         >

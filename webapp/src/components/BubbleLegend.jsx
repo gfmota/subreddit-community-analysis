@@ -1,4 +1,5 @@
 import useIsMobile from '../hooks/useIsMobile';
+import OverlayPanel from './OverlayPanel';
 
 const LegendCircle = ({ size, label, color }) => (
   <div
@@ -30,18 +31,15 @@ export default function BubbleLegend({
 }) {
   const isMobile = useIsMobile();
   return (
-    <div
+    <OverlayPanel
+      bottom={isMobile ? 96 : 16}
+      right={16}
+      withBackground
       style={{
         position: 'absolute',
-        bottom: isMobile ? 96 : 8,
-        right: 8,
-        zIndex: 10,
         fontSize: 12,
         color: '#666',
         padding: 12,
-        background: 'white',
-        borderRadius: 8,
-        boxShadow: '0 4px 12px rgba(0,0,0,.15)',
       }}
     >
       <strong>{label}</strong>
@@ -56,6 +54,6 @@ export default function BubbleLegend({
           />
         ))}
       </div>
-    </div>
+    </OverlayPanel>
   );
 }

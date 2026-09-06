@@ -1,6 +1,12 @@
 import { useEffect, useState } from 'react';
 
-export default function BottomModal({ isOpen, onClose, title, children }) {
+export default function BottomModal({
+  isOpen,
+  onClose,
+  title,
+  children,
+  footer,
+}) {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {

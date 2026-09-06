@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import { useTimeseries } from '../hooks/useTimeseries';
 import { formatCompactNumber } from '../utils/format';
+import useIsMobile from '../hooks/useIsMobile';
 
 const COLUMNS = [
   { key: 'users', label: 'Users', width: '23%' },
@@ -14,6 +15,7 @@ export default function CommunitySubredditTable({
   selectedSubreddit,
   onSelectSubreddit,
 }) {
+  const isMobile = useIsMobile();
   const { data: timeseries } = useTimeseries();
   const [sortKey, setSortKey] = useState('interactions');
   const [sortDir, setSortDir] = useState('desc');
@@ -68,7 +70,7 @@ export default function CommunitySubredditTable({
                 textAlign: 'left',
                 padding: '6px 4px',
                 position: 'sticky',
-                top: 0,
+                top: isMobile ? -16 : -8,
                 background: 'white',
               }}
             >
@@ -85,7 +87,7 @@ export default function CommunitySubredditTable({
                   padding: '6px 4px',
                   cursor: 'pointer',
                   position: 'sticky',
-                  top: 0,
+                  top: isMobile ? -16 : -8,
                   background: 'white',
                   whiteSpace: 'nowrap',
                   overflow: 'hidden',

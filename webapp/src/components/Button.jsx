@@ -1,4 +1,4 @@
-export default function Button({ onClick, children }) {
+export default function Button({ onClick, children, style }) {
   return (
     <button
       style={{
@@ -12,6 +12,7 @@ export default function Button({ onClick, children }) {
         fontSize: '15px',
         fontWeight: 600,
         cursor: 'pointer',
+        ...style,
       }}
       onClick={onClick}
     >

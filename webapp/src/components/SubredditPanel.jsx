@@ -31,10 +31,24 @@ export default function SubredditPanel({ graph, selectedNode, onClose }) {
         </>
       )}
 
-      <p>Interactions: {attrs.interactions?.toLocaleString()}</p>
-      <p>Users: {attrs.users?.toLocaleString()}</p>
-      <p>Degree: {attrs.degree}</p>
-      <p>Strength: {attrs.strength?.toLocaleString()}</p>
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'space-between',
+          marginBottom: 8,
+        }}
+      >
+        <div>
+          Interactions: {attrs.interactions?.toLocaleString()}
+          <br />
+          Users: {attrs.users?.toLocaleString()}
+        </div>
+        <div>
+          Degree: {attrs.degree}
+          <br />
+          Strength: {attrs.strength?.toLocaleString()}
+        </div>
+      </div>
 
       <button
         onClick={() => setShowConnections((prev) => !prev)}
